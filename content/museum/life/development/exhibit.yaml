@@ -1,0 +1,66 @@
+id: life.development
+accession: BWM-05.07
+title: Two Routes to Adulthood
+kicker: Males finish first
+summary: Males mature in weeks to a few months, after fewer moults, and stay small. Females take longer, moult more and grow far larger.
+status: open
+order: 7
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus hasselti]
+figures:
+  - value: "62–151 / 137–242"
+    unit: days
+    label: to maturity, male / female
+    note: L. hesperus; mean times across instar routes
+    featured: true
+    sources: [kaston1970, ebeling1975]
+  - value: "54–88 / 112–140"
+    unit: days
+    label: to maturity, male / female
+    note: L. mactans
+    sources: [kaston1970, ebeling1975]
+  - value: "28–45 / 45–74"
+    unit: days
+    label: development, male / female
+    note: L. hasselti at 25 °C
+    sources: [forster1995]
+observations:
+  - id: males-first
+    text: Male western and southern widows matured earlier than females in Kaston's rearing series.
+    confidence: supported
+    sources: [kaston1970, ebeling1975]
+  - id: protandry
+    text: Western widow males also mature before females in the field.
+    confidence: supported
+    sources: [scott2019]
+  - id: more-stages
+    text: Redback females add more developmental stages and reach a much larger adult size.
+    confidence: supported
+    sources: [forster1995]
+  - id: early-instars
+    text: Early female redback instars can be shorter than males', despite females' longer total development.
+    confidence: supported
+    sources: [forster1995]
+  - id: heat
+    text: Western widow juveniles at urban-heat temperatures developed more slowly, not faster.
+    confidence: supported
+    sources: [moen2022]
+  - id: hormones
+    text: Heat delayed and shrank the moulting-hormone peak before the second moult.
+    confidence: supported
+    sources: [moen2022]
+  - id: tradeoff
+    text: Redback males near females traded faster maturity against adult condition.
+    confidence: supported
+    sources: [kasumovic2009]
+terms:
+  - { term: protandry, def: males maturing before females }
+  - { term: sexual size dimorphism, def: a size difference between the sexes }
+  - { term: ecdysteroid, def: a hormone that triggers moulting }
+related: [life.molting, body.size, venom.sex-and-age, life.mate-search]
+media:
+  - src: /specimens/life-development.webp
+    alt: "A growth series of widow spiders from a tiny pale spiderling to a large glossy black female, with a small slender male below"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

@@ -1,0 +1,68 @@
+id: life.seasons
+accession: BWM-05.12
+title: A Widow's Year
+kicker: Every calendar has a place attached
+summary: There is no single widow calendar. On Vancouver Island mating peaks in August; in tropical Queensland every life stage is present all year.
+status: open
+order: 12
+taxa: [Latrodectus hesperus, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: August
+    label: peak mating
+    note: L. hesperus, Vancouver Island
+    sources: [scott2019]
+  - value: "≥5:1"
+    label: adult males per receptive female
+    note: same population at its peak
+    featured: true
+    sources: [scott2019]
+  - value: "May–Oct"
+    label: egg-laying and juvenile growth
+    note: L. hesperus, coastal British Columbia
+    sources: [salomon2011]
+  - value: "45.9 / 45.4"
+    unit: °C
+    label: halves egg-sac hatching
+    note: 10-minute dry heat; L. hasselti / L. geometricus
+    sources: [hayasaka2021]
+observations:
+  - id: males-first
+    text: Western widow males on Vancouver Island matured before females.
+    confidence: supported
+    sources: [scott2019]
+  - id: late-summer
+    text: Mating there concentrated in late summer, not evenly across the season.
+    confidence: supported
+    sources: [scott2019]
+  - id: pheromone
+    text: Web pheromone levels peaked in summer.
+    confidence: supported
+    sources: [fischer2025]
+  - id: tropics
+    text: In northern Queensland, redback populations held every life stage year-round.
+    confidence: supported
+    sources: [downes1987]
+  - id: overwinter
+    text: Redbacks can overwinter as eggs or young inside the sac, their development slowed by cold.
+    confidence: supported
+    sources: [mowery2022b]
+  - id: invasive-cold
+    text: Invasive Japanese redback sacs hatched better in the cold than native Australian ones.
+    confidence: supported
+    sources: [mowery2022b]
+  - id: heat
+    text: Brief dry heat sharply cut hatching in redback and brown widow sacs.
+    confidence: supported
+    sources: [hayasaka2021]
+terms:
+  - { term: phenology, def: the timing of seasonal life events }
+  - { term: operational sex ratio, def: ready males per receptive female at a given moment }
+  - { term: LT50, def: the treatment temperature that halves survival or hatching }
+related: [life.hatching, life.lifespan, life.mate-search, genus.redback]
+media:
+  - src: /specimens/life-seasons.webp
+    alt: "A circular seasonal wheel in fine ivory line, with an egg sac, ballooning spiderlings, a moulting juvenile, a wandering male and an overwintering spider around the ring"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

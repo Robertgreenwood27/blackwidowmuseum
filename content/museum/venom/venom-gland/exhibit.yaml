@@ -1,0 +1,71 @@
+id: venom.venom-gland
+accession: BWM-02.03
+title: The Venom Gland
+kicker: Factory and reservoir
+summary: A pair of glands sits inside the front body, each wrapped in a spiral of muscle. Squeeze the muscle and venom travels down a duct through the chelicera to the fang.
+status: open
+order: 3
+taxa: [Latrodectus hesperus, Latrodectus tredecimguttatus, Latrodectus mactans]
+figures:
+  - value: 2
+    label: venom glands
+    note: paired, inside the prosoma
+    sources: [miller2026]
+  - value: "1.5–2"
+    unit: mm
+    label: gland length
+    note: historical measurement of specimens identified as L. mactans
+    sources: [reese1944]
+  - value: "40–45"
+    label: muscle bundles wrapping each gland
+    note: specimens identified as L. mactans
+    sources: [barth1962]
+observations:
+  - id: location
+    text: Micro-CT places the widow's paired venom glands inside the prosoma, not in the chelicerae.
+    sources: [miller2026]
+  - id: duct
+    text: Each gland narrows abruptly into a duct that runs through the chelicera toward the opening near the fang tip.
+    confidence: supported
+    sources: [miller2026]
+  - id: layers
+    text: Reese described an outer muscle layer, a connective basement membrane and an inner secretory tissue.
+    confidence: supported
+    sources: [reese1944]
+  - id: squeeze
+    text: Barth described striated muscle bundles whose contraction drives venom out of the gland and into the duct.
+    confidence: supported
+    sources: [barth1962]
+  - id: cell-types
+    text: The epithelium contains principal secretory cells, accessory cells and distinct cells at the duct entrance.
+    confidence: supported
+    sources: [barth1962]
+  - id: storage
+    text: Secretion accumulates and is stored in the cavity of the gland.
+    confidence: supported
+    sources: [barth1962]
+  - id: localization
+    text: Antibody labelling found α-latrotoxin concentrated in replacement cells near the muscular sheath.
+    confidence: supported
+    sources: [cavalieri1990]
+  - id: ribosomes
+    text: Within those cells, gold-labelled antibody gathered around free ribosomes and secretion droplets.
+    confidence: supported
+    sources: [cavalieri1990]
+  - id: holocrine
+    text: Replacement cells are thought to renew an epithelium that is consumed as it secretes.
+    confidence: supported
+    sources: [cavalieri1990]
+terms:
+  - { term: secretory epithelium, def: a tissue layer whose cells manufacture and release a gland's product }
+  - { term: lumen, def: the internal cavity of a gland or duct }
+  - { term: holocrine secretion, def: release of a cell's contents by the breakdown of the cell itself }
+  - { term: immunogold labelling, def: antibodies tagged with gold particles, revealing where a molecule sits under an electron microscope }
+related: [body.chelicerae, venom.sex-and-age, venom.alpha-latrotoxin]
+media:
+  - src: /specimens/venom-venom-gland.webp
+    alt: "A dissected pair of venom glands: pale sausage-shaped sacs wrapped in spiral muscle fibres, each tapering into a slender duct"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

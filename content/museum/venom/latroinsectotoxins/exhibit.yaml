@@ -1,0 +1,78 @@
+id: venom.latroinsectotoxins
+accession: BWM-02.05
+title: Toxins for Insects
+kicker: Five proteins tuned to the nervous systems of prey
+summary: Most of what a widow bites is an insect, and five of her toxins are aimed squarely at them. They do to an insect nerve ending what α-latrotoxin does to ours.
+status: open
+order: 5
+taxa: [Latrodectus tredecimguttatus]
+figures:
+  - value: 5
+    label: insect toxins isolated
+    note: α, β, γ, δ and ε
+    featured: true
+    sources: [krasnoperov1990, rohou2007]
+  - value: "≈120"
+    unit: kDa
+    label: α-latroinsectotoxin
+    note: purified native protein
+    sources: [magazanik1992]
+  - value: 110.9
+    unit: kDa
+    label: δ-latroinsectotoxin
+    note: measured by mass spectrometry
+    sources: [dulubova1996]
+  - value: 34
+    unit: "%"
+    label: similarity of α-LIT to α-latrotoxin
+    note: overall amino-acid similarity
+    sources: [kiyatkin1993]
+observations:
+  - id: five
+    text: Five insect-active neurotoxins were separated from Mediterranean widow venom by chromatography.
+    confidence: supported
+    sources: [krasnoperov1990]
+  - id: blowfly
+    text: Purified α-latroinsectotoxin sharply raised the rate of spontaneous transmitter release at blowfly larval neuromuscular junctions.
+    confidence: supported
+    sources: [magazanik1992]
+  - id: frog-control
+    text: The same toxin failed to affect frog nerve endings under conditions where it was strongly active in the blowfly — the mirror image of α-latrotoxin.
+    confidence: supported
+    sources: [magazanik1992]
+  - id: family
+    text: Sequencing showed α-latroinsectotoxin is a relative of α-latrotoxin, sharing its abundance of ankyrin-like repeats.
+    confidence: supported
+    sources: [kiyatkin1993]
+  - id: truncation
+    text: A shortened recombinant δ-latroinsectotoxin was active on locust nerve terminals while the full-length product was not.
+    confidence: supported
+    sources: [dulubova1996]
+  - id: channels
+    text: Recombinant δ-latroinsectotoxin formed ion-conducting channels in artificial lipid membranes.
+    confidence: supported
+    sources: [dulubova1996, chen2021]
+  - id: structure
+    text: The 2021 structure of the δ-latroinsectotoxin precursor dimer assigned fifteen ankyrin repeats to each subunit.
+    confidence: supported
+    sources: [chen2021]
+  - id: uneven-knowledge
+    text: β-, γ- and ε-latroinsectotoxin were shown to be insect-active, but their mechanisms are far less studied than α and δ.
+    confidence: supported
+    sources: [krasnoperov1990]
+  - id: masses-vary
+    text: Reported masses differ between purification and sequencing studies, so these figures are approximate.
+    confidence: supported
+    sources: [kiyatkin1993, magazanik1992]
+terms:
+  - { term: latroinsectotoxin, def: a member of the latrotoxin family characterised by activity against insects }
+  - { term: miniature potential, def: the small electrical blip in the receiving cell caused by one packet of transmitter }
+  - { term: recombinant protein, def: a protein produced from a gene introduced into a host cell }
+related: [venom.cocktail, venom.structure, venom.prey, venom.latrocrustatoxin]
+media:
+  - src: /specimens/venom-latroinsectotoxins.webp
+    alt: "A row of related protein molecules, all variations on one architecture — rounded head, narrow waist, long repeat-stacked tail — one picked out in red"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

@@ -1,0 +1,69 @@
+id: life.cannibalism
+accession: BWM-05.09
+title: How Much Widow Is in the Name?
+kicker: Sexual cannibalism, species by species
+summary: The name promises a female who eats her mate. In redbacks that is common. In southern black widows, in one study, it never happened.
+status: open
+order: 9
+taxa: [Latrodectus hasselti, Latrodectus geometricus, Latrodectus mirabilis, Latrodectus hesperus, Latrodectus mactans]
+figures:
+  - value: "≈65"
+    unit: "%"
+    label: redback field matings with cannibalism
+    note: L. hasselti, natural matings
+    sources: [andrade1996, andrade2003]
+  - value: "92 / 50 / 30"
+    unit: "%"
+    label: cannibalism in the lab
+    note: L. hasselti / L. geometricus / L. mirabilis, same conditions
+    featured: true
+    sources: [baruffaldi2024]
+  - value: 11
+    unit: "%"
+    label: western widow trials
+    note: L. hesperus; all before copulation
+    sources: [baruffaldi2024]
+  - value: 0
+    label: southern widow cases observed
+    note: L. mactans, 2024 trials — not proof of a zero field rate
+    sources: [baruffaldi2024]
+observations:
+  - id: survivors
+    text: Plenty of redback males survived mating in field observations.
+    sources: [andrade1996]
+  - id: species
+    text: Under the same lab conditions, cannibalism rates differed sharply among five widow species.
+    confidence: supported
+    sources: [baruffaldi2024]
+  - id: western
+    text: Western widow males usually survived; the cannibalism recorded came before copulation.
+    confidence: supported
+    sources: [baruffaldi2024]
+  - id: southern
+    text: Southern widow males survived every interaction in the 2024 comparison.
+    confidence: supported
+    sources: [baruffaldi2024]
+  - id: serial
+    text: In an earlier study, two southern widow males each inseminated three different females.
+    confidence: supported
+    sources: [breene1985]
+  - id: cost
+    text: In redbacks, being eaten during the first copulation can deny a male his second sperm store.
+    confidence: supported
+    sources: [snow2005]
+  - id: courtship-length
+    text: How long males courted did not line up neatly with how cannibalistic each species was.
+    confidence: supported
+    sources: [baruffaldi2024]
+terms:
+  - { term: sexual cannibalism, def: eating a potential or actual mate }
+  - { term: male self-sacrifice, def: male behaviour that helps him get eaten, like the redback somersault }
+  - { term: polygyny, def: one male mating with several females }
+related: [life.courtship, humans.myth, genus.redback]
+media:
+  - src: /specimens/life-cannibalism.webp
+    alt: "A large glossy black female widow feeding on a small slender striped male she has partly wrapped in silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

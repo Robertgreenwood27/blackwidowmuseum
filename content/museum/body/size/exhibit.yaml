@@ -1,0 +1,65 @@
+id: body.size
+accession: BWM-01.09
+title: Unequal Partners
+kicker: She outweighs him many times over
+summary: Female widows are far longer and heavier than males, though a male's legs can rival hers. Numbers vary with species, sample and how recently she ate.
+status: open
+order: 2
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus variolus, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: "8–15.5"
+    unit: mm
+    label: female body length, western widow
+    note: L. hesperus, 59 adults; legs excluded
+    sources: [kaston1970, ebeling1975]
+  - value: "3–6.5"
+    unit: mm
+    label: male body length, western widow
+    note: L. hesperus, 63 adults; legs excluded
+    sources: [kaston1970, ebeling1975]
+  - value: "120–400"
+    unit: mg
+    label: typical adult female mass
+    note: L. hesperus; most females fell in this range
+    sources: [kaston1970, ebeling1975]
+  - value: "8–18"
+    unit: mg
+    label: typical adult male mass
+    note: L. hesperus
+    sources: [kaston1970, ebeling1975]
+observations:
+  - id: southern
+    text: Southern black widow females typically measure about 12.5 mm in body length; males about 6 mm.
+    sources: [eiden2013]
+  - id: northern
+    text: Kaston recorded northern widow body lengths of 7.4–13 mm in females and 4.5–8.3 mm in males.
+    confidence: supported
+    sources: [kaston1970, ebeling1975]
+  - id: redback
+    text: Redback females are about 10 mm long; males only 3–4 mm.
+    sources: [australianmuseum2026]
+  - id: brown
+    text: Brown widow females measure 8.1–13 mm and males 3.4–6.2 mm.
+    sources: [nentwig2026]
+  - id: span
+    text: With legs included, a female southern widow typically spans about 37.5–50 mm.
+    sources: [eiden2013]
+  - id: male-legs
+    text: Male western widows can have legs nearly as long as a female's, despite much shorter bodies.
+    sources: [vetter2017]
+  - id: condition
+    text: A full meal or a load of eggs changes a spider's body length without changing its legs.
+    sources: [australianmuseum2018]
+terms:
+  - { term: sexual size dimorphism, def: a difference in body size between females and males }
+  - { term: body length, def: front of the prosoma to tip of the abdomen, legs excluded }
+  - { term: leg span, def: overall distance across the extended legs — depends on posture }
+  - { term: gravid, def: carrying developing eggs }
+related: [body.body-plan, body.colour, life.courtship]
+media:
+  - src: /specimens/body-size.webp
+    alt: "A large glossy female widow beside a much smaller, slender, striped male at the same scale, both seen from above"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

@@ -1,0 +1,72 @@
+id: web.gumfoot.glue
+accession: BWM-03.01.02
+title: The Glue at the Foot
+kicker: A liquid that does not care about the weather
+summary: The beads at the foot of each line are a mix of glycoproteins and water-hungry salts. Unlike orb-web glue, they hardly change between dry air and damp.
+status: open
+order: 2
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "15–90"
+    unit: "% RH"
+    label: humidity range tested
+    note: elasticity and adhesion changed little; not "all weather"
+    featured: true
+    sources: [sahni2011]
+  - value: 105
+    label: proteins detected in gumfoot samples
+    note: glue plus fibre; not 105 glue proteins
+    sources: [ayoub2021]
+  - value: 48
+    label: proteins enriched where glue is present
+    note: candidates for adhesive function
+    sources: [ayoub2021]
+observations:
+  - id: aggregate
+    text: Gumfoot glue is supplied by the aggregate glands.
+    sources: [sahni2011]
+  - id: composition
+    text: Western widow gumfoot glue contains water-insoluble glycoproteins and hygroscopic organic salts.
+    sources: [jain2015]
+  - id: salts-matter
+    text: The salts still contribute to adhesion, even though widow glue changes less with humidity than orb glues tested.
+    confidence: supported
+    sources: [jain2015]
+  - id: humidity
+    text: Its adhesion and elasticity stayed largely unchanged across the humidities tested — unlike orb-web glue.
+    sources: [sahni2011]
+  - id: liquid
+    text: Gumfoot glue behaved as a viscoelastic liquid; the orb-web glue tested behaved as a viscoelastic solid.
+    sources: [sahni2011]
+  - id: proteomics
+    text: Proteomics found aggregate spidroins and further protein families in western widow gumfoot material.
+    confidence: supported
+    sources: [ayoub2021]
+  - id: agsf2
+    text: AgSF2 was abundant in widow gumfoot samples and is a different protein from AgSp2.
+    confidence: supported
+    sources: [ayoub2021]
+  - id: diet
+    text: Protein-deprived western widows made stickier capture threads, without bigger droplets.
+    confidence: supported
+    sources: [blamires2014]
+  - id: diet-mechanism
+    text: The chemistry behind that diet effect has been proposed but not directly identified.
+    confidence: debated
+    sources: [blamires2014]
+  - id: tips
+    text: Glue-coated gumfoot tips are less stiff and more extensible than the dry silk above them.
+    sources: [blackledge2005, blackledge2005b]
+terms:
+  - { term: glycoprotein, def: a protein carrying attached sugar groups }
+  - { term: hygroscopic, def: drawing water out of the air }
+  - { term: viscoelastic, def: both flowing like a liquid and springing back like a solid }
+  - { term: AgSp / AgSF, def: aggregate spidroin / aggregate silk factor — different proteins }
+related: [body.silk-glands, web.hunger, web.evolution]
+media:
+  - src: /specimens/web-gumfoot-glue.webp
+    alt: "The lower end of a gumfoot line beaded with transparent glue droplets"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

@@ -1,0 +1,69 @@
+id: web.egg-sac-silk
+accession: BWM-03.04
+title: Egg-Case Silk
+kicker: A nursery of a different fibre
+summary: The egg sac is a composite — thick tubuliform fibres woven with fine aciniform ones, around a pocket of still air that slows the eggs drying out.
+status: open
+order: 4
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus variolus]
+figures:
+  - value: 21
+    label: sacs from one female
+    note: L. hesperus record; a maximum, not a typical count
+    featured: true
+    sources: [kaston1970, ebeling1975]
+  - value: "10 / 6"
+    label: sacs per female, other species
+    note: recorded maxima for L. mactans / L. variolus
+    sources: [kaston1970, ebeling1975]
+  - value: 2
+    label: fibre diameter classes
+    note: large core fibres and finer fibres
+    sources: [vasanthavada2007]
+  - value: 184
+    unit: amino acids
+    label: TuSp1 repeat unit
+    note: L. hesperus
+    sources: [hu2005]
+observations:
+  - id: core
+    text: Large egg-case fibres contain TuSp1 together with the egg-case proteins ECP-1 and ECP-2.
+    sources: [hu2006]
+  - id: ecp
+    text: ECP-1 and ECP-2 have cysteine-rich regions and differ from the repeat-rich spidroins.
+    sources: [hu2006, shanafelt2021]
+  - id: ecp3
+    text: A third component, ECP3, was later found, expressed mainly in the tubuliform glands.
+    confidence: supported
+    sources: [shanafelt2021]
+  - id: fine
+    text: Aciniform spidroin occurs in the sac's fine fibres — the same protein found in prey-wrapping silk.
+    sources: [vasanthavada2007]
+  - id: timing
+    text: TuSp1, ECP-1 and ECP-2 transcripts rise before egg-sac production, each at its own point in development.
+    confidence: supported
+    sources: [casem2010]
+  - id: layers
+    text: A western widow sac encloses the egg mass, a gap of air, and an outer silk membrane.
+    confidence: supported
+    sources: [karkosiak2025]
+  - id: air
+    text: Porous silk conserves water by shielding a pocket of still air from wind, not by being watertight.
+    confidence: supported
+    sources: [karkosiak2025]
+  - id: synthetic
+    text: Recombinant TuSp1 fibres stretched further when the protein's conserved C-terminal end was kept.
+    confidence: supported
+    sources: [gnesa2012]
+terms:
+  - { term: tubuliform silk, def: the female-only silk used to build egg cases; also called cylindrical silk }
+  - { term: ECP, def: egg-case protein — ECP-1, ECP-2 and ECP3 are distinct from TuSp1 }
+  - { term: porosity, def: the fraction of a membrane that is open space }
+related: [life.egg-sac, body.silk-glands, body.spinnerets, venom.venom-in-eggs]
+media:
+  - src: /specimens/web-egg-sac-silk.webp
+    alt: "Two cream silk egg sacs hanging in a tangle; one cut open to show a cluster of pale round eggs inside"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

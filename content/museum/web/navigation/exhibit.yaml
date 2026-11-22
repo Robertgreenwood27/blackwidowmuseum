@@ -1,0 +1,37 @@
+id: web.navigation
+accession: BWM-03.15
+title: The Way Home
+kicker: She remembers the route
+summary: After an attack, a widow finds her way back to the retreat. Experiments suggest she does it partly from memory of her own movements, not just by following silk.
+status: open
+order: 15
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 1
+    label: species tested
+    note: L. hesperus
+    featured: true
+    sources: [sergi2021]
+observations:
+  - id: errors
+    text: Western widows made directional errors on the way home after experimenters altered their webs.
+    confidence: supported
+    sources: [sergi2021]
+  - id: shortcuts
+    text: They also took shortcuts, rather than retracing the silk path they came out on.
+    confidence: supported
+    sources: [sergi2021]
+  - id: path-integration
+    text: Both results point to path integration, not simple trail-following.
+    confidence: supported
+    sources: [sergi2021]
+terms:
+  - { term: path integration, def: keeping a running estimate of home by tracking your own turns and distances }
+related: [web.retreat, senses.slit-sensilla, web.gumfoot.trip-lines]
+media:
+  - src: /specimens/web-navigation.webp
+    alt: "A black widow walking a thread in a dark cobweb, a faint dotted trace showing a curved outward path and a straight shortcut home"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

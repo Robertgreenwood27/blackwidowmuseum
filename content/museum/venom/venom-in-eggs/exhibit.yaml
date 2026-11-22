@@ -1,0 +1,73 @@
+id: venom.venom-in-eggs
+accession: BWM-02.09
+title: Toxins Beyond the Fang
+kicker: What is in the eggs
+summary: Widow eggs contain bioactive proteins of their own, unrelated to the venom gland. They are usually explained as a defence for the eggs — a reasonable idea that remains untested.
+status: open
+order: 9
+taxa: [Latrodectus tredecimguttatus]
+figures:
+  - value: 23.75
+    unit: kDa
+    label: latroeggtoxin-I
+    note: purified from eggs
+    sources: [li2013]
+  - value: "≈36"
+    unit: kDa
+    label: latroeggtoxin-III
+    note: insect-active egg protein
+    sources: [lei2015]
+  - value: 3.6
+    unit: kDa
+    label: latroeggtoxin-IV
+    note: an antibacterial peptide
+    sources: [lei2015]
+observations:
+  - id: purified
+    text: Latroeggtoxin-I was purified from Mediterranean widow eggs by gel filtration and ion-exchange chromatography.
+    confidence: supported
+    sources: [li2013]
+  - id: neuromuscular
+    text: It reversibly blocked neuromuscular transmission in an isolated mouse preparation.
+    confidence: supported
+    sources: [li2013]
+  - id: insect-active
+    text: Latroeggtoxin-III was neurotoxic to cockroaches but produced no obvious effect in the mice tested.
+    confidence: supported
+    sources: [lei2015]
+  - id: antibacterial
+    text: Latroeggtoxin-IV inhibited all five bacteria tested, most strongly Staphylococcus aureus.
+    confidence: supported
+    sources: [lei2015]
+  - id: hemolymph
+    text: A toxin purified from widow hemolymph differed from the neurotoxins known from venom.
+    confidence: supported
+    sources: [akhunov2001]
+  - id: body-extracts
+    text: Comparative proteomics found toxin-related proteins in extracts of both newborn and adult widows.
+    confidence: supported
+    sources: [peng2020]
+  - id: not-latrotoxins
+    text: An egg transcriptome study did not find the familiar latrotoxins of the venom gland, so the egg proteins are a separate set.
+    confidence: supported
+    sources: [xu2016]
+  - id: defence-proposed
+    text: Defence against predators or parasites is a proposed function for egg toxicity, not an established one.
+    confidence: debated
+    sources: [schmidt2017]
+  - id: route-matters
+    text: Toxicity after injection says nothing about protection from being eaten; feeding tests found no toxic effect when mice ate widow eggs.
+    confidence: supported
+    sources: [schmidt2017]
+terms:
+  - { term: latroeggtoxin, def: a name given to bioactive proteins isolated from widow eggs }
+  - { term: hemolymph, def: the circulating body fluid of a spider }
+  - { term: body extract, def: a preparation made from disrupted whole-body tissue }
+related: [life.egg-sac, venom.sex-and-age, body.epigynum]
+media:
+  - src: /specimens/venom-venom-in-eggs.webp
+    alt: "A papery cream silk egg sac cut open to show the mass of tiny round eggs packed inside"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

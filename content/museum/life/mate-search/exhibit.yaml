@@ -1,0 +1,68 @@
+id: life.mate-search
+accession: BWM-05.08
+title: The Search
+kicker: Finding a web is the first hazard
+summary: An adult male abandons his web and sets out to find a female by scent. Most never arrive.
+status: open
+order: 8
+taxa: [Latrodectus hasselti, Latrodectus hesperus]
+figures:
+  - value: ">80"
+    unit: "%"
+    label: redback males die searching
+    note: estimated; before finding a mate
+    featured: true
+    sources: [andrade2003]
+  - value: "≈88"
+    unit: "%"
+    label: estimated search mortality
+    note: L. hesperus, mark–recapture; disappearance ≠ observed death
+    sources: [scott2019]
+  - value: ">200"
+    unit: m
+    label: longest male movements
+    note: L. hesperus; most stayed within 60 m
+    sources: [scott2019]
+  - value: "62 / 26"
+    unit: "%"
+    label: males that found a female
+    note: L. hesperus releases on two nights with different winds
+    sources: [scott2019]
+observations:
+  - id: leave
+    text: Adult male redbacks leave their webs to search for females.
+    sources: [andrade2003]
+  - id: one-chance
+    text: Redback males have little chance of meeting more than one female in nature.
+    confidence: supported
+    sources: [andrade2003]
+  - id: scent
+    text: Western widow males follow females' airborne pheromones in the field.
+    sources: [scott2019]
+  - id: rival-trails
+    text: They also follow rival males' silk trails — letting a competitor do the searching.
+    confidence: supported
+    sources: [scott2019]
+  - id: wind
+    text: Search success differed sharply between nights with different winds.
+    confidence: supported
+    sources: [scott2019]
+  - id: recharge
+    text: Adult redback and western widow males can refill their palps with sperm more than once.
+    sources: [modanu2013]
+  - id: sneaking
+    text: Redback rivalry includes sneaking as well as direct contests.
+    confidence: supported
+    sources: [stoltz2008]
+terms:
+  - { term: sperm induction, def: a male loading his palps from a drop of sperm laid on silk }
+  - { term: scramble competition, def: competing by reaching mates first }
+  - { term: monogyny, def: a male mating with only one female }
+related: [web.messages, web.male-silk, body.pedipalps, life.courtship]
+media:
+  - src: /specimens/life-mate-search.webp
+    alt: "A small slender male widow walking alone across dark ground at night toward a faint distant web"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

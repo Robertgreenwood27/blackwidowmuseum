@@ -1,0 +1,64 @@
+id: body.spinnerets
+accession: BWM-01.06
+title: Spinnerets
+kicker: Where silk becomes solid
+summary: Six spinnerets at the tip of the abdomen carry fields of microscopic spigots. Each kind of silk leaves through its own kind of nozzle.
+status: open
+order: 15
+taxa: [Latrodectus variolus, Latrodectus hesperus]
+figures:
+  - value: 3
+    label: pairs of spinnerets
+    note: anterior lateral, posterior median, posterior lateral
+    sources: [coddington1989]
+  - value: 2
+    label: aggregate-glue spigots per posterior lateral spinneret
+    note: adult female; unequal in size and shape
+    sources: [coddington1989, chaw2018]
+  - value: 3
+    label: egg-case spigots per side
+    note: female L. variolus
+    sources: [coddington1989]
+observations:
+  - id: ampullate
+    text: In female L. variolus each anterior lateral spinneret carries a major ampullate (dragline) spigot beside a field of small pyriform spigots.
+    confidence: supported
+    sources: [coddington1989]
+  - id: minor
+    text: Minor ampullate silk leaves through the posterior median spinnerets.
+    confidence: supported
+    sources: [coddington1989]
+  - id: aciniform
+    text: Aciniform spigots, for wrapping silk, sit on both posterior spinneret pairs.
+    confidence: supported
+    sources: [coddington1989]
+  - id: tubuliform
+    text: Cylindrical (tubuliform) spigots for egg-case silk sit on both posterior spinneret pairs of females.
+    confidence: supported
+    sources: [coddington1989]
+  - id: aggregate
+    text: Theridiid aggregate spigots — the glue nozzles — are enlarged and elongated compared with the outlets around them.
+    sources: [coddington1989, miller2007]
+  - id: aggregate-sizes
+    text: In the western widow, the posterior aggregate glands feed larger spigots than the anterior ones.
+    confidence: supported
+    sources: [chaw2018]
+  - id: flagelliform
+    text: The widow's flagelliform spigot remains tentatively identified; Coddington marked it with a question mark.
+    confidence: debated
+    sources: [coddington1989]
+  - id: colulus
+    text: Latrodectus keeps a conspicuous colulus, a small median lobe just in front of the spinnerets.
+    sources: [lotz1994, jocque2006]
+terms:
+  - { term: spinneret, def: an abdominal appendage bearing silk outlets }
+  - { term: spigot, def: a microscopic nozzle connected by a duct to one silk gland }
+  - { term: colulus, def: a small median lobe in front of the spinnerets }
+related: [body.silk-glands, body.comb-foot, web.silk-proteins]
+media:
+  - src: /specimens/body-spinnerets.webp
+    alt: "Macro of the spinneret cluster at the tip of a widow's abdomen, fine silk threads drawn from the spigots"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

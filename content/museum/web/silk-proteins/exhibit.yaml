@@ -1,0 +1,79 @@
+id: web.silk-proteins
+accession: BWM-03.03
+title: Silk Chemistry
+kicker: Two proteins, one dragline — and then some
+summary: Dragline silk is built mainly from two giant spidroins whose complete genes were first read in a black widow. But the finished thread holds more than those two.
+status: open
+order: 3
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 2
+    label: principal dragline proteins
+    note: MaSp1 & MaSp2
+    sources: [ayoub2007]
+  - value: 2007
+    label: first full-length dragline genes
+    note: L. hesperus
+    sources: [ayoub2007]
+  - value: "3,129"
+    unit: amino acids
+    label: MaSp1
+    note: complete predicted L. hesperus sequence
+    sources: [ayoub2007]
+  - value: "3,779"
+    unit: amino acids
+    label: MaSp2
+    note: a distinct gene, same study
+    featured: true
+    sources: [ayoub2007]
+  - value: "4–10"
+    label: alanines in a row
+    note: poly-A runs in MaSp1 repeats
+    sources: [ayoub2007]
+  - value: ">64"
+    unit: "%"
+    label: glycine plus alanine
+    note: both western widow MaSp proteins
+    sources: [ayoub2007]
+observations:
+  - id: masp
+    text: Black widow dragline silk is built mainly from the spidroins MaSp1 and MaSp2.
+    sources: [ayoub2007]
+  - id: genes
+    text: Complete MaSp1 and MaSp2 genes were first sequenced in the western black widow, L. hesperus.
+    sources: [ayoub2007]
+  - id: layout
+    text: Both proteins have long repetitive interiors bounded by non-repetitive ends.
+    sources: [ayoub2007]
+  - id: motifs
+    text: MaSp1 repeats glycine-rich motifs between runs of alanine; MaSp2 adds proline- and glutamine-rich motifs.
+    sources: [ayoub2007]
+  - id: crystals
+    text: Alanine-rich regions form crystals that give strength, while looser regions let the fibre stretch.
+    confidence: supported
+    sources: [gosline1999]
+  - id: more-than-two
+    text: Proteomics of widow dragline found further proteins, including AcSp1 and several small proteins.
+    sources: [larracas2016]
+  - id: not-barcodes
+    text: Silk genes are expressed beyond their namesake glands, so no gland is a one-gene factory.
+    confidence: supported
+    sources: [clarke2017]
+  - id: glue-proteins
+    text: Gumfoot material adds aggregate spidroins and modified proteins associated with adhesion.
+    confidence: supported
+    sources: [ayoub2021]
+terms:
+  - { term: spidroin, def: spider fibroin — the structural protein family of silk }
+  - { term: major ampullate, def: the gland that makes dragline silk }
+  - { term: motif, def: a short amino-acid pattern repeated within a protein }
+  - { term: poly-A, def: a run of consecutive alanines }
+  - { term: proteomics, def: identifying all the proteins present in a sample }
+related: [body.silk-glands, web.dragline, web.human-uses]
+media:
+  - src: /specimens/web-silk-proteins.webp
+    alt: "Cutaway of a silk fibre: aligned protein chains with embedded crystalline blocks"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

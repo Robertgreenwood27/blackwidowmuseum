@@ -1,0 +1,65 @@
+id: venom.cocktail
+accession: BWM-02.02
+title: The Cocktail
+kicker: One toxin per target
+summary: The latrotoxins divide the animal kingdom between them — but they share the venom with dozens of smaller proteins, peptides and enzymes whose jobs are mostly unknown.
+status: open
+order: 2
+taxa: [Latrodectus hesperus, Latrodectus tredecimguttatus]
+figures:
+  - value: 1
+    label: vertebrate toxin
+    note: α-latrotoxin
+    sources: [klink2024, chen2021]
+  - value: 5
+    label: insect toxins
+    note: α–ε latroinsectotoxins
+    sources: [klink2024, rohou2007]
+  - value: 1
+    label: crustacean toxin
+    note: α-latrocrustatoxin
+    sources: [klink2024, chen2021]
+  - value: 61
+    label: proteins detected in western widow venom
+    note: mass spectrometry, 2014
+    featured: true
+    sources: [haney2014]
+observations:
+  - id: division
+    text: Widow venom contains vertebrate-targeting α-latrotoxin, insect-targeting latroinsectotoxins and crustacean-targeting α-latrocrustatoxin.
+    sources: [klink2024, chen2021]
+  - id: mixed-sizes
+    text: Western widow venom carries these large latrotoxins alongside much smaller cysteine-rich proteins and peptides.
+    confidence: supported
+    sources: [haney2014]
+  - id: dominated
+    text: Venom collected from the Mediterranean widow was dominated by high-mass proteins.
+    confidence: supported
+    sources: [duan2008]
+  - id: enzymes
+    text: Proteomics of that venom also reported proteinases, phospholipases, phosphatases and nucleases.
+    confidence: supported
+    sources: [duan2008]
+  - id: expansion
+    text: Transcript sequences reveal latrotoxin diversity far beyond the handful of toxins named in the twentieth century.
+    confidence: supported
+    sources: [haney2014]
+  - id: expression-not-secretion
+    text: A protein made in the venom gland is not necessarily secreted into the venom.
+    sources: [haney2014]
+  - id: species-bounded
+    text: These inventories describe particular samples of two species, not a universal recipe for the genus.
+    confidence: supported
+    sources: [haney2014, duan2008, he2013]
+terms:
+  - { term: proteome, def: the proteins detected in a sample under stated conditions }
+  - { term: mass spectrometry, def: a method that identifies molecules by the mass of their ions }
+  - { term: candidate toxin, def: a molecule proposed to be toxic before its activity is demonstrated }
+related: [venom.alpha-latrotoxin, venom.latroinsectotoxins, venom.small-proteins, venom.species-variation]
+media:
+  - src: /specimens/venom-cocktail.webp
+    alt: "Many protein molecules of widely differing sizes arranged like specimens, from large elongated toxins to tiny knotted peptides"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

@@ -1,0 +1,33 @@
+id: genus.brown-widow
+accession: BWM-06.02
+title: The Brown Widow
+kicker: Latrodectus geometricus
+summary: An orange hourglass and egg sacs studded with spikes — the easiest widow to recognise by its nursery.
+status: open
+order: 2
+taxa: [Latrodectus geometricus]
+figures:
+  - value: Orange
+    label: hourglass, usually
+    sources: [vetter2017]
+  - value: Spiked
+    label: egg sac surface
+    sources: [vetter2017]
+observations:
+  - id: hourglass
+    text: The brown widow usually has an orange hourglass beneath its abdomen; the colour varies toward red-orange or yellow.
+    sources: [vetter2017]
+  - id: sac
+    text: Its rounded egg sacs are covered with pointed silk projections — a strong identification mark.
+    sources: [vetter2017]
+  - id: dispersal
+    text: It is invasive, and its spiderlings disperse through the air.
+    sources: [mowery2022]
+related: [life.egg-sac, body.hourglass]
+media:
+  - src: /specimens/genus-brown-widow-sac.webp
+    alt: "A brown widow egg sac covered in pointed silk spikes"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-20

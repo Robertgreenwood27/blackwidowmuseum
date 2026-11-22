@@ -1,0 +1,76 @@
+id: life.egg-sac
+accession: BWM-05.01
+title: The Egg Sac
+kicker: Hundreds at a time, several times over
+summary: One mating can fill sac after sac. Each holds a couple of hundred eggs on average — but the numbers swing widely by species, food and female.
+status: open
+order: 1
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus variolus, Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: 196
+    label: eggs per sac, average
+    note: L. hesperus; historical mean of 464 sacs
+    sources: [kaston1970, ebeling1975]
+  - value: 255
+    label: eggs per sac, average
+    note: L. mactans; historical mean of 185 sacs
+    featured: true
+    sources: [kaston1970, ebeling1975]
+  - value: 919
+    label: most eggs recorded in one sac
+    note: L. mactans; historical record
+    sources: [kaston1970]
+  - value: "1.06 / 0.92"
+    unit: mm
+    label: egg diameter
+    note: L. hesperus / L. geometricus, 40 eggs each
+    sources: [vetter2012]
+  - value: "3.8 / 1.1"
+    label: sacs in six weeks
+    note: L. hasselti, fed / starved females
+    sources: [stoltz2010b]
+observations:
+  - id: multiple
+    text: Female black widows produce multiple egg sacs over their lives.
+    sources: [kaston1970, vetter2017]
+  - id: stored-sperm
+    text: Redback females use sperm from one mating to make successive fertile sacs.
+    sources: [mowery2022b]
+  - id: food
+    text: How often a redback makes a sac depends on how much she eats.
+    confidence: supported
+    sources: [mowery2022b, stoltz2010b]
+  - id: pause
+    text: Mated redbacks largely stopped making sacs when food was restricted, and resumed once feeding restarted.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: no-decline
+    text: Across 216 redback sacs, egg failure did not consistently rise or fall from one sac to the next.
+    confidence: supported
+    sources: [downes1985]
+  - id: species-differ
+    text: Western and brown widows differed in both egg number and egg size in a California comparison.
+    confidence: supported
+    sources: [vetter2012]
+  - id: colour
+    text: Eggs of southern, western and northern widows are usually cream to yellow.
+    sources: [kaston1970, ebeling1975]
+  - id: dud-eggs
+    text: Inviable redback eggs have been proposed as a first meal for the young — an idea, not a demonstrated strategy.
+    confidence: debated
+    sources: [downes1985]
+  - id: range
+    text: Observed clutches range enormously — from a single egg to over nine hundred.
+    sources: [kaston1970]
+terms:
+  - { term: fecundity, def: how many eggs a female produces }
+  - { term: fertility, def: how many of those eggs are fertilised and develop }
+  - { term: sperm storage, def: keeping sperm from a mating to fertilise later eggs }
+related: [web.egg-sac-silk, life.hatching, body.epigynum, life.guarding]
+media:
+  - src: /specimens/life-egg-sac.webp
+    alt: "A smooth, papery, pear-shaped black widow egg sac hanging in silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

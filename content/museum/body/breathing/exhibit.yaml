@@ -1,0 +1,48 @@
+id: body.breathing
+accession: BWM-01.04
+title: Book Lungs
+kicker: Breathing through pages
+summary: Two lungs built like books sit at the front of the abdomen; a slit just ahead of the spinnerets feeds a second system of air tubes.
+status: open
+order: 13
+figures:
+  - value: 1
+    label: pair of book lungs
+    note: at the front of the abdomen, underside
+    sources: [jocque2006]
+  - value: 1
+    label: tracheal spiracle
+    note: a broad slit just ahead of the spinnerets
+    sources: [jocque2006]
+observations:
+  - id: lungs
+    text: Black widows breathe through one pair of book lungs and a tracheal system of air tubes.
+    sources: [jocque2006]
+  - id: spiracle
+    text: In theridiids the tracheal opening is a single broad slit immediately in front of the spinnerets.
+    sources: [jocque2006]
+  - id: openings
+    text: The book lungs open through slits at either end of the epigastric furrow on the underside of the abdomen.
+    sources: [snodgrass1952]
+  - id: pages
+    text: Inside each lung, thin air spaces alternate with hemolymph-filled spaces, stacked like the pages of a book.
+    sources: [foelix2011, snodgrass1952]
+  - id: exchange
+    text: Oxygen crosses the thin walls between air and hemolymph, then returns toward the heart through pulmonary vessels.
+    sources: [snodgrass1952]
+  - id: hemocyanin
+    text: In spiders, oxygen is carried by hemocyanin dissolved in the hemolymph.
+    sources: [foelix2011]
+terms:
+  - { term: book lung, def: a stack of thin, leaf-like air chambers — gas exchange across many pages }
+  - { term: spiracle, def: an external opening leading to a respiratory organ }
+  - { term: trachea, def: an air-filled tube lined with cuticle }
+  - { term: epigastric furrow, def: the crease across the front underside of the abdomen }
+related: [body.circulation, body.epigynum]
+media:
+  - src: /specimens/body-breathing.webp
+    alt: "Cutaway of a book lung: thin parallel air plates stacked like pages"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

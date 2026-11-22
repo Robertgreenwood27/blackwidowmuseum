@@ -1,0 +1,85 @@
+id: body.silk-glands
+accession: BWM-01.16
+title: The Silk Factory
+kicker: Seven glands, seven kinds of silk
+summary: Inside an adult female western widow's abdomen sit seven classes of silk gland — for draglines, scaffold, wrapping, egg cases, anchors and glue — each feeding its own spigots.
+status: open
+order: 16
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 7
+    label: silk-gland types
+    note: adult female L. hesperus
+    featured: true
+    sources: [chaw2018]
+  - value: 2
+    label: pairs of aggregate (glue) glands
+    note: anterior and posterior, differently shaped
+    sources: [chaw2018]
+  - value: "≈1,000"
+    unit: MPa
+    label: breaking stress of dragline silk
+    note: major ampullate, 996 ± 274 MPa; engineering stress
+    sources: [blackledge2005]
+  - value: 647
+    label: silk-gland-specific transcripts
+    note: not 647 distinct silk genes
+    sources: [clarke2014]
+observations:
+  - id: classes
+    text: Adult female western widows have major ampullate, minor ampullate, aciniform, tubuliform, pyriform, aggregate and flagelliform glands.
+    confidence: supported
+    sources: [chaw2018]
+  - id: major
+    text: The major ampullate glands make MaSp1 and MaSp2, the main proteins of draglines and structural web threads.
+    confidence: supported
+    sources: [ayoub2007, chaw2015, blackledge2005]
+  - id: minor
+    text: Minor ampullate silk proteins turn up in the widow's prey-wrapping silk.
+    confidence: supported
+    sources: [chaw2015]
+  - id: aciniform
+    text: Aciniform glands supply AcSp1 to wrapping silk and to fine fibres of the egg sac.
+    confidence: supported
+    sources: [vasanthavada2007]
+  - id: tubuliform
+    text: Egg-case core fibres combine the tubuliform spidroin TuSp1 with two distinct proteins, ECP-1 and ECP-2.
+    confidence: supported
+    sources: [hu2006]
+  - id: pyriform
+    text: Pyriform glands make PySp1, the cement of the attachment discs that anchor draglines.
+    confidence: supported
+    sources: [blasingame2009]
+  - id: aggregate
+    text: Aggregate glands express AgSp1 and supply the sticky coating at the base of gumfoot lines.
+    confidence: supported
+    sources: [clarke2017, blackledge2005b]
+  - id: flagelliform
+    text: Widows keep flagelliform glands, though what cobweb weavers use them for is still unknown.
+    confidence: debated
+    sources: [chaw2018, clarke2017]
+  - id: overlap
+    text: MaSp1 and MaSp2 are expressed beyond the major ampullate glands, so silk genes are not exclusive gland barcodes.
+    confidence: supported
+    sources: [clarke2017]
+  - id: males
+    text: In mature male western widows, minor ampullate genes are the most highly expressed silk genes.
+    confidence: supported
+    sources: [correagarhwal2017]
+  - id: scaffold-strength
+    text: Scaffold threads collected from the web break at a similar stress, 1,069 ± 204 MPa.
+    confidence: supported
+    sources: [blackledge2005]
+terms:
+  - { term: spidroin, def: a member of the protein family that builds spider silk }
+  - { term: spinning dope, def: the concentrated liquid protein stored in a gland before spinning }
+  - { term: transcriptome, def: all the RNA transcripts found in a tissue }
+  - { term: ECP, def: egg-case protein — ECP-1 and ECP-2 are distinct from TuSp1 }
+related: [body.spinnerets, web.silk-proteins, web.gumfoot.glue, web.egg-sac-silk]
+media:
+  - src: /specimens/body-silk-glands.webp
+    alt: "Cutaway of a widow's abdomen showing pale silk glands of several shapes — sacs, grape-like clusters and coiled tubes — converging on the spinnerets"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

@@ -1,0 +1,60 @@
+id: body.eyes
+accession: BWM-01.03
+title: Eight Eyes
+kicker: Two rows of four
+summary: Two kinds of eye share the front of the carapace. None of them sees well — a widow learns about her world mostly through the silk under her feet.
+status: open
+order: 8
+taxa: [Latrodectus hesperus, Latrodectus occidentalis]
+figures:
+  - value: 8
+    label: eyes
+    note: two rows of four
+    featured: true
+    sources: [jocque2006]
+  - value: 2
+    label: principal eyes
+    note: the anterior median pair
+    sources: [foelix2011]
+  - value: 6
+    label: secondary eyes
+    note: anterior lateral, posterior median, posterior lateral
+    sources: [foelix2011]
+  - value: "0.20–0.25"
+    unit: mm
+    label: eye diameter
+    note: one female L. occidentalis, the type specimen
+    sources: [valdezmondragon2023]
+observations:
+  - id: rows
+    text: Black widows have eight eyes arranged in two transverse rows of four on the front of the carapace.
+    sources: [jocque2006, valdezmondragon2023]
+  - id: principal
+    text: As in other eight-eyed spiders, the anterior median pair are the principal eyes and the other three pairs are secondary eyes.
+    sources: [foelix2011]
+  - id: no-tapetum
+    text: Spider principal eyes lack the reflective tapetum found behind many secondary eyes.
+    sources: [foelix2011]
+  - id: canoe-tapetum
+    text: In the related theridiid Parasteatoda, the secondary eyes have a canoe-shaped tapetum split down its middle.
+    confidence: supported
+    sources: [gainett2020]
+  - id: separated-laterals
+    text: Latrodectus has widely separated anterior and posterior lateral eyes, which helps tell it from many other theridiids.
+    sources: [peralta2018]
+  - id: limited-vision
+    text: Western black widows have poor vision and locate prey through vibrations in the web.
+    confidence: supported
+    sources: [sergi2021]
+terms:
+  - { term: principal eye, def: one of the anterior median pair, with its own retinal organisation }
+  - { term: secondary eye, def: any of the other three pairs of eyes }
+  - { term: tapetum, def: a reflective layer behind the photoreceptors that gives light a second pass }
+related: [senses.vision, senses.vibration]
+media:
+  - src: /specimens/body-eyes.webp
+    alt: "Front view of a black widow's head: eight small eyes in two rows of four above the chelicerae"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

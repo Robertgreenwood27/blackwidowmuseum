@@ -1,0 +1,64 @@
+id: web.retreat
+accession: BWM-03.05
+title: The Retreat
+kicker: Where she waits
+summary: Every widow web has a back room — a silk-lined crevice or a debris-covered cone where she hides by day and carries her catch to eat.
+status: open
+order: 5
+taxa: [Latrodectus hesperus, Latrodectus geometricus, Latrodectus hasselti, Latrodectus revivensis]
+figures:
+  - value: "≈⅔"
+    label: up the shrub
+    note: typical retreat height, L. revivensis; varies with season
+    sources: [lubin1991]
+  - value: "20 / 20"
+    label: shrike raids succeeded on lightly covered nests
+    note: ≈10% debris cover; mealworms stood in for spiders
+    sources: [konigswald1990]
+  - value: "1 / 17"
+    label: succeeded on densely covered nests
+    note: ≈90% debris cover; same trials
+    featured: true
+    sources: [konigswald1990]
+observations:
+  - id: crevices
+    text: Western widow hunting sheets commonly spread out from retreats in crevices.
+    confidence: supported
+    sources: [zevenbergen2008]
+  - id: silk-lined
+    text: Brown widows build silk-lined retreats at the edge of the web.
+    sources: [benjamin2003]
+  - id: cones
+    text: Desert widows may live in exposed silk cones covered with debris instead of hidden holes.
+    sources: [konigswald1990]
+  - id: accumulates
+    text: L. revivensis adds debris and dense silk to its nest over successive nights.
+    confidence: supported
+    sources: [lubin1991]
+  - id: shrikes
+    text: In captive trials, debris-covered nests kept shrikes from reaching the prey inside.
+    confidence: supported
+    sources: [konigswald1990]
+  - id: dining-room
+    text: Redbacks cut wrapped prey free and carry it back to the retreat to feed.
+    confidence: supported
+    sources: [forster1995]
+  - id: larder
+    text: A captive redback left the remains of its meals piled around its hiding place.
+    confidence: supported
+    sources: [vanhelsdingen2019]
+  - id: young
+    text: The earliest L. mirabilis nymph webs had no side retreat, only a central resting spot.
+    confidence: supported
+    sources: [barrantes2010]
+terms:
+  - { term: retreat, def: a protected resting place connected to the capture web }
+  - { term: crypsis, def: concealment that makes an animal harder to detect }
+related: [web.wrapping, web.site, web.construction, body.hourglass]
+media:
+  - src: /specimens/web-retreat.webp
+    alt: "A dense silken retreat woven into a dark crevice under a wooden ledge, a glossy black widow half inside its mouth"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

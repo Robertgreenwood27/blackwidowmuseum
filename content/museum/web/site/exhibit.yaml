@@ -1,0 +1,75 @@
+id: web.site
+accession: BWM-03.12
+title: Choosing a Site
+kicker: Location, location, location
+summary: Where a widow builds is a decision. She follows the scent of prey, prefers certain crevices, and moves house as she grows — at a real cost.
+status: open
+order: 12
+taxa: [Latrodectus hesperus, Latrodectus geometricus, Latrodectus revivensis]
+figures:
+  - value: 30
+    unit: °
+    label: preferred refuge angle
+    note: L. geometricus chose 30° over 60° or 90° in the lab
+    sources: [vetter2016]
+  - value: "75–100"
+    unit: mm
+    label: preferred cavity depth
+    note: brown widows, over 25–50 mm cavities
+    sources: [vetter2016]
+  - value: 44
+    unit: "%"
+    label: chose the cricket-scented rock
+    note: 14 of 32 L. hesperus; 25% expected by chance
+    featured: true
+    sources: [johnson2011]
+  - value: 40
+    unit: "%"
+    label: estimated mortality while relocating
+    note: L. revivensis field study; not a universal risk
+    sources: [lubin1993]
+observations:
+  - id: prey-cue
+    text: Western widows preferentially built at rocks carrying cricket chemical cues in outdoor enclosures.
+    confidence: supported
+    sources: [johnson2011]
+  - id: rough
+    text: Brown widows preferred rough and previously occupied refuges in laboratory choice tests.
+    confidence: supported
+    sources: [vetter2016]
+  - id: patio
+    text: Brown widows commonly occupy the undersides of patio furniture, railings, pot rims and recessed handles.
+    confidence: supported
+    sources: [vetter2016]
+  - id: upsizing
+    text: Desert widows moved to larger shrubs as they grew and moulted.
+    confidence: supported
+    sources: [lubin1993]
+  - id: cost
+    text: Moving was linked to higher mortality in a marked desert widow population.
+    confidence: supported
+    sources: [lubin1993]
+  - id: payoff
+    text: Moves to larger shrubs improved body condition and reproduction, without clearly more prey.
+    confidence: supported
+    sources: [lubin1993]
+  - id: seasonal
+    text: Desert widow nest placement shifts with season as well as with spider size.
+    confidence: supported
+    sources: [lubin1991]
+  - id: persistence
+    text: Western widow webs can persist at one site while the spider keeps modifying them.
+    confidence: supported
+    sources: [zevenbergen2008]
+terms:
+  - { term: microhabitat, def: the local conditions at the scale of one web site }
+  - { term: refugium, def: a sheltered spot used as a retreat }
+  - { term: kairomone, def: a chemical cue from one species that another exploits, like prey scent }
+related: [web.retreat, genus.brown-widow, genus.western, life.ballooning]
+media:
+  - src: /specimens/web-site.webp
+    alt: "A tangle of silk in the dark gap under a weathered deck step beside a woodpile and a clay flowerpot"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

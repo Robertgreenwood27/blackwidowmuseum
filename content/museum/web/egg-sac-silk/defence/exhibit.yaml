@@ -1,0 +1,41 @@
+id: web.egg-sac-silk.defence
+accession: BWM-03.04.01
+title: The Spiked Sac
+kicker: Armour against wasps
+summary: The brown widow wraps her eggs in a sac covered with silk spikes. Remove the spikes and parasitoid wasps find it easier to lay their eggs inside.
+status: open
+order: 1
+taxa: [Latrodectus geometricus]
+figures:
+  - value: 1
+    label: widow species tested
+    note: L. geometricus — spiked sacs are not universal
+    featured: true
+    sources: [arabesky2025]
+observations:
+  - id: spikes
+    text: Brown widow egg-sac projections hindered parasitoid egg-laying in a removal experiment.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: plastic
+    text: Females exposed to parasitoids increased the density of spikes on later sacs.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: brown-only
+    text: This is brown widow evidence; it does not show that black widow sacs work the same way.
+    sources: [arabesky2025]
+  - id: not-proof
+    text: No widow sac has been shown to be parasite-proof, waterproof or sterile.
+    confidence: supported
+    sources: [karkosiak2025, cowles2025]
+terms:
+  - { term: parasitoid, def: an animal whose young develop on or in a host and ultimately kill it }
+  - { term: maternal care, def: anything a mother does that improves her offspring's survival }
+related: [genus.brown-widow, web.egg-sac-silk, web.guests]
+media:
+  - src: /specimens/web-egg-sac-defence.webp
+    alt: "A tan egg sac covered in small spiky silk projections, a tiny wasp hovering near it and a mottled brown widow guarding"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

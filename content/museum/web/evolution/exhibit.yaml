@@ -1,0 +1,67 @@
+id: web.evolution
+accession: BWM-03.11
+title: From Orb to Cobweb
+kicker: The tangle came after the wheel
+summary: Widows belong to the same superfamily as the orb weavers. The cobweb is not a primitive draft of the orb — it is what orb-weaving ancestors' descendants turned into.
+status: open
+order: 11
+taxa: [Latrodectus geometricus, Latrodectus mirabilis]
+figures:
+  - value: 4
+    label: major theridiid web types
+    note: across the family, not four widow webs
+    sources: [benjamin2003]
+  - value: 159
+    label: spider species in one phylogenomic tree
+    note: comparative dataset
+    sources: [fernandez2018]
+  - value: "≈2,500"
+    label: genes used to test it
+    note: sampling depth, not a silk-gene count
+    sources: [fernandez2018]
+observations:
+  - id: araneoidea
+    text: Theridiidae sits within Araneoidea, alongside families that build orb webs.
+    sources: [blackledge2009, fernandez2018]
+  - id: derived
+    text: Cobweb architecture is interpreted as derived from orb-weaving ancestry.
+    confidence: supported
+    sources: [blackledge2009, opell2024]
+  - id: gumfoot-trap
+    text: The gumfoot catches walking prey with a localized adhesive and a releasing ground anchor.
+    sources: [opell2024]
+  - id: toolkit
+    text: Widow glue comes from aggregate glands shared with other araneoids.
+    confidence: supported
+    sources: [ayoub2021]
+  - id: softer-glue
+    text: As cobwebs evolved, glue-droplet proteins became softer and less tough than orb-web glue proteins.
+    confidence: supported
+    sources: [opell2024]
+  - id: kept-salts
+    text: Widow glue still keeps both glycoproteins and hygroscopic salts, like its orb-weaving relatives.
+    sources: [jain2015]
+  - id: juvenile
+    text: Young widow webs can have central discs and more orderly radial lines than adult webs.
+    confidence: supported
+    sources: [barrantes2010]
+  - id: homology
+    text: That juvenile order hints at shared architecture with orbs — without being an orb.
+    confidence: supported
+    sources: [barrantes2010]
+  - id: open-question
+    text: How many times orb webs arose or were lost across spiders still depends on the tree and the coding.
+    confidence: debated
+    sources: [fernandez2018, coddington2019]
+terms:
+  - { term: Araneoidea, def: the spider superfamily that holds theridiids and several orb-weaving families }
+  - { term: homology, def: similarity due to shared ancestry }
+  - { term: derived trait, def: a feature changed from its ancestral state }
+related: [web.growing-up, web.gumfoot.glue, genus.the-widows, venom.evolution]
+media:
+  - src: /specimens/web-evolution.webp
+    alt: "Line illustration of three webs — an orb, an intermediate, and a tangle cobweb with gumfoot lines — joined by a branching line beneath"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

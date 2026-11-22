@@ -1,0 +1,1353 @@
+# THE ARCHIVE — every source the museum cites, keyed by firstauthor+year.
+# Exhibits cite these keys; the build fails if a key is missing.
+
+wsc2026:
+  authors: World Spider Catalog
+  year: 2026
+  title: "World Spider Catalog, version 27 — Latrodectus Walckenaer, 1805 (accessed 2026-11-20)"
+  container: Natural History Museum Bern
+  doi: 10.24436/2
+  url: https://wsc.nmbe.ch/species-list/3681/Latrodectus
+
+miller2007:
+  authors: Miller, J.
+  year: 2007
+  title: "Theridiidae. Cobweb spiders"
+  container: The Tree of Life Web Project
+  url: https://tolweb.org/Theridiidae/2797
+
+jocque2006:
+  authors: Jocqué, R.; Dippenaar-Schoeman, A. S.
+  year: 2006
+  title: Spider Families of the World
+  container: Royal Museum for Central Africa, Tervuren (Theridiidae, p. 254)
+  url: https://www.africamuseum.be/sites/default/files/media/docs/research/publications/rmca/online/zoology-documentation/spider-families_of_the_world.pdf
+
+kaston1970:
+  authors: Kaston, B. J.
+  year: 1970
+  title: Comparative biology of American black widow spiders
+  container: Transactions of the San Diego Society of Natural History 16(3) 33–82
+  url: https://research.nhm.org/dataimages/parker/sdnhm.pdf
+
+vetter2017:
+  authors: Vetter, R. S.
+  year: 2017
+  title: "Pest Notes: Widow Spiders and Their Relatives"
+  container: University of California ANR, Publication 74149
+  url: https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/
+
+blackledge2005:
+  authors: Blackledge, T. A.; Swindeman, J. E.; Hayashi, C. Y.
+  year: 2005
+  title: Quasistatic and continuous dynamic characterization of the mechanical properties of silk from the cobweb of the black widow spider Latrodectus hesperus
+  container: Journal of Experimental Biology 208(10) 1937–1949
+  doi: 10.1242/jeb.01597
+
+blackledge2005b:
+  authors: Blackledge, T. A.; Summers, A. P.; Hayashi, C. Y.
+  year: 2005
+  title: Gumfooted lines in black widow cobwebs and the mechanical properties of spider capture silk
+  container: Zoology 108(1) 41–46
+  doi: 10.1016/j.zool.2004.11.001
+
+sahni2011:
+  authors: Sahni, V.; Blackledge, T. A.; Dhinojwala, A.
+  year: 2011
+  title: Changes in the adhesive properties of spider aggregate glue during the evolution of cobwebs
+  container: Scientific Reports 1, 41
+  doi: 10.1038/srep00041
+
+sahni2012:
+  authors: Sahni, V.; Harris, J.; Blackledge, T. A.; Dhinojwala, A.
+  year: 2012
+  title: Cobweb-weaving spiders produce different attachment discs for locomotion and prey capture
+  container: Nature Communications 3, 1106
+  doi: 10.1038/ncomms2099
+
+ayoub2007:
+  authors: Ayoub, N. A.; Garb, J. E.; Tinghitella, R. M.; Collin, M. A.; Hayashi, C. Y.
+  year: 2007
+  title: "Blueprint for a high-performance biomaterial: full-length spider dragline silk genes"
+  container: PLoS ONE 2(6) e514
+  doi: 10.1371/journal.pone.0000514
+
+klink2024:
+  authors: Klink, B. U.; Alavizargar, A.; Kalyankumar, K. S.; Chen, M.; Heuer, A.; Gatsogiannis, C.
+  year: 2024
+  title: Structural basis of α-latrotoxin transition to a cation-selective pore
+  container: Nature Communications 15, 8551
+  doi: 10.1038/s41467-024-52635-5
+
+ushkaryov2008:
+  authors: Ushkaryov, Y. A.; Rohou, A.; Sugita, S.
+  year: 2008
+  title: α-Latrotoxin and its receptors
+  container: Handbook of Experimental Pharmacology 184, 171–206
+  doi: 10.1007/978-3-540-74805-2_7
+
+krasnoperov2002:
+  authors: Krasnoperov, V.; Bittner, M. A.; Mo, W.; et al.
+  year: 2002
+  title: Protein-tyrosine phosphatase-σ is a novel member of the functional family of α-latrotoxin receptors
+  container: Journal of Biological Chemistry 277(39) 35887–35895
+  doi: 10.1074/jbc.M205478200
+
+ryan2017:
+  authors: Ryan, N. M.; Buckley, N. A.; Graudins, A.
+  year: 2017
+  title: "Treatments for latrodectism — a systematic review on their clinical effectiveness"
+  container: Toxins 9(4) 148
+  doi: 10.3390/toxins9040148
+
+monte2011:
+  authors: Monte, A. A.; Bucher-Bartelson, B.; Heard, K. J.
+  year: 2011
+  title: "A US perspective of symptomatic Latrodectus spp. envenomation and treatment: a National Poison Data System review"
+  container: Annals of Pharmacotherapy 45(12) 1491–1498
+  doi: 10.1345/aph.1Q424
+
+andrade1996:
+  authors: Andrade, M. C. B.
+  year: 1996
+  title: Sexual selection for male sacrifice in the Australian redback spider
+  container: Science 271(5245) 70–72
+  doi: 10.1126/science.271.5245.70
+
+johnson2015:
+  authors: Johnson, J. C.; Halpin, R.; Stevens, D.; Vannan, A.; Lam, J.; Bratsch, K.
+  year: 2015
+  title: "Individual variation in ballooning dispersal by black widow spiderlings: the effects of family and social rearing"
+  container: Current Zoology 61(3) 520–528
+  doi: 10.1093/czoolo/61.3.520
+
+mowery2022:
+  authors: Mowery, M. A.; Lubin, Y.; Segoli, M.
+  year: 2022
+  title: Invasive brown widow spiders disperse aerially under a broad range of environmental conditions
+  container: Ethology 128(8) 564–571
+  doi: 10.1111/eth.13314
+
+barth2004:
+  authors: Barth, F. G.
+  year: 2004
+  title: Spider mechanoreceptors
+  container: Current Opinion in Neurobiology 14(4) 415–422
+  doi: 10.1016/j.conb.2004.07.005
+
+# ── Body vault expansion (2026-11-21) — researched via Codex ──────────────
+
+foelix2011:
+  authors: Foelix, R. F.
+  year: 2011
+  title: Biology of Spiders
+  container: Oxford University Press, third edition
+  url: https://api.pageplace.de/preview/DT0400.9780199813247_A23610106/preview-9780199813247_A23610106.pdf
+
+snodgrass1952:
+  authors: Snodgrass, R. E.
+  year: 1952
+  title: A Textbook of Arthropod Anatomy
+  container: Comstock / Cornell University Press; chapter V, The Arachnida
+  url: https://flexpub.com/epubs/9781501740794/oebps/text/chapter05
+
+australianmuseum2018:
+  authors: Australian Museum
+  year: 2018
+  title: Spider structure
+  container: Australian Museum (updated 26 November 2018)
+  url: https://australian.museum/learn/animals/spiders/spider-structure/
+
+australianmuseum2026:
+  authors: Australian Museum
+  year: 2026
+  title: Redback Spider
+  container: Australian Museum (updated 1 June 2026)
+  url: https://australian.museum/learn/animals/spiders/redback-spider/
+
+lotz1994:
+  authors: Lotz, L. N.
+  year: 1994
+  title: Revision of the genus Latrodectus (Araneae, Theridiidae) in Africa
+  container: Navorsinge van die Nasionale Museum Bloemfontein 10(1) 1–60
+  url: https://the-eis.com/elibrary/sites/default/files/downloads/literature/Revision%20of%20the%20genus%20Latrodectus.pdf
+
+ebeling1975:
+  authors: Ebeling, W.
+  year: 1975
+  title: Urban Entomology
+  container: University of California, Division of Agricultural Sciences; chapter 9
+  url: https://entomology.ucr.edu/ebelingchapter9.1
+
+eiden2013:
+  authors: Eiden, A.; Kaufman, P. E.
+  year: 2013
+  title: Southern Black Widow, Latrodectus mactans (Fabricius)
+  container: UF/IFAS Extension, Featured Creatures EENY-560
+  doi: 10.32473/edis-in1000-2013
+
+hannum2010:
+  authors: Hannum, C., Jr.; Miller, D. M.
+  year: 2010
+  title: Widow Spiders
+  container: Virginia Cooperative Extension, Publication 444-422
+  url: https://vtechworks.lib.vt.edu/bitstream/handle/10919/51392/444-422.pdf
+
+nentwig2026:
+  authors: Nentwig, W.; Blick, T.; Bosmans, R.; Kropf, C.; Stäubli, A.
+  year: 2026
+  title: "Spiders of Europe: Latrodectus geometricus"
+  container: araneae online identification database, species account 2135
+  doi: 10.24436/1
+  url: https://www.araneae.nmbe.ch/data/2135?lang=en
+
+hiskes2013:
+  authors: Hiskes, R.
+  year: 2013
+  title: Northern Black Widow, Latrodectus variolus
+  container: The Connecticut Agricultural Experiment Station, fact sheet
+  url: https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Fact_Sheets/Entomology/Black-Widow-Spider_Northern-and-Southern_Fact-Sheet.pdf
+
+carlton2021:
+  authors: Carlton, C.
+  year: 2021
+  title: Latrodectus mactans and L. variolus, Southern and Northern Black Widow Spiders
+  container: LSU AgCenter, Bug Biz, Publication 3796
+  url: https://www.lsuagcenter.com/articles/page1636498333796
+
+brandley2016:
+  authors: Brandley, N.; Johnson, M.; Johnsen, S.
+  year: 2016
+  title: Aposematic signals in North American black widows are more conspicuous to predators than to prey
+  container: Behavioral Ecology 27(4) 1104–1112
+  doi: 10.1093/beheco/arw014
+
+hsiung2017:
+  authors: Hsiung, B.-K.; Justyn, N. M.; Blackledge, T. A.; Shawkey, M. D.
+  year: 2017
+  title: Spiders have rich pigmentary and structural colour palettes
+  container: Journal of Experimental Biology 220(11) 1975–1983
+  doi: 10.1242/jeb.156083
+
+parry1959:
+  authors: Parry, D. A.; Brown, R. H. J.
+  year: 1959
+  title: The hydraulic mechanism of the spider leg
+  container: Journal of Experimental Biology 36(2) 423–433
+  doi: 10.1242/jeb.36.2.423
+
+booster2015:
+  authors: Booster, N. A.; Su, F. Y.; Adolph, S. C.; Ahn, A. N.
+  year: 2015
+  title: "Effect of temperature on leg kinematics in sprinting tarantulas (Aphonopelma hentzi): high speed may limit hydraulic joint actuation"
+  container: Journal of Experimental Biology 218(7) 977–982
+  doi: 10.1242/jeb.111922
+
+randall1981:
+  authors: Randall, J. B.
+  year: 1981
+  title: "Regeneration and autotomy exhibited by the black widow spider, Latrodectus variolus Walckenaer: I. The legs"
+  container: Wilhelm Roux's Archives of Developmental Biology 190(4) 230–232
+  doi: 10.1007/BF00848308
+
+vollrath1990:
+  authors: Vollrath, F.
+  year: 1990
+  title: Leg regeneration in web spiders and its implications for orb weaver phylogeny
+  container: Bulletin of the British Arachnological Society 8(6) 177–184
+  url: https://britishspiders.org.uk/system/files/library/080603.pdf
+
+hanp2000:
+  authors: Hanp, M. R. C. W. (name as transcribed by the repository)
+  year: 2000
+  title: Female tarsal comb variations in two closely related black widow spider species, Latrodectus mactans and Latrodectus hesperus
+  container: MSc thesis, Midwestern State University
+  url: https://msutexas.contentdm.oclc.org/digital/api/collection/thesis_coll/id/431/download
+
+valdezmondragon2023:
+  authors: Valdez-Mondragón, A.; Cabrera-Espinosa, L. A.
+  year: 2023
+  title: "Phylogenetic analyses and description of a new species of black widow spider of the genus Latrodectus from Mexico: one or more species?"
+  container: European Journal of Taxonomy 897 1–56
+  doi: 10.5852/ejt.2023.897.2293
+
+peralta2018:
+  authors: Peralta, L.; Ansaldi, M. F.; Zeinsteger, P.
+  year: 2018
+  title: Primer registro de una picadura causada por un macho de Latrodectus geometricus C. L. Koch, 1841
+  container: Acta Toxicológica Argentina 26(3) 113–117
+  url: https://www.toxicologia.org.ar/wp-content/uploads/2019/04/acta-26-3-2018-alta-3-OK.pdf
+
+gainett2020:
+  authors: Gainett, G.; Ballesteros, J. A.; Kanzler, C. R.; et al.
+  year: 2020
+  title: Systemic paralogy and function of retinal determination network homologs in arachnids
+  container: BMC Genomics 21, 811
+  doi: 10.1186/s12864-020-07149-x
+
+sergi2021:
+  authors: Sergi, C. M.; Antonopoulos, T.; Rodríguez, R. L.
+  year: 2021
+  title: Black widow spiders use path integration on their webs
+  container: Behavioral Ecology and Sociobiology 75, 73
+  doi: 10.1007/s00265-021-03009-0
+
+bucherl1964:
+  authors: Bücherl, W.
+  year: 1964
+  title: Mecanismo da picada das aranhas peçonhentas perigosas
+  container: Memórias do Instituto Butantan 31 67–76
+  url: https://bibliotecadigital.butantan.gov.br/arquivos/54/PDF/5.pdf
+
+michalik2011:
+  authors: Michalik, P.; Rittschof, C. C.
+  year: 2011
+  title: A comparative analysis of the morphology and evolution of permanent sperm depletion in spiders
+  container: PLoS ONE 6(1) e16014
+  doi: 10.1371/journal.pone.0016014
+
+snow2005:
+  authors: Snow, L. S. E.; Andrade, M. C. B.
+  year: 2005
+  title: Multiple sperm storage organs facilitate female control of paternity
+  container: Proceedings of the Royal Society B 272(1568) 1139–1144
+  doi: 10.1098/rspb.2005.3088
+
+snow2006:
+  authors: Snow, L. S. E.; Abdel-Mesih, A.; Andrade, M. C. B.
+  year: 2006
+  title: Broken copulatory organs are low-cost adaptations to sperm competition in redback spiders
+  container: Ethology 112(4) 379–389
+  doi: 10.1111/j.1439-0310.2006.01163.x
+
+sentenska2021:
+  authors: Sentenská, L.; Neumann, A.; Lubin, Y.; Uhl, G.
+  year: 2021
+  title: Functional morphology of immature mating in a widow spider
+  container: Frontiers in Zoology 18, 19
+  doi: 10.1186/s12983-021-00404-1
+
+ouriel2016:
+  authors: Ouriel, W.
+  year: 2016
+  title: Ovarian development in the western black widow spider Latrodectus hesperus
+  container: MSc thesis, California State University, Fullerton
+  doi: 10.13140/RG.2.2.35095.16809
+
+eberhard2006:
+  authors: Eberhard, W. G.; Barrantes, G.; Weng, J.-L.
+  year: 2006
+  title: The mystery of how spiders extract food without masticating prey
+  container: Bulletin of the British Arachnological Society 13(9) 372–376
+  url: https://britishspiders.org.uk/system/files/library/130908.pdf
+
+forster1989:
+  authors: Forster, L. M.; Kavale, J.
+  year: 1989
+  title: Effects of food deprivation on Latrodectus hasselti Thorell, the Australian redback spider
+  container: New Zealand Journal of Zoology 16(3) 401–408
+  doi: 10.1080/03014223.1989.10422906
+
+forster1995:
+  authors: Forster, L.
+  year: 1995
+  title: "The behavioural ecology of Latrodectus hasselti (Thorell), the Australian redback spider: a review"
+  container: Records of the Western Australian Museum, Supplement 52 13–24
+  url: https://museum.wa.gov.au/sites/default/files/3.%20Forster.pdf
+
+quesada2011:
+  authors: Quesada, R.; Triana, E.; Vargas, G.; Douglass, J. K.; Seid, M. A.; Niven, J. E.; Eberhard, W. G.; Wcislo, W. T.
+  year: 2011
+  title: The allometry of CNS size and consequences of miniaturization in orb-weaving and cleptoparasitic spiders
+  container: Arthropod Structure & Development 40(6) 521–529
+  doi: 10.1016/j.asd.2011.07.002
+
+coddington1989:
+  authors: Coddington, J. A.
+  year: 1989
+  title: "Spinneret silk spigot morphology: evidence for the monophyly of orbweaving spiders, Cyrtophorinae (Araneidae), and the group Theridiidae plus Nesticidae"
+  container: Journal of Arachnology 17 71–95
+  url: https://repository.si.edu/bitstream/handle/10088/4371/CoddingtonSpinneretSilkSpigotMorph89.pdf
+
+chaw2018:
+  authors: Chaw, R. C.; Hayashi, C. Y.
+  year: 2018
+  title: Dissection of silk glands in the western black widow Latrodectus hesperus
+  container: Journal of Arachnology 46(1) 159–161
+  doi: 10.1636/JoA-16-S-063.1
+
+clarke2014:
+  authors: Clarke, T. H.; Garb, J. E.; Hayashi, C. Y.; Haney, R. A.; Lancaster, A. K.; Corbett, S.; Ayoub, N. A.
+  year: 2014
+  title: Multi-tissue transcriptomics of the black widow spider reveals expansions, co-options, and functional processes of the silk gland gene toolkit
+  container: BMC Genomics 15, 365
+  doi: 10.1186/1471-2164-15-365
+
+clarke2017:
+  authors: Clarke, T. H.; Garb, J. E.; Haney, R. A.; Chaw, R. C.; Hayashi, C. Y.; Ayoub, N. A.
+  year: 2017
+  title: Evolutionary shifts in gene expression decoupled from gene duplication across functionally distinct spider silk glands
+  container: Scientific Reports 7, 8393
+  doi: 10.1038/s41598-017-07388-1
+
+chaw2015:
+  authors: Chaw, R. C.; Correa-Garhwal, S. M.; Clarke, T. H.; Ayoub, N. A.; Hayashi, C. Y.
+  year: 2015
+  title: Proteomic evidence for components of spider silk synthesis from black widow silk glands
+  container: Journal of Proteome Research 14(10) 4223–4231
+  doi: 10.1021/acs.jproteome.5b00353
+
+vasanthavada2007:
+  authors: Vasanthavada, K.; Hu, X.; Falick, A. M.; et al.
+  year: 2007
+  title: Aciniform spidroin, a constituent of egg case sacs and wrapping silk fibers from the black widow spider Latrodectus hesperus
+  container: Journal of Biological Chemistry 282(48) 35088–35097
+  doi: 10.1074/jbc.M705791200
+
+hu2006:
+  authors: Hu, X.; Kohler, K.; Falick, A. M.; Moore, A. M. F.; Jones, P. R.; Vierra, C.
+  year: 2006
+  title: "Spider egg case core fibers: trimeric complexes assembled from TuSp1, ECP-1, and ECP-2"
+  container: Biochemistry 45(11) 3506–3516
+  doi: 10.1021/bi052105q
+
+blasingame2009:
+  authors: Blasingame, E.; Tuton-Blasingame, T.; Larkin, L.; et al.
+  year: 2009
+  title: Pyriform spidroin 1, a novel member of the silk gene family that anchors dragline silk fibers in attachment discs of the black widow spider, Latrodectus hesperus
+  container: Journal of Biological Chemistry 284(42) 29097–29108
+  doi: 10.1074/jbc.M109.021378
+
+correagarhwal2017:
+  authors: Correa-Garhwal, S. M.; Chaw, R. C.; Clarke, T. H.; Ayoub, N. A.; Hayashi, C. Y.
+  year: 2017
+  title: "Silk gene expression of theridiid spiders: implications for male-specific silk use"
+  container: Zoology 122 107–114
+  doi: 10.1016/j.zool.2017.04.003
+
+hadley1981:
+  authors: Hadley, N. F.
+  year: 1981
+  title: Fine structure of the cuticle of the black widow spider, with reference to surface lipids
+  container: Tissue and Cell 13(4) 805–817
+  doi: 10.1016/S0040-8166(81)80015-8
+
+hagstrum1968:
+  authors: Hagstrum, D. W.
+  year: 1968
+  title: The molting behavior of the black widow spider, Latrodectus mactans
+  container: Annals of the Entomological Society of America 61(3) 591–593
+  doi: 10.1093/aesa/61.3.591
+
+nadolny2019:
+  authors: Nadolny, A. A.
+  year: 2019
+  title: Age-specific traits and a post-maturation molt in black widow spiders Latrodectus tredecimguttatus
+  container: Entomological Review 99(8) 1227–1230
+  doi: 10.1134/S0013873819080189
+
+sun2020:
+  authors: Sun, Y.; Lee, S.-M.; Ku, B.-J.; Moon, M.-J.
+  year: 2020
+  title: Fine structure of the intercalated disc and cardiac junctions in the black widow spider Latrodectus mactans
+  container: Applied Microscopy 50, 20
+  doi: 10.1186/s42649-020-00040-9
+
+carrel1976:
+  authors: Carrel, J. E.; Heathcote, R. D.
+  year: 1976
+  title: "Heart rate in spiders: influence of body size and foraging energetics"
+  container: Science 193(4248) 148–150
+  doi: 10.1126/science.935864
+
+# ── Venom vault expansion (2026-11-21) — researched via Codex ─────────────
+
+kiyatkin1990:
+  authors: Kiyatkin, N. I.; Dulubova, I. E.; Chekhovskaya, I. A.; Grishin, E. V.
+  year: 1990
+  title: Cloning and structure of cDNA encoding α-latrotoxin from black widow spider venom
+  container: FEBS Letters 270(1–2) 127–131
+  doi: 10.1016/0014-5793(90)81250-R
+
+volynski1999:
+  authors: Volynski, K. E.; Nosyreva, E. D.; Ushkaryov, Y. A.; Grishin, E. V.
+  year: 1999
+  title: Functional expression of α-latrotoxin in baculovirus system
+  container: FEBS Letters 442(1) 25–28
+  doi: 10.1016/S0014-5793(98)01624-X
+
+ceccarelli1980:
+  authors: Ceccarelli, B.; Hurlbut, W. P.
+  year: 1980
+  title: Ca2+-dependent recycling of synaptic vesicles at the frog neuromuscular junction
+  container: Journal of Cell Biology 87(1) 297–303
+  doi: 10.1083/jcb.87.1.297
+
+ashton2001:
+  authors: Ashton, A. C.; Volynski, K. E.; Lelianova, V. G.; et al.
+  year: 2001
+  title: α-Latrotoxin, acting via two Ca2+-dependent pathways, triggers exocytosis of two pools of synaptic vesicles
+  container: Journal of Biological Chemistry 276(48) 44695–44703
+  doi: 10.1074/jbc.M108088200
+
+volynski2003:
+  authors: Volynski, K. E.; Capogna, M.; Ashton, A. C.; et al.
+  year: 2003
+  title: "Mutant α-latrotoxin (LTXN4C) does not form pores and causes secretion by receptor stimulation"
+  container: Journal of Biological Chemistry 278(33) 31058–31066
+  doi: 10.1074/jbc.M210395200
+
+magazanik1992:
+  authors: Magazanik, L. G.; Fedorova, I. M.; Kovalevskaya, G. I.; et al.
+  year: 1992
+  title: Selective presynaptic insectotoxin (α-latroinsectotoxin) isolated from black widow spider venom
+  container: Neuroscience 46(1) 181–188
+  doi: 10.1016/0306-4522(92)90017-V
+
+kiyatkin1995:
+  authors: Kiyatkin, N. I.; Kulikovskaya, I. M.; Grishin, E. V.; Beadle, D. J.; King, L. A.
+  year: 1995
+  title: Functional characterization of black widow spider neurotoxins synthesised in insect cells
+  container: European Journal of Biochemistry 230(3) 854–859
+  doi: 10.1111/j.1432-1033.1995.tb20628.x
+
+kiyatkin1993:
+  authors: Kiyatkin, N.; Dulubova, I.; Grishin, E.
+  year: 1993
+  title: "Cloning and structural analysis of α-latroinsectotoxin cDNA: abundance of ankyrin-like repeats"
+  container: European Journal of Biochemistry 213(1) 121–127
+  doi: 10.1111/j.1432-1033.1993.tb17741.x
+
+krasnoperov1990:
+  authors: Krasnoperov, V. G.; Shamotienko, O. G.; Grishin, E. V.
+  year: 1990
+  title: Isolation and properties of insect-specific neurotoxins from venoms of the spider Latrodectus mactans tredecimguttatus
+  container: Bioorganicheskaia Khimiia 16(8) 1138–1140 (in Russian)
+  url: https://pubmed.ncbi.nlm.nih.gov/2285428/
+
+dulubova1996:
+  authors: Dulubova, I. E.; Krasnoperov, V. G.; Khvotchev, M. V.; et al.
+  year: 1996
+  title: "Cloning and structure of δ-latroinsectotoxin, a novel insect-specific member of the latrotoxin family"
+  container: Journal of Biological Chemistry 271(13) 7535–7543
+  doi: 10.1074/jbc.271.13.7535
+
+danilevich1999:
+  authors: Danilevich, V. N.; Luk'ianov, S. A.; Grishin, E. V.
+  year: 1999
+  title: Cloning and structure of gene encoding α-latrocrustoxin from the black widow spider venom
+  container: Bioorganicheskaia Khimiia 25(7) 537–547 (in Russian)
+  url: https://pubmed.ncbi.nlm.nih.gov/10563207/
+
+elrick1999:
+  authors: Elrick, D. B.; Charlton, M. P.
+  year: 1999
+  title: α-Latrocrustatoxin increases neurotransmitter release by activating a calcium influx pathway at crayfish neuromuscular junction
+  container: Journal of Neurophysiology 82(6) 3550–3562
+  doi: 10.1152/jn.1999.82.6.3550
+
+orlova2000:
+  authors: Orlova, E. V.; Rahman, M. A.; Gowen, B.; et al.
+  year: 2000
+  title: Structure of α-latrotoxin oligomers reveals that divalent cation-dependent tetramers form membrane pores
+  container: Nature Structural Biology 7(1) 48–53
+  doi: 10.1038/71247
+
+chen2021:
+  authors: Chen, M.; Blum, D.; Engelhard, L.; Raunser, S.; Wagner, R.; Gatsogiannis, C.
+  year: 2021
+  title: Molecular architecture of black widow spider neurotoxins
+  container: Nature Communications 12, 6956
+  doi: 10.1038/s41467-021-26562-8
+
+haney2014:
+  authors: Haney, R. A.; Ayoub, N. A.; Clarke, T. H.; Hayashi, C. Y.; Garb, J. E.
+  year: 2014
+  title: Dramatic expansion of the black widow toxin arsenal uncovered by multi-tissue transcriptomics and venom proteomics
+  container: BMC Genomics 15, 366
+  doi: 10.1186/1471-2164-15-366
+
+haney2016:
+  authors: Haney, R. A.; Clarke, T. H.; Gadgil, R.; et al.
+  year: 2016
+  title: Effects of gene duplication, positive selection, and shifts in gene expression on the evolution of the venom gland transcriptome in widow spiders
+  container: Genome Biology and Evolution 8(1) 228–242
+  doi: 10.1093/gbe/evv253
+
+haney2019:
+  authors: Haney, R. A.; Matte, T.; Forsyth, F. S.; Garb, J. E.
+  year: 2019
+  title: Alternative transcription at venom genes and its role as a complementary mechanism for the generation of venom complexity in the common house spider
+  container: Frontiers in Ecology and Evolution 7, 85
+  doi: 10.3389/fevo.2019.00085
+
+duan2008:
+  authors: Duan, Z.; Yan, X.; Cao, R.; Liu, Z.; Wang, X.; Liang, S.
+  year: 2008
+  title: Proteomic analysis of Latrodectus tredecimguttatus venom for uncovering potential latrodectism-related proteins
+  container: Journal of Biochemical and Molecular Toxicology 22(5) 328–336
+  doi: 10.1002/jbt.20244
+
+he2013:
+  authors: He, Q.; Duan, Z.; Yu, Y.; Liu, Z.; Liu, Z.; Liang, S.
+  year: 2013
+  title: The venom gland transcriptome of Latrodectus tredecimguttatus revealed by deep sequencing and cDNA library analysis
+  container: PLoS ONE 8(11) e81357
+  doi: 10.1371/journal.pone.0081357
+
+taucarerios2015:
+  authors: Taucare-Ríos, A.; Canals, M.
+  year: 2015
+  title: Feeding habits of the brown widow spider Latrodectus geometricus in northern Chile
+  container: Revista Ibérica de Aracnología 27 155–158
+  url: https://gia.sea-socios.com/PDF/27/155-158RIA27NC_Latrodectus_geomtricus_Chile.pdf
+
+volkova1995:
+  authors: Volkova, T. M.; Pluzhnikov, K. A.; Woll, P. G.; Grishin, E. V.
+  year: 1995
+  title: Low molecular weight components from black widow spider venom
+  container: Toxicon 33(4) 483–489
+  doi: 10.1016/0041-0101(94)00166-6
+
+gasparini1994:
+  authors: Gasparini, S.; Kiyatkin, N.; Drevet, P.; et al.
+  year: 1994
+  title: The low molecular weight protein which co-purifies with α-latrotoxin is structurally related to crustacean hyperglycemic hormones
+  container: Journal of Biological Chemistry 269(31) 19803–19809
+  doi: 10.1016/S0021-9258(17)32091-4
+
+mccowan2014:
+  authors: McCowan, C.; Garb, J. E.
+  year: 2014
+  title: Recruitment and diversification of an ecdysozoan family of neuropeptide hormones for black widow spider venom expression
+  container: Gene 536(2) 366–375
+  doi: 10.1016/j.gene.2013.11.054
+
+grishin1993:
+  authors: Grishin, E. V.; Himmelreich, N. H.; Pluzhnikov, K. A.; et al.
+  year: 1993
+  title: Modulation of functional activities of the neurotoxin from black widow spider venom
+  container: FEBS Letters 336(2) 205–207
+  doi: 10.1016/0014-5793(93)80803-3
+
+miller2026:
+  authors: Miller, J. A.; Condy, C.; Kulkarni, S.; et al.
+  year: 2026
+  title: "An atlas of widow spiders (Araneae, Theridiidae, Latrodectus): phylogeny, biogeography, and integrated taxonomy"
+  container: Zoological Journal of the Linnean Society 208(3) zlag145
+  doi: 10.1093/zoolinnean/zlag145
+
+reese1944:
+  authors: Reese, A. M.
+  year: 1944
+  title: The anatomy of the venom glands in the black widow spider, Latrodectus mactans
+  container: Transactions of the American Microscopical Society 63(2) 170–174
+  doi: 10.2307/3223159
+
+barth1962:
+  authors: Barth, R.
+  year: 1962
+  title: Estudos histológicos sôbre as glândulas peçonhentas da "Viúva negra", Latrodectus mactans
+  container: Memórias do Instituto Oswaldo Cruz 60(2) 275–292
+  doi: 10.1590/S0074-02761962000200012
+
+cavalieri1990:
+  authors: Cavalieri, M.; Corvaja, N.; Grasso, A.
+  year: 1990
+  title: Immunocytological localization by monoclonal antibodies of α-latrotoxin in the venom gland of the spider Latrodectus tredecimguttatus
+  container: Toxicon 28(3) 341–346
+  doi: 10.1016/0041-0101(90)90069-J
+
+li2013:
+  authors: Li, J.; Yan, Y.; Wang, J.; et al.
+  year: 2013
+  title: Purification and partial characterization of a novel neurotoxic protein from eggs of black widow spiders
+  container: Journal of Biochemical and Molecular Toxicology 27(7) 337–342
+  doi: 10.1002/jbt.21493
+
+lei2015:
+  authors: Lei, Q.; Yu, H.; Peng, X.; et al.
+  year: 2015
+  title: Isolation and preliminary characterization of proteinaceous toxins with insecticidal and antibacterial activities from black widow spider eggs
+  container: Toxins 7(3) 886–899
+  doi: 10.3390/toxins7030886
+
+xu2016:
+  authors: Xu, D.; Wang, X.
+  year: 2016
+  title: Transcriptome analysis to understand the toxicity of Latrodectus tredecimguttatus eggs
+  container: Toxins 8(12) 378
+  doi: 10.3390/toxins8120378
+
+akhunov2001:
+  authors: Akhunov, A. A.; Golubenko, Z.; Abdurashidova, N. A.; et al.
+  year: 2001
+  title: Comparative biochemistry of the physiologically active components of venom, hemolymph, and eggs of the karakurt spider
+  container: Chemistry of Natural Compounds 37(6) 562–565
+  doi: 10.1023/A:1014829218721
+
+schmidt2017:
+  authors: Schmidt, J. O.; Vetter, R. S.; Howe, A. K.
+  year: 2017
+  title: Egg toxicity in diverse spider taxa
+  container: Journal of Arachnology 45(2) 209–212
+  doi: 10.1636/JoA-17-009.1
+
+salomon2011:
+  authors: Salomon, M.
+  year: 2011
+  title: "The natural diet of a polyphagous predator, Latrodectus hesperus, over one year"
+  container: Journal of Arachnology 39(1) 154–160
+  doi: 10.1636/P10-25.1
+
+oshea2017:
+  authors: O'Shea, M.; Kelly, K.
+  year: 2017
+  title: Predation on a weasel skink by a redback spider, with a review of other Latrodectus predation events involving squamates
+  container: Herpetofauna 44(1–2) 49–55
+  url: https://wlv.openrepository.com/bitstreams/22c0edcf-5205-427a-a35a-6d4e72d84f74/download
+
+nyffeler2021:
+  authors: Nyffeler, M.; Gibbons, J. W.
+  year: 2021
+  title: Spiders feeding on snakes
+  container: Journal of Arachnology 49(1) 1–27
+  doi: 10.1636/JoA-S-20-050
+
+rohou2007:
+  authors: Rohou, A.; Nield, J.; Ushkaryov, Y. A.
+  year: 2007
+  title: Insecticidal toxins from black widow spider venom
+  container: Toxicon 49(4–5) 531–549
+  doi: 10.1016/j.toxicon.2006.11.021
+
+torres2022:
+  authors: Torres, S. L.; Landeros, A.; Penhallegon, E. J.; Salazar, K.; Porter, L. M.
+  year: 2022
+  title: Expression of brown and southern black widow spider latrotoxins is tissue- and life-stage-specific for latroinsectotoxins and ubiquitous for α-latrotoxins
+  container: Journal of Medical Entomology 59(1) 184–191
+  doi: 10.1093/jme/tjab168
+
+peng2020:
+  authors: Peng, X.; Dai, Z.; Wang, X.
+  year: 2020
+  title: Comparative proteomic analysis of Latrodectus tredecimguttatus spiderlings and adult spiders
+  container: Comparative Biochemistry and Physiology Part C 232, 108762
+  doi: 10.1016/j.cbpc.2020.108762
+
+peng2014:
+  authors: Peng, X.; Zhang, Y.; Liu, J.; et al.
+  year: 2014
+  title: Physiological and biochemical analysis to reveal the molecular basis for black widow spiderling toxicity
+  container: Journal of Biochemical and Molecular Toxicology 28(5) 198–205
+  doi: 10.1002/jbt.21553
+
+dunbar2020:
+  authors: Dunbar, J. P.; Fort, A.; Redureau, D.; Sulpice, R.; Dugon, M. M.; Quinton, L.
+  year: 2020
+  title: Venomics approach reveals a high proportion of Latrodectus-like toxins in the venom of the noble false widow spider Steatoda nobilis
+  container: Toxins 12(6) 402
+  doi: 10.3390/toxins12060402
+
+gendreau2017:
+  authors: Gendreau, K. L.; Haney, R. A.; Schwager, E. E.; et al.
+  year: 2017
+  title: House spider genome uncovers evolutionary shifts in the diversity and expression of black widow venom proteins
+  container: BMC Genomics 18, 178
+  doi: 10.1186/s12864-017-3551-7
+
+graudins2001:
+  authors: Graudins, A.; Padula, M.; Broady, K.; Nicholson, G. M.
+  year: 2001
+  title: Red-back spider antivenom prevents the toxicity of widow spider venoms
+  container: Annals of Emergency Medicine 37(2) 154–160
+  doi: 10.1067/mem.2001.113033
+
+graudins2002:
+  authors: Graudins, A.; Gunja, N.; Broady, K. W.; Nicholson, G. M.
+  year: 2002
+  title: Clinical and in vitro evidence for the efficacy of redback spider antivenom in envenomation by a cupboard spider (Steatoda grossa)
+  container: Toxicon 40(6) 767–775
+  doi: 10.1016/S0041-0101(01)00280-X
+
+graudins2012:
+  authors: Graudins, A.; Little, M. J.; Pineda, S. S.; et al.
+  year: 2012
+  title: Cloning and activity of a novel α-latrotoxin from red-back spider venom
+  container: Biochemical Pharmacology 83(1) 170–183
+  doi: 10.1016/j.bcp.2011.09.024
+
+garb2013:
+  authors: Garb, J. E.; Hayashi, C. Y.
+  year: 2013
+  title: Molecular evolution of α-latrotoxin, the exceptionally potent vertebrate neurotoxin in black widow spider venom
+  container: Molecular Biology and Evolution 30(5) 999–1014
+  doi: 10.1093/molbev/mst011
+
+bhere2014:
+  authors: Bhere, K. V.; Haney, R. A.; Ayoub, N. A.; Garb, J. E.
+  year: 2014
+  title: Gene structure, regulatory control, and evolution of black widow venom latrotoxins
+  container: FEBS Letters 588(21) 3891–3897
+  doi: 10.1016/j.febslet.2014.08.034
+
+wang2022:
+  authors: Wang, Z.; Zhu, K.; Li, H.; et al.
+  year: 2022
+  title: Chromosome-level genome assembly of the black widow spider Latrodectus elegans illuminates composition and evolution of venom and silk proteins
+  container: GigaScience 11, giac049
+  doi: 10.1093/gigascience/giac049
+
+miles2024:
+  authors: Miles, L. S.; Waterman, H.; Ayoub, N. A.; et al.
+  year: 2024
+  title: Insight into the adaptive role of arachnid genome-wide duplication through chromosome-level genome assembly of the western black widow spider
+  container: Journal of Heredity 115(3) 241–252
+  doi: 10.1093/jhered/esae018
+
+zhang2012:
+  authors: Zhang, D.; de Souza, R. F.; Anantharaman, V.; Iyer, L. M.; Aravind, L.
+  year: 2012
+  title: "Polymorphic toxin systems: comprehensive characterization using comparative genomics"
+  container: Biology Direct 7, 18
+  doi: 10.1186/1745-6150-7-18
+
+bordenstein2016:
+  authors: Bordenstein, Sarah R.; Bordenstein, Seth R.
+  year: 2016
+  title: Eukaryotic association module in phage WO genomes from Wolbachia
+  container: Nature Communications 7, 13155
+  doi: 10.1038/ncomms13155
+
+frontali1976:
+  authors: Frontali, N.; Ceccarelli, B.; Gorio, A.; et al.
+  year: 1976
+  title: Purification from black widow spider venom of a protein factor causing the depletion of synaptic vesicles at neuromuscular junctions
+  container: Journal of Cell Biology 68(3) 462–479
+  doi: 10.1083/jcb.68.3.462
+
+grasso1976:
+  authors: Grasso, A.
+  year: 1976
+  title: Preparation and properties of a neurotoxin purified from the venom of black widow spider
+  container: Biochimica et Biophysica Acta 439(2) 406–412
+  doi: 10.1016/0005-2795(76)90077-5
+
+ushkaryov1992:
+  authors: Ushkaryov, Y. A.; Petrenko, A. G.; Geppert, M.; Südhof, T. C.
+  year: 1992
+  title: "Neurexins: synaptic cell surface proteins related to the α-latrotoxin receptor and laminin"
+  container: Science 257(5066) 50–56
+  doi: 10.1126/science.1621094
+
+davletov1996:
+  authors: Davletov, B. A.; Shamotienko, O. G.; Lelianova, V. G.; Grishin, E. V.; Ushkaryov, Y. A.
+  year: 1996
+  title: Isolation and biochemical characterization of a Ca2+-independent α-latrotoxin-binding protein
+  container: Journal of Biological Chemistry 271(38) 23239–23245
+  doi: 10.1074/jbc.271.38.23239
+
+krasnoperov1996:
+  authors: Krasnoperov, V. G.; Beavis, R.; Chepurny, O. G.; et al.
+  year: 1996
+  title: The calcium-independent receptor of α-latrotoxin is not a neurexin
+  container: Biochemical and Biophysical Research Communications 227(3) 868–875
+  doi: 10.1006/bbrc.1996.1598
+
+krasnoperov1997:
+  authors: Krasnoperov, V. G.; Bittner, M. A.; Beavis, R.; et al.
+  year: 1997
+  title: α-Latrotoxin stimulates exocytosis by the interaction with a neuronal G-protein-coupled receptor
+  container: Neuron 18(6) 925–937
+  doi: 10.1016/S0896-6273(00)80332-3
+
+ichtchenko1998:
+  authors: Ichtchenko, K.; Khvotchev, M.; Kiyatkin, N.; et al.
+  year: 1998
+  title: "α-Latrotoxin action probed with recombinant toxin: receptors recruit α-latrotoxin but do not transduce an exocytotic signal"
+  container: The EMBO Journal 17(21) 6188–6199
+  doi: 10.1093/emboj/17.21.6188
+
+capogna2003:
+  authors: Capogna, M.; Volynski, K. E.; Emptage, N. J.; Ushkaryov, Y. A.
+  year: 2003
+  title: The α-latrotoxin mutant LTXN4C enhances spontaneous and evoked transmitter release in CA3 pyramidal neurons
+  container: Journal of Neuroscience 23(10) 4044–4053
+  doi: 10.1523/JNEUROSCI.23-10-04044.2003
+
+volynski2004:
+  authors: Volynski, K. E.; Silva, J.-P.; Lelianova, V. G.; et al.
+  year: 2004
+  title: Latrophilin fragments behave as independent proteins that associate and signal on binding of LTXN4C
+  container: The EMBO Journal 23(22) 4423–4433
+  doi: 10.1038/sj.emboj.7600443
+
+khamtorn2020:
+  authors: Khamtorn, P.; Rungsa, P.; Jangpromma, N.; et al.
+  year: 2020
+  title: Partial proteomic analysis of brown widow spider venom to determine the biological activities
+  container: "Toxicon: X 8, 100062"
+  doi: 10.1016/j.toxcx.2020.100062
+
+khamtorn2021:
+  authors: Khamtorn, P.; Peigneur, S.; Amorim, F. G.; Quinton, L.; Tytgat, J.; Daduang, S.
+  year: 2021
+  title: De novo transcriptome analysis of the venom of Latrodectus geometricus with the discovery of an insect-selective Na channel modulator
+  container: Molecules 27(1) 47
+  doi: 10.3390/molecules27010047
+
+baerg1923:
+  authors: Baerg, W. J.
+  year: 1923
+  title: The effects of the bite of Latrodectus mactans Fabr.
+  container: The Journal of Parasitology 9(3) 161–169
+  doi: 10.2307/3271093
+
+blair1934:
+  authors: Blair, A. W.
+  year: 1934
+  title: "Spider poisoning: experimental study of the effects of the bite of the female Latrodectus mactans in man"
+  container: Archives of Internal Medicine 54(6) 831–843
+  doi: 10.1001/archinte.1934.00160180003001
+
+# --- Silk & Web expansion (2026-11-22) ---
+argintean2006:
+  authors: Argintean, S.; Chen, J.; Kim, M.; Moore, A. M. F.
+  year: 2006
+  title: Resilient silk captures prey in black widow cobwebs
+  container: Applied Physics A 82(2) 235–241
+  doi: 10.1007/s00339-005-3430-y
+  url: https://link.springer.com/article/10.1007/s00339-005-3430-y
+
+benjamin2003:
+  authors: Benjamin, S. P.; Zschokke, S.
+  year: 2003
+  title: "Webs of theridiid spiders: construction, structure and evolution"
+  container: Biological Journal of the Linnean Society 78(3) 293–305
+  doi: 10.1046/j.1095-8312.2003.00110.x
+  url: https://www2.gwu.edu/~spiders/content/people/Benjamin%20%26%20Zschokke%202003.pdf
+
+blackledge2007:
+  authors: Blackledge, T. A.; Zevenbergen, J. M.
+  year: 2007
+  title: Condition-dependent spider web architecture in the western black widow, Latrodectus hesperus
+  container: Animal Behaviour 73(5) 855–864
+  doi: 10.1016/j.anbehav.2006.10.014
+
+zevenbergen2008:
+  authors: Zevenbergen, J. M.; Schneider, N. K.; Blackledge, T. A.
+  year: 2008
+  title: "Fine dining or fortress? Functional shifts in spider web architecture by the western black widow Latrodectus hesperus"
+  container: Animal Behaviour 76(3) 823–829
+  doi: 10.1016/j.anbehav.2008.05.008
+
+vibert2014:
+  authors: Vibert, S.; Scott, C.; Gries, G.
+  year: 2014
+  title: "A meal or a male: the ‘whispers’ of black widow males do not trigger a predatory response in females"
+  container: Frontiers in Zoology 11, 4
+  doi: 10.1186/1742-9994-11-4
+
+sivalinghem2021:
+  authors: Sivalinghem, S.; Mason, A. C.
+  year: 2021
+  title: "Vibratory communication in a black widow spider (Latrodectus hesperus): signal structure and signalling mechanisms"
+  container: Animal Behaviour 174 217–235
+  doi: 10.1016/j.anbehav.2021.01.016
+
+hu2005:
+  authors: Hu, X.; Lawrence, B.; Kohler, K.; Falick, A. M.; Moore, A. M. F.; McMullen, E.; Jones, P. R.; Vierra, C.
+  year: 2005
+  title: "Araneoid egg case silk: a fibroin with novel ensemble repeat units from the black widow spider, Latrodectus hesperus"
+  container: Biochemistry 44(30) 10020–10027
+  doi: 10.1021/bi050494i
+
+casem2010:
+  authors: Casem, M. L.; Collin, M. A.; Ayoub, N. A.; Hayashi, C. Y.
+  year: 2010
+  title: Silk gene transcripts in the developing tubuliform glands of the Western black widow, Latrodectus hesperus
+  container: Journal of Arachnology 38(1) 99–103
+  doi: 10.1636/Sh09-20.1
+
+shanafelt2021:
+  authors: Shanafelt, M.; Larracas, C.; Dyrness, S.; Hekman, R.; La Mattina-Hawkins, C.; Rabara, T.; Wu, W.; Vierra, C. A.
+  year: 2021
+  title: "Egg Case Protein 3: A Constituent of Black Widow Spider Tubuliform Silk"
+  container: Molecules 26(16) 5088
+  doi: 10.3390/molecules26165088
+
+gnesa2012:
+  authors: Gnesa, E.; Hsia, Y.; Yarger, J.; Weber, W.; Lin-Cereghino, J.; Lin-Cereghino, G. P.; Tang, S.; Agari, K.; Vierra, C.
+  year: 2012
+  title: Conserved C-terminal domain of spider tubuliform spidroin 1 contributes to extensibility in synthetic fibers
+  container: Biomacromolecules 13(2) 304–312
+  doi: 10.1021/bm201262n
+
+karkosiak2025:
+  authors: Karkosiak, K. Q.; Schwartz, R. Z.; King, H.; Blackledge, T. A.
+  year: 2025
+  title: Spider egg sacs reveal how pockets of air can be used to conserve water
+  container: Journal of Experimental Biology 228(13) jeb250298
+  doi: 10.1242/jeb.250298
+
+lubin1991:
+  authors: Lubin, Y.; Kotzman, M.; Ellner, S.
+  year: 1991
+  title: Ontogenetic and seasonal changes in webs and websites of a desert widow spider
+  container: Journal of Arachnology 19(1) 40–48
+  url: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/JoA_v19_p40.pdf/
+
+konigswald1990:
+  authors: Konigswald, A.; Lubin, Y.; Ward, D.
+  year: 1990
+  title: The effectiveness of the nest of a desert widow spider, Latrodectus revivensis, in predator deterrence
+  container: Psyche 97(1–2) 75–80
+  doi: 10.1155/1990/79219
+  url: https://groups.csail.mit.edu/mac/projects/psyche/97/97-075.html
+
+boutry2010:
+  authors: Boutry, C.; Blackledge, T. A.
+  year: 2010
+  title: "Evolution of supercontraction in spider silk: structure-function relationship from tarantulas to orb-weavers"
+  container: Journal of Experimental Biology 213(20) 3505–3514
+  doi: 10.1242/jeb.046110
+
+madurga2016:
+  authors: Madurga, R.; Plaza, G. R.; Blackledge, T. A.; Guinea, G. V.; Elices, M.; Pérez-Rigueiro, J.
+  year: 2016
+  title: Material properties of evolutionary diverse spider silks described by variation in a single structural parameter
+  container: Scientific Reports 6, 18991
+  doi: 10.1038/srep18991
+
+gosline1999:
+  authors: Gosline, J. M.; Guerette, P. A.; Ortlepp, C. S.; Savage, K. N.
+  year: 1999
+  title: "The mechanical design of spider silks: from fibroin sequence to mechanical function"
+  container: Journal of Experimental Biology 202(23) 3295–3303
+  doi: 10.1242/jeb.202.23.3295
+
+lamattina2008:
+  authors: La Mattina, C.; Reza, R.; Hu, X.; Falick, A. M.; Vasanthavada, K.; McNary, S.; Yee, R.; Vierra, C. A.
+  year: 2008
+  title: Spider minor ampullate silk proteins are constituents of prey wrapping silk in the cob weaver Latrodectus hesperus
+  container: Biochemistry 47(16) 4692–4700
+  doi: 10.1021/bi800140q
+
+barrantes2007:
+  authors: Barrantes, G.; Eberhard, W. G.
+  year: 2007
+  title: The evolution of prey-wrapping behaviour in spiders
+  container: Journal of Natural History 41(25–28) 1631–1658
+  doi: 10.1080/00222930701464364
+  url: https://stri-apps.si.edu/docs/publications/pdfs/09_2007_Barrantes_Eberhard_J_Nat_Hist.pdf
+
+vanhelsdingen2019:
+  authors: van Helsdingen, P. J.
+  year: 2019
+  title: Observations on prey capture by a redback (Latrodectus hasselti Thorell, 1870) (Araneae, Theridiidae)
+  container: Nieuwsbrief SPINED 38 31–34
+  url: https://natuurtijdschriften.nl/pub/1000278/SPIN2019038001010.pdf
+
+toupin2022:
+  authors: Toupin, L.-P.; Ratz, T.; Montiglio, P.-O.
+  year: 2022
+  title: "Effects of resource availability on the web structure of female western black widows: is the web structure constrained by physiological trade-offs?"
+  container: Behavioral Ecology 33(6) 1170–1179
+  doi: 10.1093/beheco/arac086
+
+scott2012:
+  authors: Scott, C.; Vibert, S.; Gries, G.
+  year: 2012
+  title: Evidence that web reduction by western black widow males functions in sexual communication
+  container: Canadian Entomologist 144(5) 672–678
+  doi: 10.4039/tce.2012.56
+
+scott2015:
+  authors: Scott, C.; Kirk, D.; McCann, S.; Gries, G.
+  year: 2015
+  title: Web reduction by courting male black widows renders pheromone-emitting females' webs less attractive to rival males
+  container: Animal Behaviour 107 71–78
+  doi: 10.1016/j.anbehav.2015.06.009
+
+scott2015b:
+  authors: Scott, C.; McCann, S.; Gries, R.; Khaskin, G.; Gries, G.
+  year: 2015
+  title: N-3-Methylbutanoyl-O-methylpropanoyl-L-serine methyl ester – pheromone component of western black widow females
+  container: Journal of Chemical Ecology 41(5) 465–472
+  doi: 10.1007/s10886-015-0582-x
+
+stoltz2007:
+  authors: Stoltz, J. A.; McNeil, J. N.; Andrade, M. C. B.
+  year: 2007
+  title: Males assess chemical signals to discriminate just-mated females from virgins in redback spiders
+  container: Animal Behaviour 74(6) 1669–1674
+  doi: 10.1016/j.anbehav.2007.03.011
+
+fischer2025:
+  authors: Fischer, A.; Fischer, A. J.; Gries, R.; Hung, E.; Lau, K.; Monfared, A.; Gries, G.
+  year: 2025
+  title: Identification and Seasonal Abundance of Web- and Air-Borne Sex Pheromone Components of Western Black Widow Spiders, Latrodectus hesperus
+  container: Journal of Chemical Ecology 51, 36
+  doi: 10.1007/s10886-025-01590-6
+
+blackledge2009:
+  authors: Blackledge, T. A.; Scharff, N.; Coddington, J. A.; Szűts, T.; Wenzel, J. W.; Hayashi, C. Y.; Agnarsson, I.
+  year: 2009
+  title: Reconstructing web evolution and spider diversification in the molecular era
+  container: Proceedings of the National Academy of Sciences 106(13) 5229–5234
+  doi: 10.1073/pnas.0901377106
+
+fernandez2018:
+  authors: Fernández, R.; Kallal, R. J.; Dimitrov, D.; Ballesteros, J. A.; Arnedo, M. A.; Giribet, G.; Hormiga, G.
+  year: 2018
+  title: Phylogenomics, Diversification Dynamics, and Comparative Transcriptomics across the Spider Tree of Life
+  container: Current Biology 28(9) 1489–1497.e5
+  doi: 10.1016/j.cub.2018.03.064
+
+coddington2019:
+  authors: Coddington, J. A.; Agnarsson, I.; Hamilton, C. A.; Bond, J. E.
+  year: 2019
+  title: Spiders did not repeatedly gain, but repeatedly lost, foraging webs
+  container: PeerJ 7, e6703
+  doi: 10.7717/peerj.6703
+
+barrantes2010:
+  authors: Barrantes, G.; Eberhard, W. G.
+  year: 2010
+  title: Ontogeny repeats phylogeny in Steatoda and Latrodectus spiders
+  container: Journal of Arachnology 38(3) 485–494
+  doi: 10.1636/B10-05.1
+  url: https://stri-apps.si.edu/docs/publications/pdfs/2010_Barrantes_and_Eberhard_Steatoda_Latrodectus.pdf
+
+opell2024:
+  authors: Opell, B. D.; Kelly, S. D.; Morris, S. A.; Correa-Garhwal, S. M.
+  year: 2024
+  title: Changes in the material properties of spider glue droplet proteins accompanied shifts in prey capture biomechanics as cobweb spiders diverged from their orb weaving ancestors
+  container: Acta Biomaterialia 183 191–200
+  doi: 10.1016/j.actbio.2024.05.043
+
+vetter2016:
+  authors: Vetter, R. S.; Penas, L. M.; Hoddle, M. S.
+  year: 2016
+  title: Laboratory refugia preferences of the brown widow spider, Latrodectus geometricus (Araneae, Theridiidae)
+  container: Journal of Arachnology 44(1) 52–57
+  doi: 10.1636/J15-58.1
+  url: https://biocontrol.ucr.edu/media/1746/download?attachment=
+
+johnson2011:
+  authors: Johnson, A.; Revis, O.; Johnson, J. C.
+  year: 2011
+  title: Chemical prey cues influence the urban microhabitat preferences of Western black widow spiders, Latrodectus hesperus
+  container: Journal of Arachnology 39(3) 449–453
+  doi: 10.1636/Hi11-19.1
+
+lubin1993:
+  authors: Lubin, Y.; Ellner, S.; Kotzman, M.
+  year: 1993
+  title: Web Relocation and Habitat Selection in Desert Widow Spider
+  container: Ecology 74(7) 1915–1928
+  doi: 10.2307/1940835
+
+cowles2025:
+  authors: Cowles, J.; Agnarsson, I.
+  year: 2025
+  title: "Thieves and freeloaders: Argyrodine kleptoparasites invading cobwebs (Theridiidae) in the arid south-western USA"
+  container: Biodiversity Data Journal 13, e172851
+  doi: 10.3897/BDJ.13.e172851
+  url: https://bdj.pensoft.net/article/172851/download/pdf/
+
+dean1988:
+  authors: Dean, D. A.; Nyffeler, M.; Sterling, W. L.
+  year: 1988
+  title: "Natural enemies of spiders: mud dauber wasps in east Texas"
+  container: Southwestern Entomologist 13(4) 283–290
+  url: https://www.conservation.unibas.ch/team/nyffeler/pdf/nyffeler1988se.pdf
+
+bedini2005:
+  authors: Bedini, S. A.
+  year: 2005
+  title: "Along Came a Spider—Spinning Silk For Cross-Hairs: The Search for Cross-Hairs for Scientific Instrumentation, Part II"
+  container: The American Surveyor, May 2005
+  url: https://amerisurv.com/wp-content/uploads/PDF/TheAmericanSurveyor_BediniAlongCameASpiderPart2_May2005.pdf
+
+larracas2016:
+  authors: Larracas, C.; Hekman, R.; Dyrness, S.; Arata, A.; Williams, C.; Crawford, T.; Vierra, C. A.
+  year: 2016
+  title: "Comprehensive Proteomic Analysis of Spider Dragline Silk from Black Widows: A Recipe to Build Synthetic Silk Fibers"
+  container: International Journal of Molecular Sciences 17(9) 1537
+  doi: 10.3390/ijms17091537
+
+jain2015:
+  authors: Jain, D.; Zhang, C.; Cool, L. R.; Blackledge, T. A.; Wesdemiotis, C.; Miyoshi, T.; Dhinojwala, A.
+  year: 2015
+  title: Composition and Function of Spider Glues Maintained During the Evolution of Cobwebs
+  container: Biomacromolecules 16(10) 3373–3380
+  doi: 10.1021/acs.biomac.5b01040
+
+ayoub2021:
+  authors: Ayoub, N. A.; Friend, K.; Clarke, T.; Baker, R.; Correa-Garhwal, S. M.; Crean, A.; Dendev, E.; Foster, D.; Hoff, L.; Kelly, S. D.; Patterson, W.; Hayashi, C. Y.; Opell, B. D.
+  year: 2021
+  title: Protein Composition and Associated Material Properties of Cobweb Spiders' Gumfoot Glue Droplets
+  container: Integrative and Comparative Biology 61(4) 1459–1480
+  doi: 10.1093/icb/icab086
+
+blamires2014:
+  authors: Blamires, S. J.; Sahni, V.; Dhinojwala, A.; Blackledge, T. A.; Tso, I.-M.
+  year: 2014
+  title: Nutrient Deprivation Induces Property Variations in Spider Gluey Silk
+  container: PLoS ONE 9(2) e88487
+  doi: 10.1371/journal.pone.0088487
+
+arabesky2025:
+  authors: Arabesky, V.; Johnson, A. D.; Rozenberg, T.; Lubin, Y.; Segoli, M.; Mowery, M. A.
+  year: 2025
+  title: Maternal care thwarts parasitoids in the invasive brown widow spider (Latrodectus geometricus)
+  container: Proceedings of the Royal Society B 292(2046) 20242735
+  doi: 10.1098/rspb.2024.2735
+
+# --- Life Cycle expansion (2026-11-22) ---
+downes1985:
+  authors: Downes, M. F.
+  year: 1985
+  title: "Fecundity and fertility in Latrodectus hasselti (Araneae: Theridiidae)"
+  container: Australian Journal of Ecology 10(3) 261–264
+  doi: 10.1111/j.1442-9993.1985.tb00888.x
+
+downes1987:
+  authors: Downes, M. F.
+  year: 1987
+  title: Postembryonic development of Latrodectus hasselti Thorell (Araneae, Theridiidae)
+  container: Journal of Arachnology 14(3) 293–301; printed citation dated 1987, volume commonly catalogued as 1986
+  url: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/JoA_v14_p293.pdf/
+
+vetter2012:
+  authors: Vetter, R. S.; Vincent, L. S.; Itnyre, A. A.; Clarke, D. E.; Reinker, K. I.; Danielsen, D. W. R.; Robinson, L. J.; Kabashima, J. N.; Rust, M. K.
+  year: 2012
+  title: "Predators and parasitoids of egg sacs of the widow spiders, Latrodectus geometricus and Latrodectus hesperus (Araneae: Theridiidae) in southern California"
+  container: Journal of Arachnology 40(2) 209–214
+  doi: 10.1636/Hi11-93.1
+  url: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-40-2-209.pdf/
+
+modanu2014:
+  authors: Modanu, M.; Li, L. D. X.; Said, H.; Rathitharan, N.; Andrade, M. C. B.
+  year: 2014
+  title: "Sibling cannibalism in a web-building spider: Effects of density and shared environment"
+  container: Behavioural Processes 106 12–16
+  doi: 10.1016/j.beproc.2014.03.011
+
+johnson2016:
+  authors: Johnson, J. C.; Halpin, R.; Stevens, D. R., II
+  year: 2016
+  title: Extreme developmental synchrony reduces sibling cannibalism in the black widow spider, Latrodectus hesperus
+  container: Animal Behaviour 120 61–66
+  doi: 10.1016/j.anbehav.2016.07.017
+
+moen2022:
+  authors: Moen, C.; Johnson, J. C.; Price, J. H.
+  year: 2022
+  title: Ecdysteroid responses to urban heat island conditions during development of the western black widow spider (Latrodectus hesperus)
+  container: PLoS ONE 17(4) e0267398
+  doi: 10.1371/journal.pone.0267398
+
+andrade2003:
+  authors: Andrade, M. C. B.
+  year: 2003
+  title: Risky mate search and male self-sacrifice in redback spiders
+  container: Behavioral Ecology 14(4) 531–538
+  doi: 10.1093/beheco/arg015
+
+scott2019:
+  authors: Scott, C. E.; McCann, S.; Andrade, M. C. B.
+  year: 2019
+  title: Male black widows parasitize mate-searching effort of rivals to find females faster
+  container: Proceedings of the Royal Society B 286(1908) 20191470
+  doi: 10.1098/rspb.2019.1470
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6710583/
+
+modanu2013:
+  authors: Modanu, M.; Michalik, P.; Andrade, M. C. B.
+  year: 2013
+  title: Mating system does not predict permanent sperm depletion in black widow spiders
+  container: Evolution & Development 15(3) 205–212
+  doi: 10.1111/ede.12034
+
+forster1992:
+  authors: Forster, L. M.
+  year: 1992
+  title: "The stereotyped behaviour of sexual cannibalism in Latrodectus hasselti Thorell (Araneae: Theridiidae), the Australian redback spider"
+  container: Australian Journal of Zoology 40(1) 1–11
+  doi: 10.1071/ZO9920001
+
+stoltz2008:
+  authors: Stoltz, J. A.; Elias, D. O.; Andrade, M. C. B.
+  year: 2008
+  title: Females reward courtship by competing males in a cannibalistic spider
+  container: Behavioral Ecology and Sociobiology 62 689–697
+  doi: 10.1007/s00265-007-0493-0
+  url: https://people.bu.edu/msoren/Stoltz.pdf
+
+stoltz2010:
+  authors: Stoltz, J. A.; Andrade, M. C. B.
+  year: 2010
+  title: Female's courtship threshold allows intruding males to mate with reduced effort
+  container: Proceedings of the Royal Society B 277(1681) 585–592
+  doi: 10.1098/rspb.2009.1554
+
+biaggio2016:
+  authors: Biaggio, M. D.; Sandomirsky, I.; Lubin, Y.; Harari, A. R.; Andrade, M. C. B.
+  year: 2016
+  title: Copulation with immature females increases male fitness in cannibalistic widow spiders
+  container: Biology Letters 12(9) 20160516
+  doi: 10.1098/rsbl.2016.0516
+  url: https://pubmed.ncbi.nlm.nih.gov/27651535/
+
+baruffaldi2024:
+  authors: Baruffaldi, L.; Andrade, M. C. B.
+  year: 2024
+  title: Does female control and male mating system predict courtship investment and mating outcomes? A comparative study in five widow spider species (genus Latrodectus) tested under similar laboratory conditions
+  container: BMC Ecology and Evolution 24, 86
+  doi: 10.1186/s12862-024-02272-9
+
+breene1985:
+  authors: Breene, R. G.; Sweet, M. H.
+  year: 1985
+  title: Evidence of insemination of multiple females by the male black widow spider, Latrodectus mactans (Araneae, Theridiidae)
+  container: Journal of Arachnology 13(3) 331–335
+  url: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/JoA_v13_p331.pdf/
+
+kasumovic2009:
+  authors: Kasumovic, M. M.; Brooks, R. C.; Andrade, M. C. B.
+  year: 2009
+  title: Body condition but not dietary restriction prolongs lifespan in a semelparous capital breeder
+  container: Biology Letters 5(5) 636–638
+  doi: 10.1098/rsbl.2009.0335
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2781961/
+
+stoltz2010b:
+  authors: Stoltz, J. A.; Hanna, R.; Andrade, M. C. B.
+  year: 2010
+  title: Longevity cost of remaining unmated under dietary restriction
+  container: Functional Ecology 24(6) 1270–1280
+  doi: 10.1111/j.1365-2435.2010.01729.x
+
+mowery2022b:
+  authors: Mowery, M. A.; Anthony, S. E.; Dorison, A. N.; Mason, A. C.; Andrade, M. C. B.
+  year: 2022
+  title: Invasive Widow Spiders Perform Differently at Low Temperatures from Conspecifics from the Native Range
+  container: Integrative and Comparative Biology 62(2) 179–190
+  doi: 10.1093/icb/icac073
+
+hayasaka2021:
+  authors: Hayasaka, D.; Nakamori, T.; Tamaue, K.; Seko, Y.; Hashimoto, K.; Sawahata, T.
+  year: 2021
+  title: "Dry-Heat Tolerance of Egg Sacs of Invasive Latrodectus Spiders (Araneae: Theridiidae) in Japan: Implications for Efficient Control/Extermination"
+  container: Journal of Economic Entomology 114(6) 2460–2465
+  doi: 10.1093/jee/toab189
+
+uludag2026:
+  authors: Uludağ, K. Ö.; Ivanov, V.; Krehenwinkel, H.; Schneider, J. M.
+  year: 2026
+  title: Crossing experiments suggest a simple genetic basis of complex male self-sacrifice phenotypes in widow spiders
+  container: Biology Letters 22(8) 20260211
+  doi: 10.1098/rsbl.2026.0211
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13479370/

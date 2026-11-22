@@ -1,0 +1,60 @@
+id: life.hatching
+accession: BWM-05.05
+title: Hatching
+kicker: An egg opens before the nursery does
+summary: Spiderlings hatch inside the sac, moult once there, and only then cut their way out. Warmth speeds the whole sequence up.
+status: open
+order: 5
+taxa: [Latrodectus hasselti, Latrodectus hesperus, Latrodectus geometricus]
+figures:
+  - value: "12 / 10"
+    unit: days
+    label: laying to hatching
+    note: L. hasselti at 25 / 30 °C
+    sources: [downes1987]
+  - value: "10 / 5"
+    unit: days
+    label: hatching to first moult
+    note: same temperatures
+    sources: [downes1987]
+  - value: "33 / 21"
+    unit: days
+    label: laying to emergence
+    note: L. hasselti at 25 / 30 °C; ranges 26–43 / 17–24
+    featured: true
+    sources: [downes1987]
+observations:
+  - id: inside
+    text: Redbacks hatch inside the sac and undergo their first true moult before emerging.
+    sources: [downes1987]
+  - id: warmth
+    text: Redback young reached emergence faster at 30 °C than at 25 °C.
+    confidence: supported
+    sources: [downes1987]
+  - id: heat-cost
+    text: Some sacs kept at 30 °C yielded only 10–20 spiderlings, and one produced none.
+    confidence: supported
+    sources: [downes1987]
+  - id: movement
+    text: Hatching inside intact sacs was detected from changes in how the egg mass moved.
+    confidence: supported
+    sources: [downes1987]
+  - id: live-young
+    text: Western and brown widow sacs can hold live, mobile spiderlings before they leave.
+    sources: [vetter2012]
+  - id: trapped
+    text: Dead older spiderlings in some sacs suggest they failed to open an exit, not that they failed to hatch.
+    confidence: supported
+    sources: [vetter2012]
+terms:
+  - { term: hatching, def: breaking out of the egg membrane }
+  - { term: postembryo, def: the stage between hatching and the first true moult }
+  - { term: emergence, def: leaving the silk egg sac }
+related: [life.egg-sac, life.siblings, web.egg-sac-silk, life.seasons]
+media:
+  - src: /specimens/life-hatching.webp
+    alt: "Freshly hatched pale spiderlings clustered among egg membranes and a few remaining eggs inside an opened sac"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

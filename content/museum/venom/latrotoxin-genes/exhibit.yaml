@@ -1,0 +1,82 @@
+id: venom.latrotoxin-genes
+accession: BWM-02.12
+title: The Genetic Toolkit
+kicker: One gene family, copied and copied again
+summary: The handful of toxins named last century turns out to be the visible part of a large, duplicated gene family — and in the venom gland those genes are among the busiest in the animal.
+status: open
+order: 12
+taxa: [Latrodectus hesperus, Latrodectus tredecimguttatus, Latrodectus elegans, Latrodectus mactans, Latrodectus geometricus]
+figures:
+  - value: "≥20"
+    label: latrotoxin paralogs expressed in the western widow
+    note: a minimum from venom-gland transcripts
+    featured: true
+    sources: [haney2014]
+  - value: 15.8
+    unit: "%"
+    label: of venom-gland-specific expression is latrotoxin
+    note: share within that transcript set, not of all gland RNA
+    sources: [haney2014]
+  - value: 4257
+    unit: bp
+    label: α-latrotoxin coding region
+    note: western widow; excludes introns
+    sources: [bhere2014]
+  - value: 50
+    label: latrotoxin-family genes annotated in one widow genome
+    note: L. elegans; annotation, not demonstrated activity
+    sources: [wang2022]
+observations:
+  - id: thirty-nine
+    text: Haney and colleagues found 39 latrotoxin-like transcript sequences in western widow venom glands, supporting at least 20 divergent paralogs.
+    confidence: supported
+    sources: [haney2014]
+  - id: complete
+    text: Seven of those sequences looked complete or nearly complete.
+    confidence: supported
+    sources: [haney2014]
+  - id: latrodectins
+    text: Within that transcript set, latrotoxin expression was slightly below the summed expression of the much smaller latrodectins.
+    confidence: supported
+    sources: [haney2014]
+  - id: neighbours
+    text: About 33 kb of genomic DNA revealed α-latrotoxin with a divergent paralog some 4.5 kb downstream.
+    confidence: supported
+    sources: [bhere2014]
+  - id: intron
+    text: The α-latrotoxin gene contains a single large intron of 4,241 base pairs inside its coding region.
+    confidence: supported
+    sources: [bhere2014]
+  - id: expression
+    text: Both that gene and its neighbour were expressed at around 80,000 FPKM in the venom gland — extraordinarily high.
+    confidence: supported
+    sources: [bhere2014]
+  - id: mediterranean
+    text: The Mediterranean widow transcriptome reported 146 toxin-like sequences across twelve families.
+    confidence: supported
+    sources: [he2013]
+  - id: outside-glands
+    text: α-latrotoxin transcripts were detected in every tissue and life stage examined in two species, including eggs.
+    confidence: supported
+    sources: [torres2022]
+  - id: genome
+    text: A chromosome-level western widow genome published in 2024 annotated 38,393 genes in total.
+    confidence: supported
+    sources: [miles2024]
+  - id: counting-caveat
+    text: Transcript fragments, annotated loci and detected proteins are different things and should not be added together.
+    confidence: supported
+    sources: [haney2014, he2013]
+terms:
+  - { term: paralog, def: a gene related to another by duplication within a lineage }
+  - { term: FPKM, def: a measure of how strongly a gene is expressed, corrected for length and sequencing depth }
+  - { term: intron, def: a transcribed stretch removed from the RNA before translation }
+  - { term: base pair, def: one rung of the DNA ladder; the unit of sequence length }
+related: [venom.evolution, venom.cocktail, venom.species-variation, body.silk-glands]
+media:
+  - src: /specimens/venom-latrotoxin-genes.webp
+    alt: "A strand of DNA carrying a tandem row of similar gene blocks, clearly copies of one another, with one picked out in red"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

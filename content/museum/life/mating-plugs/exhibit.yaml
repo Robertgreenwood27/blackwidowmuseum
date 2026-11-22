@@ -1,0 +1,63 @@
+id: life.mating-plugs
+accession: BWM-05.10
+title: A Broken Tip
+kicker: Leaving part of himself behind
+summary: A widow male's palp tip often snaps off inside the female. Lodged in the right place, it blocks rivals; anywhere else it does little.
+status: open
+order: 10
+taxa: [Latrodectus hasselti, Latrodectus geometricus, Latrodectus mactans]
+figures:
+  - value: 79.8
+    unit: "%"
+    label: first male's paternity, same store
+    note: L. hasselti; rivals used the same spermatheca
+    featured: true
+    sources: [snow2005]
+  - value: 49.3
+    unit: "%"
+    label: first male's paternity, opposite stores
+    note: rivals used different spermathecae
+    sources: [snow2005]
+  - value: 3
+    label: females inseminated per male
+    note: L. mactans, despite tip loss
+    sources: [breene1985]
+observations:
+  - id: breakage
+    text: Redback males can leave broken embolus tips in the female's reproductive tract.
+    sources: [snow2006]
+  - id: placement
+    text: Tips lodged at the entrance to a sperm store protected paternity better than tips elsewhere.
+    confidence: supported
+    sources: [snow2006]
+  - id: not-automatic
+    text: A broken tip is therefore not automatically an effective plug.
+    confidence: supported
+    sources: [snow2006]
+  - id: removal
+    text: Removing the tip experimentally did not stop the male from copulating and inseminating again.
+    confidence: supported
+    sources: [snow2006]
+  - id: avoid
+    text: Rival redback males tended to avoid sperm stores another male had already used.
+    confidence: supported
+    sources: [snow2005]
+  - id: subadult
+    text: Brown widow females mated before their final moult more often had both stores plugged.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: not-sterile
+    text: Losing a tip did not stop southern widow males inseminating more females.
+    sources: [breene1985]
+terms:
+  - { term: embolus, def: the part of the male palp inserted into the female }
+  - { term: spermatheca, def: a female sperm-storage chamber; widows have two }
+  - { term: sperm precedence, def: one male's sperm outcompeting another's by mating order }
+related: [life.courtship, body.epigynum, body.pedipalps]
+media:
+  - src: /specimens/life-mating-plugs.webp
+    alt: "Line illustration of paired sperm-storage chambers with a broken coiled embolus tip, marked in red, lodged in one duct"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

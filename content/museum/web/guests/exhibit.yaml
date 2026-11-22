@@ -1,0 +1,71 @@
+id: web.guests
+accession: BWM-03.13
+title: Thieves & Hunters
+kicker: Not everything in the web is dinner
+summary: A widow's web draws visitors — tiny spiders that steal her eggs and scraps, pirate spiders, and wasps that stock their nests with widows.
+status: open
+order: 13
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus hasselti]
+figures:
+  - value: "1,599"
+    label: prey items in a year
+    note: L. hesperus, coastal British Columbia
+    sources: [salomon2011]
+  - value: ">85"
+    unit: "%"
+    label: beetles and hymenopterans
+    note: share of catch and biomass in that population
+    sources: [salomon2011]
+  - value: 5.9
+    unit: "%"
+    label: of mud-dauber spider prey were widows
+    note: L. mactans in east Texas nests
+    featured: true
+    sources: [dean1988]
+  - value: 7
+    label: pirate spiders found in webs
+    note: Mimetus, each alone in an L. hesperus web
+    sources: [cowles2025]
+observations:
+  - id: diet
+    text: Western widows ate ground-active arthropods from several orders over a year-long coastal study.
+    sources: [salomon2011]
+  - id: egg-thief
+    text: The kleptoparasite Argyrodes pluto stole western widow egg sacs and ate the eggs and spiderlings.
+    confidence: supported
+    sources: [cowles2025]
+  - id: gleaner
+    text: Neospintharus baboquivari gleaned small prey from western widow webs in southern Arizona.
+    confidence: supported
+    sources: [cowles2025]
+  - id: timing
+    text: Egg-sac thieves struck while the host was busy wrapping prey.
+    confidence: supported
+    sources: [cowles2025]
+  - id: not-killers
+    text: The Arizona study did not see A. pluto or Mimetus kill an adult western widow.
+    confidence: supported
+    sources: [cowles2025]
+  - id: mud-daubers
+    text: Mud-dauber nest contents show southern black widows stored as food for wasp larvae.
+    sources: [dean1988]
+  - id: skink
+    text: A published redback record documents predation on a weasel skink.
+    confidence: supported
+    sources: [oshea2017]
+  - id: snakes
+    text: Published records also document widows catching and feeding on snakes — rare events, not typical prey.
+    confidence: supported
+    sources: [nyffeler2021]
+terms:
+  - { term: kleptoparasitism, def: stealing food or resources another animal has gathered }
+  - { term: araneophagy, def: eating spiders }
+  - { term: provisioning, def: stocking a nest with food for offspring }
+related: [venom.prey, web.egg-sac-silk.defence, web.wrapping]
+media:
+  - src: /specimens/web-guests.webp
+    alt: "A metallic blue mud-dauber wasp hovering at the edge of a cobweb while a black widow retreats into the tangle"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

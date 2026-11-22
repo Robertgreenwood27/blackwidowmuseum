@@ -1,0 +1,46 @@
+id: web.growing-up
+accession: BWM-03.16
+title: A Spiderling's Web
+kicker: Juvenile webs are more orderly
+summary: The first webs young widows build have a central disc and radiating lines — more ordered than an adult's tangle, and a faint echo of their orb-weaving ancestry.
+status: open
+order: 16
+taxa: [Latrodectus mirabilis, Latrodectus hesperus]
+figures:
+  - value: 20
+    label: gumfoot lines per web
+    note: first-instar L. mirabilis, median of 10 webs
+    featured: true
+    sources: [barrantes2010]
+  - value: "9–46"
+    label: range of gumfoot lines
+    note: same webs
+    sources: [barrantes2010]
+observations:
+  - id: disc
+    text: Young widow webs can have a central disc and radial organization that adult webs lack.
+    confidence: supported
+    sources: [barrantes2010]
+  - id: no-retreat
+    text: The earliest L. mirabilis webs had no side retreat; the spiderling rested at the centre.
+    confidence: supported
+    sources: [barrantes2010]
+  - id: changes
+    text: The number and arrangement of gumfoot lines change as the spider develops.
+    confidence: supported
+    sources: [barrantes2010]
+  - id: not-an-orb
+    text: Juvenile order suggests shared architecture with orbs, but these are not orb webs.
+    confidence: supported
+    sources: [barrantes2010]
+terms:
+  - { term: instar, def: the stage between two moults }
+  - { term: ontogeny, def: an individual's development from egg to adult }
+related: [web.evolution, life.molting, life.ballooning]
+media:
+  - src: /specimens/web-growing-up.webp
+    alt: "A tiny pale spiderling at the centre of a small web with a silk disc and radiating lines, many fine lines running to the ground"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

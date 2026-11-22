@@ -1,0 +1,25 @@
+id: humans.latrodectism
+accession: BWM-07.01
+title: Latrodectism
+kicker: The syndrome of the bite
+status: open
+order: 1
+figures:
+  - value: 0
+    label: deaths in a large US poison-centre review
+    note: Monte et al. 2011
+    sources: [monte2011]
+observations:
+  - id: symptoms
+    text: Latrodectism can cause severe pain, muscle cramps, a rigid abdomen and heavy sweating.
+    sources: [ryan2017]
+  - id: rare-deaths
+    text: Deaths are rare in the modern era.
+    sources: [monte2011, ryan2017]
+  - id: variable
+    text: Severity varies, and not every bite produces systemic illness.
+    sources: [ryan2017]
+terms:
+  - { term: diaphoresis, def: heavy sweating }
+related: [venom.alpha-latrotoxin]
+revised: 2026-11-20

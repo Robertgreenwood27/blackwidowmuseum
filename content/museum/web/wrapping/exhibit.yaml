@@ -1,0 +1,72 @@
+id: web.wrapping
+accession: BWM-03.07
+title: Silk Before the Bite
+kicker: Throw first, bite later — usually
+summary: Using a comb of bristles on her hind legs, a widow flings bands of sticky silk over her prey, often before she ever comes within biting range.
+status: open
+order: 7
+taxa: [Latrodectus hesperus, Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: IV
+    label: leg pair that throws silk
+    note: the theridiid tarsal comb
+    sources: [miller2007, hanp2000]
+  - value: "1–2"
+    unit: cm
+    label: wrapping distance
+    note: one captive redback's usual attack; not a population mean
+    sources: [vanhelsdingen2019]
+  - value: 35
+    unit: "%"
+    label: hind-leg strokes made together
+    note: L. geometricus, 329 strokes; the rest alternated
+    featured: true
+    sources: [barrantes2007]
+  - value: "≈300"
+    unit: kDa
+    label: aciniform protein
+    note: apparent size on a gel, L. hesperus
+    sources: [vasanthavada2007]
+observations:
+  - id: comb
+    text: Serrated bristles on the fourth legs help theridiids cast sticky silk onto prey.
+    sources: [miller2007]
+  - id: aciniform
+    text: Western widow prey-wrap contains aciniform spidroin.
+    sources: [vasanthavada2007]
+  - id: minor
+    text: Minor ampullate proteins are also part of the wrap.
+    sources: [lamattina2008]
+  - id: strokes
+    text: Brown widows wrap with both simultaneous and alternating strokes of the fourth legs.
+    confidence: supported
+    sources: [barrantes2007]
+  - id: alternate
+    text: Redbacks can alternate bites with further layers of sticky and dry wrapping silk.
+    confidence: supported
+    sources: [forster1995]
+  - id: flexible
+    text: Sluggish prey may be bitten before it is wrapped, so the attack order is flexible.
+    confidence: supported
+    sources: [forster1995]
+  - id: wasps
+    text: A captive redback repeatedly pinned down common wasps with silk before biting them.
+    confidence: supported
+    sources: [vanhelsdingen2019]
+  - id: carry
+    text: It then cut the surrounding threads and hauled the wrapped wasp toward its retreat.
+    confidence: supported
+    sources: [vanhelsdingen2019]
+terms:
+  - { term: attack wrapping, def: applying silk to restrain prey during capture }
+  - { term: AcSp1, def: aciniform spidroin — wrapping silk, and the fine fibres of the egg sac }
+  - { term: MiSp, def: minor ampullate spidroin, also found in widow wrapping silk }
+  - { term: swathing, def: covering prey with successive layers of silk }
+related: [body.comb-foot, venom.prey, web.retreat, web.gumfoot.trip-lines]
+media:
+  - src: /specimens/web-wrapping.webp
+    alt: "A black widow hanging inverted in her cobweb, flinging ribbons of silk from her hind legs over a struggling beetle"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

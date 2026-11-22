@@ -1,0 +1,74 @@
+id: body.hourglass
+accession: BWM-01.01
+title: The Hourglass
+kicker: A signal worn upside down
+summary: The red mark sits on the underside of the abdomen. Because she hangs inverted, the side she shows the world is the warning, and its shape changes from species to species.
+status: open
+order: 4
+taxa: [Latrodectus mactans, Latrodectus hesperus, Latrodectus variolus, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: 1
+    label: red mark, ventral abdomen
+    note: southern & western widows
+    sources: [kaston1970]
+  - value: 2
+    label: separated marks
+    note: often, in the northern widow
+    sources: [kaston1970, vetter2017, carlton2021]
+  - value: "≈3×"
+    label: more attacks on models without the red mark
+    note: wild birds, choice experiment with painted models
+    featured: true
+    sources: [brandley2016]
+observations:
+  - id: ventral
+    text: Adult female southern and western black widows usually bear a red hourglass beneath the abdomen.
+    sources: [kaston1970]
+  - id: southern-connection
+    text: In female L. mactans, the two halves of the hourglass usually join at the narrow middle.
+    sources: [carlton2021]
+  - id: split
+    text: The northern black widow, L. variolus, often has two separated red marks instead of a joined hourglass, sometimes greatly reduced.
+    sources: [kaston1970, vetter2017, carlton2021]
+  - id: variable
+    text: Western widows can show joined triangles, separated marks, very little red, or occasionally no visible hourglass.
+    sources: [vetter2017]
+  - id: brown-orange
+    text: The brown widow, L. geometricus, typically wears an orange rather than a red hourglass.
+    sources: [hannum2010]
+  - id: redback-two-surfaces
+    text: The Australian redback, L. hasselti, pairs a ventral hourglass with a separate orange-red stripe along the top of the abdomen.
+    sources: [australianmuseum2026]
+  - id: inverted
+    text: Black widows commonly wait upside down in their webs, so the hourglass faces upward and outward.
+    sources: [vetter2017]
+  - id: bird-deterrence
+    text: In a choice experiment, wild birds attacked black widow models bearing a red mark less often than all-black models.
+    confidence: supported
+    sources: [brandley2016]
+  - id: receiver-dependent
+    text: Visual models predict the red-on-black contrast is more conspicuous to birds than to the insects widows eat.
+    confidence: supported
+    sources: [brandley2016]
+  - id: pigment
+    text: Raman spectra of the western widow's hourglass have been tentatively assigned to ommochrome pigments.
+    confidence: supported
+    sources: [hsiung2017]
+terms:
+  - { term: ventral, def: the underside of the body }
+  - { term: opisthosoma, def: the abdomen — the rear body region of a spider }
+  - { term: aposematism, def: a warning signal advertising that an animal is defended }
+  - { term: ommochromes, def: a class of pigments behind many yellow, orange, red and brown spider colours }
+related: [body.colour, genus.brown-widow, genus.redback, genus.northern]
+media:
+  - src: /specimens/body-hourglass.webp
+    alt: "Adult female black widow hanging inverted in silk, red hourglass on the underside of her abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+  - src: /specimens/body-hourglass-redback.webp
+    alt: "Dorsal view of a female redback, L. hasselti: a red-orange stripe runs along the top of the black abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

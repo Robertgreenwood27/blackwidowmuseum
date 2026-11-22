@@ -1,0 +1,44 @@
+id: genus.the-widows
+accession: BWM-06.01
+title: The Widows
+kicker: Latrodectus Walckenaer, 1805
+status: open
+order: 1
+figures:
+  - value: 35
+    label: accepted species
+    note: World Spider Catalog, Nov 2026
+    featured: true
+    sources: [wsc2026]
+  - value: 1805
+    label: genus described
+    note: by Walckenaer
+    sources: [wsc2026]
+  - value: "8–10"
+    unit: mm
+    label: female body length, commonly
+    note: southern widow, legs excluded
+    sources: [kaston1970]
+  - value: "3–4"
+    unit: mm
+    label: male body length, commonly
+    note: southern widow, legs excluded
+    sources: [kaston1970]
+observations:
+  - id: family
+    text: Latrodectus belongs to Theridiidae, the cobweb or comb-footed spiders.
+    sources: [wsc2026, miller2007]
+  - id: count
+    text: The World Spider Catalog recognises 35 species of Latrodectus as of November 2026.
+    sources: [wsc2026]
+  - id: size
+    text: Kaston measured female southern widows at 5–13.5 mm and males at 2.9–5.1 mm.
+    sources: [kaston1970]
+related: [body.hourglass]
+media:
+  - src: /specimens/genus-the-widows.webp
+    alt: "Five glass specimen vials holding preserved widow spiders"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-20

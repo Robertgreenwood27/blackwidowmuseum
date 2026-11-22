@@ -1,0 +1,24 @@
+id: senses.slit-sensilla
+accession: BWM-04.02
+title: Slit Sensilla
+kicker: Feeling strain in the skeleton
+status: open
+order: 2
+observations:
+  - id: slits
+    text: Slit sensilla detect tiny strains in the exoskeleton caused by movement and vibration.
+    sources: [barth2004]
+  - id: lyriform
+    text: Lyriform organs are groups of slit sensilla lying side by side — not a separate kind of receptor.
+    sources: [barth2004]
+  - id: metatarsal
+    text: The metatarsal lyriform organ on the legs is a well-studied detector of substrate vibration.
+    sources: [barth2004]
+related: [senses.trichobothria, senses.vibration]
+media:
+  - src: /specimens/senses-slit-sensilla.webp
+    alt: "A lyriform organ: parallel slits of graded length in the leg cuticle near a joint"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-20

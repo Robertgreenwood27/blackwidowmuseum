@@ -1,0 +1,79 @@
+id: life.ballooning
+accession: BWM-05.02
+title: Ballooning
+kicker: Childhood on the wind
+summary: Spiderlings climb high, raise their abdomens and let out silk until the air carries them away — or drop on a line to somewhere close by.
+status: open
+order: 2
+taxa: [Latrodectus hesperus, Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: 14.3
+    unit: "%"
+    label: brown widow spiderlings ballooning by day
+    note: 21 of 147, outdoor trials in Israel
+    featured: true
+    sources: [mowery2022]
+  - value: 1.8
+    unit: "%"
+    label: ballooning by night
+    note: 3 of 171, same trials
+    sources: [mowery2022]
+  - value: "0.2–4.4"
+    unit: m/s
+    label: wind speeds during dispersal
+    note: ballooning and rappelling combined
+    sources: [mowery2022]
+  - value: "16.5–42.9"
+    unit: °C
+    label: temperatures during dispersal
+    note: trial conditions, not tolerance limits
+    sources: [mowery2022]
+observations:
+  - id: balloon
+    text: Widow spiderlings can disperse by ballooning — releasing silk that carries them through the air.
+    sources: [johnson2015]
+  - id: variation
+    text: How often they balloon varies with family, rearing and individual temperament.
+    sources: [johnson2015]
+  - id: repeatable
+    text: Western widow family differences in ballooning were repeatable over time.
+    confidence: supported
+    sources: [johnson2015]
+  - id: siblings
+    text: Western widow spiderlings reared alone dispersed more slowly than those reared with siblings.
+    confidence: supported
+    sources: [johnson2015]
+  - id: brown
+    text: Invasive brown widows disperse aerially under a broad range of environmental conditions.
+    sources: [mowery2022]
+  - id: day-night
+    text: Brown widow spiderlings ballooned by day and by night, more often in daylight.
+    confidence: supported
+    sources: [mowery2022]
+  - id: rappel
+    text: Brown widows also rappel — dropping on silk to nearby objects.
+    sources: [mowery2022]
+  - id: night-weather
+    text: Night ballooning came with stronger wind, cooler air and higher humidity; daytime ballooning tracked no measured weather variable.
+    confidence: supported
+    sources: [mowery2022]
+  - id: light
+    text: Young redbacks climb toward light and may build shared silk routes before leaving.
+    confidence: supported
+    sources: [forster1995]
+  - id: invasion
+    text: Ballooning may help brown widows spread, alongside hitching rides with people.
+    confidence: supported
+    sources: [mowery2022]
+terms:
+  - { term: ballooning, def: airborne travel on released silk }
+  - { term: rappelling, def: a short drop on silk to a nearby structure }
+  - { term: tiptoeing, def: standing tall and raising the abdomen before take-off }
+related: [life.siblings, web.growing-up, genus.brown-widow]
+media:
+  - src: /specimens/life-ballooning.webp
+    alt: "A spiderling on a grass tip releasing silk threads into the air"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

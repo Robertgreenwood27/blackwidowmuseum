@@ -1,0 +1,69 @@
+id: web.gumfoot
+accession: BWM-03.01
+title: The Gumfoot
+kicker: A spring-loaded trap
+summary: Taut lines run from the scaffold to the ground, beaded with glue at the foot. Prey walks into one, the weak anchor lets go, and energy stored in the stretched web hoists the prey into the air.
+status: open
+order: 1
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 3
+    label: stages of capture
+    note: contact · release · hoist
+    sources: [sahni2012, blackledge2005]
+  - value: 2
+    label: kinds of anchor disc
+    note: staple-pin & dendritic
+    featured: true
+    sources: [sahni2012]
+  - value: 4
+    label: fibres in one gumfoot line
+    note: L. hesperus; two paired passes, down and back
+    sources: [blackledge2005b]
+  - value: "1–2"
+    unit: cm
+    label: glue-coated base
+    note: L. hesperus; not a fixed length across the genus
+    sources: [zevenbergen2008]
+observations:
+  - id: architecture
+    text: Black widow cobwebs combine supporting scaffold threads with sticky gumfoot lines descending to the ground.
+    sources: [blackledge2005]
+  - id: coupling
+    text: Each gumfoot line couples the suspended web to a surface that prey walk across.
+    sources: [blackledge2005b]
+  - id: capture
+    text: Glue near the base catches walking prey; when the weak anchor releases, the taut line springs upward and lifts it.
+    sources: [sahni2012, blackledge2005]
+  - id: scaffold-energy
+    text: In western widow experiments the lifting energy came from recoverable stretching of the scaffold, while gumfoot threads deformed plastically.
+    confidence: supported
+    sources: [argintean2006]
+  - id: same-silk
+    text: Dry scaffold and dry gumfoot fibres are mechanically similar — the glue is what makes the foot different.
+    sources: [blackledge2005]
+  - id: softer-foot
+    text: Glue-coated portions of a gumfoot are less stiff and more extensible than the dry line above.
+    confidence: supported
+    sources: [blackledge2005b]
+  - id: load
+    text: Whether a line releases, and how far it lifts, depends on the disturbance and on the weight of the prey.
+    confidence: supported
+    sources: [sahni2012, argintean2006]
+  - id: development
+    text: Gumfoot number and arrangement change as a widow grows; first-instar L. mirabilis webs had a median of 20.
+    confidence: supported
+    sources: [barrantes2010]
+terms:
+  - { term: gumfoot line, def: a vertical capture thread with glue droplets at its lower end }
+  - { term: pyriform silk, def: the cement-like silk spiders use to attach threads to surfaces }
+  - { term: axial fibre, def: the load-bearing filament running through a glue-coated thread }
+  - { term: pre-tension, def: tension already in a line before prey touches it }
+related: [body.comb-foot, web.silk-proteins, web.scaffold, web.hunger]
+media:
+  - src: /specimens/web-gumfoot.webp
+    alt: "A cobweb tangle with taut gumfoot lines descending to the floor, glue droplets beaded at their feet"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

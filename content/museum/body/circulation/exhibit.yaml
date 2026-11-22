@@ -1,0 +1,59 @@
+id: body.circulation
+accession: BWM-01.17
+title: Blue Blood
+kicker: One fluid carries oxygen and straightens the legs
+summary: A tubular heart along the top of the abdomen pumps copper-based, bluish hemolymph through an open body cavity. That same fluid, under pressure, extends the legs.
+status: open
+order: 14
+taxa: [Latrodectus mactans]
+figures:
+  - value: 1
+    label: tubular heart
+    note: no separate chambers, L. mactans
+    sources: [sun2020]
+  - value: "9–125"
+    unit: beats/min
+    label: resting heart rates across spiders
+    note: 18 species; not a widow-specific range
+    sources: [carrel1976]
+observations:
+  - id: dorsal
+    text: The southern black widow's heart lies along the dorsal midline of the abdomen.
+    confidence: supported
+    sources: [sun2020]
+  - id: tube
+    text: It is a muscular tube rather than a set of chambers.
+    confidence: supported
+    sources: [sun2020]
+  - id: striated
+    text: Its muscle is striated, with neighbouring cells joined by intercalated discs.
+    confidence: supported
+    sources: [sun2020]
+  - id: ostia
+    text: Hemolymph enters the heart through paired side openings called ostia.
+    sources: [snodgrass1952]
+  - id: open
+    text: Arteries empty into open spaces that bathe the tissues; there is no closed capillary network.
+    sources: [snodgrass1952]
+  - id: blue
+    text: Oxygenated hemocyanin, a copper-containing protein, gives spider hemolymph a bluish tint.
+    sources: [foelix2011]
+  - id: hydraulic
+    text: Hemolymph pressure extends the femur–patella and tibia–metatarsus joints, which lack extensor muscles.
+    sources: [parry1959, booster2015]
+  - id: pressure-source
+    text: Muscles that squeeze the prosoma generate the pressure that drives hemolymph into the legs.
+    sources: [booster2015]
+terms:
+  - { term: hemolymph, def: the circulating fluid of an open circulatory system }
+  - { term: hemocoel, def: the connected body spaces through which hemolymph flows }
+  - { term: hemocyanin, def: a copper-containing protein that carries oxygen }
+  - { term: ostium, def: an opening that admits hemolymph into the heart }
+related: [body.breathing, body.legs]
+media:
+  - src: /specimens/body-circulation.webp
+    alt: "Translucent side view of a widow: a tubular heart along the top of the abdomen and pale blue hemolymph flowing through the body and legs"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

@@ -1,0 +1,74 @@
+id: venom.small-proteins
+accession: BWM-02.07
+title: The Small Constituents
+kicker: Hormones turned into venom
+summary: Travelling with the giant toxins are small proteins called latrodectins, descended from an arthropod hormone family. What they are for is still an open question.
+status: open
+order: 7
+taxa: [Latrodectus tredecimguttatus, Latrodectus hesperus, Latrodectus geometricus]
+figures:
+  - value: "8–9.5"
+    unit: kDa
+    label: the small proteins that travel with α-latrotoxin
+    sources: [volkova1995]
+  - value: 70
+    unit: amino acids
+    label: the characterised latrodectin chain
+    sources: [gasparini1994]
+  - value: 3
+    label: disulfide bridges holding it together
+    note: linking six cysteines
+    sources: [gasparini1994]
+  - value: 6
+    label: CRISP-family proteins detected in western widow venom
+    sources: [haney2014]
+observations:
+  - id: companions
+    text: Small low-molecular-weight proteins were isolated from widow venom and found associated with purified α-latrotoxin.
+    confidence: supported
+    sources: [volkova1995]
+  - id: not-toxic-alone
+    text: On their own, those proteins caused neither toxicity in mice nor paralysis in cockroaches at the doses tested.
+    confidence: supported
+    sources: [volkova1995]
+  - id: hormone-ancestry
+    text: Their sequence and disulfide pattern place them in the same family as crustacean hyperglycaemic hormones.
+    confidence: supported
+    sources: [gasparini1994]
+  - id: recruitment
+    text: Latrodectin sequences support recruitment of a neuropeptide hormone family into venom.
+    confidence: supported
+    sources: [mccowan2014]
+  - id: intron-position
+    text: A western widow latrodectin gene shares an intron position with its hormone relatives.
+    confidence: supported
+    sources: [mccowan2014]
+  - id: interaction
+    text: Antibodies against these small proteins altered the calcium influx and transmitter release caused by α-latrotoxin.
+    confidence: supported
+    sources: [grishin1993]
+  - id: unresolved
+    text: Their natural role remains unresolved — hormone ancestry does not mean they act as hormones in prey.
+    confidence: supported
+    sources: [mccowan2014]
+  - id: others
+    text: Widow venom also contains cysteine-rich secretory proteins, knotted peptides, hyaluronidases, chitinase and proteases.
+    confidence: supported
+    sources: [haney2014]
+  - id: names-not-functions
+    text: Belonging to one of those protein families does not by itself establish what a component does in prey.
+    confidence: supported
+    sources: [haney2014]
+terms:
+  - { term: latrodectin, def: a small widow-venom protein of the crustacean-hormone superfamily }
+  - { term: CRISP, def: cysteine-rich secretory protein — a family name, not a demonstrated activity }
+  - { term: inhibitor cystine knot, def: a compact peptide scaffold in which one disulfide passes through a ring made by two others }
+  - { term: disulfide bond, def: a covalent link between two cysteines that stiffens a folded protein }
+related: [venom.cocktail, venom.alpha-latrotoxin, venom.latrotoxin-genes]
+media:
+  - src: /specimens/venom-small-proteins.webp
+    alt: "A very large elongated protein beside a tiny knotted peptide crosslinked by three bright bridges, showing the difference in scale"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

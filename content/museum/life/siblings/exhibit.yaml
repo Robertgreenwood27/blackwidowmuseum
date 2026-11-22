@@ -1,0 +1,64 @@
+id: life.siblings
+accession: BWM-05.06
+title: Siblings
+kicker: A brief, uneasy community
+summary: After emerging, spiderlings share a web for a while. Some of them eat each other — how many depends on the family and on how out of step they are in growth.
+status: open
+order: 6
+taxa: [Latrodectus hasselti, Latrodectus hesperus]
+figures:
+  - value: "≈55"
+    unit: "%"
+    label: siblings cannibalised in a week
+    note: L. hasselti, lab cages with cannibalism; high and low density alike
+    featured: true
+    sources: [modanu2014]
+  - value: "15–83"
+    unit: "%"
+    label: cage-to-cage range
+    note: not a natural mortality rate
+    sources: [modanu2014]
+  - value: ">3"
+    unit: days
+    label: sooner cannibalism with mixed ages
+    note: L. hesperus, asynchronous vs synchronous broods
+    sources: [johnson2016]
+observations:
+  - id: communal
+    text: Newly emerged redback siblings can share a communal web before they disperse.
+    sources: [modanu2014]
+  - id: common
+    text: Sibling cannibalism happened in all but one of the experimental redback cages.
+    confidence: supported
+    sources: [modanu2014]
+  - id: density
+    text: Crowding did not significantly change the share of redback siblings eaten.
+    confidence: supported
+    sources: [modanu2014]
+  - id: family
+    text: Family of origin predicted how cannibalistic redback spiderlings were.
+    confidence: supported
+    sources: [modanu2014]
+  - id: asynchrony
+    text: Making western widow siblings develop out of step made cannibalism start sooner.
+    confidence: supported
+    sources: [johnson2016]
+  - id: egg-investment
+    text: Bigger maternal egg investment delayed cannibalism in cool synchronous broods, but not in warm ones.
+    confidence: supported
+    sources: [johnson2016]
+  - id: causes
+    text: Dead young found inside sacs can have several causes; not every one is a cannibalism victim.
+    confidence: supported
+    sources: [vetter2012]
+terms:
+  - { term: sibling cannibalism, def: eating a brother or sister }
+  - { term: developmental synchrony, def: how closely siblings keep pace in growth }
+related: [life.hatching, life.ballooning, life.cannibalism]
+media:
+  - src: /specimens/life-siblings.webp
+    alt: "Pale spiderlings on silk outside an empty egg sac, one feeding on a smaller sibling"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

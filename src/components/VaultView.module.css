@@ -1,0 +1,56 @@
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 24px var(--gutter);
+  padding: 110px var(--gutter) 64px;
+  overflow: hidden;
+}
+.numeral {
+  position: absolute; z-index: 0;
+  right: -2vw; top: 50%; transform: translateY(-52%);
+  font-family: var(--display); font-size: clamp(260px, 56vw, 980px); line-height: .7; letter-spacing: -.06em;
+  color: transparent; -webkit-text-stroke: 1px var(--thread-2);
+  pointer-events: none; user-select: none;
+}
+.trail { grid-column: 1 / -1; position: relative; z-index: 1; }
+.heading { grid-column: 1 / span 9; grid-row: 3; position: relative; z-index: 1; align-self: end; display: flex; flex-direction: column; gap: 18px; }
+.title { font-family: var(--display); font-weight: 400; font-size: clamp(72px, 13vw, 240px); line-height: .82; letter-spacing: -.045em; }
+.kicker { font-family: var(--display); font-style: italic; font-size: clamp(22px, 2.4vw, 36px); color: var(--silk-2); }
+.motif { grid-column: 8 / span 4; grid-row: 2; align-self: center; position: relative; z-index: 1; width: 100%; max-width: 420px; justify-self: end; }
+.side { grid-column: 10 / -1; grid-row: 3; align-self: end; position: relative; z-index: 1; display: flex; flex-direction: column; gap: 18px; }
+.summary { font-size: 17px; line-height: 1.45; color: var(--silk-2); }
+
+.floor { padding: 0 var(--gutter) 14vh; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-flow: dense;
+  gap: 0;
+  margin: 0 0 0 -1px;
+}
+.grid > div { margin: 0 0 -1px -1px; }
+.feature { grid-column: span 2; grid-row: span 2; }
+.feature > a { height: 100%; }
+.cell > a { height: 100%; }
+
+.next {
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 10vh var(--gutter);
+  border-top: 1px solid var(--thread);
+}
+.nextTitle { font-family: var(--display); font-style: italic; font-size: clamp(48px, 8vw, 140px); line-height: .9; letter-spacing: -.035em; transition: transform .7s var(--ease); }
+.next:hover .nextTitle { transform: translateX(24px); }
+
+@media (max-width: 960px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .heading, .side { grid-column: 1 / -1; }
+  .side { grid-row: auto; }
+  .motif { grid-column: 4 / -1; max-width: 240px; }
+}
+@media (max-width: 560px) {
+  .grid { grid-template-columns: 1fr; }
+  .feature { grid-column: auto; grid-row: auto; }
+}

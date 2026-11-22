@@ -1,0 +1,61 @@
+id: body.chelicerae
+accession: BWM-01.05
+title: Chelicerae & Fangs
+kicker: The delivery system
+summary: Each chelicera is a stout base with a hinged fang folded into it. The two fangs close toward each other like pincers, and venom leaves through a pore just short of each tip.
+status: open
+order: 9
+taxa: [Latrodectus hesperus, Latrodectus geometricus]
+figures:
+  - value: 2
+    label: segments per chelicera
+    note: basal segment + hinged fang
+    sources: [foelix2011]
+  - value: 0
+    label: teeth on the fang groove
+    note: a diagnostic Latrodectus character
+    sources: [peralta2018]
+  - value: "0.35–0.45"
+    unit: mm
+    label: fang length
+    note: historical measurement of adult widows (Bücherl, 1964)
+    sources: [bucherl1964]
+observations:
+  - id: segments
+    text: Like other spiders, widows have chelicerae made of a basal segment and an articulated fang.
+    sources: [foelix2011]
+  - id: labidognath
+    text: Widows are labidognath — their fangs close toward one another, unlike the parallel, downward-striking fangs of tarantulas.
+    sources: [foelix2011]
+  - id: rest
+    text: At rest each fang folds into a groove in its basal segment, like a pocket-knife blade.
+    sources: [foelix2011]
+  - id: muscles
+    text: Opposing muscles inside the basal segment open and close the fang.
+    sources: [foelix2011]
+  - id: outlet
+    text: The venom duct opens just short of the fang's extreme tip, not at the point itself.
+    sources: [foelix2011]
+  - id: toothless
+    text: Latrodectus has no teeth along the cheliceral groove; this is not true of every theridiid.
+    sources: [peralta2018, jocque2006]
+  - id: female-bites
+    text: Adult females have stronger biting muscles and larger venom reserves than males, and cause almost all medically important bites.
+    sources: [vetter2017]
+  - id: male-bite
+    text: A documented bite by a male brown widow caused local symptoms, so male fangs can pierce human skin.
+    confidence: supported
+    sources: [peralta2018]
+terms:
+  - { term: chelicera, def: one of the paired front appendages that carry the fangs }
+  - { term: paturon, def: the stout basal segment of a chelicera }
+  - { term: labidognath, def: with fangs that close toward one another, pincer-fashion }
+  - { term: subterminal, def: near the tip but not at its very end }
+related: [venom.venom-gland, venom.alpha-latrotoxin, humans.latrodectism]
+media:
+  - src: /specimens/body-chelicerae.webp
+    alt: "Macro of a widow's chelicerae: two glossy black bases, each ending in a curved amber fang folding toward the midline"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

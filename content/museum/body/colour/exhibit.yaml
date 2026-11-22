@@ -1,0 +1,57 @@
+id: body.colour
+accession: BWM-01.10
+title: Growing into Black
+kicker: A widow's colours change with age and sex
+summary: Spiderlings hatch pale and striped. With each molt females darken toward glossy black, while males keep the patterns of youth.
+status: open
+order: 3
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus variolus, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: 1
+    label: white stripe along a young western widow's back
+    note: with diagonal markings on the flanks
+    sources: [vetter2017]
+  - value: "1–2"
+    label: white lines some adult females keep
+    note: at the front of the abdomen, L. hesperus
+    sources: [vetter2017]
+observations:
+  - id: pale-emergence
+    text: Newly emerged western widows have tan legs and a mostly white abdomen spotted with dark marks.
+    sources: [vetter2017]
+  - id: darkening
+    text: With each successive molt, female western widows darken and their white stripes narrow.
+    sources: [vetter2017]
+  - id: red-stripe
+    text: Some immature western widows carry a red stripe down the back, bordered in white.
+    sources: [vetter2017]
+  - id: males
+    text: Adult male western widows keep juvenile-like stripes along and across the abdomen.
+    sources: [vetter2017]
+  - id: eastern-males
+    text: Male southern and northern widows can show red-to-orange spots along the back with white lines on the sides.
+    sources: [hiskes2013]
+  - id: glossy
+    text: Adult female southern and northern widows typically have glossy black abdomens.
+    sources: [carlton2021]
+  - id: northern-dorsal
+    text: Adult female northern widows commonly keep red markings on the top of the abdomen.
+    sources: [brandley2016, hannum2010]
+  - id: brown
+    text: Female brown widows range from light brown to dark grey, sometimes with pale abdominal markings.
+    sources: [hannum2010]
+  - id: redback
+    text: Female redbacks bear an orange-red stripe on the back; males are light brown with white markings.
+    sources: [australianmuseum2026]
+terms:
+  - { term: ontogeny, def: an individual's development from hatching to adulthood }
+  - { term: instar, def: a growth stage between two molts }
+  - { term: dorsum, def: the upper surface of the body }
+related: [body.hourglass, body.size, life.molting]
+media:
+  - src: /specimens/body-colour.webp
+    alt: "A row of four widows growing left to right: a pale spiderling, a striped juvenile, a darker juvenile, and a glossy black adult female"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

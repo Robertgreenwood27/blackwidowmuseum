@@ -1,0 +1,66 @@
+id: web.construction
+accession: BWM-03.08
+title: Building the Cobweb
+kicker: Never finished, always added to
+summary: A widow does not tear down and rebuild. She adds — reinforcing, repairing and laying new gumfoot lines, mostly by night, onto a web that keeps growing.
+status: open
+order: 8
+taxa: [Latrodectus geometricus, Latrodectus hesperus, Latrodectus revivensis, Latrodectus hasselti]
+figures:
+  - value: 4
+    label: fibres laid per gumfoot
+    note: L. hesperus; a pair on the way down, a pair back up
+    featured: true
+    sources: [blackledge2005b]
+  - value: Night
+    label: when maintenance happens
+    note: L. revivensis field webs
+    sources: [lubin1991]
+  - value: Incremental
+    label: construction mode
+    note: no complete-replacement cycle observed
+    sources: [benjamin2003]
+observations:
+  - id: reinforce
+    text: Brown widows reinforce structural threads and build on existing silk as the web expands.
+    confidence: supported
+    sources: [benjamin2003]
+  - id: gumfoot-sequence
+    text: To lay a gumfoot, a brown widow descends, anchors the line to the ground, then climbs back up.
+    confidence: supported
+    sources: [benjamin2003]
+  - id: bouts
+    text: Between gumfoot lines she travels along structural threads to the next site.
+    confidence: supported
+    sources: [benjamin2003]
+  - id: paired
+    text: In western widows that down-and-up route produces paired fibres of different diameters.
+    confidence: supported
+    sources: [blackledge2005b]
+  - id: retreat
+    text: Brown widow construction includes a silk-lined retreat.
+    confidence: supported
+    sources: [benjamin2003]
+  - id: nightly
+    text: Desert widows repair their webs and renew sticky capture threads at night.
+    confidence: supported
+    sources: [lubin1991]
+  - id: starving
+    text: Starving redbacks can eventually lose the ability to spin, yet their existing webs keep catching prey.
+    confidence: supported
+    sources: [forster1989]
+  - id: not-orb
+    text: None of this follows the radius-and-spiral sequence of orb weavers.
+    sources: [benjamin2003]
+terms:
+  - { term: construction bout, def: one continuous period of building }
+  - { term: frame thread, def: silk that ties the web to its supports }
+  - { term: maintenance, def: adding or replacing parts of a web while keeping the rest }
+related: [web.scaffold, web.gumfoot, web.hunger, web.retreat]
+media:
+  - src: /specimens/web-construction.webp
+    alt: "A black widow at night walking a thread in a half-built tangle, trailing a fresh line toward the ground"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

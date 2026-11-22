@@ -1,0 +1,75 @@
+id: venom.species-variation
+accession: BWM-02.15
+title: Shared Toxins, Different Venoms
+kicker: Family resemblance is not chemical identity
+summary: The same toxins run through the genus — closely enough that one antivenom binds them all — yet each species' venom differs in sequence, in expression and in the smaller proteins it carries.
+status: open
+order: 15
+taxa: [Latrodectus mactans, Latrodectus hesperus, Latrodectus hasselti, Latrodectus tredecimguttatus, Latrodectus geometricus]
+figures:
+  - value: "≈93"
+    unit: "%"
+    label: amino-acid identity between redback and Mediterranean α-latrotoxin
+    featured: true
+    sources: [graudins2012]
+  - value: 1180
+    unit: amino acids
+    label: the mature redback toxin
+    sources: [graudins2012]
+  - value: 75
+    label: proteins identified in Mediterranean widow venom
+    note: one proteomic study
+    sources: [duan2008]
+observations:
+  - id: shared-tags
+    text: Mass spectrometry found conserved α-latrotoxin and latroinsectotoxin sequence tags in the venoms of southern, western and redback widows.
+    confidence: supported
+    sources: [graudins2012]
+  - id: epitopes
+    text: A monoclonal antibody against the Mediterranean toxin failed to neutralise the other widow venoms, showing the species differ where that antibody binds.
+    confidence: supported
+    sources: [graudins2012]
+  - id: shared-transcripts
+    text: Western and brown widow venom glands both express latrotoxins, latrodectins, knotted-peptide candidates and cysteine-rich secretory proteins.
+    confidence: supported
+    sources: [haney2016]
+  - id: expression-differs
+    text: The two species differ in how strongly those families are expressed.
+    confidence: supported
+    sources: [haney2016]
+  - id: enzymes
+    text: Mediterranean widow venom carries latrotoxins alongside proteases, phospholipases, phosphatases and nucleases.
+    confidence: supported
+    sources: [duan2008]
+  - id: brown-proteome
+    text: Brown widow venom yielded latrotoxin-family peptides plus chitinases, metalloproteases and serine proteases.
+    confidence: supported
+    sources: [khamtorn2020]
+  - id: hidden-enzyme
+    text: That venom showed hyaluronidase activity even though the partial proteomic analysis did not detect the enzyme itself.
+    confidence: supported
+    sources: [khamtorn2020]
+  - id: brown-transcriptome
+    text: Brown widow venom-gland transcriptomics identified α-latrotoxin-related sequences and further candidate toxin families.
+    confidence: supported
+    sources: [khamtorn2021]
+  - id: cross-binding
+    text: Redback antivenom bound α-latrotoxin and related proteins across redback, southern, western and Mediterranean widow venoms.
+    confidence: supported
+    sources: [graudins2001]
+  - id: cross-neutralisation
+    text: It also blocked their effects in isolated nerve–muscle preparations, evidence that the neutralisable features are conserved.
+    confidence: supported
+    sources: [graudins2001]
+terms:
+  - { term: sequence tag, def: a short stretch of amino acids used to identify a protein }
+  - { term: epitope, def: the small region of a molecule that an antibody recognises }
+  - { term: cross-reactivity, def: one antibody preparation recognising related targets }
+related: [venom.cocktail, venom.false-widows, venom.latrotoxin-genes, genus.the-widows]
+media:
+  - src: /specimens/venom-species-variation.webp
+    alt: "Five widow species shown as specimens in a row at the same scale, differing in colour and in their red markings"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

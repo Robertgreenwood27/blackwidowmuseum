@@ -1,0 +1,56 @@
+id: body.body-plan
+accession: BWM-01.08
+title: Two-Part Body
+kicker: A narrow waist joins two worlds
+summary: The front half moves, senses and bites; the back half breathes, digests, spins and reproduces. A slender stalk, the pedicel, joins them.
+status: open
+order: 1
+taxa: [Latrodectus]
+figures:
+  - value: 2
+    label: body regions
+    note: prosoma (cephalothorax) + opisthosoma (abdomen)
+    sources: [foelix2011]
+  - value: 6
+    label: pairs of appendages on the prosoma
+    note: chelicerae, pedipalps, four pairs of legs
+    sources: [foelix2011]
+observations:
+  - id: two-regions
+    text: Like all spiders, widows have a prosoma and an opisthosoma connected by a narrow pedicel.
+    sources: [foelix2011]
+  - id: carapace-sternum
+    text: The carapace shields the top of the prosoma; the sternum is the plate between the leg bases beneath.
+    sources: [jocque2006]
+  - id: front-equipment
+    text: The eyes, chelicerae, pedipalps and all eight walking legs belong to the prosoma.
+    sources: [foelix2011]
+  - id: front-interior
+    text: The prosoma houses the central nervous system, the sucking stomach, and the muscles that work the mouthparts and legs.
+    sources: [foelix2011, australianmuseum2018]
+  - id: back-interior
+    text: The abdomen holds the heart, reproductive organs, silk glands, lungs and much of the digestive system.
+    sources: [australianmuseum2018]
+  - id: waist
+    text: The pedicel lets the abdomen move independently of the front body — essential when spinning silk.
+    sources: [australianmuseum2018]
+  - id: globular
+    text: Adult female widows typically have globular abdomens; males' are more elongated.
+    sources: [lotz1994]
+  - id: expandable
+    text: Flexible abdominal cuticle lets the abdomen swell after feeding and while eggs develop.
+    sources: [australianmuseum2018]
+terms:
+  - { term: prosoma, def: the front body region, also called the cephalothorax }
+  - { term: opisthosoma, def: the rear body region, the abdomen }
+  - { term: pedicel, def: the narrow stalk joining prosoma and abdomen }
+  - { term: carapace, def: the hard dorsal shield of the prosoma }
+  - { term: sternum, def: the ventral plate between the leg bases }
+related: [body.size, body.exoskeleton, body.legs]
+media:
+  - src: /specimens/body-body-plan.webp
+    alt: "Side view of a female black widow: small glossy cephalothorax carrying all eight legs, a thin waist, and a large round abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

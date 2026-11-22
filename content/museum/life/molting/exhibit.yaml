@@ -1,0 +1,72 @@
+id: life.molting
+accession: BWM-05.04
+title: Molting
+kicker: Growing by escape
+summary: To grow, a widow hangs beneath her web, splits her old skin along the sides and pulls herself out. Females go through more moults than males.
+status: open
+order: 4
+taxa: [Latrodectus mactans, Latrodectus hesperus, Latrodectus hasselti, Latrodectus variolus, Latrodectus tredecimguttatus]
+figures:
+  - value: "6–9"
+    label: instars to maturity, female
+    note: L. hesperus; males 4–7
+    featured: true
+    sources: [kaston1970, ebeling1975]
+  - value: "7–8 / 5"
+    label: maturity instar, female / male
+    note: L. hasselti; usual stages
+    sources: [forster1995]
+  - value: "≥2"
+    unit: hours
+    label: of twitching before the moult
+    note: L. mactans; preparation, not the whole moult
+    sources: [hagstrum1968]
+  - value: 4
+    label: leg pairs anchored to the web
+    note: hanging attachment at the start
+    sources: [hagstrum1968]
+observations:
+  - id: hanging
+    text: Widows moult hanging beneath the web, attached by their legs and spinnerets.
+    sources: [hagstrum1968]
+  - id: split
+    text: Pressing movements open a split along the side of the body, above the leg bases.
+    confidence: supported
+    sources: [hagstrum1968]
+  - id: legs-out
+    text: The spider then draws its legs out of the old cuticle before reaching for the web.
+    confidence: supported
+    sources: [hagstrum1968]
+  - id: more-for-females
+    text: Western widow females usually pass through more instars than males before maturing.
+    confidence: supported
+    sources: [kaston1970, ebeling1975]
+  - id: regeneration
+    text: Northern widows regrew amputated legs only if the cut was at mid-femur or further out.
+    confidence: supported
+    sources: [randall1981]
+  - id: autotomy
+    text: Legs they shed at the base did not regrow.
+    confidence: supported
+    sources: [randall1981]
+  - id: adult-moult
+    text: Some adult female Mediterranean widows in Crimea moulted again after maturity.
+    confidence: supported
+    sources: [nadolny2019]
+  - id: early-maturity
+    text: Those females may mature early and keep growing through later moults.
+    confidence: debated
+    sources: [nadolny2019]
+terms:
+  - { term: ecdysis, def: shedding the old cuticle }
+  - { term: exuvia, def: the empty shed skin }
+  - { term: instar, def: a growth stage between two moults; numbering varies between authors }
+  - { term: autotomy, def: deliberately shedding a limb at a weak joint }
+related: [body.exoskeleton, body.legs, life.development, web.growing-up]
+media:
+  - src: /specimens/life-molting.webp
+    alt: "A pale juvenile widow hanging on silk beside its translucent shed skin with all eight leg casings intact"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

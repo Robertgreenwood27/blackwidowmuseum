@@ -1,0 +1,67 @@
+id: life.lifespan
+accession: BWM-05.11
+title: Lifespan
+kicker: A long-lived female, a short male clock
+summary: In captivity an adult female can live more than two and a half years after her final moult. The longest-lived males managed about six months.
+status: open
+order: 11
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus variolus, Latrodectus hasselti]
+figures:
+  - value: "952 / 196"
+    unit: adult days
+    label: longest-lived female / male
+    note: L. hesperus, captive records after maturity
+    featured: true
+    sources: [kaston1970, ebeling1975]
+  - value: "849 / 127"
+    unit: adult days
+    label: longest-lived female / male
+    note: L. mactans
+    sources: [kaston1970, ebeling1975]
+  - value: "822 / 155"
+    unit: adult days
+    label: longest-lived female / male
+    note: L. variolus
+    sources: [kaston1970, ebeling1975]
+  - value: "11.7 / 8.9"
+    unit: days
+    label: male survival, unfed
+    note: L. hasselti; without / after three hours of courtship
+    sources: [kasumovic2009]
+observations:
+  - id: females-outlive
+    text: Captive female western, southern and northern widows far outlived males in Kaston's records.
+    confidence: supported
+    sources: [kaston1970, ebeling1975]
+  - id: courtship-cost
+    text: Redback males that courted survived for less time afterwards than males that did not.
+    confidence: supported
+    sources: [kasumovic2009]
+  - id: condition
+    text: Better-conditioned adult redback males lived longer.
+    confidence: supported
+    sources: [kasumovic2009]
+  - id: no-diet-trick
+    text: Restricting juvenile food did not extend adult male redback lifespan.
+    confidence: supported
+    sources: [kasumovic2009]
+  - id: mated-females
+    text: Under food restriction, mated female redbacks outlived unmated ones.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: seasons
+    text: Western widow females on Vancouver Island can persist across more than one summer mating season.
+    confidence: supported
+    sources: [fischer2025]
+terms:
+  - { term: adult longevity, def: life after the final moult, not total age }
+  - { term: senescence, def: deterioration with age }
+  - { term: capital breeding, def: reproducing on resources stored earlier }
+related: [life.development, life.seasons, life.mate-search]
+media:
+  - src: /specimens/life-lifespan.webp
+    alt: "A glossy black female widow in autumn beside three cream egg sacs, dry leaves and frost around her web"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

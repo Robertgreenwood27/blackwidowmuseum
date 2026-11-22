@@ -1,0 +1,46 @@
+.stage { position: absolute; inset: 0; z-index: 2; }
+.gl { position: absolute; inset: 0; }
+.gl canvas { width: 100%; height: 100%; display: block; }
+
+.labels { position: absolute; inset: 0; pointer-events: none; }
+.label {
+  position: absolute; left: 0; top: 0;
+  pointer-events: auto;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 6px;
+  padding: 14px 10px 10px;
+  margin-left: -70px; width: 140px;
+  text-align: center;
+  will-change: transform;
+}
+.num {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em;
+  width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center;
+  border: 1px solid var(--thread);
+  background: rgba(5, 5, 6, 0.6);
+  color: var(--silk-2);
+  transition: border-color .3s var(--ease), color .3s, background .3s;
+}
+.title {
+  font-family: var(--display); font-style: italic;
+  font-size: 19px; line-height: 1.05;
+  color: var(--silk);
+  opacity: .82;
+  transition: opacity .3s, transform .5s var(--ease);
+}
+.count {
+  font-family: var(--mono); font-size: 9px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--silk-3);
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity .3s, transform .4s var(--ease);
+}
+.label:hover .num, .label:focus-visible .num { border-color: var(--signal); color: var(--silk); background: var(--signal-deep); }
+.label:hover .title, .label:focus-visible .title { opacity: 1; transform: translateY(2px); }
+.label:hover .count, .label:focus-visible .count { opacity: 1; transform: none; }
+.label:focus-visible { outline: none; }
+
+@media (max-width: 860px) {
+  .title, .count { display: none; }
+  .label { width: 44px; margin-left: -22px; padding: 10px 0; }
+}

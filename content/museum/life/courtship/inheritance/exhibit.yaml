@@ -1,0 +1,55 @@
+id: life.courtship.inheritance
+accession: BWM-05.03.01
+title: Inheriting the Somersault
+kicker: A self-sacrifice that runs in families
+summary: Crossing redbacks with New Zealand katipō showed that the somersault and the male's abdominal pinch are inherited separately — and the somersault fits a simple X-linked pattern.
+status: open
+order: 1
+taxa: [Latrodectus hasselti, Latrodectus katipo]
+figures:
+  - value: 104
+    label: backcross males scored
+    note: 55 redback-directed, 49 katipō-directed
+    sources: [uludag2026]
+  - value: "31 / 55"
+    label: somersaulted
+    note: redback-directed backcross males; 18 / 49 in the other group
+    featured: true
+    sources: [uludag2026]
+  - value: "49 / 55"
+    label: pinched the abdomen
+    note: same males; 10 / 49 in the other group
+    sources: [uludag2026]
+observations:
+  - id: hybrids
+    text: Katipō females and redback males produced hybrid offspring in the lab.
+    sources: [uludag2026]
+  - id: backcross
+    text: Hybrid females were then crossed back to males of each parent species.
+    sources: [uludag2026]
+  - id: separate
+    text: Backcross males could somersault without the abdominal pinch, or the reverse.
+    confidence: supported
+    sources: [uludag2026]
+  - id: x-linked
+    text: Somersault frequencies fit a simple X-linked inheritance model.
+    confidence: supported
+    sources: [uludag2026]
+  - id: complex
+    text: The abdominal pinch needed a more complicated explanation.
+    confidence: supported
+    sources: [uludag2026]
+  - id: no-gene
+    text: No "suicide gene" has been identified; the study tested inheritance patterns, not DNA.
+    sources: [uludag2026]
+terms:
+  - { term: backcross, def: crossing a hybrid with one of its parent species }
+  - { term: X-linked, def: carried on the X chromosome }
+related: [life.courtship, genus.redback, genus.the-widows]
+media:
+  - src: /specimens/life-inheritance.webp
+    alt: "A fine-line crossing diagram: two parent widows above, a hybrid female in the middle, and a row of small males below, some flipped mid-somersault"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

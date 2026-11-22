@@ -1,0 +1,77 @@
+id: life.courtship
+accession: BWM-05.03
+title: The Somersault
+kicker: Sacrifice as strategy
+summary: In the Australian redback, the male flips his body over the female's jaws during mating. Males that are eaten mate for longer and father more of her young.
+status: open
+order: 3
+taxa: [Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: 180
+    unit: °
+    label: the somersault
+    note: male redback, after inserting a palp
+    featured: true
+    sources: [forster1992]
+  - value: "≈100"
+    unit: minutes
+    label: courtship she requires
+    note: redback; an inferred threshold, not a universal minimum
+    sources: [stoltz2010]
+  - value: 2
+    label: separate sperm stores
+    note: one for each of his palps
+    sources: [snow2005]
+  - value: "↑"
+    label: paternity of cannibalised males
+    note: vs. survivors
+    sources: [andrade1996]
+observations:
+  - id: somersault
+    text: During copulation, male redbacks somersault to place their abdomen over the female's mouthparts.
+    sources: [andrade1996, forster1992]
+  - id: second-palp
+    text: A male who survives can withdraw, groom and mate again with his other palp.
+    sources: [forster1992]
+  - id: payoff
+    text: Cannibalised males copulated longer and fertilised more eggs than males that survived.
+    confidence: supported
+    sources: [andrade1996]
+  - id: receptivity
+    text: Females that ate their mate were less likely to accept a second male.
+    confidence: supported
+    sources: [andrade1996]
+  - id: threshold
+    text: Rival males can slip in and benefit from the courtship another male has already done.
+    confidence: supported
+    sources: [stoltz2010]
+  - id: sneakers
+    text: Males that rush to mate risk being eaten before using both palps.
+    confidence: supported
+    sources: [stoltz2008]
+  - id: female-control
+    text: A female can limit a male's paternity by ending mating before both sperm stores are filled.
+    confidence: supported
+    sources: [snow2005]
+  - id: immature
+    text: Redback and brown widow males can mate with females days before their final moult, cutting through the covering cuticle.
+    sources: [biaggio2016]
+  - id: immature-safe
+    text: Those immature matings rarely ended in cannibalism, and the sperm survived the female's moult.
+    confidence: supported
+    sources: [biaggio2016]
+  - id: caveat
+    text: This is the redback. Sexual cannibalism is frequent there, not inevitable — and not the rule for every widow.
+    sources: [andrade1996, baruffaldi2024]
+terms:
+  - { term: copulation, def: genital coupling and sperm transfer — distinct from the courtship before it }
+  - { term: late subadult, def: the last juvenile stage, when the female's genitals are nearly functional }
+  - { term: premature cannibalism, def: being eaten during the first copulation, before the second }
+related: [life.cannibalism, life.mating-plugs, web.messages, body.pedipalps, body.epigynum]
+media:
+  - src: /specimens/life-courtship.webp
+    alt: "A large female redback in her web with a tiny male approaching along a thread"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

@@ -1,0 +1,76 @@
+id: venom.evolution
+accession: BWM-02.13
+title: Origins of an Arsenal
+kicker: Duplication is visible; the deepest origin is not
+summary: The toxin family grew by copying itself across theridiid spiders. Where it came from in the first place is unsettled — related sequences turn up in bacteria and in a bacteriophage.
+status: open
+order: 13
+taxa: [Latrodectus, Steatoda, Parasteatoda tepidariorum]
+figures:
+  - value: "≈90"
+    unit: Ma
+    label: since the widow–house spider split
+    note: an ancestral divergence estimate, not the birth date of the toxins
+    sources: [gendreau2017]
+  - value: "≥47"
+    label: latrotoxin genes in one non-widow theridiid
+    sources: [gendreau2017]
+  - value: "≥94"
+    unit: "%"
+    label: nucleotide identity among widow α-latrotoxins
+    note: across the sequences compared in 2013
+    sources: [garb2013]
+observations:
+  - id: beyond-widows
+    text: Latrotoxin relatives occur in Latrodectus, Steatoda and Parasteatoda, so the family is not unique to widows.
+    confidence: supported
+    sources: [garb2013]
+  - id: tandem
+    text: Tandem arrays of latrotoxin genes in the house spider genome are direct evidence of family expansion by duplication.
+    confidence: supported
+    sources: [gendreau2017]
+  - id: timeframe
+    text: Much of the diversification followed the estimated 90-million-year split, though the family's origin is not directly dated.
+    confidence: supported
+    sources: [gendreau2017]
+  - id: before-species
+    text: Lineages shared between two widow species show that many duplications predate their divergence.
+    confidence: supported
+    sources: [bhere2014]
+  - id: purifying
+    text: Comparisons across widows and Steatoda found mostly purifying selection, the signature of long-standing function.
+    confidence: supported
+    sources: [garb2013]
+  - id: positive
+    text: Against that conserved background, positive selection was detected at particular codons.
+    confidence: supported
+    sources: [garb2013]
+  - id: wider
+    text: A 2022 genome comparison reported latrotoxin-family candidates outside Theridiidae, without showing they act as venom neurotoxins.
+    confidence: supported
+    sources: [wang2022]
+  - id: bacteria
+    text: Homologs of the latrotoxin C-terminal domain occur in large proteins of bacterial endosymbionts including Rickettsiella and Wolbachia.
+    confidence: supported
+    sources: [zhang2012]
+  - id: phage
+    text: A predicted latrotoxin C-terminal domain was found among the genes packaged in Wolbachia phage WO.
+    confidence: supported
+    sources: [bordenstein2016]
+  - id: transfer-unresolved
+    text: These similarities support hypotheses of horizontal gene transfer but do not settle its direction, timing or number of events.
+    confidence: debated
+    sources: [gendreau2017, zhang2012]
+terms:
+  - { term: purifying selection, def: selection that weeds out changes harmful to an existing function }
+  - { term: positive selection, def: selection favouring change at particular sites }
+  - { term: horizontal gene transfer, def: movement of genes between lineages, outside parent-to-offspring inheritance }
+  - { term: endosymbiont, def: an organism living inside the cells of another }
+related: [venom.latrotoxin-genes, venom.false-widows, genus.the-widows]
+media:
+  - src: /specimens/venom-evolution.webp
+    alt: "A branching tree of fine silk-like threads, each tip ending in a variation on one elongated protein, with one faint dashed thread entering from the side"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

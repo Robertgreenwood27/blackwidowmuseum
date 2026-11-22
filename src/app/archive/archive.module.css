@@ -1,0 +1,17 @@
+.page { padding: 130px var(--gutter) 10vh; }
+.title { font-family: var(--display); font-weight: 400; font-style: italic; font-size: clamp(80px, 15vw, 260px); line-height: .82; letter-spacing: -.045em; margin: 16px 0 10vh; }
+.list { list-style: none; border-top: 1px solid var(--silk-3); }
+.item { display: grid; grid-template-columns: 140px minmax(0, 1fr) 300px; gap: var(--gutter); padding: 28px 0; border-bottom: 1px solid var(--thread); }
+.item:target { background: var(--char); }
+.year { font-family: var(--display); font-size: 56px; line-height: .85; color: var(--silk-3); font-variant-numeric: lining-nums; }
+.item:hover .year { color: var(--signal); }
+.work { font-family: var(--display); font-size: clamp(20px, 2vw, 28px); line-height: 1.2; max-width: 46ch; }
+.by { color: var(--silk-2); font-size: 14px; margin-top: 8px; }
+.link { margin-top: 8px; font-family: var(--mono); font-size: 11px; word-break: break-all; }
+.link a { border-bottom: 1px solid var(--silk-3); }
+.cited { list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+.cited a:hover { color: var(--signal); }
+@media (max-width: 960px) {
+  .item { grid-template-columns: 1fr; gap: 12px; }
+  .year { font-size: 36px; }
+}

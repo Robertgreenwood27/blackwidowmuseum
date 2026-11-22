@@ -1,0 +1,68 @@
+id: web.gumfoot.trip-lines
+accession: BWM-03.01.03
+title: Trip Lines
+kicker: The web as an alarm
+summary: Every struggle on a gumfoot line becomes a vibration that runs up the silk to where she hangs. How hard it shakes helps decide whether she attacks.
+status: open
+order: 3
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: "31.8 ± 16.3"
+    unit: Hz
+    label: cricket vibrations on the web
+    note: dominant frequency at the female's usual position
+    sources: [vibert2014]
+  - value: "28.6 ± 17.4"
+    unit: Hz
+    label: fly vibrations on the web
+    note: overlaps with crickets — frequency alone can't tell them apart
+    sources: [vibert2014]
+  - value: "3.27 ± 2.59"
+    unit: mm/s
+    label: fly vibration amplitude
+    note: RMS vibrational velocity, not prey speed
+    featured: true
+    sources: [vibert2014]
+observations:
+  - id: propagate
+    text: Prey struggles generate vibrations that travel through the cobweb to the resident spider.
+    sources: [vibert2014]
+  - id: dual-role
+    text: Gumfoot contact both restrains prey and tells the spider it is there.
+    confidence: supported
+    sources: [zevenbergen2008]
+  - id: amplitude
+    text: Females attacked high-amplitude vibration playbacks more readily than low-amplitude ones.
+    confidence: supported
+    sources: [vibert2014]
+  - id: quiet
+    text: Low-amplitude playback suppressed predation whether the recording came from prey or from a male.
+    confidence: supported
+    sources: [vibert2014]
+  - id: approach
+    text: Redbacks approach a disturbance, touch the prey with a front leg, then turn to apply silk.
+    confidence: supported
+    sources: [forster1995]
+  - id: movement
+    text: How much the prey moves shapes how much silk a redback throws, and in what order.
+    confidence: supported
+    sources: [forster1995]
+  - id: waiting
+    text: Not every contact brings an immediate rush; one captive redback often waited before approaching.
+    confidence: supported
+    sources: [vanhelsdingen2019]
+  - id: sensors
+    text: Spiders read strain in their own cuticle through slit sensilla, the organs that register such vibrations.
+    sources: [barth2004]
+terms:
+  - { term: substrate-borne vibration, def: motion carried through a solid — here, silk — rather than through air }
+  - { term: RMS amplitude, def: the root-mean-square size of a vibration signal }
+  - { term: slit sensillum, def: a slit-shaped strain sensor in a spider's cuticle }
+related: [senses.vibration, senses.slit-sensilla, web.messages, web.wrapping]
+media:
+  - src: /specimens/web-trip-lines.webp
+    alt: "A beetle on dark ground with the glue-beaded foot of a single taut silk line stuck to its leg, the line rising into darkness"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

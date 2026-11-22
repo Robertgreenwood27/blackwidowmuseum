@@ -1,0 +1,71 @@
+id: venom.false-widows
+accession: BWM-02.11
+title: The False Widows
+kicker: Relatives carrying the same weapons
+summary: Latrotoxins are not a widow invention. Steatoda and the common house spider carry whole families of them — which is why redback antivenom works against a false widow's venom in the laboratory.
+status: open
+order: 11
+taxa: [Steatoda grossa, Steatoda nobilis, Parasteatoda tepidariorum, Latrodectus hesperus]
+figures:
+  - value: 47
+    label: latrotoxin genes in the house spider genome
+    note: a minimum; Parasteatoda tepidariorum
+    featured: true
+    sources: [gendreau2017]
+  - value: 33
+    label: latrotoxins detected in house spider venom
+    note: proteomics plus transcriptomics
+    sources: [haney2019]
+  - value: 240
+    label: protein sequences in noble false widow venom
+    sources: [dunbar2020]
+observations:
+  - id: steatoda-families
+    text: Noble false widow venom contains proteins annotated as α-latrotoxins, δ-latroinsectotoxins and latrodectins.
+    confidence: supported
+    sources: [dunbar2020]
+  - id: annotation-caveat
+    text: Those annotations establish sequence relationships, not verified targets for each protein.
+    confidence: supported
+    sources: [dunbar2020]
+  - id: divergent
+    text: The cupboard spider's α-latrotoxin is a substantially divergent relative, not a copy of the widow's.
+    confidence: supported
+    sources: [garb2013]
+  - id: similar-effects
+    text: Cupboard spider venom produced dose-dependent effects resembling widow venom in an isolated nerve–muscle preparation.
+    confidence: supported
+    sources: [graudins2002]
+  - id: antibodies
+    text: That venom reacted with redback antivenom and with latrotoxin-specific antibodies.
+    confidence: supported
+    sources: [graudins2002]
+  - id: neutralisation
+    text: Redback antivenom both prevented and reversed its effects in that preparation.
+    confidence: supported
+    sources: [graudins2002]
+  - id: tandem
+    text: Many house spider latrotoxin genes sit in tandem arrays, the signature of repeated duplication.
+    confidence: supported
+    sources: [gendreau2017]
+  - id: no-vertebrate-toxin
+    text: The house spider genome lacked an identifiable counterpart of the vertebrate-specific α-latrotoxin found in widows and Steatoda.
+    confidence: supported
+    sources: [gendreau2017]
+  - id: alternative-transcripts
+    text: In the house spider, a single gene can contribute several different proteins to venom through alternative transcripts.
+    confidence: supported
+    sources: [haney2019]
+terms:
+  - { term: homolog, def: a gene or protein related to another by shared ancestry }
+  - { term: ortholog, def: a homolog whose divergence traces to a species split }
+  - { term: tandem duplication, def: duplication that leaves the copies side by side on a chromosome }
+  - { term: cross-neutralisation, def: antibodies raised against one venom reducing the activity of another }
+related: [venom.evolution, venom.species-variation, genus.the-widows]
+media:
+  - src: /specimens/venom-false-widows.webp
+    alt: "A glossy black widow beside a brown, cream-banded false widow at the same scale, seen from above"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

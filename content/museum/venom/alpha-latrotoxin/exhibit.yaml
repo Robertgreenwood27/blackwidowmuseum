@@ -1,0 +1,77 @@
+id: venom.alpha-latrotoxin
+accession: BWM-02.01
+title: α-Latrotoxin
+kicker: A key that becomes a hole
+summary: The vertebrate toxin binds to nerve endings, assembles into a four-part ring and punches a pore through the membrane — and the synapse empties itself. It also works by a second route that needs no pore at all.
+status: open
+order: 1
+taxa: [Latrodectus tredecimguttatus]
+figures:
+  - value: "≈130"
+    unit: kDa
+    label: mature toxin mass
+    note: after the propeptides are cut away
+    featured: true
+    sources: [klink2024, ushkaryov2008, volynski1999]
+  - value: 1401
+    unit: amino acids
+    label: length of the precursor
+    note: as first cloned, 1990
+    sources: [kiyatkin1990]
+  - value: 4
+    label: subunits per pore
+    note: tetramer
+    sources: [klink2024, orlova2000]
+  - value: 3
+    label: receptor families
+    sources: [ushkaryov2008, krasnoperov2002]
+observations:
+  - id: precursor
+    text: The toxin is made as a much longer precursor and matured by cutting away propeptides at both ends.
+    confidence: supported
+    sources: [volynski1999, kiyatkin1990]
+  - id: tetramer
+    text: Mature α-latrotoxin assembles into tetramers that insert into presynaptic membranes.
+    sources: [klink2024, orlova2000]
+  - id: pore
+    text: The inserted tetramer forms a cation-selective, calcium-permeable pore.
+    sources: [klink2024]
+  - id: receptors
+    text: It binds neurexins, latrophilin-1 (ADGRL1) and the phosphatase PTPσ — three distinct receptor families.
+    sources: [ushkaryov2008, krasnoperov2002]
+  - id: calcium-conditions
+    text: Binding to neurexin requires calcium; binding to latrophilin does not.
+    sources: [ushkaryov2008]
+  - id: release
+    text: The result is massive release of neurotransmitter from the nerve terminal.
+    sources: [ushkaryov2008]
+  - id: motor-terminal
+    text: At frog neuromuscular junctions the toxin raises the rate of release and then strips the terminal of its synaptic vesicles.
+    confidence: supported
+    sources: [ceccarelli1980]
+  - id: brain
+    text: In preparations of rat nerve endings it drives release of both glutamate and GABA.
+    confidence: supported
+    sources: [ashton2001]
+  - id: not-only-pores
+    text: Pore formation is not the whole story — a mutant toxin that cannot form pores still triggers secretion through its receptors.
+    confidence: supported
+    sources: [volynski2003, ushkaryov2008]
+  - id: selectivity
+    text: Recombinant α-latrotoxin was not toxic to moth larvae under conditions where the insect toxin was, supporting receptor recognition as the basis of its vertebrate selectivity.
+    confidence: supported
+    sources: [kiyatkin1995, magazanik1992]
+terms:
+  - { term: presynaptic, def: the sending side of a synapse, where neurotransmitter is stored }
+  - { term: kDa, def: kilodalton — a unit of molecular mass }
+  - { term: tetramer, def: a structure built from four subunits }
+  - { term: exocytosis, def: fusion of a vesicle with the cell membrane, releasing its contents }
+  - { term: propeptide, def: a segment removed from a protein as it matures }
+related: [venom.structure, venom.cocktail, venom.research-tool, humans.latrodectism]
+media:
+  - src: /specimens/venom-alpha-latrotoxin.webp
+    alt: "Four toxin subunits ringed around a central pore in a membrane, ions passing through"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

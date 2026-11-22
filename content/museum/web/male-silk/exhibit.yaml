@@ -1,0 +1,36 @@
+id: web.male-silk
+accession: BWM-03.17
+title: A Wanderer's Silk
+kicker: Males stop building webs and start travelling
+summary: Adult males leave web-building behind to search for females. Their silk glands change emphasis to match.
+status: open
+order: 17
+taxa: [Latrodectus hesperus, Latrodectus geometricus]
+figures:
+  - value: MiSp
+    label: most highly expressed silk gene
+    note: mature males, L. hesperus and L. geometricus
+    featured: true
+    sources: [correagarhwal2017]
+observations:
+  - id: minor
+    text: Mature male western and brown widows expressed minor ampullate spidroin genes most strongly.
+    confidence: supported
+    sources: [correagarhwal2017]
+  - id: courtship-use
+    text: A courtship role for that silk is an interpretation, not yet a demonstrated function.
+    confidence: debated
+    sources: [correagarhwal2017]
+  - id: web-reduction
+    text: Courting males add their own silk to the female's web while bundling hers.
+    sources: [scott2015]
+terms:
+  - { term: minor ampullate, def: the gland whose silk forms auxiliary threads and part of wrapping silk }
+related: [web.messages, life.courtship, body.silk-glands, body.pedipalps]
+media:
+  - src: /specimens/web-male-silk.webp
+    alt: "A small slender male widow with pale stripes walking a single silk thread he trails across a dark gap"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

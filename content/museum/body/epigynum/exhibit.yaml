@@ -1,0 +1,72 @@
+id: body.epigynum
+accession: BWM-01.13
+title: The Epigynum
+kicker: Paired pathways for sperm, a separate route for eggs
+summary: A hardened plate under the female's abdomen leads to two coiled ducts and two sperm stores. She can keep sperm alive for well over a year before fertilising her eggs.
+status: open
+order: 17
+taxa: [Latrodectus geometricus, Latrodectus hesperus]
+figures:
+  - value: 2
+    label: spermathecae
+    note: separate left and right sperm stores
+    sources: [sentenska2021]
+  - value: 2
+    label: lobes per spermatheca
+    note: dumbbell-shaped, L. geometricus
+    sources: [sentenska2021]
+  - value: "≥499"
+    unit: days
+    label: sperm kept viable in storage
+    note: one L. hesperus female; mating date unknown
+    featured: true
+    sources: [kaston1970]
+observations:
+  - id: plate
+    text: In adult brown widows, a hardened epigynal plate gives slit-like access to a shared genital chamber.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: two-entrances
+    text: Each side of that chamber holds the entrance to its own copulatory duct.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: coiled-ducts
+    text: Each copulatory duct coils toward, and around, its spermatheca.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: dumbbell
+    text: Brown widow spermathecae are dumbbell-shaped, two lobes joined by a narrow waist.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: fertilization-route
+    text: Separate fertilisation ducts lead from the spermathecae toward the uterus, so sperm enters by one route and meets eggs by another.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: storage
+    text: A western widow female produced developing offspring after 499 days with no new mating.
+    confidence: supported
+    sources: [kaston1970]
+  - id: yolk
+    text: Western widow eggs develop in the ovaries, accumulating lipid and protein yolk as they grow.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: pedicels
+    text: Developing eggs are attached to the ovary wall by short stalks.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: sac
+    text: The laid egg mass is wrapped in successive layers of silk to form the egg sac.
+    sources: [kaston1970]
+terms:
+  - { term: epigynum, def: the hardened external genital plate of a female spider }
+  - { term: spermatheca, def: an organ that stores sperm received in mating }
+  - { term: oocyte, def: a developing egg cell }
+  - { term: oviposition, def: the act of laying eggs }
+related: [body.pedipalps, life.egg-sac, web.egg-sac-silk]
+media:
+  - src: /specimens/body-epigynum.webp
+    alt: "Macro of a female widow's underside near the waist: a small dark genital plate between two pale slit-like lung openings"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

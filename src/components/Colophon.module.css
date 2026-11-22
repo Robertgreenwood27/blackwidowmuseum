@@ -1,0 +1,12 @@
+.foot { padding: 14vh var(--gutter) 36px; border-top: 1px solid var(--thread); overflow: hidden; }
+.big {
+  display: flex; align-items: center; gap: 3vw;
+  font-family: var(--display); font-style: italic;
+  font-size: clamp(64px, 15vw, 260px); line-height: .9; letter-spacing: -.045em;
+  color: var(--soot);
+  -webkit-text-stroke: 1px var(--thread);
+}
+.big svg { flex: none; width: clamp(28px, 5vw, 64px); height: auto; }
+.cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 8vh; line-height: 2; }
+.cols a:hover { color: var(--silk); }
+@media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }

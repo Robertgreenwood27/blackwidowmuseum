@@ -1,0 +1,60 @@
+id: body.pedipalps
+accession: BWM-01.12
+title: The Palps
+kicker: Sperm delivered by a pair of coiled springs
+summary: An adult male's pedipalps end in swollen bulbs, each wound with a long, coiled embolus. Its tip can snap off inside the female and act as a plug — if it lands in the right place.
+status: open
+order: 10
+taxa: [Latrodectus hesperus, Latrodectus hasselti, Latrodectus mactans, Latrodectus variolus]
+figures:
+  - value: 2
+    label: palps, each its own copulatory organ
+    note: adult males
+    sources: [snow2005, michalik2011]
+  - value: 2
+    label: insertions to fill both sperm stores
+    note: one per palp, in the redback
+    sources: [snow2005]
+observations:
+  - id: organ
+    text: In male spiders the copulatory organ occupies the tip of each pedipalp.
+    sources: [michalik2011]
+  - id: separate
+    text: Sperm is made in the testes in the abdomen, not in the palps, which only carry it.
+    sources: [michalik2011]
+  - id: sperm-web
+    text: Before mating, a male deposits sperm onto a small sperm web and draws it up into his palps.
+    sources: [michalik2011]
+  - id: coiled
+    text: Southern, western and northern widows have long, spirally coiled emboli.
+    sources: [kaston1970]
+  - id: one-each
+    text: In the redback, each palp inseminates one of the female's two separate reproductive tracts.
+    confidence: supported
+    sources: [snow2005]
+  - id: breakage
+    text: In the western widow, the tip of the embolus can break off during mating and remain inside the female.
+    confidence: supported
+    sources: [kaston1970]
+  - id: placement
+    text: Redback embolus tips lodged at the entrance of a sperm store protected a male's paternity better than tips lodged elsewhere.
+    confidence: supported
+    sources: [snow2006]
+  - id: not-automatic
+    text: A broken-off tip is not automatically an effective mating plug; position decides.
+    confidence: supported
+    sources: [snow2006]
+terms:
+  - { term: pedipalp, def: the leg-like appendage between the chelicerae and the first legs }
+  - { term: palpal bulb, def: the male's copulatory organ, holding a sperm reservoir }
+  - { term: embolus, def: the slender part of the bulb inserted into the female }
+  - { term: sperm induction, def: filling the palps with sperm from a sperm web }
+  - { term: mating plug, def: material that blocks later males from inseminating }
+related: [body.epigynum, life.courtship, body.size]
+media:
+  - src: /specimens/body-pedipalps.webp
+    alt: "Macro of a male widow's palpal bulb: an amber bulb in a hairy cup, wound with a dark, spring-like coiled embolus"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

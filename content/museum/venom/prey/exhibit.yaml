@@ -1,0 +1,70 @@
+id: venom.prey
+accession: BWM-02.08
+title: What the Venom Is For
+kicker: Silk first, chemistry second
+summary: A widow's web catches beetles, ants, woodlice, other spiders — and now and then a lizard. She wraps first and bites second, and her toxins map onto that menu.
+status: open
+order: 8
+taxa: [Latrodectus hesperus, Latrodectus hasselti, Latrodectus tredecimguttatus]
+figures:
+  - value: 1599
+    label: prey items collected in one year
+    note: from western widow webs, coastal British Columbia
+    featured: true
+    sources: [salomon2011]
+  - value: 8
+    label: arthropod orders recorded
+    note: same study
+    sources: [salomon2011]
+  - value: ">85"
+    unit: "%"
+    label: beetles and ants/wasps together
+    note: of both catches and biomass at that site
+    sources: [salomon2011]
+observations:
+  - id: spectrum
+    text: Prey remains from western widow webs included insects, woodlice and other spiders.
+    confidence: supported
+    sources: [salomon2011]
+  - id: gumfoot
+    text: The cobweb's sticky gumfoot lines are built to catch animals walking across the ground beneath it.
+    sources: [blackledge2005b]
+  - id: wrap-first
+    text: Redbacks commonly throw silk and partly wrap active prey before biting it.
+    confidence: supported
+    sources: [forster1995]
+  - id: order-varies
+    text: Sluggish prey may be bitten first, so the order of wrapping and biting depends on how the prey behaves.
+    confidence: supported
+    sources: [forster1995]
+  - id: skink
+    text: A female redback was documented preying on a weasel skink in suburban Melbourne.
+    confidence: supported
+    sources: [oshea2017]
+  - id: snakes
+    text: Published records document occasional capture and consumption of small snakes by redbacks.
+    confidence: supported
+    sources: [nyffeler2021]
+  - id: insect-toxin
+    text: The insect toxin acts on blowfly nerve endings and not on frog ones; the vertebrate toxin does the reverse.
+    confidence: supported
+    sources: [magazanik1992, ushkaryov2008]
+  - id: crustacean-toxin
+    text: A third toxin raises transmitter release at crayfish junctions, evidence of activity against crustacean nervous systems.
+    confidence: supported
+    sources: [elrick1999]
+  - id: not-one-to-one
+    text: These activity patterns are broad taxonomic matches, not a toxin tailored to each prey species.
+    confidence: supported
+    sources: [salomon2011, elrick1999]
+terms:
+  - { term: polyphagous, def: feeding on many different kinds of prey }
+  - { term: gumfoot line, def: a cobweb capture thread with glue where it meets the ground }
+related: [web.gumfoot, body.comb-foot, venom.latroinsectotoxins, venom.latrocrustatoxin]
+media:
+  - src: /specimens/venom-prey.webp
+    alt: "A widow hanging in her tangle web surrounded by silk-bound prey: a beetle, a cricket, a woodlouse, an ant and a moth"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

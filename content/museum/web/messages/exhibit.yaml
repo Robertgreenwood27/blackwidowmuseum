@@ -1,0 +1,82 @@
+id: web.messages
+accession: BWM-03.10
+title: Silk Carries Messages
+kicker: A web is also a letter
+summary: A female's silk is scented with pheromone that tells males who she is and whether she is mated. Courting males answer by cutting her web apart and drumming on what remains.
+status: open
+order: 10
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: "≈3×"
+    label: fewer rival males
+    note: field L. hesperus webs after male web reduction
+    featured: true
+    sources: [scott2015]
+  - value: 58
+    unit: "%"
+    label: courting males that reduce the web
+    note: L. hesperus sample; not a genus-wide rate
+    sources: [scott2012]
+  - value: 3
+    label: courtship vibration types
+    note: tremulation, bounces, web plucks
+    sources: [sivalinghem2021]
+  - value: 2
+    label: contact-pheromone components
+    note: L. hesperus; perhaps not the complete blend
+    sources: [fischer2025]
+observations:
+  - id: pheromone
+    text: Female western widow silk carries an identified serine methyl ester that stimulates male courtship.
+    sources: [scott2015b]
+  - id: second
+    text: A second contact component was found later, and a synthetic blend triggered courtship.
+    confidence: supported
+    sources: [fischer2025]
+  - id: airborne
+    text: In the field, synthetic isobutyric acid attracted male western widows through the air.
+    confidence: supported
+    sources: [fischer2025]
+  - id: summer
+    text: Web pheromone levels peaked in summer across a year of field sampling.
+    confidence: supported
+    sources: [fischer2025]
+  - id: reduction
+    text: Courting males cut and bundle the female's silk while adding their own.
+    sources: [scott2015]
+  - id: rivals
+    text: Male-reduced webs drew fewer rivals; removing the same silk experimentally did not.
+    confidence: supported
+    sources: [scott2015]
+  - id: male-silk
+    text: Adding male silk alone did not make intact webs less attractive.
+    confidence: supported
+    sources: [scott2015]
+  - id: calmer
+    text: Web-reducing males met fewer aggressive responses and calmer females.
+    confidence: supported
+    sources: [scott2012]
+  - id: virgin
+    text: Redback males could tell virgin-female silk from silk spun just after mating.
+    confidence: supported
+    sources: [stoltz2007]
+  - id: whispers
+    text: Low-amplitude male vibrations are less likely to trigger a female's predatory response.
+    confidence: supported
+    sources: [vibert2014]
+  - id: sequences
+    text: Later in courtship, western widow males combine vibrations into more stereotyped sequences.
+    confidence: supported
+    sources: [sivalinghem2021]
+terms:
+  - { term: contact pheromone, def: a chemical signal detected by touching it }
+  - { term: web reduction, def: a courting male's cutting, bundling and over-wrapping of the female's web }
+  - { term: tremulation, def: rapid body oscillation that sends vibrations through silk }
+related: [life.courtship, web.male-silk, web.gumfoot.trip-lines, senses.vibration]
+media:
+  - src: /specimens/web-messages.webp
+    alt: "A small slender male widow bundling the silk of a large black female's web while she hangs in shadow behind"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

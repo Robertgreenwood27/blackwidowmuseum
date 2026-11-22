@@ -1,0 +1,59 @@
+id: life.guarding
+accession: BWM-05.13
+title: Guarding the Sac
+kicker: A mother between the eggs and the wasp
+summary: Brown widow mothers patrol their egg sacs and catch the parasitoid wasps that come for them. Their white widow relatives did not.
+status: open
+order: 13
+taxa: [Latrodectus geometricus, Latrodectus pallidus]
+figures:
+  - value: "5 / 18"
+    label: brown widows caught a wasp
+    note: L. geometricus, lab exposure trials
+    sources: [arabesky2025]
+  - value: "0 / 17"
+    label: white widows caught a wasp
+    note: L. pallidus
+    sources: [arabesky2025]
+  - value: "19 / 64"
+    unit: "%"
+    label: sacs parasitised, brown / white
+    note: 3 of 16 vs 9 of 14 sacs assessed
+    featured: true
+    sources: [arabesky2025]
+observations:
+  - id: alert
+    text: Brown and white widow mothers both became more active when parasitoid wasps were present.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: tapping
+    text: Both species circled and tapped their sacs more during wasp exposure.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: capture
+    text: Brown widows caught and silk-wrapped wasps; no white widow did.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: discard
+    text: Three of the five brown widows that caught a wasp threw it away uneaten.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: outcome
+    text: Brown widow sacs were parasitised less often than white widow sacs.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: invasion
+    text: This care may help explain the brown widow's invasive success, but that is not yet measured.
+    confidence: debated
+    sources: [arabesky2025]
+terms:
+  - { term: maternal care, def: a mother's behaviour that improves her young's survival }
+  - { term: parasitoid, def: an animal whose young develop in a host and kill it }
+related: [web.egg-sac-silk.defence, genus.brown-widow, life.egg-sac]
+media:
+  - src: /specimens/life-guarding.webp
+    alt: "A mottled brown widow beside her spiky egg sac, wrapping a tiny parasitoid wasp in silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

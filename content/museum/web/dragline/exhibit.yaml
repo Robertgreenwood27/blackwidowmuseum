@@ -1,0 +1,74 @@
+id: web.dragline
+accession: BWM-03.06
+title: The Safety Line
+kicker: Strong, stretchy, and very hard to break
+summary: Dragline silk carries her weight, frames her web and catches her if she falls. It is not stronger than Kevlar — its trick is stretching a third of its length before it fails.
+status: open
+order: 6
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "996 ± 274"
+    unit: MPa
+    label: breaking stress
+    note: female L. hesperus, forcibly drawn; n = 52
+    sources: [blackledge2005]
+  - value: "33 ± 6"
+    unit: "%"
+    label: stretch before breaking
+    note: same fibres; engineering strain
+    featured: true
+    sources: [blackledge2005]
+  - value: "194 ± 58"
+    unit: MJ/m³
+    label: toughness
+    note: energy absorbed per volume before breaking
+    sources: [blackledge2005]
+  - value: 1.5
+    unit: GPa
+    label: high-tensile steel, for scale
+    note: illustrative literature value; not a matched test
+    sources: [gosline1999]
+  - value: 3.6
+    unit: GPa
+    label: Kevlar 49, for scale
+    note: stronger than silk — but toughness ≈50 MJ/m³
+    sources: [gosline1999]
+observations:
+  - id: lifeline
+    text: Major ampullate silk supplies the widow's lifelines and the structural threads of her web.
+    sources: [blackledge2005]
+  - id: orb-parity
+    text: Western widow dragline performs about as well as published orb-weaver draglines.
+    confidence: supported
+    sources: [blackledge2005]
+  - id: toughness
+    text: Because it stretches so far, silk can absorb more energy than materials of higher tensile strength.
+    sources: [gosline1999]
+  - id: not-just-two
+    text: MaSp1 and MaSp2 dominate the fibre, but proteomics found AcSp1 and several small proteins too.
+    confidence: supported
+    sources: [ayoub2007, larracas2016]
+  - id: supercontraction
+    text: Wetted silk shortens if it is free; if held, it pulls tight instead.
+    sources: [boutry2010]
+  - id: reference-state
+    text: Wetting and then drying puts widow dragline into a fully supercontracted reference state used to compare silks.
+    confidence: supported
+    sources: [madurga2016]
+  - id: widespread
+    text: Supercontraction varies among spider lineages and is not restricted to orb weavers.
+    confidence: supported
+    sources: [boutry2010]
+terms:
+  - { term: engineering strain, def: how much a fibre lengthened, divided by its starting length }
+  - { term: toughness, def: the energy needed to break a material, per unit volume }
+  - { term: supercontraction, def: water-triggered shrinking of silk, or tension if it cannot shrink }
+  - { term: major ampullate, def: the gland that makes dragline silk }
+related: [web.silk-proteins, web.scaffold, body.silk-glands, web.human-uses]
+media:
+  - src: /specimens/web-dragline.webp
+    alt: "A single luminous silk thread crossing a black field, held by the glossy legs of a black widow at its lower end"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

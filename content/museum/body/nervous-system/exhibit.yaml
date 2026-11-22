@@ -1,0 +1,56 @@
+id: body.nervous-system
+accession: BWM-01.15
+title: The Nerve Centre
+kicker: A brain fused around the gullet
+summary: The widow's ganglia are fused into one mass in the prosoma, with the oesophagus running straight through it. Nerves radiate from it to every leg.
+status: open
+order: 11
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 1
+    label: fused central nerve mass
+    note: in the prosoma
+    sources: [foelix2011, snodgrass1952]
+  - value: 78
+    unit: "%"
+    label: of the prosoma filled by nervous system
+    note: comparison — tiny Anapisona spiderlings, not widows
+    sources: [quesada2011]
+observations:
+  - id: centralised
+    text: Like other araneomorph spiders, widows concentrate their central nervous system in the prosoma.
+    sources: [foelix2011]
+  - id: fused
+    text: The brain joins a fused mass of ganglia below the oesophagus.
+    sources: [snodgrass1952]
+  - id: gullet
+    text: The oesophagus passes through the middle of the nerve mass on its way to the sucking stomach.
+    sources: [snodgrass1952]
+  - id: leg-nerves
+    text: Nerves run from the lower ganglionic mass out into each walking leg.
+    sources: [foelix2011]
+  - id: scaling
+    text: Across the spiders measured, smaller individuals had proportionally larger nervous systems.
+    confidence: supported
+    sources: [quesada2011]
+  - id: overflow
+    text: In some minute spiders, nervous tissue overflows the prosoma into the leg bases.
+    confidence: supported
+    sources: [quesada2011]
+  - id: path-integration
+    text: Western black widows use path integration — tracking their own movements — to return to their retreat across the web.
+    confidence: supported
+    sources: [sergi2021]
+terms:
+  - { term: synganglion, def: a central nerve mass formed by fused ganglia }
+  - { term: ganglion, def: a cluster of nerve-cell bodies }
+  - { term: neuropil, def: dense nervous tissue of interconnected fibres }
+  - { term: path integration, def: keeping track of position by summing one's own movements }
+related: [senses.vibration, body.eyes, body.legs]
+media:
+  - src: /specimens/body-nervous-system.webp
+    alt: "Translucent widow seen from above, a single bright nerve mass in the front body with nerves radiating into all eight legs"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

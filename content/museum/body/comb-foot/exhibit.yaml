@@ -1,0 +1,61 @@
+id: body.comb-foot
+accession: BWM-01.02
+title: The Comb-Foot
+kicker: The tool that throws silk
+summary: Theridiids are the comb-footed spiders. A row of serrated bristles on the last segment of the fourth leg flings sticky silk over struggling prey.
+status: open
+order: 7
+taxa: [Latrodectus mactans, Latrodectus hesperus]
+figures:
+  - value: IV
+    label: leg pair bearing the comb
+    note: on the tarsus, the terminal segment
+    sources: [miller2007]
+  - value: "13–19"
+    label: bristles per comb, southern widow
+    note: adult female L. mactans; 30 spiders, both sides counted
+    sources: [hanp2000]
+  - value: "13–22"
+    label: bristles per comb, western widow
+    note: adult female L. hesperus; 30 spiders, both sides counted
+    sources: [hanp2000]
+observations:
+  - id: comb
+    text: Most theridiids, black widows included, carry a comb of serrated bristles on tarsus IV.
+    sources: [miller2007, jocque2006]
+  - id: modified-setae
+    text: The comb is not a separate tool but a row of modified setae, each bearing toothlike serrations along one side.
+    sources: [miller2007, hanp2000]
+  - id: comb-position
+    text: In female southern and western widows the comb runs along the lower outer surface of tarsus IV.
+    confidence: supported
+    sources: [hanp2000]
+  - id: use
+    text: The comb draws silk from the spinnerets and casts it over prey, wrapping it from a distance.
+    sources: [miller2007]
+  - id: spinneret-supply
+    text: The sticky silk thrown in a theridiid wrap attack comes from specialised, elongated spigots on the spinnerets.
+    sources: [miller2007]
+  - id: wrapping-before-contact
+    text: Wrapping lets a theridiid immobilise prey before risking direct contact; some bite first, some wrap first.
+    sources: [miller2007]
+  - id: asymmetry
+    text: Some individual widows carry different bristle counts on their left and right combs.
+    confidence: supported
+    sources: [hanp2000]
+  - id: variation
+    text: The comb is characteristic of the family but reduced or absent in some members.
+    sources: [miller2007]
+terms:
+  - { term: tarsus, def: the final, foot-like segment of a spider leg }
+  - { term: seta, def: a hairlike structure of the cuticle; plural setae }
+  - { term: wrap attack, def: restraining prey by throwing silk over it }
+  - { term: Theridiidae, def: the cobweb or comb-footed spiders — the widow's family }
+related: [web.gumfoot, body.legs, body.spinnerets]
+media:
+  - src: /specimens/body-comb-foot.webp
+    alt: "Close-up of a widow's fourth-leg tarsus with its row of serrated comb bristles drawing out silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

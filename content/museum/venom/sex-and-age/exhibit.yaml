@@ -1,0 +1,66 @@
+id: venom.sex-and-age
+accession: BWM-02.10
+title: Venom Across a Lifetime
+kicker: Not every widow carries the same chemistry
+summary: Gland size differs between the sexes and toxin genes switch on and off across tissues and life stages. One toxin gene has been found switched on everywhere, even in eggs.
+status: open
+order: 10
+taxa: [Latrodectus hesperus, Latrodectus geometricus, Latrodectus mactans, Latrodectus tredecimguttatus]
+figures:
+  - value: 429
+    label: proteins detected in spiderling body extracts
+    note: not a count of venom toxins
+    sources: [peng2020]
+  - value: 958
+    label: proteins detected in adult body extracts
+    note: same study; detection depends on method
+    sources: [peng2020]
+observations:
+  - id: gland-size
+    text: Micro-CT of adult western widows showed relatively larger venom glands in the female than in the male.
+    confidence: supported
+    sources: [miller2026]
+  - id: gland-shape
+    text: The rear portions of the glands diverged in the female specimen but not in the male.
+    confidence: supported
+    sources: [miller2026]
+  - id: ubiquitous-alpha
+    text: In brown and southern widows, α-latrotoxin transcripts turned up in every tissue and life stage sampled, including eggs.
+    confidence: supported
+    sources: [torres2022]
+  - id: female-only
+    text: δ-latroinsectotoxin transcripts were detected only in females.
+    confidence: supported
+    sources: [torres2022]
+  - id: not-in-eggs
+    text: Neither insect toxin tested was detected in the eggs of those species.
+    confidence: supported
+    sources: [torres2022]
+  - id: variable
+    text: α-latroinsectotoxin detection varied between spiderling and adult samples.
+    confidence: supported
+    sources: [torres2022]
+  - id: transcripts-not-potency
+    text: That screen measured the presence of transcripts, not how much toxin is secreted or how a bite would act.
+    confidence: supported
+    sources: [torres2022]
+  - id: spiderlings
+    text: Extracts of newborn widows affected nerve preparations and ion currents, showing bioactivity without saying anything about a spiderling's bite.
+    confidence: supported
+    sources: [peng2014]
+  - id: development
+    text: Spiderling and adult body proteomes differed in complexity and in the spread of protein masses.
+    confidence: supported
+    sources: [peng2020]
+terms:
+  - { term: ontogeny, def: change over the course of an individual's development }
+  - { term: gene expression, def: the production of RNA, and potentially protein, from a gene }
+  - { term: transcript, def: an RNA copy made from a gene }
+related: [venom.venom-gland, venom.venom-in-eggs, body.size, body.chelicerae]
+media:
+  - src: /specimens/venom-sex-and-age.webp
+    alt: "Matched cutaways of a large female and a much smaller male widow, each showing the paired venom glands inside the front body"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

@@ -1,0 +1,69 @@
+id: web.human-uses
+accession: BWM-03.14
+title: From Crosshairs to Gene Banks
+kicker: What people have done with widow silk
+summary: Surveyors once threaded black widow silk into their instruments as crosshairs. Today the same silk is a genome, a gene catalogue and a template for engineered fibres.
+status: open
+order: 14
+taxa: [Latrodectus hesperus, Latrodectus elegans]
+figures:
+  - value: 1.46
+    unit: Gb
+    label: western widow genome
+    note: chromosome-level assembly
+    sources: [miles2024]
+  - value: 14
+    label: assembled chromosomes
+    note: same L. hesperus assembly
+    sources: [miles2024]
+  - value: 647
+    label: silk-gland-specific transcripts
+    note: L. hesperus; not 647 silk genes
+    sources: [clarke2014]
+  - value: 26
+    label: spidroin genes
+    note: L. elegans genome — a different widow
+    featured: true
+    sources: [wang2022]
+observations:
+  - id: crosshairs
+    text: Historical scholarship documents black widow silk used as crosshairs in surveying instruments.
+    confidence: supported
+    sources: [bedini2005]
+  - id: wartime
+    text: Wartime accounts of widow-silk suppliers trace to contemporary reports and named silk providers.
+    confidence: supported
+    sources: [bedini2005]
+  - id: templates
+    text: The complete western widow MaSp sequences became templates for biomaterials research.
+    sources: [ayoub2007]
+  - id: synthetic
+    text: Recombinant proteins based on widow TuSp1 and ECP-2 have been spun into synthetic fibres.
+    sources: [gnesa2012]
+  - id: drawing
+    text: Protein design and post-spin drawing changed those artificial fibres' properties.
+    confidence: supported
+    sources: [gnesa2012]
+  - id: recipe
+    text: Proteomics of widow dragline was published as a recipe for building synthetic fibres.
+    confidence: supported
+    sources: [larracas2016]
+  - id: genome
+    text: A chromosome-level western widow genome now complements earlier gene and transcriptome studies.
+    sources: [miles2024]
+  - id: adhesives
+    text: Gumfoot glue chemistry offers design principles for adhesives that work in dry and humid air.
+    confidence: supported
+    sources: [jain2015]
+terms:
+  - { term: reticle, def: the reference lines in the focal plane of an optical instrument }
+  - { term: recombinant protein, def: a protein made from engineered DNA in a host organism }
+  - { term: genome annotation, def: finding and labelling the genes within an assembled genome }
+related: [web.silk-proteins, web.dragline, venom.research-tool, humans.myth]
+media:
+  - src: /specimens/web-human-uses.webp
+    alt: "A silk fibre held in a small brass tensile-testing rig beside a vial of pale liquid and a vintage optical reticle"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

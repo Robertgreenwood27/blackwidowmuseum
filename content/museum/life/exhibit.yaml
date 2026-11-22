@@ -1,0 +1,25 @@
+id: life
+accession: BWM-05
+title: Life Cycle
+kicker: From sac to sky
+summary: Silk cradle, airborne childhood, a hazardous search for a mate and a courtship that can end in a meal. The female may live for years; the male's clock runs in weeks.
+status: open
+order: 5
+figures:
+  - value: 952
+    unit: days
+    label: longest recorded adult female life
+    note: L. hesperus, captive; after the final moult
+    featured: true
+    sources: [kaston1970, ebeling1975]
+  - value: 196
+    unit: days
+    label: longest recorded adult male life
+    note: L. hesperus, captive
+    sources: [kaston1970, ebeling1975]
+  - value: ">80"
+    unit: "%"
+    label: redback males that die searching
+    note: before finding a mate — not eaten
+    sources: [andrade2003]
+revised: 2026-11-22

@@ -1,0 +1,76 @@
+id: venom.structure
+accession: BWM-02.04
+title: Toxin Architecture
+kicker: Ankyrin repeats and the prepore
+summary: "All the latrotoxins share one shape: a business end, a connector, and a long tail of stacked repeats. Cryo-EM has now caught α-latrotoxin in the act of turning from an assembled ring into a pore."
+status: open
+order: 4
+taxa: [Latrodectus tredecimguttatus]
+figures:
+  - value: 4
+    label: subunits in the α-latrotoxin tetramer
+    sources: [orlova2000]
+  - value: 22
+    label: ankyrin repeats
+    note: as assigned in the 2024 structure
+    sources: [klink2024]
+  - value: "≈17.5"
+    unit: nm
+    label: height of the assembled pore above the membrane
+    featured: true
+    sources: [klink2024]
+  - value: "≈1.5"
+    unit: nm
+    label: modelled bore of the membrane channel
+    note: a modelled dimension, not directly resolved
+    sources: [klink2024]
+observations:
+  - id: shared-plan
+    text: The solved structures of α-latrotoxin, α-latrocrustatoxin and δ-latroinsectotoxin share connector, helical-bundle, plug and ankyrin-repeat domains.
+    confidence: supported
+    sources: [chen2021, klink2024]
+  - id: cations
+    text: Orlova and colleagues found the toxin as dimers when divalent cations were removed and as tetramers once calcium or magnesium was added.
+    confidence: supported
+    sources: [orlova2000]
+  - id: first-structure
+    text: That 2000 study reconstructed the tetramer at about 14 Å and showed it associating with membrane pores.
+    confidence: supported
+    sources: [orlova2000]
+  - id: family-structures
+    text: In 2021 cryo-EM resolved an α-latrocrustatoxin monomer and an uncleaved δ-latroinsectotoxin precursor dimer.
+    confidence: supported
+    sources: [chen2021]
+  - id: dimer-interface
+    text: In that dimer, one subunit's plug domain packs against the ankyrin repeats of its neighbour.
+    confidence: supported
+    sources: [chen2021]
+  - id: prepore
+    text: In 2024 the tetramer was resolved in both a prepore and a pore conformation, revealing the rearrangement between them.
+    confidence: supported
+    sources: [klink2024]
+  - id: modelled-tip
+    text: The membrane-inserting helical barrel had to be modelled, because its tip was not resolved by cryo-EM.
+    confidence: supported
+    sources: [klink2024]
+  - id: lateral-entry
+    text: In the model, ions enter the channel sideways near the membrane rather than passing down the whole length of the stalk.
+    confidence: supported
+    sources: [klink2024]
+  - id: repeats-vary
+    text: Repeat counts differ between family members, so the 22 of α-latrotoxin should not be read across the whole family.
+    confidence: supported
+    sources: [chen2021, klink2024]
+terms:
+  - { term: ankyrin repeat, def: a recurring protein motif that commonly mediates binding to other proteins }
+  - { term: protomer, def: one protein unit within a larger assembly }
+  - { term: prepore, def: an assembled toxin state that precedes membrane insertion }
+  - { term: cryo-EM, def: electron microscopy of flash-frozen samples, used to reconstruct molecular structures }
+related: [venom.alpha-latrotoxin, venom.latroinsectotoxins, venom.discovery]
+media:
+  - src: /specimens/venom-structure.webp
+    alt: "A tall protein molecule as a pale molecular surface: a rounded head, a short connector, and a long tail of stacked curved repeats"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

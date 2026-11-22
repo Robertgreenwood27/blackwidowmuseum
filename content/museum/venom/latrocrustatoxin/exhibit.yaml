@@ -1,0 +1,67 @@
+id: venom.latrocrustatoxin
+accession: BWM-02.06
+title: A Crustacean Connection
+kicker: Why a land spider carries a toxin for crabs
+summary: "One latrotoxin acts on crustaceans. The likeliest answer to why is sitting under a flowerpot: woodlice are crustaceans, and widows eat them."
+status: open
+order: 6
+taxa: [Latrodectus tredecimguttatus, Latrodectus geometricus]
+figures:
+  - value: 1395
+    unit: amino acids
+    label: encoded precursor
+    sources: [danilevich1999]
+  - value: 62
+    unit: "%"
+    label: sequence homology with α-latroinsectotoxin
+    note: its closest relative among the toxins compared
+    sources: [danilevich1999]
+  - value: "≈50×"
+    label: increase in spontaneous release at crayfish junctions
+    featured: true
+    sources: [elrick1999]
+observations:
+  - id: activity
+    text: Purified α-latrocrustatoxin greatly increases transmitter release at crayfish neuromuscular junctions.
+    confidence: supported
+    sources: [elrick1999]
+  - id: intronless
+    text: The sequenced coding region of the gene contains no introns.
+    confidence: supported
+    sources: [danilevich1999]
+  - id: amplitude
+    text: At those synapses it raised the frequency of release events without changing their size.
+    confidence: supported
+    sources: [elrick1999]
+  - id: binding-vs-action
+    text: Experiments separated the toxin's binding, which did not need external calcium, from its action, which did.
+    confidence: supported
+    sources: [elrick1999]
+  - id: unusual-entry
+    text: Blockers of the usual release-associated calcium channels failed to stop the calcium entry it caused.
+    confidence: supported
+    sources: [elrick1999]
+  - id: receptor-unknown
+    text: Those experiments pointed toward a latrophilin-like receptor but did not identify one.
+    confidence: supported
+    sources: [elrick1999]
+  - id: woodlice
+    text: Woodlice — terrestrial crustaceans — were among the prey recovered from brown widow webs in northern Chile.
+    confidence: supported
+    sources: [taucarerios2015]
+  - id: hypothesis
+    text: Isopod prey is a plausible explanation for a crustacean-directed toxin, but it has not been demonstrated.
+    confidence: debated
+    sources: [taucarerios2015, elrick1999]
+terms:
+  - { term: latrocrustatoxin, def: the latrotoxin characterised by its activity on crustaceans }
+  - { term: isopod, def: a crustacean of the order Isopoda, which includes woodlice }
+  - { term: intron, def: a stretch of a gene removed from the RNA before it is translated }
+related: [venom.latroinsectotoxins, venom.prey, genus.brown-widow]
+media:
+  - src: /specimens/venom-latrocrustatoxin.webp
+    alt: "A brown widow at the base of a tangle web handling a woodlouse, its segmented armoured plates clearly visible"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

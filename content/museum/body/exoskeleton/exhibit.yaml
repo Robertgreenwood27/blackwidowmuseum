@@ -1,0 +1,57 @@
+id: body.exoskeleton
+accession: BWM-01.07
+title: The Exoskeleton
+kicker: Armour that must be shed
+summary: The widow's skeleton is on the outside — a layered composite of chitin and protein, rigid over the legs and carapace, soft enough on the abdomen to swell after a meal.
+status: open
+order: 5
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 3
+    label: principal cuticle layers
+    note: epicuticle, exocuticle, endocuticle
+    sources: [hadley1981, foelix2011]
+  - value: 3
+    label: sublayers of the leg epicuticle
+    note: L. hesperus walking legs
+    sources: [hadley1981]
+observations:
+  - id: composite
+    text: Spider cuticle is built from chitin microfibres embedded in a protein matrix.
+    sources: [foelix2011]
+  - id: barrier
+    text: The thin outer epicuticle largely controls how much water passes through the cuticle.
+    sources: [foelix2011]
+  - id: sclerotization
+    text: After each molt, the new exocuticle hardens through sclerotization.
+    sources: [foelix2011]
+  - id: soft-abdomen
+    text: The abdominal cuticle is comparatively soft, letting it expand between molts while the prosoma and legs stay rigidly encased.
+    sources: [foelix2011]
+  - id: lipids
+    text: The western widow's carapace surface carries lipid droplets and a film that obscure its finer detail.
+    confidence: supported
+    sources: [hadley1981]
+  - id: canals
+    text: Pore and wax canals run through widow cuticle, connecting the living epidermis to the surface.
+    confidence: supported
+    sources: [hadley1981]
+  - id: gloss
+    text: Adult female western black widows are characteristically shiny black.
+    sources: [vetter2017]
+  - id: setae
+    text: The cuticle bears socketed hairs that act as touch sensors when bent.
+    sources: [barth2004]
+terms:
+  - { term: cuticle, def: the non-living outer covering secreted by the epidermis }
+  - { term: epicuticle, def: the thin outermost layer — the waterproofing barrier }
+  - { term: sclerotization, def: the chemical hardening of new cuticle }
+  - { term: exuvium, def: the empty skin left behind after a molt }
+related: [life.molting, senses.trichobothria, body.body-plan]
+media:
+  - src: /specimens/body-exoskeleton.webp
+    alt: "The empty, translucent shed skin of a juvenile widow hanging in silk, its carapace split open where she climbed out"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

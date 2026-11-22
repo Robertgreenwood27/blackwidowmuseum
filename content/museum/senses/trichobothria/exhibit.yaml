@@ -1,0 +1,32 @@
+id: senses.trichobothria
+accession: BWM-04.01
+title: Trichobothria
+kicker: Hairs that hear the air
+summary: Long, extremely fine hairs set in cup-shaped sockets. They swing at the faintest movement of air.
+status: open
+order: 1
+figures:
+  - value: Cup
+    label: socket shape
+    sources: [barth2004]
+observations:
+  - id: what
+    text: Trichobothria are long, very fine hairs set in cup-shaped sockets that sense air movement.
+    sources: [barth2004]
+  - id: tuning
+    text: What a hair responds to depends on its length and mechanics — there is no single universal frequency band.
+    sources: [barth2004]
+  - id: evidence
+    text: Much of the functional evidence comes from other spiders, chiefly Cupiennius, rather than from Latrodectus itself.
+    confidence: supported
+    sources: [barth2004]
+terms:
+  - { term: mechanoreceptor, def: a sense organ that responds to physical deformation }
+related: [senses.slit-sensilla]
+media:
+  - src: /specimens/senses-trichobothria.webp
+    alt: "A single long trichobothrium hair rising from a cup-shaped socket, air currents drifting past"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-20

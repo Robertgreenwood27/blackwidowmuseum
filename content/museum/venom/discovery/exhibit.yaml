@@ -1,0 +1,74 @@
+id: venom.discovery
+accession: BWM-02.16
+title: Learning to See the Toxin
+kicker: A century from self-experiment to structure
+summary: The science began with entomologists letting a widow bite them and deadpanning the results. A hundred years later the same molecule was caught on camera turning itself into a pore.
+status: open
+order: 16
+figures:
+  - value: 1922
+    label: Baerg lets a widow bite him
+    note: published the following year
+    sources: [baerg1923]
+  - value: 1976
+    label: the toxin is purified
+    note: Frontali and colleagues; Grasso
+    featured: true
+    sources: [frontali1976, grasso1976]
+  - value: 1990
+    label: the gene is cloned and sequenced
+    sources: [kiyatkin1990]
+  - value: 2000
+    label: the first three-dimensional reconstruction
+    sources: [orlova2000]
+  - value: 2024
+    label: prepore and pore resolved
+    sources: [klink2024]
+observations:
+  - id: baerg
+    text: Baerg's 1923 paper documented his own deliberate envenomation the previous year.
+    confidence: supported
+    sources: [baerg1923]
+  - id: blair
+    text: Blair's 1934 paper reported a carefully observed bite he had arranged for himself in 1933.
+    confidence: supported
+    sources: [blair1934]
+  - id: frontali
+    text: In 1976 Frontali and colleagues isolated the venom protein that depletes synaptic vesicles.
+    confidence: supported
+    sources: [frontali1976]
+  - id: grasso
+    text: The same year Grasso described a homogeneous ~130 kDa neurotoxin that released noradrenaline from rat nerve endings.
+    confidence: supported
+    sources: [grasso1976]
+  - id: cloning
+    text: In 1990 a cDNA sequence revealed the 1,401-amino-acid precursor of α-latrotoxin.
+    sources: [kiyatkin1990]
+  - id: first-3d
+    text: Orlova and colleagues produced the first three-dimensional reconstruction in 2000, resolving dimers and tetramers.
+    sources: [orlova2000]
+  - id: resolution
+    text: Those reconstructions reached 18 Å for dimers and 14 Å for tetramers — enough for shape, not for atoms.
+    confidence: supported
+    sources: [orlova2000]
+  - id: family-2021
+    text: In 2021 cryo-EM extended structural knowledge to the crustacean and insect toxins.
+    confidence: supported
+    sources: [chen2021]
+  - id: transition
+    text: In 2024 the prepore and pore structures revealed the rearrangement that drives the toxin into the membrane.
+    confidence: supported
+    sources: [klink2024]
+terms:
+  - { term: purification, def: separating one molecule from everything else so it can be studied }
+  - { term: cDNA, def: DNA copied from RNA, used to read an expressed gene }
+  - { term: resolution, def: the finest detail distinguishable in a reconstructed structure }
+  - { term: ångström, def: a ten-billionth of a metre; roughly the width of an atom }
+related: [venom.alpha-latrotoxin, venom.structure, venom.research-tool, humans.latrodectism]
+media:
+  - src: /specimens/venom-discovery.webp
+    alt: "A 1920s laboratory bench: a preserved widow in a glass jar, an open handwritten notebook, a brass microscope and a pipette under warm lamplight"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

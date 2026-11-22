@@ -1,0 +1,74 @@
+id: web.scaffold
+accession: BWM-03.02
+title: The Scaffold
+kicker: Architecture above the trap
+summary: Above the gumfoot lines hangs a tangle of dry, load-bearing silk. It holds the trap up, stores the spring energy that hoists prey, and can thicken into a fortress.
+status: open
+order: 2
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "1,069 ± 204"
+    unit: MPa
+    label: scaffold breaking stress
+    note: female L. hesperus; engineering stress, n = 54 fibres
+    featured: true
+    sources: [blackledge2005]
+  - value: "957 ± 194"
+    unit: MPa
+    label: dry gumfoot breaking stress
+    note: same females and conditions, n = 47 fibres
+    sources: [blackledge2005]
+  - value: 90
+    unit: "%"
+    label: energy the scaffold gives back
+    note: resilience at strains below 3%, not at rupture
+    sources: [argintean2006]
+  - value: 3
+    unit: D
+    label: a spatial trap
+    note: not a flat capture spiral
+    sources: [zevenbergen2008]
+observations:
+  - id: suspends
+    text: Dry supporting threads suspend the hunting sheet and the gumfoot lines.
+    sources: [blackledge2005]
+  - id: same-origin
+    text: Scaffold and dry gumfoot threads have similar tensile properties, consistent with a shared major ampullate origin.
+    confidence: supported
+    sources: [blackledge2005]
+  - id: spring
+    text: In western widow experiments, recoverable stretching of the scaffold supplied the energy that powers the gumfoot capture system.
+    confidence: supported
+    sources: [argintean2006]
+  - id: flying
+    text: Scaffold threads can also entangle flying prey.
+    confidence: supported
+    sources: [sahni2012]
+  - id: fortress
+    text: Well-fed western widows can build dense tangles without a distinct hunting sheet.
+    confidence: supported
+    sources: [zevenbergen2008]
+  - id: thicker
+    text: Feeding changes web architecture and thread thickness without necessarily changing the silk's material strength.
+    confidence: supported
+    sources: [blackledge2007]
+  - id: alarm-wall
+    text: Denser tangles may impede predators or announce their approach — a hypothesis, not yet a measured defence.
+    confidence: debated
+    sources: [zevenbergen2008, blackledge2007]
+  - id: sticky-patches
+    text: Some adult widow webs carry localized sticky segments outside the gumfoot lines.
+    confidence: supported
+    sources: [barrantes2010, ayoub2021]
+terms:
+  - { term: scaffold, def: the load-bearing supporting threads that suspend a cobweb }
+  - { term: sheet, def: a roughly horizontal mesh of threads the spider hunts from }
+  - { term: resilience, def: the fraction of deformation energy a material returns when it unloads }
+related: [web.gumfoot, web.hunger, web.construction, web.dragline]
+media:
+  - src: /specimens/web-scaffold.webp
+    alt: "A dense three-dimensional tangle of dry ivory silk strung between a wooden beam and a stone wall, a few taut lines descending out of frame"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

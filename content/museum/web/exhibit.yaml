@@ -1,0 +1,24 @@
+id: web
+accession: BWM-03
+title: Silk & Web
+kicker: The cobweb is not chaos
+summary: It looks like a tangle. It is a three-dimensional machine with a scaffold, a retreat and spring-loaded traps aimed at the floor — built, tuned and rewritten by one spider, night after night.
+status: open
+order: 3
+figures:
+  - value: 7
+    label: kinds of silk gland
+    note: adult female L. hesperus
+    sources: [chaw2018]
+  - value: 3
+    unit: D
+    label: a trap in three dimensions
+    note: scaffold, sheet and gumfoot lines — never an orb
+    sources: [zevenbergen2008, benjamin2003]
+  - value: 1,069
+    unit: MPa
+    label: scaffold-thread breaking stress
+    note: L. hesperus, engineering stress
+    featured: true
+    sources: [blackledge2005]
+revised: 2026-11-22

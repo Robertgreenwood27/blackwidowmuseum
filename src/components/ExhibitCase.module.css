@@ -1,0 +1,58 @@
+.case {
+  position: relative;
+  display: flex; flex-direction: column; justify-content: space-between;
+  gap: 24px;
+  min-height: 340px;
+  padding: 18px 20px 22px;
+  border: 1px solid var(--thread);
+  background: var(--ink);
+  overflow: hidden;
+  transition: border-color .4s, background .5s;
+}
+.case::before {
+  /* a single thread drops from the top of every case — it's hung, not placed */
+  content: ""; position: absolute; left: 50%; top: -1px; width: 1px; height: 0;
+  background: var(--signal); transition: height .6s var(--ease);
+}
+.open:hover { border-color: var(--silk-3); background: var(--char); }
+.open:hover::before { height: 46px; }
+
+.planned {
+  background:
+    repeating-linear-gradient(-45deg, transparent 0 9px, rgba(236, 230, 217, .035) 9px 10px),
+    var(--ink);
+}
+.planned .title { color: var(--silk-2); }
+.planned:hover { border-color: var(--thread); background:
+    repeating-linear-gradient(-45deg, transparent 0 9px, rgba(236, 230, 217, .06) 9px 10px), var(--ink); }
+
+.top { display: flex; justify-content: space-between; gap: 12px; }
+.lead {
+  font-family: var(--display); font-size: clamp(64px, 7vw, 120px); line-height: .8; letter-spacing: -.04em;
+  color: var(--silk); opacity: .9; overflow-wrap: anywhere;
+}
+.lead small { font-size: .3em; letter-spacing: 0; margin-left: 4px; color: var(--silk-2); }
+.body { display: flex; flex-direction: column; gap: 8px; }
+.title { font-family: var(--display); font-size: clamp(28px, 2.6vw, 42px); line-height: .95; letter-spacing: -.02em; }
+.kicker { font-family: var(--display); font-style: italic; font-size: 17px; color: var(--silk-2); }
+.meta { margin-top: 10px; }
+
+.s { min-height: 240px; }
+.s .lead { font-size: 56px; }
+.l { min-height: 460px; }
+.l .lead { font-size: clamp(96px, 11vw, 200px); }
+.l .title { font-size: clamp(36px, 3.6vw, 60px); }
+
+/* a specimen image sits deep in the case, behind the glass */
+.image {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; z-index: 0;
+  opacity: .38; filter: grayscale(.35);
+  transition: opacity .6s var(--ease), transform 1.2s var(--ease), filter .6s;
+}
+.case:has(.image)::after {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(180deg, rgba(5,5,6,.55) 0%, rgba(5,5,6,0) 35%, rgba(5,5,6,.92) 100%);
+}
+.top, .lead, .body { position: relative; z-index: 1; }
+.case:hover .image { opacity: .6; transform: scale(1.03); filter: grayscale(0); }

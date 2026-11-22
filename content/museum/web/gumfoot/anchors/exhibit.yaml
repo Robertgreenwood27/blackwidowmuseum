@@ -1,0 +1,60 @@
+id: web.gumfoot.anchors
+accession: BWM-03.01.01
+title: Two Kinds of Anchor
+kicker: Built to hold, built to fail
+summary: The same spider glues down two different kinds of disc. One is made never to let go. The other is made to break.
+status: open
+order: 1
+taxa: [Latrodectus hesperus, Parasteatoda tepidariorum]
+figures:
+  - value: Staple-pin
+    label: scaffold anchor
+    note: strong
+    sources: [sahni2012]
+  - value: Dendritic
+    label: gumfoot anchor
+    note: weak — designed to release
+    sources: [sahni2012]
+  - value: "1,550 ± 100"
+    label: pyriform fibres in a scaffold disc
+    note: house spider P. tepidariorum, not a widow count
+    sources: [sahni2012]
+  - value: "188 ± 20"
+    label: pyriform fibres in a gumfoot disc
+    note: same house-spider system
+    featured: true
+    sources: [sahni2012]
+observations:
+  - id: two-discs
+    text: Cobweb spiders produce strong "staple-pin" attachment discs for scaffold silk and weak "dendritic" discs for gumfoot lines.
+    sources: [sahni2012]
+  - id: architecture-not-glue
+    text: The difference in strength comes from the disc's architecture, not from a different adhesive.
+    sources: [sahni2012]
+  - id: peeling
+    text: Peeling geometry matters as much as fibre number — in house-spider discs and synthetic models alike.
+    confidence: supported
+    sources: [sahni2012]
+  - id: pysp1
+    text: Western widow attachment discs contain the pyriform spidroin PySp1.
+    sources: [blasingame2009]
+  - id: cement
+    text: Small pyriform fibres embedded in cement bind the larger dragline fibres to the surface.
+    confidence: supported
+    sources: [blasingame2009]
+  - id: masp-in-discs
+    text: MaSp1 and MaSp2 were also detected in anchored widow disc material.
+    confidence: supported
+    sources: [blasingame2009]
+terms:
+  - { term: attachment disc, def: a patch of pyriform silk that cements a thread to a surface }
+  - { term: peeling angle, def: the angle at which a thread pulls away from a surface }
+  - { term: dendritic, def: branching, like the roots of a tree }
+related: [web.gumfoot, body.spinnerets, body.silk-glands]
+media:
+  - src: /specimens/web-gumfoot-anchors.webp
+    alt: "Two silk attachment discs: a dense staple-pin pad and a sparse branching dendritic disc"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22

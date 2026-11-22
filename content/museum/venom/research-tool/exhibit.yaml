@@ -1,0 +1,74 @@
+id: venom.research-tool
+accession: BWM-02.14
+title: A Toxin at the Synapse
+kicker: How a spider taught us about our own brains
+summary: Because α-latrotoxin empties a nerve terminal so completely, it became a standard instrument of neuroscience. Chasing its receptor led to the discovery of the neurexins and the latrophilins.
+status: open
+order: 14
+taxa: [Latrodectus tredecimguttatus]
+figures:
+  - value: 1992
+    label: the year neurexins were found
+    note: by looking for the toxin's receptor
+    featured: true
+    sources: [ushkaryov1992]
+  - value: 3
+    label: neurexin genes in the original description
+    sources: [ushkaryov1992]
+  - value: 7
+    label: membrane-spanning helices of latrophilin
+    note: it is an adhesion GPCR
+    sources: [krasnoperov1997]
+  - value: 4
+    unit: amino acids
+    label: the insertion that makes LTXN4C
+    note: the mutant toxin that cannot form pores
+    sources: [ichtchenko1998]
+observations:
+  - id: "1976"
+    text: In 1976 a purified venom fraction was shown to raise release and strip synaptic vesicles from frog nerve terminals.
+    confidence: supported
+    sources: [frontali1976]
+  - id: neurexins
+    text: The 1992 hunt for the α-latrotoxin receptor revealed the neurexins, a family of neuronal surface proteins central to synapse organisation.
+    sources: [ushkaryov1992]
+  - id: second-receptor
+    text: In 1996 two groups independently isolated a second, calcium-independent receptor, later named latrophilin or CIRL.
+    sources: [davletov1996, krasnoperov1996]
+  - id: adhesion-gpcr
+    text: Cloning it in 1997 revealed a receptor joining a large adhesion-type extracellular region to a seven-transmembrane GPCR.
+    confidence: supported
+    sources: [krasnoperov1997]
+  - id: mutant
+    text: Inserting four amino acids produced LTXN4C, which still binds both receptors but behaves differently.
+    confidence: supported
+    sources: [ichtchenko1998]
+  - id: no-pores
+    text: Later work showed LTXN4C cannot assemble into pore-forming tetramers yet still triggers transmitter release in several preparations.
+    confidence: supported
+    sources: [volynski2003]
+  - id: hippocampus
+    text: In hippocampal slice cultures the mutant enhanced both spontaneous and evoked release, by routes involving internal calcium stores.
+    confidence: supported
+    sources: [capogna2003]
+  - id: fragments
+    text: Experiments with the mutant showed that the two processed fragments of latrophilin re-associate and signal when the toxin binds.
+    confidence: supported
+    sources: [volynski2004]
+  - id: two-routes
+    text: Comparing wild-type toxin with the mutant separated what the pore does from what the receptors do.
+    confidence: supported
+    sources: [volynski2003, ichtchenko1998]
+terms:
+  - { term: neurexin, def: a neuronal surface protein family central to how synapses are organised }
+  - { term: adhesion GPCR, def: a G-protein-coupled receptor with a large extracellular adhesion region }
+  - { term: synaptosome, def: an isolated nerve terminal, used to study release in a dish }
+  - { term: evoked release, def: transmitter release triggered by deliberately stimulating a neuron }
+related: [venom.alpha-latrotoxin, venom.discovery, venom.structure]
+media:
+  - src: /specimens/venom-research-tool.webp
+    alt: "A nerve terminal packed with vesicles above a muscle surface, some vesicles fusing and emptying, a ring-shaped protein in the membrane with ions streaming through"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-21

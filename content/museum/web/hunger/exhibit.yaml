@@ -1,0 +1,68 @@
+id: web.hunger
+accession: BWM-03.09
+title: Dinner or Defence?
+kicker: The web changes with her appetite
+summary: Hungry western widows build webs for hunting. Well-fed ones put more silk into the protective tangle. The same spider writes a different web depending on her last meal.
+status: open
+order: 9
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "≈2×"
+    label: thicker threads when fed
+    note: diameter, fed vs fasted; not stronger silk material
+    sources: [blackledge2007]
+  - value: 225
+    unit: "%"
+    label: predicted rise in breaking force
+    note: inferred from thread dimensions; not a measured defence
+    featured: true
+    sources: [blackledge2007]
+  - value: 112
+    label: juvenile females tested
+    note: 2008 web-swap experiment
+    sources: [zevenbergen2008]
+observations:
+  - id: more-silk
+    text: Fed western widows spun more total web silk than fasted females.
+    confidence: supported
+    sources: [blackledge2007]
+  - id: allocation
+    text: Fed females put relatively more silk into support threads and less into sheets and gumfoot lines.
+    confidence: supported
+    sources: [blackledge2007]
+  - id: geometry
+    text: Feeding changed thread diameter more clearly than the silk's tensile properties.
+    confidence: supported
+    sources: [blackledge2007]
+  - id: defence-hypothesis
+    text: The extra support silk may protect against predators, but that benefit was proposed, not measured.
+    confidence: debated
+    sources: [blackledge2007]
+  - id: swap
+    text: Moving spiders between webs separated how a web was built from how hungry its occupant was.
+    confidence: supported
+    sources: [zevenbergen2008]
+  - id: starved-webs-win
+    text: Fed and starved spiders alike caught prey better on webs built by starved spiders.
+    confidence: supported
+    sources: [zevenbergen2008]
+  - id: no-tradeoff
+    text: A later study found spiders that built more structural threads also built more trap threads.
+    confidence: supported
+    sources: [toupin2022]
+  - id: stickier
+    text: Protein-deprived western widows produced stickier capture threads.
+    confidence: supported
+    sources: [blamires2014]
+terms:
+  - { term: body condition, def: an animal's resource state relative to its size }
+  - { term: behavioural plasticity, def: one individual behaving differently under different conditions }
+  - { term: allocation trade-off, def: investing more in one thing at a cost to another }
+related: [web.scaffold, web.gumfoot, web.gumfoot.glue, web.construction]
+media:
+  - src: /specimens/web-hunger.webp
+    alt: "Two cobwebs side by side: a dense tangle with few gumfoot lines, and a sparse tangle with many gumfoot lines"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-22
