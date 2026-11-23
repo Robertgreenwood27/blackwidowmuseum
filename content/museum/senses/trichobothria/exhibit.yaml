@@ -1,32 +1,85 @@
 id: senses.trichobothria
 accession: BWM-04.01
 title: Trichobothria
-kicker: Hairs that hear the air
-summary: Long, extremely fine hairs set in cup-shaped sockets. They swing at the faintest movement of air.
+kicker: A passing insect moves the air before it touches silk
+summary: Long, extremely fine hairs set in cup-shaped sockets swing at the faintest movement of air. A brown widow carries dozens of them on its legs; how such hairs work comes mostly from experiments on another spider.
 status: open
 order: 1
+taxa: [Latrodectus geometricus, Cupiennius salei]
 figures:
-  - value: Cup
-    label: socket shape
-    sources: [barth2004]
+  - value: "≈68"
+    label: airflow hairs across the walking legs
+    note: brown widow, five females; an approximate inventory, not a genus census
+    featured: true
+    sources: [parra2009]
+  - value: "≈0.1"
+    unit: °
+    label: hair deflection that fires the nerve
+    note: occasionally 0.01°; Cupiennius, not a widow
+    sources: [barth1999]
+  - value: "200–800"
+    unit: µm
+    label: lengths of the hairs tested
+    note: Cupiennius metatarsal trichobothria
+    sources: [barth1999]
+  - value: "38.4"
+    unit: mm
+    label: fly distance when the spider responded
+    note: Cupiennius free-flight experiment; ± 5.6 mm
+    sources: [klopsch2012]
+  - value: "55 / 15"
+    unit: cm
+    label: neural response range, with / without a platform below
+    note: Cupiennius, tethered fly; a surface underneath reshapes the airflow
+    sources: [barth1999]
 observations:
   - id: what
     text: Trichobothria are long, very fine hairs set in cup-shaped sockets that sense air movement.
     sources: [barth2004]
-  - id: tuning
-    text: What a hair responds to depends on its length and mechanics — there is no single universal frequency band.
-    sources: [barth2004]
-  - id: evidence
-    text: Much of the functional evidence comes from other spiders, chiefly Cupiennius, rather than from Latrodectus itself.
+  - id: rows
+    text: On the brown widow's tibiae, the trichobothria stand in two roughly parallel rows.
     confidence: supported
+    sources: [parra2009]
+  - id: metatarsal
+    text: Brown widows also carry a single trichobothrium near the end of the metatarsus on all but the hindmost legs.
+    confidence: supported
+    sources: [parra2009]
+  - id: compliant
+    text: A trichobothrium is anchored far more loosely than an ordinary touch hair, so moving air can swing it.
     sources: [barth2004]
+  - id: tuning
+    text: What a hair responds to depends on its length and on the slow layer of air hugging the leg — there is no single universal frequency band.
+    sources: [barth2004]
+  - id: same-cells
+    text: In Cupiennius, the sensory cells beneath hairs of different lengths were tuned much alike when driven directly; the hair itself does the filtering.
+    confidence: supported
+    sources: [barth1999]
+  - id: change
+    text: Those cells answer change in the airflow rather than firing steadily at rest.
+    confidence: supported
+    sources: [barth1999]
+  - id: wake
+    text: An approaching blowfly pushes a smooth bow wave ahead of it, then a turbulent wake.
+    confidence: supported
+    sources: [klopsch2012]
+  - id: jump
+    text: Cupiennius launched its prey-capture jump as the fly's wake reached the hairs on its legs.
+    confidence: supported
+    sources: [klopsch2012]
+  - id: evidence
+    text: The functional evidence comes from other spiders, chiefly Cupiennius. No widow airflow threshold has been measured.
+    confidence: supported
+    sources: [barth2004, barth1999]
 terms:
   - { term: mechanoreceptor, def: a sense organ that responds to physical deformation }
-related: [senses.slit-sensilla]
+  - { term: trichobothrium, def: a fine, loosely articulated hair that responds to airflow }
+  - { term: boundary layer, def: the thin skin of slowed air close to a surface }
+  - { term: phasic response, def: nerve activity concentrated on changes in stimulation }
+related: [senses.slit-sensilla, senses.hearing, body.legs]
 media:
   - src: /specimens/senses-trichobothria.webp
     alt: "A single long trichobothrium hair rising from a cup-shaped socket, air currents drifting past"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-20
+revised: 2026-11-23

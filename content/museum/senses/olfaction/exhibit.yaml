@@ -1,0 +1,75 @@
+id: senses.olfaction
+accession: BWM-04.06
+title: Following a Scent
+kicker: A web can advertise beyond its threads
+summary: Male widows find females by scent carried on the air. Field traps baited with synthetic compounds catch them — and in another spider, the noses have finally been found, on the legs.
+status: open
+order: 6
+taxa: [Latrodectus hesperus, Latrodectus hasselti, Argiope bruennichi]
+figures:
+  - value: "6 / 0"
+    label: males trapped, scent vs. control
+    note: western widow, isobutyric acid, one field night
+    featured: true
+    sources: [fischer2025]
+  - value: 840
+    unit: ng
+    label: acid loaded per lure
+    note: bait loading — not an emission rate or detection threshold
+    sources: [fischer2025]
+  - value: 4
+    label: compounds in a redback field lure
+    note: three volatiles plus a short-range component
+    sources: [twidle2026]
+  - value: "≈7,000"
+    label: wall-pore smell hairs on one male's legs
+    note: wasp spider Argiope bruennichi; not a widow count
+    sources: [talukder2025]
+observations:
+  - id: airborne
+    text: In the field, male western widows were drawn to empty female webs by airborne cues.
+    confidence: supported
+    sources: [kasumovic2004]
+  - id: species
+    text: Those males told western widow webs from redback webs by scent alone.
+    confidence: supported
+    sources: [kasumovic2004]
+  - id: acid
+    text: Synthetic isobutyric acid attracted male western widows in a field trial.
+    confidence: supported
+    sources: [fischer2025]
+  - id: redback-lure
+    text: A redback blend trapped males in New Zealand vineyards, where the species is invasive.
+    confidence: supported
+    sources: [twidle2026]
+  - id: redback-volatiles
+    text: The candidate redback volatiles are 2-methylpropanoic acid, (S)-2-methylbutanoic acid and 2-pyrrolidone.
+    confidence: supported
+    sources: [twidle2026]
+  - id: wall-pores
+    text: In the wasp spider, nerve cells in porous leg hairs responded to female pheromone in proportion to its concentration.
+    sources: [talukder2025]
+  - id: males-only
+    text: Those wall-pore hairs were absent from the females and subadult males examined.
+    confidence: supported
+    sources: [talukder2025]
+  - id: survey
+    text: The same team searched 19 species from 16 spider families for such hairs, by their shape alone.
+    confidence: supported
+    sources: [talukder2025]
+  - id: trails
+    text: Searching western widow males also follow rivals' silk trails.
+    confidence: supported
+    sources: [scott2019]
+terms:
+  - { term: olfaction, def: detecting chemicals carried in air — smell }
+  - { term: wall-pore sensillum, def: a sensory hair whose wall is perforated by many tiny pores }
+  - { term: volatile, def: a compound that evaporates readily and travels on air }
+related: [senses.contact-chemistry, life.mate-search, web.messages, senses.tarsal-organ]
+media:
+  - src: /specimens/senses-smell.webp
+    alt: "At night, a slender male widow on a twig raises his front legs as faint wisps of scent drift toward him from a distant web"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

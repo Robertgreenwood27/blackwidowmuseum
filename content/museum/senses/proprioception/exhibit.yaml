@@ -1,0 +1,85 @@
+id: senses.proprioception
+accession: BWM-04.08
+title: Knowing Where the Legs Are
+kicker: Feedback from every bend and load
+summary: A spider hanging upside down in the dark still knows where each leg is and which way is down. Hair plates, internal joint receptors and slit organs report every bend — though no dedicated gravity organ has been found.
+status: open
+order: 8
+taxa: [Cupiennius salei, Latrodectus hesperus]
+figures:
+  - value: 7
+    label: leg joints, each with several receptor types
+    note: Cupiennius
+    featured: true
+    sources: [seyfarth1985]
+  - value: "25–70"
+    label: hairs in one coxal hair plate
+    note: Cupiennius, near the joint with the body
+    sources: [seyfarth1990]
+  - value: "0.5–1"
+    unit: °
+    label: hair deflection that triggers a response
+    note: Cupiennius; a hair angle, not a whole-leg angle
+    sources: [seyfarth1990]
+  - value: "7 / 10"
+    label: spiders standing higher after hair-plate removal
+    note: Cupiennius, one side ablated
+    sources: [seyfarth1990]
+observations:
+  - id: every-joint
+    text: In Cupiennius, every leg joint examined had internal receptors, slit organs and long cuticular hairs.
+    sources: [seyfarth1985]
+  - id: plates
+    text: As a joint flexes, its soft membrane bends the hairs of the hair plate beside it.
+    sources: [seyfarth1985]
+  - id: one-cell
+    text: Each hair in a coxal plate is served by a single sensory cell.
+    sources: [seyfarth1990]
+  - id: one-way
+    text: Only bending in one direction — away from the body — excited the plate's receptors.
+    confidence: supported
+    sources: [seyfarth1990]
+  - id: hold
+    text: A hair held bent kept firing, though more and more slowly.
+    confidence: supported
+    sources: [seyfarth1990]
+  - id: local
+    text: Hair-plate nerves end in the matching segment of the nervous system, on the same side.
+    sources: [seyfarth1990]
+  - id: slits-too
+    text: Slit organs near the leg tips also respond to slow bending, adding to the posture signal.
+    confidence: supported
+    sources: [barth1982]
+  - id: height
+    text: Removing the hair plates changed how high some spiders stood, but not how their bodies lined up with gravity.
+    confidence: supported
+    sources: [seyfarth1990]
+  - id: gravity
+    text: Hair plates may help sense gravity, but the ablations had limited effects and the mechanism remains open.
+    confidence: debated
+    sources: [seyfarth1990]
+  - id: widow-memory
+    text: Western widows return to their retreat by updating their own movements — feedback these receptors could supply.
+    confidence: supported
+    sources: [sergi2021]
+  - id: no-organ
+    text: Hanging inverted is a posture, not evidence of a balance organ; none has been identified in widows.
+    confidence: supported
+    sources: [seyfarth1990]
+terms:
+  - { term: proprioception, def: sensing the position, movement and load of one's own body }
+  - { term: hair plate, def: a patch of short hairs bent by the movement of a joint }
+  - { term: graviception, def: sensing the direction of gravity }
+related: [senses.slit-sensilla, web.navigation, body.legs, body.nervous-system]
+media:
+  - src: /specimens/senses-proprioception.webp
+    alt: "Cutaway of a widow's leg joint: nerve fibres running to receptor cells inside, a patch of short hairs on the outside where the segments meet"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+  - src: /specimens/senses-gravity.webp
+    alt: "A widow hanging inverted beneath a thread, with a plumb line and faint strain marks at her joints"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

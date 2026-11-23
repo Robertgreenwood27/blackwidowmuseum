@@ -1,0 +1,70 @@
+id: genus.south-america
+accession: BWM-06.12
+title: South America's Widows
+kicker: Local names hide a tangled species history
+summary: South America holds more widow species than any other continent, and their names are still being argued over. Field studies stay useful as long as they keep the name the authors used.
+status: open
+order: 12
+taxa: [Latrodectus mirabilis, Latrodectus thoracicus, Latrodectus corallinus, Latrodectus antheratus, Latrodectus diaguita, Latrodectus variegatus, Latrodectus lucacha]
+figures:
+  - value: ">86"
+    unit: "%"
+    label: of prey were ants
+    note: same wheat and oat fields; by count, not weight
+    featured: true
+    sources: [pompozzi2013]
+  - value: "1,004"
+    label: prey items in cereal fields
+    note: study identified as L. mirabilis, central Argentina
+    sources: [pompozzi2013]
+  - value: 4
+    unit: h
+    label: to catch half the ants offered
+    note: laboratory trial
+    sources: [pompozzi2013]
+  - value: "2009 / 2026"
+    label: a name restored / a species described
+    note: L. thoracicus revalidated; L. lucacha named
+    sources: [aguilera2009, miller2026b]
+observations:
+  - id: accepted
+    text: L. antheratus, L. diaguita, L. quartus and L. variegatus are each accepted as separate species.
+    sources: [wsc2026]
+  - id: corallinus
+    text: L. corallinus is catalogued from Panama, Brazil and Argentina.
+    sources: [wsc2026]
+  - id: garbae
+    text: The catalogue now treats the Colombian L. garbae as the same species as L. corallinus.
+    sources: [wsc2026, zabalacruz2026]
+  - id: disputed
+    text: A November 2026 atlas disagrees, keeping L. garbae and merging L. mirabilis into L. thoracicus.
+    confidence: debated
+    sources: [miller2026]
+  - id: thoracicus
+    text: Chile's L. thoracicus was restored as a species in 2009 on biological and DNA evidence.
+    confidence: supported
+    sources: [aguilera2009]
+  - id: ants
+    text: Ants dominated the prey of widows in Argentine wheat and oat fields.
+    confidence: supported
+    sources: [pompozzi2013]
+  - id: leafcutters
+    text: In laboratory trials the same widows caught leaf-cutting ants.
+    confidence: supported
+    sources: [pompozzi2013]
+  - id: pompoms
+    text: Some South American widows hang detachable pompoms on their egg sacs — brown widows are not the only ornamenters.
+    confidence: supported
+    sources: [miller2026b]
+terms:
+  - { term: synonymy, def: two names judged to belong to one species }
+  - { term: voucher, def: a preserved specimen that lets a study's identification be rechecked }
+  - { term: polyphagy, def: eating many kinds of prey }
+related: [genus.naming, genus.roster, genus.identification]
+media:
+  - src: /specimens/genus-south-america.webp
+    alt: "A black widow with coral-red markings in a tangle web among dry pampas grass at dusk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

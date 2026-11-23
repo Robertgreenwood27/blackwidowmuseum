@@ -1,0 +1,71 @@
+id: genus.naming
+accession: BWM-06.16
+title: Naming the Widows
+kicker: A name can survive while its species changes
+summary: Widow names have swung from many, to six, and back to dozens. In 1959 Levi lumped most of the world's widows under mactans; revisions since have split them apart again — and the newest atlas and the catalogue still disagree.
+status: open
+order: 16
+taxa: [Latrodectus]
+figures:
+  - value: 6
+    label: species in Levi's 1959 system
+    note: down from dozens of earlier names
+    featured: true
+    sources: [levi1959, lotz1994]
+  - value: "35 / 39"
+    label: species, catalogue vs. atlas
+    note: World Spider Catalog / November 2026 atlas
+    sources: [wsc2026, miller2026]
+  - value: 7
+    label: names the atlas revives
+    note: and three it merges
+    sources: [miller2026]
+  - value: "1964 / 1994"
+    label: regional revisions
+    note: North America / Africa
+    sources: [mccrone1964, lotz1994]
+observations:
+  - id: walckenaer
+    text: The genus is credited to Walckenaer, 1805.
+    sources: [wsc2026]
+  - id: type
+    text: Its type species is L. tredecimguttatus, first described by Rossi.
+    sources: [wsc2026]
+  - id: levi
+    text: Levi's 1959 revision placed many regional names under a broad L. mactans.
+    sources: [levi1959, wsc2026]
+  - id: north-america
+    text: Later North American work separated species that the broad system hid.
+    sources: [mccrone1964, kaston1970]
+  - id: africa
+    text: Lotz restored African species from morphology and natural history.
+    sources: [lotz1994]
+  - id: chacoca
+    text: The genus name Chacoca is now a junior synonym of Latrodectus.
+    sources: [wsc2026]
+  - id: integrative
+    text: The 2023 description of L. occidentalis combined DNA, anatomy and range modelling.
+    sources: [valdezmondragon2023]
+  - id: garbae
+    text: The catalogue follows a July 2026 study merging L. garbae into L. corallinus.
+    sources: [wsc2026, zabalacruz2026]
+  - id: disagree
+    text: The November 2026 atlas rejects that merger.
+    confidence: debated
+    sources: [miller2026]
+  - id: not-discovery
+    text: Species counts rise and fall with revalidations and mergers — a new name is not always a new animal.
+    sources: [wsc2026, miller2026]
+terms:
+  - { term: authority, def: the author and year of a scientific name }
+  - { term: junior synonym, def: the later of two names judged to mean the same species }
+  - { term: integrative taxonomy, def: drawing species boundaries from several independent kinds of evidence }
+  - { term: nomen dubium, def: a name too uncertain to apply to any known species }
+related: [genus.roster, genus.family-tree, genus.south-america.lucacha]
+media:
+  - src: /specimens/genus-naming.webp
+    alt: "Vials of preserved widow spiders with faded handwritten labels in an old archive drawer, an open taxonomic volume and a magnifier beside them"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

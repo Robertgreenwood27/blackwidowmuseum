@@ -1,0 +1,74 @@
+id: senses.hearing
+accession: BWM-04.11
+title: Hearing Without Ears
+kicker: Air-particle motion can carry sound
+summary: Spiders have no eardrums, yet a jumping spider was shown to hear sound from metres away — through hairs on its legs. Whether widows can do the same has never been tested.
+status: open
+order: 11
+taxa: [Phidippus audax, Cupiennius salei]
+figures:
+  - value: "3.3"
+    unit: m
+    label: speaker distance that still drew a response
+    note: jumping spider, anechoic chamber, 76–84 dB SPL
+    featured: true
+    sources: [shamble2016]
+  - value: "80–380"
+    unit: Hz
+    label: tones brain cells responded to
+    note: jumping spider
+    sources: [shamble2016]
+  - value: 80
+    unit: Hz
+    label: tone that made spiders freeze
+    note: jumping spider; a behavioural stimulus
+    sources: [shamble2016]
+  - value: "0.13"
+    unit: mm/s
+    label: air movement at the spider
+    note: calculated, 80 Hz at 65 dB SPL and 3 m
+    sources: [shamble2016]
+observations:
+  - id: freeze
+    text: An 80 Hz airborne tone made jumping spiders freeze.
+    confidence: supported
+    sources: [shamble2016]
+  - id: neurons
+    text: Neurons recorded in the jumping spider brain fired to airborne tones.
+    confidence: supported
+    sources: [shamble2016]
+  - id: isolated
+    text: The responses persisted with the spider isolated from vibration, in a chamber without echoes.
+    confidence: supported
+    sources: [shamble2016]
+  - id: hairs
+    text: Some of the same neurons also fired when leg hairs were touched directly.
+    confidence: supported
+    sources: [shamble2016]
+  - id: particle
+    text: The authors conclude the hairs detect the back-and-forth motion of air particles, not pressure.
+    confidence: supported
+    sources: [shamble2016]
+  - id: no-eardrum
+    text: None of this requires a pressure-sensitive eardrum.
+    confidence: supported
+    sources: [shamble2016]
+  - id: far
+    text: Air-particle motion persists well beyond the region close to the source.
+    sources: [shamble2016]
+  - id: flies
+    text: Airflow-hair neurons in Cupiennius also encode the air movements of a passing fly.
+    confidence: supported
+    sources: [barth1999]
+terms:
+  - { term: particle velocity, def: the back-and-forth motion of air as sound passes }
+  - { term: sound pressure level, def: the loudness of sound as pressure, in decibels (dB SPL) }
+  - { term: near field, def: the region close to a sound source where air motion is strongest }
+related: [senses.trichobothria, senses.vibration]
+media:
+  - src: /specimens/senses-hearing.webp
+    alt: "Long fine hairs on a spider's leg bending together as faint arcs of sound arrive out of the dark"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

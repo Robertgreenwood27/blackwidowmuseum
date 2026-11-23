@@ -1,9 +1,37 @@
 id: senses.slit-sensilla
 accession: BWM-04.02
 title: Slit Sensilla
-kicker: Feeling strain in the skeleton
+kicker: The skeleton is part of the sensor
+summary: Tiny membrane-covered slits in the cuticle register when the skeleton is squeezed or bent — by her own weight, her own movement, or vibration arriving through the silk.
 status: open
 order: 2
+taxa: [Latrodectus geometricus, Cupiennius salei]
+figures:
+  - value: 88
+    label: lyriform organs across the eight legs
+    note: brown widow; counts organs, not individual slits
+    featured: true
+    sources: [parra2009]
+  - value: "1.4–30"
+    unit: nm
+    label: slit compression at the nerve's threshold
+    note: Cupiennius tibial organ HS-8; varies slit to slit
+    sources: [schaber2012]
+  - value: "8–200"
+    unit: µm
+    label: slit length
+    note: general spider range; widths 1–2 µm
+    sources: [politi2021]
+  - value: 1
+    unit: nm
+    label: leg-tip displacement detected at 1 kHz
+    note: Cupiennius metatarsal organ; not slit compression
+    sources: [barth1982]
+  - value: "0.01"
+    unit: mN
+    label: force on the slit at threshold
+    note: Cupiennius HS-8; not a force on the web
+    sources: [schaber2012]
 observations:
   - id: slits
     text: Slit sensilla detect tiny strains in the exoskeleton caused by movement and vibration.
@@ -11,14 +39,48 @@ observations:
   - id: lyriform
     text: Lyriform organs are groups of slit sensilla lying side by side — not a separate kind of receptor.
     sources: [barth2004]
+  - id: mapped
+    text: Brown widow lyriform organs have been mapped on several segments of every leg.
+    confidence: supported
+    sources: [parra2009]
+  - id: dorsal
+    text: The brown widow map includes an organ on the top of the joint between metatarsus and tarsus.
+    confidence: supported
+    sources: [parra2009]
   - id: metatarsal
     text: The metatarsal lyriform organ on the legs is a well-studied detector of substrate vibration.
     sources: [barth2004]
-related: [senses.trichobothria, senses.vibration]
+  - id: across
+    text: A slit is squeezed most easily by forces acting across its long axis.
+    sources: [politi2021]
+  - id: graded
+    text: Neighbouring slits in one organ differ in sensitivity, so together they cover a wide range of strains.
+    confidence: supported
+    sources: [schaber2012]
+  - id: pad
+    text: In Cupiennius, a soft cuticular pad beside the vibration organ filters what reaches it and stops it being over-compressed.
+    confidence: supported
+    sources: [politi2021]
+  - id: high-pass
+    text: Cupiennius metatarsal slits grow sharply more sensitive above roughly 40 Hz — a built-in high-pass filter.
+    confidence: supported
+    sources: [barth1982]
+  - id: double-duty
+    text: The same metatarsal organ also responds to slow bending of the tarsus, so it reports posture as well as vibration.
+    confidence: supported
+    sources: [barth1982]
+  - id: not-cracks
+    text: A slit is not an open crack. A thin membrane covers it, and a sensory dendrite attaches beneath.
+    sources: [politi2021]
+terms:
+  - { term: slit sensillum, def: a strain sensor embedded in the cuticle }
+  - { term: lyriform organ, def: a group of closely set slits; named for its resemblance to a lyre }
+  - { term: high-pass filter, def: a system that passes higher frequencies better than lower ones }
+related: [senses.trichobothria, senses.vibration, senses.proprioception, body.exoskeleton]
 media:
   - src: /specimens/senses-slit-sensilla.webp
     alt: "A lyriform organ: parallel slits of graded length in the leg cuticle near a joint"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-20
+revised: 2026-11-23

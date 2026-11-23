@@ -1,0 +1,76 @@
+id: genus.button-spiders
+accession: BWM-06.09
+title: The Button Spiders
+kicker: African widows are many species, not one black button
+summary: Africa's widows include black, brown and pale species with different homes and nurseries. Egg sacs revealed overlooked species — most recently a sand-forest widow with purple sacs, named in 2019.
+status: open
+order: 9
+taxa: [Latrodectus indistinctus, Latrodectus renivulvatus, Latrodectus cinctus, Latrodectus karrooensis, Latrodectus rhodesiensis, Latrodectus umbukwane]
+figures:
+  - value: "27 × 17"
+    unit: mm
+    label: a purple egg sac
+    note: L. umbukwane, as described
+    featured: true
+    sources: [wright2019]
+  - value: "10–18"
+    unit: mm
+    label: smooth egg sac diameter
+    note: L. rhodesiensis; brown widow sacs 5–9 mm and tufted
+    sources: [mackay1973]
+  - value: 698
+    unit: km²
+    label: modelled area of occupancy
+    note: L. umbukwane, from potential habitat, 2019
+    sources: [wright2019]
+  - value: "1994 / 2019"
+    label: revision / newest species
+    note: Lotz's revision; L. umbukwane described
+    sources: [lotz1994, wright2019]
+observations:
+  - id: indistinctus
+    text: L. indistinctus is catalogued from Namibia and South Africa.
+    sources: [wsc2026]
+  - id: cinctus
+    text: L. cinctus ranges far more widely, from Africa into western Asia.
+    sources: [wsc2026]
+  - id: restored
+    text: Lotz's 1994 revision restored L. cinctus and L. renivulvatus from the catch-all name mactans.
+    sources: [lotz1994]
+  - id: karrooensis
+    text: L. karrooensis is distinguished by a T-shaped marking and its retreat.
+    confidence: supported
+    sources: [lotz1994]
+  - id: rhodesiensis
+    text: L. rhodesiensis was first noticed because its egg sacs were smooth, not spiked like a brown widow's.
+    sources: [mackay1973]
+  - id: white-sacs
+    text: Its sacs are white when new and age to a dirty white.
+    confidence: supported
+    sources: [mackay1973]
+  - id: umbukwane
+    text: L. umbukwane was described from sand forest in northern KwaZulu-Natal.
+    sources: [wright2019]
+  - id: purple
+    text: Its fresh egg sacs are purple and turn shiny grey with age.
+    confidence: supported
+    sources: [wright2019]
+  - id: methods
+    text: The description combined anatomy with DNA barcodes.
+    sources: [wright2019]
+  - id: data-deficient
+    text: Its describers recommended a Data Deficient listing because its range is still uncertain.
+    confidence: supported
+    sources: [wright2019]
+terms:
+  - { term: button spider, def: the southern African common name for widows — not a scientific group }
+  - { term: AOO / EOO, def: area of occupancy / extent of occurrence — two different measures of a range }
+  - { term: revalidation, def: restoring a name that had been sunk into synonymy }
+related: [genus.brown-widow, genus.pale-widows, genus.identification, genus.naming]
+media:
+  - src: /specimens/genus-button-spiders.webp
+    alt: "A round, all-black button spider at the mouth of her silk retreat beneath a stone in dry scrub"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

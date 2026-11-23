@@ -4,6 +4,15 @@
    Red is rationed. It appears where the hourglass would: the thing to notice.
    ========================================================================== */
 
+/* Fraunces draws the macron vowels (ā ē ī ō ū — katipō, Māori names) with the
+   macron misplaced. This face covers only those code points with a local
+   serif, so every other character still comes from Fraunces. */
+@font-face {
+  font-family: "Macron Fix";
+  src: local("Georgia"), local("Noto Serif"), local("Liberation Serif"), local("LiberationSerif-Regular"), local("DejaVu Serif"), local("Times New Roman"), local("Times");
+  unicode-range: U+0100-0101, U+0112-0113, U+012A-012B, U+014C-014D, U+016A-016B;
+}
+
 :root {
   --ink: #050506;
   --char: #0c0b0e;
@@ -16,7 +25,7 @@
   --signal: #e3241c;
   --signal-deep: #8f0f0b;
 
-  --display: var(--font-display), Georgia, serif;
+  --display: "Macron Fix", var(--font-display), Georgia, serif;
   --text: var(--font-text), "Helvetica Neue", Arial, sans-serif;
   --mono: var(--font-mono), ui-monospace, monospace;
 

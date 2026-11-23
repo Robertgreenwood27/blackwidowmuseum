@@ -3,6 +3,7 @@ import type { ExhibitNode } from "@/museum/schema";
 import { catalogue, children, descendants } from "@/museum/catalogue";
 import { roman, shortAccession } from "@/museum/format";
 import { Motif } from "@/stage/motifs";
+import { stageFor } from "@/stage/registry";
 import { ExhibitCase } from "./ExhibitCase";
 import { SilkTrail } from "./SilkTrail";
 import { Colophon } from "./Colophon";
@@ -17,6 +18,8 @@ export function VaultView({ vault }: { vault: ExhibitNode }) {
   const open = rooms.filter((r) => r.status === "open");
   const planned = rooms.filter((r) => r.status === "planned");
   const next = vaults[(idx + 1) % vaults.length];
+  const stage = stageFor(vault.id);
+  const Stage = stage?.component;
 
   return (
     <>
@@ -36,6 +39,12 @@ export function VaultView({ vault }: { vault: ExhibitNode }) {
           </p>
         </div>
       </section>
+
+      {Stage && (
+        <section className={s.stage} aria-label={stage.medium}>
+          <Stage exhibit={vault} />
+        </section>
+      )}
 
       <section className={s.floor} aria-label="Exhibits">
         <div className={s.grid}>

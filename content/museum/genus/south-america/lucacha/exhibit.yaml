@@ -1,0 +1,66 @@
+id: genus.south-america.lucacha
+accession: BWM-06.12.01
+title: A New Widow from the Andes
+kicker: Named in 2026, collected in 2006
+summary: Latrodectus lucacha was described in June 2026 from museum specimens, DNA barcodes and more than a hundred citizen-science photographs. It is the newest widow in the catalogue.
+status: open
+order: 1
+taxa: [Latrodectus lucacha]
+figures:
+  - value: "3,540"
+    unit: m
+    label: altitude of the type locality
+    note: Pachacayo, Junín, Peru; collected 2006
+    featured: true
+    sources: [miller2026b]
+  - value: "8.1"
+    unit: mm
+    label: female holotype body length
+    sources: [miller2026b]
+  - value: "2.8"
+    unit: mm
+    label: a measured male
+    note: from Lima's coastal wetlands; not her mate
+    sources: [miller2026b]
+  - value: "7–10"
+    unit: mm
+    label: egg-sac diameter
+    note: plain, white, woolly
+    sources: [miller2026b]
+  - value: 122
+    label: photographic records used
+    note: iNaturalist; not preserved specimens
+    sources: [miller2026b]
+observations:
+  - id: named
+    text: Latrodectus lucacha was formally described on 2 June 2026.
+    sources: [miller2026b]
+  - id: holotype
+    text: Its holotype, the name-bearing specimen, came from Pachacayo in Peru.
+    sources: [miller2026b]
+  - id: ducts
+    text: The female's copulatory ducts make three lateral loops.
+    sources: [miller2026b]
+  - id: red
+    text: The red markings on a female's back vary in width and length.
+    confidence: supported
+    sources: [miller2026b]
+  - id: white-males
+    text: Males have an extensively white back.
+    confidence: supported
+    sources: [miller2026b]
+  - id: barcode
+    text: The description includes DNA barcode sequences.
+    sources: [miller2026b]
+  - id: photos
+    text: Photographs extend the likely range to Ecuador, Bolivia and Chile; preserved specimens confirm Peru.
+    confidence: supported
+    sources: [miller2026b]
+  - id: lowland
+    text: It is not only a high-altitude species — a measured male came from coastal Lima.
+    sources: [miller2026b]
+terms:
+  - { term: holotype, def: the single specimen that carries a species name }
+  - { term: DNA barcode, def: a standard gene sequence, here COI, used to identify species }
+related: [genus.naming, genus.roster]
+revised: 2026-11-23

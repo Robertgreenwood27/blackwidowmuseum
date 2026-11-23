@@ -1,0 +1,66 @@
+id: genus.asia
+accession: BWM-06.13
+title: Widows Across Asia
+kicker: Not every Asian widow is a redback
+summary: Asia's widows run from L. elegans in the east and south to L. dahli and L. hystrix in the west. Some old Asian records under other names turned out to be misidentifications.
+status: open
+order: 13
+taxa: [Latrodectus elegans, Latrodectus dahli, Latrodectus hystrix, Latrodectus erythromelas]
+figures:
+  - value: "1.57"
+    unit: Gb
+    label: assembled genome
+    note: L. elegans; estimated true size ≈1.74 Gb
+    featured: true
+    sources: [wang2022]
+  - value: 14
+    label: chromosomes assembled
+    note: L. elegans
+    sources: [wang2022]
+  - value: "9.53"
+    unit: mm
+    label: body length of one Indian female
+    note: L. elegans, Manipur; a single specimen
+    sources: [kananbala2012]
+  - value: 930
+    unit: m
+    label: Manipur collection altitude
+    note: May 2011
+    sources: [kananbala2012]
+observations:
+  - id: elegans
+    text: L. elegans is recorded from India, Nepal, Myanmar, China and Japan.
+    sources: [wsc2026]
+  - id: manipur
+    text: A 2012 paper documented it in India from preserved females.
+    sources: [kananbala2012]
+  - id: marks
+    text: Live females had a red pattern on the back and a red hourglass beneath.
+    confidence: supported
+    sources: [kananbala2012]
+  - id: genome
+    text: L. elegans has a chromosome-scale genome assembly.
+    sources: [wang2022]
+  - id: dahli
+    text: L. dahli ranges across North Africa and western and central Asia.
+    sources: [wsc2026]
+  - id: hystrix
+    text: L. hystrix is known only from Yemen, including the island of Socotra.
+    sources: [wsc2026]
+  - id: erythromelas
+    text: L. erythromelas is catalogued from India and Sri Lanka.
+    sources: [wsc2026]
+  - id: misidentified
+    text: Chinese records once published as L. mactans are now listed under L. elegans as misidentifications.
+    sources: [wsc2026]
+terms:
+  - { term: N50, def: a measure of how contiguous a genome assembly is }
+  - { term: k-mer estimate, def: a genome-size estimate from counting short DNA "words" }
+related: [genus.mediterranean, genus.redback, genus.naming]
+media:
+  - src: /specimens/genus-asia.webp
+    alt: "A slender black widow with red dorsal markings in a tangle web on a terraced hillside in South Asia"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

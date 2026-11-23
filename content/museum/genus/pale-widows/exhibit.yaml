@@ -1,0 +1,73 @@
+id: genus.pale-widows
+accession: BWM-06.11
+title: The Pale Widows
+kicker: A widow need not be black
+summary: The white widow L. pallidus and the desert widow L. revivensis live in the dry shrublands of Africa and western Asia. Their males struggle to find mates; their young move house to bigger bushes.
+status: open
+order: 11
+taxa: [Latrodectus pallidus, Latrodectus revivensis]
+figures:
+  - value: "<20"
+    unit: "%"
+    label: searching males that reached a female
+    note: white widow, field study
+    featured: true
+    sources: [segoli2006]
+  - value: "11–13 / 3.5–5.5"
+    unit: mm
+    label: white widow female / male
+    sources: [nentwig2026c]
+  - value: "up to 6"
+    label: males per female
+    note: white widow; a minimum, from broken palp tips
+    sources: [segoli2006]
+  - value: 40
+    unit: "%"
+    label: estimated death rate while moving
+    note: desert widow juveniles relocating
+    sources: [lubin1993]
+observations:
+  - id: colour
+    text: White widow females are whitish to pale yellow, dotted with brown.
+    sources: [nentwig2026c]
+  - id: range
+    text: The white widow ranges across parts of Africa and western and central Asia.
+    sources: [wsc2026]
+  - id: rare-meetings
+    text: Few searching white widow males were ever seen to reach a female.
+    confidence: supported
+    sources: [segoli2006]
+  - id: polyandry
+    text: Field-caught females often carried evidence of several mates.
+    confidence: supported
+    sources: [segoli2006]
+  - id: invest
+    text: Rare meetings and rivalry may favour males investing everything in a single mating.
+    confidence: debated
+    sources: [segoli2006]
+  - id: shrubs
+    text: Desert widows build on scattered shrubs in the Negev.
+    sources: [lubin1993]
+  - id: move-up
+    text: As they grow, desert widows move to larger shrubs after moulting.
+    confidence: supported
+    sources: [lubin1993]
+  - id: spring
+    text: Most moves were made by juveniles, in spring.
+    confidence: supported
+    sources: [lubin1993]
+  - id: payoff
+    text: Moving to bigger shrubs went with better body condition and more offspring.
+    confidence: supported
+    sources: [lubin1993]
+terms:
+  - { term: encounter rate, def: the share of searchers that reach a potential mate }
+  - { term: embolus tip, def: a broken-off piece of the male palp, left in the female as a record of mating }
+related: [web.site, life.mate-search, genus.button-spiders]
+media:
+  - src: /specimens/genus-white-widow.webp
+    alt: "A pale cream white widow in a thorny desert shrub, a cone-shaped silk retreat behind her"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

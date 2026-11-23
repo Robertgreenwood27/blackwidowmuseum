@@ -1,33 +1,89 @@
 id: genus.brown-widow
 accession: BWM-06.02
 title: The Brown Widow
-kicker: Latrodectus geometricus
-summary: An orange hourglass and egg sacs studded with spikes — the easiest widow to recognise by its nursery.
+kicker: A travelling widow with a spiked nursery
+summary: Latrodectus geometricus has spread from Africa across much of the warm world, usually into buildings and gardens. Its spiked egg sacs, airborne spiderlings and appetite for other widows make it the best-documented widow invader.
 status: open
 order: 2
 taxa: [Latrodectus geometricus]
 figures:
-  - value: Orange
-    label: hourglass, usually
+  - value: "129"
+    label: eggs per sac
+    note: mean ± 51, 214 sacs, southern California 2012
+    featured: true
+    sources: [danielsen2014]
+  - value: "1935 / 2003"
+    label: first records, Florida / California
+    note: detection, not proven arrival
+    sources: [sadir2021]
+  - value: "≈10"
+    unit: mm
+    label: female body length
+    note: approximate, mature females
     sources: [vetter2017]
-  - value: Spiked
-    label: egg sac surface
-    sources: [vetter2017]
+  - value: "6.6×"
+    label: more likely to prey on southern widows
+    note: than on other cobweb spiders; laboratory comparison
+    sources: [coticchio2023]
+  - value: "14.3 / 1.8"
+    unit: "%"
+    label: spiderlings ballooning by day / night
+    note: Israel field assays, n = 147 / 171
+    sources: [mowery2022]
+  - value: 99
+    label: spiders sequenced in Japan
+    note: two major mitochondrial lineages found
+    sources: [katahira2026]
 observations:
+  - id: africa
+    text: The World Spider Catalog treats Africa as the brown widow's native region and lists introductions on most continents.
+    sources: [wsc2026]
+  - id: colour
+    text: Mature females range from tan through brown to very dark.
+    sources: [vetter2017]
   - id: hourglass
     text: The brown widow usually has an orange hourglass beneath its abdomen; the colour varies toward red-orange or yellow.
     sources: [vetter2017]
   - id: sac
     text: Its rounded egg sacs are covered with pointed silk projections — a strong identification mark.
     sources: [vetter2017]
+  - id: refuges
+    text: In laboratory choices, females preferred deep, corrugated refuges with tight angles.
+    confidence: supported
+    sources: [vetter2016]
+  - id: faster
+    text: Florida brown widows grew up and matured faster than southern black widows.
+    confidence: supported
+    sources: [coticchio2023]
+  - id: eats-widows
+    text: Housed together, brown widows attacked and ate southern black widows.
+    confidence: supported
+    sources: [coticchio2023]
   - id: dispersal
-    text: It is invasive, and its spiderlings disperse through the air.
+    text: Spiderlings disperse both by rappelling down silk and by ballooning on the wind.
+    confidence: supported
     sources: [mowery2022]
-related: [life.egg-sac, body.hourglass]
+  - id: lineages
+    text: Japanese brown widows belong to two mitochondrial lineages that occur together at one site — consistent with repeated introductions.
+    confidence: supported
+    sources: [katahira2026]
+  - id: spikes-defend
+    text: Shaving the spikes off egg sacs let more parasitoid wasps reach the eggs.
+    confidence: supported
+    sources: [arabesky2025]
+  - id: guard
+    text: Both the mother's defence and the sac's structure protect the nursery.
+    confidence: supported
+    sources: [arabesky2025]
+terms:
+  - { term: synanthropic, def: living alongside people, in and around buildings }
+  - { term: intraguild predation, def: one predator eating another that hunts the same prey }
+  - { term: propagule pressure, def: how many colonists arrive, and how often }
+related: [genus.invasions, genus.southern, life.egg-sac, web.egg-sac-silk.defence, life.ballooning]
 media:
   - src: /specimens/genus-brown-widow-sac.webp
     alt: "A brown widow egg sac covered in pointed silk spikes"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-20
+revised: 2026-11-23

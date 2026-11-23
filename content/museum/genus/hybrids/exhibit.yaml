@@ -1,0 +1,77 @@
+id: genus.hybrids
+accession: BWM-06.18
+title: Where Species Meet
+kicker: Attraction, mating and fertile young are different tests
+summary: Some widows can hybridise in the laboratory, while others never manage to transfer sperm. The barriers between species are real but uneven.
+status: open
+order: 18
+taxa: [Latrodectus hasselti, Latrodectus katipo, Latrodectus mactans, Latrodectus hesperus, Latrodectus variolus]
+figures:
+  - value: "31 / 55"
+    label: redback-backcross males that somersaulted
+    note: vs. 18 / 49 katipō-backcross males
+    featured: true
+    sources: [uludag2026]
+  - value: "0 / 4"
+    label: inseminations, northern × southern
+    note: historical laboratory pairings
+    sources: [kaston1970]
+  - value: "0 / 18"
+    label: inseminations, northern × western
+    sources: [kaston1970]
+  - value: "3 / 27"
+    label: inseminations, southern × western
+    note: the eggs never developed
+    sources: [kaston1970]
+observations:
+  - id: katipo-redback
+    text: Redback males crossed successfully with katipō females in the laboratory.
+    confidence: supported
+    sources: [uludag2026]
+  - id: backcrosses
+    text: Hybrid females bred back with both parent species.
+    confidence: supported
+    sources: [uludag2026]
+  - id: unlinked
+    text: The somersault and the male's abdominal constriction were inherited separately.
+    confidence: supported
+    sources: [uludag2026]
+  - id: x-linked
+    text: The somersault fitted a simple X-linked inheritance pattern.
+    confidence: supported
+    sources: [uludag2026]
+  - id: northern
+    text: Northern widows paired with southern or western widows never inseminated.
+    confidence: supported
+    sources: [kaston1970]
+  - id: no-eggs
+    text: Some southern–western pairings transferred sperm, but no eggs developed.
+    confidence: supported
+    sources: [kaston1970]
+  - id: attraction
+    text: Western widow males were attracted to females' webs depending on the population.
+    confidence: supported
+    sources: [kasumovic2004]
+  - id: redback-webs
+    text: They were not wholly indifferent to redback webs either.
+    confidence: supported
+    sources: [kasumovic2004]
+  - id: katipo-forms
+    text: Interbreeding helped unite the dark and red-striped katipō as one species.
+    confidence: supported
+    sources: [vink2008]
+  - id: lab-not-wild
+    text: Laboratory hybrids show what is possible, not how often it happens in the wild.
+    sources: [uludag2026]
+terms:
+  - { term: prezygotic barrier, def: anything that stops mating or fertilisation from happening }
+  - { term: postzygotic isolation, def: hybrids that survive or reproduce poorly }
+  - { term: introgression, def: genes moving between species through hybrids and backcrosses }
+related: [genus.katipo, genus.redback, life.courtship.inheritance, life.courtship]
+media:
+  - src: /specimens/genus-hybrids.webp
+    alt: "Two female widows facing each other across a single silk thread: a black one with a red back stripe and one with a red-orange stripe edged in white"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

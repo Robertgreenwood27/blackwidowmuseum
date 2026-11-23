@@ -1351,3 +1351,417 @@ uludag2026:
   container: Biology Letters 22(8) 20260211
   doi: 10.1098/rsbl.2026.0211
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13479370/
+
+# --- Senses vault (research/senses-dossier.md, 2026-11-23) ---
+
+parra2009:
+  authors: Parra, D.
+  year: 2009
+  title: Atlas of sensory structures on the walking legs of the spider Latrodectus geometricus (Araneae, Theridiidae) from Colombia
+  container: Undergraduate biology thesis; author-posted manuscript, March 2009; advisor Jorge Alberto Molina
+  url: https://www.researchgate.net/publication/260226152_Atlas_of_sensory_structures_on_the_walking_legs_of_the_spider_Latrodectus_geometricus_Araneae_Theridiidae_from_Colombia
+
+barth1999:
+  authors: Barth, F. G.; Höller, A.
+  year: 1999
+  title: Dynamics of arthropod filiform hairs. V. The response of spider trichobothria to natural stimuli
+  container: Philosophical Transactions of the Royal Society B 354(1380) 183–192
+  doi: 10.1098/rstb.1999.0370
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1692475/
+
+klopsch2012:
+  authors: Klopsch, C.; Kuhlmann, H. C.; Barth, F. G.
+  year: 2012
+  title: Airflow elicits a spider's jump towards airborne prey. I. Airflow around a flying blowfly
+  container: Journal of the Royal Society Interface 9(75) 2591–2602
+  doi: 10.1098/rsif.2012.0186
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3427512/
+
+politi2021:
+  authors: Politi, Y.; Bertinetti, L.; Fratzl, P.; Barth, F. G.
+  year: 2021
+  title: "The spider cuticle: a remarkable material toolbox for functional diversity"
+  container: Philosophical Transactions of the Royal Society A 379(2206) 20200332
+  doi: 10.1098/rsta.2020.0332
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8326826/
+
+schaber2012:
+  authors: Schaber, C. F.; Gorb, S. N.; Barth, F. G.
+  year: 2012
+  title: "Force transformation in spider strain sensors: white light interferometry"
+  container: Journal of the Royal Society Interface 9(71) 1254–1264; online 2011
+  doi: 10.1098/rsif.2011.0565
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3350719/
+
+barth1982:
+  authors: Barth, F. G.; Geethabali
+  year: 1982
+  title: "Spider vibration receptors: Threshold curves of individual slits in the metatarsal lyriform organ"
+  container: Journal of Comparative Physiology A 148(2) 175–185
+  url: https://ucrisportal.univie.ac.at/en/publications/spider-vibration-receptors-threshold-curves-of-individual-slits-i/
+
+vibert2016:
+  authors: Vibert, S.; Scott, C.; Gries, G.
+  year: 2016
+  title: Vibration transmission through sheet webs of hobo spiders (Eratigena agrestis) and tangle webs of western black widow spiders (Latrodectus hesperus)
+  container: Journal of Comparative Physiology A 202(11) 749–758
+  doi: 10.1007/s00359-016-1113-0
+
+sivalinghem2021b:
+  authors: Sivalinghem, S.; Mason, A. C.
+  year: 2021
+  title: Function of structured signalling in the black widow spider Latrodectus hesperus
+  container: Animal Behaviour 179 279–287
+  doi: 10.1016/j.anbehav.2021.07.015
+
+morehouse2017:
+  authors: Morehouse, N. I.; Buschbeck, E. K.; Zurek, D. B.; Steck, M.; Porter, M. L.
+  year: 2017
+  title: "Molecular Evolution of Spider Vision: New Opportunities, Familiar Players"
+  container: The Biological Bulletin 233(1)
+  doi: 10.1086/693977
+  url: https://www.journals.uchicago.edu/doi/full/10.1086/693977
+
+kamano2022:
+  authors: Kamano, M.; Hironaka, K.; Kawakami, Y.; Kozai, T.; Fujihara, T.; Zheng, T.; Konishi, T.
+  year: 2022
+  title: Parasteatoda tepidariorum Phototaxis to LED Illumination
+  container: IEEJ Transactions on Fundamentals and Materials 142(11) 426–430; Japanese original, English translation in Electronics and Communications in Japan 106(1) e12388 (2023), doi 10.1002/ecj.12388
+  doi: 10.1541/ieejfms.142.426
+  url: https://www.jstage.jst.go.jp/article/ieejfms/142/11/142_426/_article/-char/en
+
+ross1979:
+  authors: Ross, K.; Smith, R. L.
+  year: 1979
+  title: Aspects of the courtship behavior of the black widow spider, Latrodectus hesperus (Araneae, Theridiidae), with evidence for the existence of a contact sex pheromone
+  container: Journal of Arachnology 7(1) 69–77
+  url: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/JoA_v7_p69.pdf/
+
+muller2020:
+  authors: Müller, C. H. G.; Ganske, A.-S.; Uhl, G.
+  year: 2020
+  title: Ultrastructure of chemosensory tarsal tip-pore sensilla of Argiope spp. Audouin, 1826 (Chelicerata, Araneae, Araneidae)
+  container: Journal of Morphology 281(12) 1634–1659
+  doi: 10.1002/jmor.21276
+
+kasumovic2004:
+  authors: Kasumovic, M. M.; Andrade, M. C. B.
+  year: 2004
+  title: "Discrimination of airborne pheromones by mate-searching male western black widow spiders (Latrodectus hesperus): species- and population-specific responses"
+  container: Canadian Journal of Zoology 82(7) 1027–1034
+  doi: 10.1139/z04-081
+  url: https://michaelkasumovic.com/images/Kasumovic_04.pdf
+
+twidle2026:
+  authors: Twidle, A. M.; Sullivan, T. E. S.; Arahanga, M. T.; Pilkington, L. I.; Bryant, D. T.; Joyce, N. I.; Sullivan, N. J.; Murray, T. J.; Vink, C. J.
+  year: 2026
+  title: Identification and testing of sex pheromone components of the invasive Australian redback spider (Latrodectus hasseltii)
+  container: Scientific Reports 16 19448; title corrected July 2026, doi 10.1038/s41598-026-61187-1
+  doi: 10.1038/s41598-026-49837-w
+  url: https://www.nature.com/articles/s41598-026-49837-w
+
+talukder2025:
+  authors: Talukder, M. B.; Müller, C. H. G.; Zhang, D.-D.; Schulz, S.; Löfstedt, C.; Wang, H.-L.; Uhl, G. B.
+  year: 2025
+  title: Olfaction with legs—Spiders use wall-pore sensilla for pheromone detection
+  container: Proceedings of the National Academy of Sciences 122(3) e2415468121; acknowledgments corrected in 122(8) e2501234122
+  doi: 10.1073/pnas.2415468121
+  url: https://pubmed.ncbi.nlm.nih.gov/39761388/
+
+ehn1994:
+  authors: Ehn, R.; Tichy, H.
+  year: 1994
+  title: Hygro- and thermoreceptive tarsal organ in the spider Cupiennius salei
+  container: Journal of Comparative Physiology A 174(3) 345–350
+  doi: 10.1007/BF00240216
+
+anton1994:
+  authors: Anton, S.; Tichy, H.
+  year: 1994
+  title: "Hygro- and thermoreceptors in tip-pore sensilla of the tarsal organ of the spider Cupiennius salei: Innervation and central projection"
+  container: Cell and Tissue Research 278(2) 399–407
+  url: https://ucrisportal.univie.ac.at/de/publications/hygro-and-thermoreceptors-in-tip-pore-sensilla-of-the-tarsal-orga/
+
+seyfarth1985:
+  authors: Seyfarth, E.-A.; Eckweiler, W.; Hammer, K.
+  year: 1985
+  title: Proprioceptors and sensory nerves in the legs of a spider, Cupiennius salei (Arachnida, Araneida)
+  container: Zoomorphology 105 190–196
+  doi: 10.1007/BF00312156
+
+seyfarth1990:
+  authors: Seyfarth, E.-A.; Gnatzy, W.; Hammer, K.
+  year: 1990
+  title: "Coxal hair plates in spiders: physiology, fine structure, and specific central projections"
+  container: Journal of Comparative Physiology A 166 633–642
+  doi: 10.1007/BF00240013
+
+mah2020:
+  authors: Mah, A.; Ayoub, N.; Toporikova, N.; Jones, T. C.; Moore, D.
+  year: 2020
+  title: Locomotor activity patterns in three spider species suggest relaxed selection on endogenous circadian period and novel features of chronotype
+  container: Journal of Comparative Physiology A 206(4) 499–515
+  doi: 10.1007/s00359-020-01412-y
+  url: https://www.researchgate.net/publication/340221489_Locomotor_activity_patterns_in_three_spider_species_suggest_relaxed_selection_on_endogenous_circadian_period_and_novel_features_of_chronotype
+
+katahira2023:
+  authors: Katahira, H.; Sawada, Y.; Onuma, K.; Tsuno, S.; Yajima, H.; Eguchi, Y.; Tsujino, T.
+  year: 2023
+  title: Microhabitat use and artificial-light related occurrence of the brown widow spider Latrodectus geometricus in a newly invaded area of the inland Kanto region, Japan
+  container: Medical Entomology and Zoology 74(4) 151–156
+  doi: 10.7601/mez.74.151
+  url: https://www.jstage.jst.go.jp/article/mez/74/4/74_2315/_article
+
+johnson2019:
+  authors: Johnson, J. C.; Urcuyo, J.; Moen, C.; Stevens, D. R., II
+  year: 2019
+  title: "Urban heat island conditions experienced by the Western black widow spider (Latrodectus hesperus): Extreme heat slows development but results in behavioral accommodations"
+  container: PLoS ONE 14(9) e0220153
+  doi: 10.1371/journal.pone.0220153
+
+hadley1989:
+  authors: Hadley, N. F.; Quinlan, M. C.
+  year: 1989
+  title: Cuticular permeability of the black widow spider Latrodectus hesperus
+  container: Journal of Comparative Physiology B 159(3) 243–248
+  doi: 10.1007/BF00691500
+
+shamble2016:
+  authors: Shamble, P. S.; Menda, G.; Golden, J. R.; Nitzany, E. I.; Walden, K.; Beatus, T.; Elias, D. O.; Cohen, I.; Miles, R. N.; Hoy, R. R.
+  year: 2016
+  title: Airborne Acoustic Perception by a Jumping Spider
+  container: Current Biology 26(21) 2913–2920
+  doi: 10.1016/j.cub.2016.08.041
+  url: https://cohengroup.lassp.cornell.edu/userfiles/pubs/Shamble_CurrBio_2016.pdf
+
+steinhoff2024:
+  authors: Steinhoff, P. O. M.; Harzsch, S.; Uhl, G.
+  year: 2024
+  title: Comparative neuroanatomy of the central nervous system in web-building and cursorial hunting spiders
+  container: Journal of Comparative Neurology 532(2) e25554; first online 10 November 2023
+  doi: 10.1002/cne.25554
+  url: https://onlinelibrary.wiley.com/doi/10.1002/cne.25554
+
+artiushin2024:
+  authors: Artiushin, G.; Corver, A.; Gordus, A.
+  year: 2024
+  title: A three-dimensional immunofluorescence atlas of the brain of the hackled-orb weaver spider, Uloborus diversus
+  container: bioRxiv preprint, version 1, 9 September 2024; version consulted, not a claim about subsequent publication status
+  doi: 10.1101/2024.09.05.611298
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11418967/
+
+# --- Genus vault (research/genus-dossier.md, 2026-11-23) ---
+
+garb2004:
+  authors: Garb, J. E.; González, A.; Gillespie, R. G.
+  year: 2004
+  title: "The black widow spider genus Latrodectus (Araneae: Theridiidae): phylogeny, biogeography, and invasion history"
+  container: Molecular Phylogenetics and Evolution 31(3) 1127–1142
+  doi: 10.1016/j.ympev.2003.10.012
+  url: https://pubmed.ncbi.nlm.nih.gov/15120405/
+
+levi1959:
+  authors: Levi, H. W.
+  year: 1959
+  title: The spider genus Latrodectus (Araneae, Theridiidae)
+  container: Transactions of the American Microscopical Society 78(1) 7–43
+  doi: 10.2307/3223799
+  url: https://wsc.nmbe.ch/reference/3330
+
+mccrone1964:
+  authors: McCrone, J. D.; Levi, H. W.
+  year: 1964
+  title: "North American widow spiders of the Latrodectus curacaviensis group (Araneae: Theridiidae)"
+  container: Psyche 71(1) 12–27
+  doi: 10.1155/1964/86469
+  url: https://groups.csail.mit.edu/mac/projects/psyche/71/71-012.html
+
+danielsen2014:
+  authors: Danielsen, D. W. R.; Clarke, D. E.; Valle, S. J.; Ansalmo, A. A.; Vincent, L. S.; Vetter, R. S.
+  year: 2014
+  title: "Natural egg sac clutch size of the brown widow spider, Latrodectus geometricus (Araneae: Theridiidae) in southern California"
+  container: Bulletin of the Southern California Academy of Sciences 113(2) 100–102
+  doi: 10.3160/0038-3872-113.2.100
+
+coticchio2023:
+  authors: Coticchio, L. A.; Vetter, R.; Cassill, D. L.
+  year: 2023
+  title: "Predation by the introduced brown widow spider (Araneae: Theridiidae) may explain local extinctions of native black widows in urban habitats"
+  container: Annals of the Entomological Society of America 116(3) 174–183
+  doi: 10.1093/aesa/saad003
+  url: https://academic.oup.com/aesa/article/116/3/174/7044733
+
+sadir2021:
+  authors: Sadir, M.; Marske, K. A.
+  year: 2021
+  title: "Urban environments aid invasion of brown widows (Theridiidae: Latrodectus geometricus) in North America, constraining regions of overlap and mitigating potential impact on native widows"
+  container: Frontiers in Ecology and Evolution 9, 757902
+  doi: 10.3389/fevo.2021.757902
+
+katahira2026:
+  authors: Katahira, H.; Tsutsui, S.; Kishino, S.; Tsujino, T.; Yajima, H.; Sawada, Y.; Eguchi, Y.; Horiguchi, T.; Hirasawa, R.; Hayasaka, D.; Nitta, K.
+  year: 2026
+  title: "Multiple genetic lineages of the invasive brown widow spider (Araneae: Theridiidae) from inland areas in the Kanto region, Japan"
+  container: Journal of Medical Entomology 63(3), tjag077
+  doi: 10.1093/jme/tjag077
+  url: https://pubmed.ncbi.nlm.nih.gov/42247303/
+
+wang2018:
+  authors: Wang, Y.; Casajus, N.; Buddle, C.; Berteaux, D.; Larrivée, M.
+  year: 2018
+  title: Predicting the distribution of poorly-documented species, Northern black widow (Latrodectus variolus) and Black purse-web spider (Sphodros niger), using museum specimens and citizen science data
+  container: PLoS ONE 13(8) e0201094
+  doi: 10.1371/journal.pone.0201094
+
+melic2000:
+  authors: Melic, A.
+  year: 2000
+  title: El género Latrodectus Walckenaer, 1805 en la Península Ibérica (Araneae, Theridiidae)
+  container: Revista Ibérica de Aracnología 1 13–30
+  url: https://islandlab.uac.pt/fotos/publicacoes/publicacoes_Melic2000_GeneroLatrodectus%20Walckenaer1805PeninsulaIbrica.pdf
+
+hodar2002:
+  authors: Hódar, J. A.; Sánchez-Piñero, F.
+  year: 2002
+  title: "Feeding habits of the blackwidow spider Latrodectus lilianae (Araneae: Theridiidae) in an arid zone of south-east Spain"
+  container: Journal of Zoology 257(1) 101–109
+  doi: 10.1017/S0952836902000699
+
+nentwig2026b:
+  authors: Nentwig, W.; Blick, T.; Bosmans, R.; Kropf, C.; Stäubli, A.
+  year: 2026
+  title: "Spiders of Europe: Latrodectus tredecimguttatus"
+  container: araneae online identification database, species account 2138; checked 23 November 2026
+  doi: 10.24436/1
+  url: https://araneae.nmbe.ch/data/2138/Latrodectus_tredecimguttatus?lang=en
+
+nentwig2026c:
+  authors: Nentwig, W.; Blick, T.; Bosmans, R.; Kropf, C.; Stäubli, A.
+  year: 2026
+  title: "Spiders of Europe: Latrodectus pallidus"
+  container: araneae online identification database, species account 4805; checked 23 November 2026
+  doi: 10.24436/1
+  url: https://araneae.nmbe.ch/data/4805/Latrodectus_pallidus
+
+vink2008:
+  authors: Vink, C. J.; Sirvid, P. J.; Malumbres-Olarte, J.; Griffiths, J. W.; Paquin, P.; Paterson, A. M.
+  year: 2008
+  title: "Species status and conservation issues of New Zealand's endemic Latrodectus spider species (Araneae: Theridiidae)"
+  container: Invertebrate Systematics 22(6) 589–604
+  doi: 10.1071/IS08027
+
+vink2011:
+  authors: Vink, C. J.; Derraik, J. G. B.; Phillips, C. B.; Sirvid, P. J.
+  year: 2011
+  title: "The invasive Australian redback spider, Latrodectus hasseltii Thorell 1870 (Araneae: Theridiidae): current and potential distributions, and likely impacts"
+  container: Biological Invasions 13(4) 1003–1019; first online October 2010
+  doi: 10.1007/s10530-010-9885-6
+
+sirvid2021:
+  authors: Sirvid, P. J.; Vink, C. J.; Fitzgerald, B. M.; Wakelin, M. D.; Rolfe, J.; Michel, P.
+  year: 2021
+  title: Conservation status of New Zealand Araneae (spiders), 2020
+  container: New Zealand Threat Classification Series 34; Department of Conservation, Wellington
+  url: https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs34entire.pdf
+
+patrick2002:
+  authors: Patrick, B.
+  year: 2002
+  title: Conservation status of the New Zealand red katipo spider (Latrodectus katipo Powell, 1871)
+  container: Science for Conservation 194; Department of Conservation, Wellington
+  url: https://www.doc.govt.nz/documents/science-and-technical/sfc194.pdf
+
+hann1990:
+  authors: Hann, S. W.
+  year: 1990
+  title: "Evidence for the displacement of an endemic New Zealand spider, Latrodectus katipo Powell by the South African species Steatoda capensis Hann (Araneae: Theridiidae)"
+  container: New Zealand Journal of Zoology 17(3) 295–307
+  doi: 10.1080/03014223.1990.10422937
+
+wright2019:
+  authors: Wright, B. M. O. G.; Wright, C. D.; Sole, C. L.; Lyle, R.; Tippett, R.; Sholto-Douglas, C.; Verburgt, L.; Engelbrecht, I.
+  year: 2019
+  title: A new forest dwelling button spider from South Africa (Araneae, Theridiidae, Latrodectus)
+  container: Zootaxa 4700(4) 584–600
+  doi: 10.11646/zootaxa.4700.4.12
+  url: https://pubmed.ncbi.nlm.nih.gov/32229963/
+
+mackay1973:
+  authors: Mackay, I. R.
+  year: 1973
+  title: A new species of widow spider (genus Latrodectus) from southern Africa (Araneae, Theridiidae)
+  container: Psyche 79(3) 236–242; volume dated 1972, publication/species authority dated 1973 by WSC
+  doi: 10.1155/1972/51723
+  url: https://groups.csail.mit.edu/mac/projects/psyche/79/79-236.html
+
+carrel2001:
+  authors: Carrel, J. E.
+  year: 2001
+  title: "Population dynamics of the red widow spider (Araneae: Theridiidae)"
+  container: Florida Entomologist 84(3) 385–390
+  doi: 10.2307/3496497
+  url: https://www.jstor.org/stable/3496497
+
+carrel2014:
+  authors: Carrel, J. E.; Deyrup, M.
+  year: 2014
+  title: "Red widow spiders (Araneae: Theridiidae) prey extensively on scarab beetles endemic in Florida scrub"
+  container: Florida Entomologist 97(1) 130–137
+  doi: 10.1653/024.097.0155
+
+floridanaturalareasinventory2023:
+  authors: Florida Natural Areas Inventory
+  year: 2023
+  title: "Red widow spider — Latrodectus bishopi"
+  container: Florida Natural Areas Inventory field guide; January 2023 account
+  url: https://www.fnai.org/PDFs/FieldGuides/Latrodectus_bishopi.pdf
+
+segoli2006:
+  authors: Segoli, M.; Harari, A. R.; Lubin, Y.
+  year: 2006
+  title: "Limited mating opportunities and male monogamy: a field study of white widow spiders, Latrodectus pallidus (Theridiidae)"
+  container: Animal Behaviour 72(3) 635–642
+  doi: 10.1016/j.anbehav.2005.11.021
+
+pompozzi2013:
+  authors: Pompozzi, G.; Ferretti, N.; Schwerdt, L.; Copperi, S.; Ferrero, A. A.; Simó, M.
+  year: 2013
+  title: The diet of the black widow spider Latrodectus mirabilis (Theridiidae) in two cereal crops of central Argentina
+  container: Iheringia, Série Zoologia 103(4) 388–392
+  url: https://sedici.unlp.edu.ar/bitstream/handle/10915/85457/Documento_completo.1590_S0073-47212013000400009.pdf?isAllowed=y&sequence=1
+
+aguilera2009:
+  authors: Aguilera, M. A.; D'Elía, G.; Casanueva, M. E.
+  year: 2009
+  title: "Revalidación de Latrodectus thoracicus Nicolet, 1849 (Araneae: Theridiidae): antecedentes biológicos y filogenéticos"
+  container: Gayana 73(2) 161–171
+  doi: 10.4067/S0717-65382009000200001
+
+zabalacruz2026:
+  authors: Zabala-Cruz, M. C.; Hazzi, N. A.
+  year: 2026
+  title: "COI-based species delimitation reveals the taxonomic status of two recently described Latrodectus species from Colombia (Araneae: Theridiidae)"
+  container: Zootaxa 5845(3) 456–477
+  doi: 10.11646/zootaxa.5845.3.2
+
+kananbala2012:
+  authors: Kananbala, A.; Manoj, K.; Bhubaneshwari, M.; Binarani, A.; Siliwal, M.
+  year: 2012
+  title: "The first report of the widow spider Latrodectus elegans (Araneae: Theridiidae) from India"
+  container: Journal of Threatened Taxa 4(7) 2718–2722
+  doi: 10.11609/JoTT.o3152.2718-22
+
+luo2022:
+  authors: Luo, Z.; Mowery, M. A.; Cheng, X.; Yang, Q.; Hu, J.; Andrade, M. C. B.
+  year: 2022
+  title: "Realized niche shift of an invasive widow spider: drivers and impacts of human activities"
+  container: Frontiers in Zoology 19, 25
+  doi: 10.1186/s12983-022-00470-z
+
+miller2026b:
+  authors: Miller, J.; Kratzer, C. A.; Griswold, C.
+  year: 2026
+  title: Description of a new Andean species of widow spider (Araneae, Theridiidae, Latrodectus)
+  container: ZooKeys 1281 49–67
+  doi: 10.3897/zookeys.1281.185973
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13250612/

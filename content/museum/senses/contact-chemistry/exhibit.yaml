@@ -1,0 +1,92 @@
+id: senses.contact-chemistry
+accession: BWM-04.05
+title: Tasting a Thread
+kicker: A chemical message begins at a hair's open tip
+summary: A male widow can read a female's silk by touch alone — courting on an empty web, or on a scrap of paper soaked in its extract. Curved hairs with open tips on his feet and palps are the likely tasters.
+status: open
+order: 5
+taxa: [Latrodectus hesperus, Latrodectus hasselti, Argiope bruennichi]
+figures:
+  - value: 96
+    unit: "%"
+    label: males courting on female silk
+    note: western widow, filter-paper assay
+    featured: true
+    sources: [scott2015b]
+  - value: 80
+    unit: "%"
+    label: males courting on silk extract alone
+    note: same assay, female absent
+    sources: [scott2015b]
+  - value: "50–60"
+    unit: µm
+    label: length of a presumed taste hair
+    note: western widow, scanning electron microscopy
+    sources: [ross1979]
+  - value: "5 → 2"
+    unit: µm
+    label: hair diameter, base to tip
+    note: tip width, not pore width
+    sources: [ross1979]
+  - value: "2–22"
+    label: taste cells in one hair
+    note: Argiope tip-pore sensilla; not a widow count
+    sources: [muller2020]
+observations:
+  - id: hairs
+    text: Western widows carry curved hairs with blunt, open tips — the presumed taste hairs.
+    confidence: supported
+    sources: [ross1979]
+  - id: where
+    text: They sit on the tarsi and on the underside of the pedipalps, in both sexes.
+    confidence: supported
+    sources: [ross1979]
+  - id: empty-web
+    text: Male western widows courted on webs whose female had been removed.
+    confidence: supported
+    sources: [ross1979]
+  - id: extract
+    text: A solvent extract of female silk was enough to make males court on filter paper.
+    confidence: supported
+    sources: [scott2015b]
+  - id: pheromone
+    text: Female western widow silk carries an identified serine methyl ester that stimulates male courtship.
+    sources: [scott2015b]
+  - id: weaker
+    text: That one synthetic compound alone drew weaker responses than real silk or extract.
+    confidence: supported
+    sources: [scott2015b]
+  - id: blend
+    text: A two-component synthetic blend later triggered full courtship.
+    confidence: supported
+    sources: [fischer2025]
+  - id: virgin
+    text: Male redbacks told virgin-female web extracts apart from those of juvenile females.
+    confidence: supported
+    sources: [stoltz2007]
+  - id: mated
+    text: Extracts from webs spun just after a redback mated were no more interesting to males than plain solvent.
+    confidence: supported
+    sources: [stoltz2007]
+  - id: dual-cells
+    text: In Argiope, a single tip-pore hair holds both taste cells and touch cells.
+    sources: [muller2020]
+  - id: dendrites
+    text: Their taste dendrites run the length of the hair to the pore at its tip.
+    sources: [muller2020]
+  - id: presumed
+    text: No one has yet recorded a widow taste hair firing to a purified pheromone; the link is anatomical.
+    confidence: supported
+    sources: [ross1979]
+terms:
+  - { term: contact chemoreception, def: detecting chemicals by touching them — taste, in effect }
+  - { term: tip-pore sensillum, def: a sensory hair with a single opening at its tip }
+  - { term: contact pheromone, def: a chemical signal detected by touching it }
+related: [senses.olfaction, web.messages, life.mate-search, body.pedipalps]
+media:
+  - src: /specimens/senses-taste.webp
+    alt: "Micrograph-style view of a spider's foot: curved, blunt-tipped hairs touching a silk thread dusted with molecules"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

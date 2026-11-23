@@ -87,6 +87,7 @@ function build(): Catalogue {
       keys.forEach((k) => !sources.has(k) && errors.push(`${n.id} ${where} cites unknown source "${k}"`));
     n.figures.forEach((f) => cite(f.sources, `figure "${f.label}"`));
     n.observations.forEach((o) => cite(o.sources, `observation "${o.id}"`));
+    n.checklist.forEach((c) => cite(c.sources, `checklist "${c.name}"`));
     n.related.forEach((r) => !byId.has(r) && errors.push(`${n.id} relates to unknown exhibit "${r}"`));
     n.aliases.forEach((a) => aliases.set("/" + a.replace(/^\/+/, ""), n.href));
     n.childIds.sort((a, b) => sortKey(byId.get(a)!) - sortKey(byId.get(b)!) || a.localeCompare(b));
@@ -129,6 +130,7 @@ export function citationsFor(n: ExhibitNode): Source[] {
   const add = (k: string) => !keys.includes(k) && keys.push(k);
   n.figures.forEach((f) => f.sources.forEach(add));
   n.observations.forEach((o) => o.sources.forEach(add));
+  n.checklist.forEach((c) => c.sources.forEach(add));
   return keys.map((k) => catalogue().sources.get(k)!);
 }
 

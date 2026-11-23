@@ -57,6 +57,21 @@ export const Media = z.object({
   review: z.enum(["pending", "approved"]).default("approved"),
 });
 
+/**
+ * One row of a taxonomic checklist — e.g. every accepted species in a genus.
+ * `author` keeps parentheses exactly as the catalogue prints them.
+ */
+export const ChecklistEntry = z.object({
+  name: z.string(),
+  author: z.string(),
+  year: z.number(),
+  common: z.string().optional(),
+  /** Broad region for grouping: a classification, not a range map. */
+  region: z.string(),
+  range: z.string(),
+  sources: z.array(SourceKey).default([]),
+});
+
 export const ExhibitFile = z.object({
   /** Permanent identity. Never change it, even if the folder moves. */
   id: z.string().regex(/^[a-z0-9-]+(\.[a-z0-9-]+)*$/, "ids are dotted lowercase, e.g. web.gumfoot"),
@@ -74,6 +89,8 @@ export const ExhibitFile = z.object({
   observations: z.array(Observation).default([]),
   terms: z.array(Term).default([]),
   media: z.array(Media).default([]),
+  /** Optional taxonomic checklist (species roster). */
+  checklist: z.array(ChecklistEntry).default([]),
   /** Other exhibit ids. */
   related: z.array(z.string()).default([]),
   /** Old URL paths (e.g. "web/old-name") that should redirect here. */
@@ -91,6 +108,7 @@ export const SourceEntry = z.object({
 });
 export const SourcesFile = z.record(SourceKey, SourceEntry);
 
+export type ChecklistEntryT = z.infer<typeof ChecklistEntry>;
 export type FigureT = z.infer<typeof Figure>;
 export type ObservationT = z.infer<typeof Observation>;
 export type ExhibitData = z.infer<typeof ExhibitFile>;

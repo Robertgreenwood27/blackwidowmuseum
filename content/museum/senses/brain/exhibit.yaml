@@ -1,0 +1,72 @@
+id: senses.brain
+accession: BWM-04.12
+title: Where the Senses Meet
+kicker: A web-builder's brain belongs to its legs
+summary: Every sense feeds one compact nerve mass in the front of the body. In the house spider, a close relative of the widows, three-quarters of it lies in the mass that serves the legs.
+status: open
+order: 12
+taxa: [Parasteatoda tepidariorum, Uloborus diversus]
+figures:
+  - value: "76.5"
+    unit: "%"
+    label: of neuropil in the ventral nerve mass
+    note: house spider; the mass below the oesophagus that serves legs and palps
+    featured: true
+    sources: [steinhoff2024]
+  - value: 2
+    label: processing stages for the principal eyes
+    note: house spider, AM1 and AM2
+    sources: [steinhoff2024]
+  - value: 1
+    label: shared first stage for all secondary eyes
+    note: house spider, one per side
+    sources: [steinhoff2024]
+  - value: 3
+    label: brains reconstructed per species
+    note: the comparison's sample size
+    sources: [steinhoff2024]
+observations:
+  - id: synganglion
+    text: A spider's central nervous system is fused into one mass, the synganglion, in the front body.
+    sources: [artiushin2024]
+  - id: above-below
+    text: Its main divisions lie above and below the oesophagus.
+    sources: [artiushin2024]
+  - id: rind
+    text: Nerve cell bodies form a rind around a core of tangled fibres and synapses.
+    confidence: supported
+    sources: [artiushin2024]
+  - id: principal-path
+    text: In the house spider, signals from the principal eyes pass through two processing stages in series.
+    sources: [steinhoff2024]
+  - id: secondary-path
+    text: All three pairs of secondary eyes on each side share a single first processing stage.
+    sources: [steinhoff2024]
+  - id: no-second
+    text: No separate second stage for the secondary eyes was found.
+    confidence: supported
+    sources: [steinhoff2024]
+  - id: mushroom
+    text: No distinct mushroom body was identified either, though a reduced circuit may remain.
+    confidence: supported
+    sources: [steinhoff2024]
+  - id: legs-win
+    text: Web-builders devoted proportionally more nerve tissue to their legs than the hunting spiders compared.
+    confidence: supported
+    sources: [steinhoff2024]
+  - id: not-widow
+    text: These are house spider measurements; no widow brain has been mapped this way.
+    confidence: supported
+    sources: [steinhoff2024]
+terms:
+  - { term: synganglion, def: the fused central nerve mass of a spider }
+  - { term: neuropil, def: dense nerve tissue made of fibres and synapses rather than cell bodies }
+  - { term: mushroom body, def: a brain centre linked to learning in many arthropods }
+related: [body.nervous-system, senses.vision, senses.proprioception]
+media:
+  - src: /specimens/senses-brain.webp
+    alt: "A translucent spider front body with the fused nerve mass glowing inside, nerves radiating to eight eyes, eight legs and the palps"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

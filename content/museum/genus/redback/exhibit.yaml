@@ -2,6 +2,79 @@ id: genus.redback
 accession: BWM-06.03
 title: The Redback
 kicker: Latrodectus hasselti
-status: planned
+summary: Australia's redback is one of the best-studied widows — for its sacrificial males, and for how it has settled in Japan and New Zealand.
+status: open
 order: 3
-related: [life.courtship]
+taxa: [Latrodectus hasselti]
+figures:
+  - value: "11 / 17"
+    label: matings ending with the male eaten
+    note: Perth field observations, 1994; a small sample
+    featured: true
+    sources: [andrade1996]
+  - value: "≈10 / 3–4"
+    unit: mm
+    label: female / male body length
+    note: legs excluded
+    sources: [australianmuseum2026]
+  - value: "25 / 11"
+    unit: min
+    label: copulation, eaten vs. surviving males
+    note: medians, n = 5 / 12; a separate experiment
+    sources: [andrade1996]
+  - value: "42 / 5"
+    label: males trapped, lure vs. control
+    note: New Zealand vineyard, second two-week trial, 2025
+    sources: [twidle2026]
+  - value: 1995
+    label: established in Osaka
+    note: New Zealand populations from the early 1980s
+    sources: [vink2011]
+observations:
+  - id: marks
+    text: Adult female redbacks have a red stripe along the top of the abdomen and a red mark beneath.
+    sources: [australianmuseum2026]
+  - id: urban
+    text: In Australia they commonly live in disturbed and urban places.
+    sources: [australianmuseum2026]
+  - id: somersault
+    text: Copulating males somersault to place their abdomen over the female's mouthparts.
+    sources: [andrade1996]
+  - id: payoff
+    text: Males that were eaten gained a paternity advantage.
+    confidence: supported
+    sources: [andrade1996]
+  - id: light
+    text: Young redbacks climb toward light before dispersing.
+    confidence: supported
+    sources: [forster1995]
+  - id: abroad
+    text: Redbacks established in New Zealand in the early 1980s and in Osaka in 1995.
+    sources: [vink2011]
+  - id: cold
+    text: Japanese redback eggs developed better in the cold than Australian eggs.
+    confidence: supported
+    sources: [mowery2022b]
+  - id: lure
+    text: A four-compound synthetic blend attracted males in New Zealand vineyards.
+    confidence: supported
+    sources: [twidle2026]
+  - id: hybrids
+    text: In the laboratory, redback males sired hybrids with katipō females.
+    confidence: supported
+    sources: [uludag2026]
+  - id: caveat
+    text: Not every male dies. Sexual cannibalism is frequent in redbacks, not universal, and other widows differ.
+    sources: [andrade1996, baruffaldi2024]
+terms:
+  - { term: copulatory cannibalism, def: a female eating her mate during mating }
+  - { term: paternity, def: the share of offspring a male fathers }
+  - { term: naturalised, def: maintaining a breeding population after introduction }
+related: [life.courtship, life.cannibalism, genus.katipo, genus.hybrids, genus.invasions]
+media:
+  - src: /specimens/genus-redback.webp
+    alt: "A female redback in her tangle web beside a fence post, a scarlet stripe down her black abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

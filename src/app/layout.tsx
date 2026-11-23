@@ -7,11 +7,11 @@ import "./globals.css";
 // hairlines until they break up on black. The text-size cut stays sturdy.
 const display = Fraunces({
   variable: "--font-display",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   style: ["normal", "italic"],
 });
-const text = Inter_Tight({ variable: "--font-text", subsets: ["latin"] });
-const mono = IBM_Plex_Mono({ variable: "--font-mono", subsets: ["latin"], weight: ["400", "500"] });
+const text = Inter_Tight({ variable: "--font-text", subsets: ["latin", "latin-ext"] });
+const mono = IBM_Plex_Mono({ variable: "--font-mono", subsets: ["latin", "latin-ext"], weight: ["400", "500"] });
 
 export const metadata: Metadata = {
   title: { default: "The Black Widow Museum", template: "%s — The Black Widow Museum" },

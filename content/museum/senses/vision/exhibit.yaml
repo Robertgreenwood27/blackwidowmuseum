@@ -1,6 +1,84 @@
 id: senses.vision
 accession: BWM-04.04
 title: Vision
-kicker: What eight eyes are for
-status: planned
+kicker: Limited detail does not mean no light
+summary: A widow hunts by the silk under her feet, but her eight eyes still bring her light. Their anatomy is known; what she can actually see — colour, acuity, sensitivity — has never been measured.
+status: open
 order: 4
+taxa: [Latrodectus occidentalis, Latrodectus hasselti, Parasteatoda tepidariorum]
+figures:
+  - value: 8
+    label: eyes
+    note: four named pairs, in two rows
+    featured: true
+    sources: [jocque2006, valdezmondragon2023]
+  - value: "0.25"
+    unit: mm
+    label: principal eye diameter
+    note: one L. occidentalis type specimen
+    sources: [valdezmondragon2023]
+  - value: "0.20 / 0.22 / 0.23"
+    unit: mm
+    label: secondary eye diameters
+    note: ALE / PME / PLE, same specimen
+    sources: [valdezmondragon2023]
+  - value: "≈48"
+    unit: h
+    label: after hatching, eyes become recognisable
+    note: house spider, a fellow theridiid, at 26 °C
+    sources: [gainett2020]
+observations:
+  - id: rows
+    text: Theridiid spiders, widows included, carry their eight eyes in two rows.
+    sources: [jocque2006]
+  - id: principal
+    text: The anterior median pair are the principal eyes.
+    sources: [morehouse2017]
+  - id: secondary
+    text: The anterior lateral, posterior median and posterior lateral pairs are secondary eyes.
+    sources: [morehouse2017]
+  - id: retina
+    text: Principal and secondary eyes differ in how their retinas face the light.
+    sources: [morehouse2017]
+  - id: tapetum
+    text: Principal eyes lack a tapetum; in many spider groups the secondary eyes have one.
+    sources: [morehouse2017]
+  - id: canoe
+    text: In the house spider, a fellow theridiid, the secondary eyes grow canoe-shaped tapeta split down the middle.
+    sources: [gainett2020]
+  - id: one-gene
+    text: Silencing the gene sine oculis A disrupted both principal and secondary eyes in house spider offspring.
+    confidence: supported
+    sources: [gainett2020]
+  - id: toward-light
+    text: Young redbacks climb toward light before they disperse.
+    confidence: supported
+    sources: [forster1995]
+  - id: fades
+    text: That pull toward light weakens in older redback stages.
+    confidence: supported
+    sources: [forster1995]
+  - id: led
+    text: House spiders moved toward white LED light in laboratory assays.
+    confidence: supported
+    sources: [kamano2022]
+  - id: web-first
+    text: Western black widows locate prey mainly through vibrations in the web.
+    confidence: supported
+    sources: [sergi2021]
+  - id: unknown
+    text: No widow colour vision, acuity or light threshold has yet been measured; claims of UV vision or red-blindness are borrowed from other spiders.
+    confidence: supported
+    sources: [morehouse2017]
+terms:
+  - { term: AME / ALE / PME / PLE, def: anterior median / anterior lateral / posterior median / posterior lateral eyes }
+  - { term: tapetum, def: a reflective layer that gives light a second pass through the receptors }
+  - { term: phototaxis, def: movement toward or away from light }
+related: [body.eyes, senses.light-and-time, senses.brain]
+media:
+  - src: /specimens/senses-vision.webp
+    alt: "Close front view of a widow's carapace: eight small glossy eyes in two rows of four"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

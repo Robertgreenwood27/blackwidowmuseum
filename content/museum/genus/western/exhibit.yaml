@@ -2,5 +2,76 @@ id: genus.western
 accession: BWM-06.05
 title: The Western Widow
 kicker: Latrodectus hesperus
-status: planned
+summary: The widow of western North America's deserts, dunes and cities — and the laboratory workhorse behind much of what this museum knows about silk and courtship.
+status: open
 order: 5
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "8–15.5"
+    unit: mm
+    label: female body length
+    note: n = 59
+    featured: true
+    sources: [kaston1970]
+  - value: "3–6.5"
+    unit: mm
+    label: male body length
+    note: n = 63
+    sources: [kaston1970]
+  - value: "33 / 27"
+    unit: °C
+    label: urban / desert refuge temperature
+    note: Phoenix, July
+    sources: [johnson2019]
+  - value: 14
+    label: chromosomes assembled
+    note: reference genome; not the cell's chromosome count
+    sources: [miles2024]
+observations:
+  - id: range
+    text: Its native range spans Canada, the United States and Mexico.
+    sources: [wsc2026]
+  - id: introduced
+    text: The World Spider Catalog lists introduced populations in Israel and Korea.
+    sources: [wsc2026]
+  - id: juveniles
+    text: Young western widows are patterned and darken with each moult.
+    sources: [kaston1970]
+  - id: sacs
+    text: Egg sacs are commonly tan and pear-shaped.
+    confidence: supported
+    sources: [kaston1970]
+  - id: city
+    text: Phoenix city refuges ran hotter than desert refuges in July.
+    confidence: supported
+    sources: [johnson2019]
+  - id: heat
+    text: Experimental city heat slowed development and killed more young spiderlings.
+    confidence: supported
+    sources: [johnson2019]
+  - id: scent
+    text: Searching males follow airborne scent from unoccupied female webs.
+    confidence: supported
+    sources: [kasumovic2004]
+  - id: populations
+    text: Males responded differently to females from different populations and species.
+    confidence: supported
+    sources: [kasumovic2004]
+  - id: complex
+    text: Mexican DNA and anatomy reveal unresolved structure within the hesperus group.
+    confidence: supported
+    sources: [valdezmondragon2023]
+  - id: not-occidentalis
+    text: The Mexican L. occidentalis, described in 2023, is a different species — not "the western widow".
+    sources: [valdezmondragon2023]
+terms:
+  - { term: species complex, def: closely related populations whose species boundaries are still being worked out }
+  - { term: reference genome, def: an assembled DNA sequence used as a standard for comparison }
+related: [web.messages, senses.vibration, senses.heat-and-water, genus.hybrids]
+media:
+  - src: /specimens/genus-western.webp
+    alt: "A western widow hanging belly-up in a tangle web among desert rocks at dusk, saguaro on the horizon"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

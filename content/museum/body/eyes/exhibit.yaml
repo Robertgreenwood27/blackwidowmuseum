@@ -23,7 +23,7 @@ figures:
   - value: "0.20–0.25"
     unit: mm
     label: eye diameter
-    note: one female L. occidentalis, the type specimen
+    note: one L. occidentalis type specimen
     sources: [valdezmondragon2023]
 observations:
   - id: rows

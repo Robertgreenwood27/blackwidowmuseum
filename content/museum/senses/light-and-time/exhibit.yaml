@@ -1,0 +1,81 @@
+id: senses.light-and-time
+accession: BWM-04.09
+title: A Night Set by Light
+kicker: Darkness changes both activity and its timing
+summary: Southern black widows move mostly at night, and keep a rough internal clock even in constant darkness. Their spiderlings, by contrast, climb toward the light.
+status: open
+order: 9
+taxa: [Latrodectus mactans, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: "20–30"
+    unit: h
+    label: internal clock periods
+    note: southern widow in constant darkness; 20.1–30.2 h, often fragmented
+    featured: true
+    sources: [mah2020]
+  - value: "−0.76"
+    label: nocturnality index
+    note: southern widow; −1 is strictly nocturnal, +1 strictly diurnal
+    sources: [mah2020]
+  - value: 33
+    label: adult females recorded
+    note: southern widow, Tennessee
+    sources: [mah2020]
+  - value: "25 / 33"
+    label: females with a midday burst of activity
+    note: southern widow
+    sources: [mah2020]
+  - value: "5–6"
+    unit: cm
+    label: wandering from the egg sac in darkness
+    note: young redbacks; a natural-history account
+    sources: [forster1995]
+observations:
+  - id: nocturnal
+    text: Under light–dark cycles, southern widows moved mostly at night.
+    confidence: supported
+    sources: [mah2020]
+  - id: dusk
+    text: Activity usually peaked early in the dark phase.
+    confidence: supported
+    sources: [mah2020]
+  - id: smeared
+    text: In constant darkness, their activity spread across subjective day and night.
+    confidence: supported
+    sources: [mah2020]
+  - id: clock
+    text: Even so, analysis recovered circadian rhythms in the fragmented activity.
+    confidence: supported
+    sources: [mah2020]
+  - id: relaxed
+    text: Such widely varying clocks may mean selection on keeping exact time is relaxed in these spiders.
+    confidence: debated
+    sources: [mah2020]
+  - id: climb
+    text: Young redbacks follow light and climb to high points from which to disperse.
+    confidence: supported
+    sources: [forster1995]
+  - id: dark-stops
+    text: In darkness, young redbacks wandered only a few centimetres from the egg sac.
+    confidence: supported
+    sources: [forster1995]
+  - id: lamps
+    text: In a Japanese survey, brown widow nests clustered near artificial lighting.
+    confidence: supported
+    sources: [katahira2023]
+  - id: why-lamps
+    text: More prey near lamps is a proposed explanation, not a demonstrated one.
+    confidence: debated
+    sources: [katahira2023]
+terms:
+  - { term: diel, def: relating to the day–night cycle }
+  - { term: free-running period, def: the length of the internal clock's cycle with no outside time cues }
+  - { term: masking, def: light or dark directly changing activity without resetting the clock }
+related: [senses.vision, life.ballooning, web.site]
+media:
+  - src: /specimens/senses-light-and-time.webp
+    alt: "By day a widow hides in her silk retreat under a wooden step; by night she hangs out in the open tangle under the moon"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

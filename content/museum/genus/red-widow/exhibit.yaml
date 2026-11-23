@@ -1,0 +1,71 @@
+id: genus.red-widow
+accession: BWM-06.10
+title: The Red Widow
+kicker: A specialist of Florida's palmetto scrub
+summary: Latrodectus bishopi lives only in Florida scrub, almost always in a rolled palmetto leaf. Thirteen years of counts show its numbers crashing and recovering.
+status: open
+order: 10
+taxa: [Latrodectus bishopi]
+figures:
+  - value: "395 / 398"
+    label: spiders found in palmetto
+    note: long-term monitoring, Archbold Biological Station
+    featured: true
+    sources: [carrel2001]
+  - value: "31 → 0.3"
+    label: spiders per hectare
+    note: 1989 peak to 1997 low; recovery followed
+    sources: [carrel2001]
+  - value: "1987–2000"
+    label: years of late-winter censuses
+    note: ten transects of about half a hectare
+    sources: [carrel2001]
+  - value: "0.5 / 0.3"
+    unit: m
+    label: retreat height, saw / scrub palmetto
+    sources: [carrel2001]
+observations:
+  - id: species
+    text: The red widow is a full species, not a subspecies of the southern widow.
+    sources: [wsc2026]
+  - id: scrub
+    text: It is restricted to the scrub of peninsular Florida.
+    sources: [floridanaturalareasinventory2023]
+  - id: colours
+    text: Its carapace and legs are reddish, against a dark, patterned abdomen.
+    sources: [floridanaturalareasinventory2023]
+  - id: palmetto
+    text: Nearly every spider in the long-term study made its retreat in palmetto leaves.
+    confidence: supported
+    sources: [carrel2001]
+  - id: height
+    text: Retreats sat higher in saw palmetto than in scrub palmetto.
+    confidence: supported
+    sources: [carrel2001]
+  - id: crash
+    text: Density fell sharply in the 1990s, then began to recover.
+    confidence: supported
+    sources: [carrel2001]
+  - id: fire
+    text: Populations showed no apparent drop after the spring and summer burns observed.
+    confidence: supported
+    sources: [carrel2001]
+  - id: scarabs
+    text: Its webs caught many of the scrub's endemic scarab beetles.
+    confidence: supported
+    sources: [carrel2014]
+  - id: stable
+    text: A 2023 Florida inventory found no evidence of recent decline.
+    confidence: supported
+    sources: [floridanaturalareasinventory2023]
+terms:
+  - { term: scrub, def: a distinctive Florida habitat of sandy ridges, oaks and palmettos }
+  - { term: transect, def: a fixed strip that is surveyed repeatedly }
+related: [genus.southern, genus.identification, web.retreat]
+media:
+  - src: /specimens/genus-red-widow.webp
+    alt: "A red widow with red-orange legs and carapace on a palmetto frond beside its rolled-leaf retreat"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

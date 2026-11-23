@@ -1,0 +1,79 @@
+id: genus.family-tree
+accession: BWM-06.15
+title: The Family Tree
+kicker: A branching hypothesis, with dates that carry uncertainty
+summary: DNA splits the widows into two great branches — the brown widow's relatives and nearly everyone else. A 2026 analysis dates the last common ancestor of living widows to about 36 million years ago, with wide error bars.
+status: open
+order: 15
+taxa: [Latrodectus, Steatoda]
+figures:
+  - value: "≈36"
+    unit: Ma
+    label: last common ancestor of living widows
+    note: 35.65, 95% interval 27–44; provisional
+    featured: true
+    sources: [miller2026]
+  - value: "≈30 / ≈30"
+    unit: Ma
+    label: crown ages of the two great branches
+    note: geometricus group 29.96 / mactans group 29.64; intervals 18–41 and 23–37
+    sources: [miller2026]
+  - value: "≈3"
+    unit: Ma
+    label: redback–katipō split
+    note: 3.05, interval 1.8–4.6; not the date of any invasion
+    sources: [miller2026]
+  - value: 428
+    unit: bp
+    label: DNA in the first widow tree
+    note: one mitochondrial gene, COI, 2004
+    sources: [garb2004]
+  - value: 3
+    label: genes in the 2026 tree
+    note: COI, 16S and 28S
+    sources: [miller2026]
+observations:
+  - id: monophyly
+    text: The first DNA tree, in 2004, supported the widows as a single natural group.
+    confidence: supported
+    sources: [garb2004]
+  - id: geometricus-clade
+    text: It paired the brown widow with the African L. rhodesiensis.
+    confidence: supported
+    sources: [garb2004]
+  - id: mactans-clade
+    text: Most other sampled widows formed a second branch, the mactans clade.
+    confidence: supported
+    sources: [garb2004]
+  - id: limits
+    text: One short gene could not resolve every deep branch.
+    confidence: supported
+    sources: [garb2004]
+  - id: toxin-genes
+    text: The α-latrotoxin gene later gave a second, independent line of evidence.
+    sources: [garb2013]
+  - id: origin
+    text: The 2026 atlas reconstructs an Afro-Eurasian origin, with separate radiations on each continent.
+    confidence: supported
+    sources: [miller2026]
+  - id: unstable
+    text: Where the 2019 species L. umbukwane belongs changes with the method used.
+    confidence: debated
+    sources: [miller2026]
+  - id: caution
+    text: The authors themselves flag weak statistical support for some of the dates.
+    confidence: supported
+    sources: [miller2026]
+terms:
+  - { term: clade, def: an ancestor and all of its descendants }
+  - { term: crown age, def: the age of the last common ancestor of the living members of a group }
+  - { term: outgroup, def: a related lineage used to root a tree }
+  - { term: Ma, def: millions of years ago }
+related: [genus.the-widows, genus.naming, venom.evolution, web.evolution]
+media:
+  - src: /specimens/genus-family-tree.webp
+    alt: "A branching tree drawn in silk threads, splitting into two great limbs with small spider silhouettes at the tips"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

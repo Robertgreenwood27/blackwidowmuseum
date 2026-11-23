@@ -1,6 +1,79 @@
 id: senses.vibration
 accession: BWM-04.03
 title: Reading the Web
-kicker: Vibration as language
-status: planned
+kicker: Silk carries motion to the waiting spider
+summary: A widow's web is a mechanical transmission network. It carries the struggles of prey and the signals of courting males to her legs — but it is not a wire that passes every frequency equally.
+status: open
 order: 3
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 3
+    label: kinds of male vibration
+    note: abdominal tremulation, bounce, web pluck
+    featured: true
+    sources: [sivalinghem2021]
+  - value: "40"
+    unit: min
+    label: distal phase
+    note: mean, from placement on the web to first touching the female; n = 16
+    sources: [sivalinghem2021]
+  - value: "99"
+    unit: min
+    label: proximal phase
+    note: mean, from first contact to first palp insertion; not a required minimum
+    sources: [sivalinghem2021]
+  - value: "31.8"
+    unit: Hz
+    label: struggling cricket's dominant frequency
+    note: measured at the female's position; ± 16.3 Hz
+    sources: [vibert2014]
+observations:
+  - id: transmit
+    text: Western widow webs carry the vibrations of male courtship to the female.
+    sources: [sivalinghem2021]
+  - id: three
+    text: Tremulation, bouncing and plucking are each produced by a different movement.
+    confidence: supported
+    sources: [sivalinghem2021]
+  - id: size
+    text: The power of a male's bounces and plucks rose with his body size.
+    confidence: supported
+    sources: [sivalinghem2021]
+  - id: efficient
+    text: Measured transfer functions showed male-made signals travelling efficiently through the web.
+    confidence: supported
+    sources: [sivalinghem2021]
+  - id: sweeps
+    text: Researchers drove widow webs with frequency sweeps and recorded what arrived at several points.
+    sources: [vibert2016]
+  - id: within
+    text: Transmission varied more from point to point within one web than between different webs.
+    confidence: supported
+    sources: [vibert2016]
+  - id: direction
+    text: Vibrations along a thread and across it were transmitted about equally well.
+    confidence: supported
+    sources: [vibert2016]
+  - id: no-frequency-code
+    text: Because the web passes frequencies so inconsistently, a widow probably cannot identify a caller by frequency alone.
+    confidence: supported
+    sources: [vibert2016]
+  - id: alarm
+    text: Prey struggles travel through the cobweb to wherever the resident is waiting.
+    sources: [vibert2014]
+  - id: receivers
+    text: The receivers are the slit organs of her legs, especially the metatarsal lyriform organ above each foot.
+    sources: [barth2004]
+terms:
+  - { term: substrate-borne vibration, def: motion carried through a solid structure — here, silk }
+  - { term: transfer function, def: the measured relation between a vibration put in and what arrives elsewhere }
+  - { term: attenuation, def: the loss of amplitude as a signal travels }
+  - { term: tremulation, def: rapid oscillation of the abdomen that shakes the silk }
+related: [senses.slit-sensilla, web.messages, web.gumfoot.trip-lines, life.courtship]
+media:
+  - src: /specimens/senses-vibration.webp
+    alt: "A black widow in her tangle web, one foreleg resting on a thread that ripples with an arriving vibration"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

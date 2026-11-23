@@ -1,0 +1,77 @@
+id: senses.heat-and-water
+accession: BWM-04.10
+title: Heat and Water
+kicker: Surviving heat is not choosing it
+summary: In a city's heat island, western widows change how they hunt and build. A thin waxy layer on the cuticle holds their water in — until it gets too hot.
+status: open
+order: 10
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "33 / 27"
+    unit: °C
+    label: urban / desert refuge temperature
+    note: Phoenix, July; used to set rearing treatments, not preferred temperatures
+    featured: true
+    sources: [johnson2019]
+  - value: "≈200×"
+    label: faster water loss without the surface lipids
+    note: solvent-scrubbed vs. intact cuticle
+    sources: [hadley1989]
+  - value: "45–51"
+    unit: °C
+    label: where cuticle permeability shoots up
+    note: not a preferred temperature or a sensory threshold
+    sources: [hadley1989]
+  - value: 36
+    label: urban family lines in the heat experiment
+    note: siblings reared at different temperatures
+    sources: [johnson2019]
+observations:
+  - id: hotter
+    text: In July, urban widow refuges in Phoenix were warmer than refuges in the nearby desert.
+    confidence: supported
+    sources: [johnson2019]
+  - id: mortality
+    text: Hot rearing conditions killed more young spiderlings.
+    confidence: supported
+    sources: [johnson2019]
+  - id: males-eat
+    text: Late-juvenile males reared hot became more voracious foragers.
+    confidence: supported
+    sources: [johnson2019]
+  - id: females-build
+    text: Late-juvenile females reared hot built less web.
+    confidence: supported
+    sources: [johnson2019]
+  - id: permeability
+    text: The cuticle let water through faster as temperature rose.
+    confidence: supported
+    sources: [hadley1989]
+  - id: lipids
+    text: Scrubbing off the surface lipids sent water loss soaring — they are the main waterproofing.
+    confidence: supported
+    sources: [hadley1989]
+  - id: excised
+    text: Cuticle cut from the body lost water faster than cuticle left in place.
+    confidence: supported
+    sources: [hadley1989]
+  - id: passive
+    text: The living skin beneath did not appear to add an active barrier of its own.
+    confidence: supported
+    sources: [hadley1989]
+  - id: sensor
+    text: The likely humidity and temperature sensor is the tarsal organ, but it has not been recorded from in widows.
+    confidence: supported
+    sources: [parra2009, ehn1994]
+terms:
+  - { term: microclimate, def: conditions at the spider's actual refuge rather than at a weather station }
+  - { term: urban heat island, def: the extra warmth of a city compared with its surroundings }
+  - { term: cuticular permeability, def: how easily water passes through the body covering }
+related: [senses.tarsal-organ, body.exoskeleton, genus.western, web.site]
+media:
+  - src: /specimens/senses-heat-and-water.webp
+    alt: "A western widow tucked in a shaded desert rock crevice at dusk, heat shimmer and a glowing city on the horizon"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

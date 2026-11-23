@@ -1,0 +1,77 @@
+id: genus.katipo
+accession: BWM-06.08
+title: The Katipō
+kicker: A widow of the dunes
+summary: New Zealand's only native widow lives in sand dunes, and it is declining. Lost habitat, an introduced look-alike and the redback's ability to hybridise with it each threaten it in different ways.
+status: open
+order: 8
+taxa: [Latrodectus katipo, Steatoda capensis, Latrodectus hasselti]
+figures:
+  - value: 46
+    unit: "%"
+    label: of former sites where it was found again
+    note: non-detection is not proven extinction
+    featured: true
+    sources: [patrick2002]
+  - value: Declining
+    label: "New Zealand threat status: At Risk"
+    note: 2020 assessment, published 2021; not an IUCN category
+    sources: [sirvid2021]
+  - value: "26 / 90"
+    label: populations in dune systems surveyed
+    note: national survey, 2002
+    sources: [patrick2002]
+  - value: 104
+    label: backcross males bred in the lab
+    note: katipō × redback descendants
+    sources: [uludag2026]
+observations:
+  - id: endemic
+    text: The katipō is endemic to New Zealand.
+    sources: [wsc2026, vink2008]
+  - id: dunes
+    text: It lives among sparse dune plants and driftwood on the coast.
+    sources: [patrick2002]
+  - id: habitat-loss
+    text: The national survey named dune habitat loss as a major threat.
+    confidence: supported
+    sources: [patrick2002]
+  - id: one-species
+    text: The dark northern form and the red-striped southern form were united as one species on anatomy, DNA and crosses.
+    confidence: supported
+    sources: [vink2008]
+  - id: atritus
+    text: The name L. atritus is now a synonym of L. katipo.
+    sources: [wsc2026]
+  - id: steatoda
+    text: The introduced Steatoda capensis overlaps heavily with katipō in food and space.
+    confidence: supported
+    sources: [hann1990]
+  - id: not-inferior
+    text: Adult katipō were not the weaker predators in laboratory encounters.
+    confidence: supported
+    sources: [hann1990]
+  - id: after-crash
+    text: Steatoda's greater breeding output may let it take over habitat after a katipō population crashes.
+    confidence: supported
+    sources: [hann1990]
+  - id: hybrids
+    text: Katipō females mated with redback males produced fertile hybrid daughters in the laboratory.
+    confidence: supported
+    sources: [uludag2026]
+  - id: backcross
+    text: Those hybrids could breed back with either parent species.
+    confidence: supported
+    sources: [uludag2026]
+terms:
+  - { term: endemic, def: naturally found in one region and nowhere else }
+  - { term: backcross, def: breeding a hybrid with one of its parent species }
+  - { term: recolonisation, def: reoccupying ground after a population has declined }
+related: [genus.redback, genus.hybrids, venom.false-widows]
+media:
+  - src: /specimens/genus-katipo.webp
+    alt: "A katipō in a small tangle web among dune grasses at twilight, a red-orange stripe edged in white along her back"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

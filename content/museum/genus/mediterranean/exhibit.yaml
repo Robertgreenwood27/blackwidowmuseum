@@ -1,0 +1,71 @@
+id: genus.mediterranean
+accession: BWM-06.07
+title: The Mediterranean Widows
+kicker: Thirteen spots do not tell the whole story
+summary: The Mediterranean widow, L. tredecimguttatus, is the type species of the whole genus and ranges deep into Asia. Spain also has its own widow, L. lilianae — told apart by its hairs and genitalia, not its spots.
+status: open
+order: 7
+taxa: [Latrodectus tredecimguttatus, Latrodectus lilianae]
+figures:
+  - value: "2,106"
+    label: prey items recorded
+    note: L. lilianae, 164 webs, southeastern Spain, 1990–1993
+    featured: true
+    sources: [hodar2002]
+  - value: "7–15 / 4–7"
+    unit: mm
+    label: female / male body length
+    note: L. tredecimguttatus
+    sources: [nentwig2026b]
+  - value: "12.5–16"
+    unit: mm
+    label: female body length
+    note: L. lilianae, original description
+    sources: [melic2000]
+  - value: "65–82"
+    unit: "%"
+    label: of prey were beetles and woodlice
+    note: L. lilianae; 79–92% of biomass
+    sources: [hodar2002]
+observations:
+  - id: type
+    text: L. tredecimguttatus is the type species — the name that anchors the genus Latrodectus.
+    sources: [wsc2026]
+  - id: range
+    text: Its range runs from the Mediterranean through Central Asia to China.
+    sources: [wsc2026]
+  - id: spotless
+    text: Mediterranean females can be entirely black, with no red spots at all.
+    sources: [nentwig2026b]
+  - id: hairs
+    text: Their abdomens carry short forked hairs among the longer ones.
+    sources: [nentwig2026b]
+  - id: lilianae
+    text: L. lilianae was separated in 2000 on its genital ducts and abdominal hairs.
+    sources: [melic2000]
+  - id: spain
+    text: The World Spider Catalog lists L. lilianae from Spain.
+    sources: [wsc2026]
+  - id: steppe
+    text: The diet study sampled L. lilianae in arid shrub-steppe.
+    sources: [hodar2002]
+  - id: diet
+    text: Darkling beetles and woodlice dominated its prey.
+    confidence: supported
+    sources: [hodar2002]
+  - id: lizards
+    text: Five small lizards turned up among the prey remains — rare, but real.
+    confidence: supported
+    sources: [hodar2002]
+terms:
+  - { term: type species, def: the species that anchors a genus name }
+  - { term: bifid seta, def: a hair with a forked tip }
+  - { term: prey mummy, def: a wrapped prey remnant used to reconstruct a spider's diet }
+related: [genus.naming, genus.identification, genus.asia]
+media:
+  - src: /specimens/genus-mediterranean.webp
+    alt: "A Mediterranean widow among dry grasses and stones, rows of round red spots on her black abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

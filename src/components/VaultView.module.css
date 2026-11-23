@@ -24,6 +24,7 @@
 .summary { font-size: 17px; line-height: 1.45; color: var(--silk-2); }
 
 .floor { padding: 0 var(--gutter) 14vh; }
+.stage { padding: 0 0 12vh; }
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

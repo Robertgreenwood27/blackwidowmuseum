@@ -15,10 +15,16 @@
  *   "lead"    — the stage replaces the plate's opening (full-bleed, first thing seen)
  *   "inline"  — the stage sits after the key figures, the plate continues around it
  *   "replace" — the stage is the whole exhibit (immersive); placard + sources still render
+ *
+ * A stage keyed by a VAULT id renders on the vault page, between the hero
+ * and the cases (placement is ignored there).
  */
 import type { ComponentType } from "react";
 import type { ExhibitNode } from "@/museum/schema";
 import { GumfootDiagram } from "./exhibits/web/GumfootDiagram";
+import { SensoryMap } from "./exhibits/senses/SensoryMap";
+import { PlaybackExperiment } from "./exhibits/senses/PlaybackExperiment";
+import { SpeciesRoster } from "./exhibits/genus/SpeciesRoster";
 
 export type StageProps = { exhibit: ExhibitNode };
 export type StageEntry = {
@@ -30,6 +36,9 @@ export type StageEntry = {
 
 export const STAGES: Record<string, StageEntry> = {
   "web.gumfoot": { component: GumfootDiagram, medium: "Animated diagram", placement: "lead" },
+  senses: { component: SensoryMap, medium: "Interactive sensory map", placement: "lead" },
+  "senses.vibration.prey-or-mate": { component: PlaybackExperiment, medium: "Interactive playback experiment", placement: "inline" },
+  "genus.roster": { component: SpeciesRoster, medium: "Interactive species roster", placement: "inline" },
 };
 
 export const stageFor = (id: string): StageEntry | null => STAGES[id] ?? null;

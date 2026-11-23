@@ -1,0 +1,78 @@
+id: genus.invasions
+accession: BWM-06.17
+title: Widows in Transit
+kicker: Silk travels locally; commerce crosses oceans
+summary: Brown widows and redbacks now live far from where they began. First records, field dispersal and DNA each reveal a different part of the story — but rarely the exact route.
+status: open
+order: 17
+taxa: [Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: "1935 / 2003"
+    label: brown widow first records
+    note: Florida / California; detection, not arrival
+    featured: true
+    sources: [sadir2021]
+  - value: "1980s / 1995"
+    label: redback populations recorded
+    note: New Zealand / Osaka
+    sources: [vink2011]
+  - value: "0.2–4.4"
+    unit: m/s
+    label: wind during ballooning
+    note: brown widow spiderlings, Israel; observed, not required
+    sources: [mowery2022]
+  - value: "6 / 5"
+    label: DNA variants found in Japan
+    note: cox1 / 16S haplotypes, 99 brown widows
+    sources: [katahira2026]
+observations:
+  - id: human
+    text: The brown widow's scattered worldwide range points to transport by people.
+    confidence: supported
+    sources: [garb2004]
+  - id: similar
+    text: Brown widows from distant places differed by very little COI sequence.
+    confidence: supported
+    sources: [garb2004]
+  - id: urban
+    text: In North America, brown widows are strongly tied to urban areas.
+    confidence: supported
+    sources: [sadir2021]
+  - id: overlap
+    text: Different habitat preferences limit how much they overlap with native widows.
+    confidence: supported
+    sources: [sadir2021]
+  - id: balloon
+    text: Brown widow spiderlings ballooned by day and by night.
+    confidence: supported
+    sources: [mowery2022]
+  - id: haplotypes
+    text: Japanese brown widows carried both known and newly found DNA variants.
+    confidence: supported
+    sources: [katahira2026]
+  - id: no-route
+    text: The genetic data could not pin down where Japan's brown widows came from.
+    sources: [katahira2026]
+  - id: redback-climates
+    text: Redbacks established in New Zealand and Japan, in climates unlike most of Australia.
+    sources: [vink2011]
+  - id: cold-eggs
+    text: Invasive Japanese redback eggs coped better with cold than Australian eggs.
+    confidence: supported
+    sources: [mowery2022b]
+  - id: disturbance
+    text: Human disturbance helps explain where invading redbacks have settled.
+    confidence: supported
+    sources: [luo2022]
+terms:
+  - { term: haplotype, def: one variant of a stretch of DNA }
+  - { term: ballooning, def: travelling through the air on silk }
+  - { term: realised niche, def: the conditions where a species actually lives, not just where it could }
+related: [genus.brown-widow, genus.redback, life.ballooning]
+media:
+  - src: /specimens/genus-invasions.webp
+    alt: "A dark world map with glowing silk threads arcing from Africa to the other continents, one thread in red"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

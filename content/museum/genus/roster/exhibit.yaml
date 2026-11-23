@@ -1,0 +1,84 @@
+id: genus.roster
+accession: BWM-06.14
+title: The Catalogued Widows
+kicker: Thirty-five accepted names
+summary: Every species the World Spider Catalog accepted on 23 November 2026 — two and a half centuries of naming, from Fabricius in 1775 to an Andean widow in 2026.
+status: open
+order: 14
+taxa: [Latrodectus]
+figures:
+  - value: 35
+    label: species in the checked catalogue
+    note: synonyms and doubtful names excluded
+    featured: true
+    sources: [wsc2026]
+  - value: 1775
+    label: oldest name
+    note: L. mactans
+    sources: [wsc2026]
+  - value: 2026
+    label: newest name
+    note: L. lucacha
+    sources: [wsc2026, miller2026b]
+  - value: "+4"
+    label: names in the November 2026 atlas
+    note: seven revalidated, three merged; 39 in all
+    sources: [miller2026]
+observations:
+  - id: snapshot
+    text: The checked World Spider Catalog list holds the 35 species below.
+    sources: [wsc2026]
+  - id: garbae
+    text: L. garbae is left out because the catalogue treats it as a synonym of L. corallinus.
+    sources: [wsc2026]
+  - id: atritus
+    text: L. atritus is not an extra species; it is the katipō.
+    sources: [wsc2026]
+  - id: mirabilis
+    text: L. mirabilis stays on the list here, although the newer atlas merges it into L. thoracicus.
+    confidence: debated
+    sources: [wsc2026, miller2026]
+  - id: introduced
+    text: Ranges are catalogue summaries. A country on the list is not proof the species is native there.
+    sources: [wsc2026]
+terms:
+  - { term: binomial, def: the two-part scientific name — genus plus species }
+  - { term: authority, def: the author and year of a name; parentheses mean it was first placed in another genus }
+checklist:
+  - { name: Latrodectus antheratus, author: (Badcock), year: 1932, region: South America, range: Paraguay and Argentina, sources: [wsc2026] }
+  - { name: Latrodectus apicalis, author: Butler, year: 1877, region: South America, range: Galápagos Islands, sources: [wsc2026] }
+  - { name: Latrodectus bishopi, author: Kaston, year: 1938, common: Red widow, region: North America, range: Peninsular Florida scrub, sources: [wsc2026, floridanaturalareasinventory2023] }
+  - { name: Latrodectus cinctus, author: Blackwall, year: 1865, region: Africa, range: "Cape Verde and Africa; also recorded from Oman, Kuwait, Iraq and Iran", sources: [wsc2026] }
+  - { name: Latrodectus corallinus, author: Abalos, year: 1980, region: South America, range: "Panama, Brazil and Argentina", sources: [wsc2026] }
+  - { name: Latrodectus curacaviensis, author: (Müller), year: 1776, region: South America, range: Caribbean and South America, sources: [wsc2026] }
+  - { name: Latrodectus dahli, author: Levi, year: 1959, region: Europe & Asia, range: "North Africa, Cyprus and Turkey to Iran and Central Asia", sources: [wsc2026] }
+  - { name: Latrodectus diaguita, author: Carcavallo, year: 1960, region: South America, range: Argentina, sources: [wsc2026] }
+  - { name: Latrodectus elegans, author: Thorell, year: 1898, region: Europe & Asia, range: "India, Nepal, Myanmar, China and Japan", sources: [wsc2026] }
+  - { name: Latrodectus erythromelas, author: Schmidt & Klaas, year: 1991, region: Europe & Asia, range: India and Sri Lanka, sources: [wsc2026] }
+  - { name: Latrodectus geometricus, author: C. L. Koch, year: 1841, common: Brown widow, region: Africa, range: "Africa; introduced across the Americas, Asia, Australia and Hawaii", sources: [wsc2026] }
+  - { name: Latrodectus hasselti, author: Thorell, year: 1870, common: Redback, region: Australasia, range: "Southeast Asia to Australia; introduced to Japan, New Zealand, India and Pakistan", sources: [wsc2026, vink2011] }
+  - { name: Latrodectus hesperus, author: Chamberlin & Ivie, year: 1935, common: Western black widow, region: North America, range: "Canada, USA and Mexico; introduced to Israel and Korea", sources: [wsc2026] }
+  - { name: Latrodectus hurtadoi, author: Rueda & Realpe, year: 2021, region: South America, range: Colombia, sources: [wsc2026] }
+  - { name: Latrodectus hystrix, author: Simon, year: 1890, region: Europe & Asia, range: "Yemen, mainland and Socotra", sources: [wsc2026] }
+  - { name: Latrodectus indistinctus, author: O. Pickard-Cambridge, year: 1904, region: Africa, range: Namibia and South Africa, sources: [wsc2026] }
+  - { name: Latrodectus karrooensis, author: Smithers, year: 1944, region: Africa, range: South Africa, sources: [wsc2026] }
+  - { name: Latrodectus katipo, author: Powell, year: 1871, common: Katipō, region: Australasia, range: "New Zealand, endemic", sources: [wsc2026, vink2008] }
+  - { name: Latrodectus lilianae, author: Melic, year: 2000, region: Europe & Asia, range: Spain, sources: [wsc2026] }
+  - { name: Latrodectus lucacha, author: "Miller, Kratzer & Griswold", year: 2026, region: South America, range: "Peru; photographs from Ecuador, Bolivia and Chile", sources: [wsc2026, miller2026b] }
+  - { name: Latrodectus mactans, author: (Fabricius), year: 1775, common: Southern black widow, region: North America, range: "Probably native only to North America; introduced elsewhere", sources: [wsc2026] }
+  - { name: Latrodectus menavodi, author: Vinson, year: 1863, region: Africa, range: "Madagascar, Comoros and Seychelles (Aldabra)", sources: [wsc2026] }
+  - { name: Latrodectus mirabilis, author: (Holmberg), year: 1876, region: South America, range: Brazil and Argentina, sources: [wsc2026] }
+  - { name: Latrodectus obscurior, author: Dahl, year: 1902, region: Africa, range: Cape Verde Islands and Madagascar, sources: [wsc2026] }
+  - { name: Latrodectus occidentalis, author: Valdez-Mondragón, year: 2023, region: North America, range: Mexico, sources: [wsc2026] }
+  - { name: Latrodectus pallidus, author: O. Pickard-Cambridge, year: 1872, common: White widow, region: Africa, range: "Cape Verde to Egypt, South Africa, Turkey to Central Asia", sources: [wsc2026] }
+  - { name: Latrodectus quartus, author: Abalos, year: 1980, region: South America, range: Argentina, sources: [wsc2026] }
+  - { name: Latrodectus renivulvatus, author: Dahl, year: 1902, region: Africa, range: "Africa, Yemen, Saudi Arabia and Iraq", sources: [wsc2026] }
+  - { name: Latrodectus revivensis, author: Shulov, year: 1948, common: Desert widow, region: Europe & Asia, range: "Israel and Iran; Canary Islands record questioned", sources: [wsc2026] }
+  - { name: Latrodectus rhodesiensis, author: Mackay, year: 1973, region: Africa, range: "Namibia, Botswana, Zimbabwe and South Africa", sources: [wsc2026] }
+  - { name: Latrodectus thoracicus, author: Nicolet, year: 1849, region: South America, range: Chile, sources: [wsc2026] }
+  - { name: Latrodectus tredecimguttatus, author: (Rossi), year: 1790, common: Mediterranean black widow, region: Europe & Asia, range: "Mediterranean to southern Siberia, Central Asia and China", sources: [wsc2026] }
+  - { name: Latrodectus umbukwane, author: "Wright, Wright, Lyle & Engelbrecht", year: 2019, common: Phinda button spider, region: Africa, range: "South Africa: northern KwaZulu-Natal sand forest", sources: [wsc2026, wright2019] }
+  - { name: Latrodectus variegatus, author: Nicolet, year: 1849, region: South America, range: Chile and Argentina, sources: [wsc2026] }
+  - { name: Latrodectus variolus, author: Walckenaer, year: 1837, common: Northern black widow, region: North America, range: Canada and USA, sources: [wsc2026] }
+related: [genus.the-widows, genus.naming, genus.family-tree]
+revised: 2026-11-23

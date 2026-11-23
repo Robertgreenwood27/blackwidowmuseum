@@ -1,0 +1,78 @@
+id: genus.southern
+accession: BWM-06.06
+title: The Southern Black Widow
+kicker: Latrodectus mactans
+summary: The name "black widow" is often used for every widow, but L. mactans is one particular species of North America — now under pressure from the brown widow.
+status: open
+order: 6
+taxa: [Latrodectus mactans]
+figures:
+  - value: 1775
+    label: named, as Aranea mactans
+    note: by Fabricius
+    featured: true
+    sources: [wsc2026]
+  - value: "5–13.5"
+    unit: mm
+    label: female body length
+    note: n = 52
+    sources: [kaston1970]
+  - value: "2.9–5.1"
+    unit: mm
+    label: male body length
+    note: n = 37
+    sources: [kaston1970]
+  - value: "11–12"
+    unit: mm
+    label: egg-sac diameter
+    note: nearly spherical, with a small nipple
+    sources: [kaston1970]
+  - value: "≈220"
+    label: eggs per sac
+    note: a typical value from an extension account
+    sources: [eiden2013]
+observations:
+  - id: native
+    text: The World Spider Catalog considers L. mactans probably native only to North America.
+    sources: [wsc2026]
+  - id: southeast
+    text: The southeastern United States is the heart of its range.
+    sources: [eiden2013]
+  - id: hourglass
+    text: Adult females commonly have a complete red hourglass beneath.
+    sources: [eiden2013]
+  - id: smaller
+    text: Kaston's southern widows were smaller on average than his western widows.
+    confidence: supported
+    sources: [kaston1970]
+  - id: round-sacs
+    text: Their egg sacs were rounder than those of western and northern widows.
+    confidence: supported
+    sources: [kaston1970]
+  - id: males-survive
+    text: Males inseminated several females in turn — they are not always eaten.
+    confidence: supported
+    sources: [breene1985]
+  - id: crosses
+    text: Southern–western pairings occasionally inseminated, but the eggs never developed.
+    confidence: supported
+    sources: [kaston1970]
+  - id: brown-widows
+    text: In Florida trials, brown widows killed southern black widows.
+    confidence: supported
+    sources: [coticchio2023]
+  - id: disappearing
+    text: The authors propose this predation as one reason southern widows vanish from urban structures.
+    confidence: debated
+    sources: [coticchio2023]
+terms:
+  - { term: sensu lato, def: in the broad sense — old records of "mactans" can include species now separated }
+  - { term: insemination, def: sperm transfer — not the same as fertilised, developing eggs }
+related: [genus.brown-widow, genus.northern, genus.western, genus.naming]
+media:
+  - src: /specimens/genus-southern.webp
+    alt: "A southern black widow hanging belly-up in a woodpile, a complete red hourglass beneath"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

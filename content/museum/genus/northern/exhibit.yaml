@@ -2,5 +2,77 @@ id: genus.northern
 accession: BWM-06.04
 title: The Northern Widow
 kicker: Latrodectus variolus
-status: planned
+summary: A broken hourglass, comparatively large males and a range that museum records show creeping north.
+status: open
 order: 4
+taxa: [Latrodectus variolus]
+figures:
+  - value: "4.5–8.3"
+    unit: mm
+    label: male body length
+    note: n = 34; large for a widow male
+    featured: true
+    sources: [kaston1970]
+  - value: "7.4–13"
+    unit: mm
+    label: female body length
+    note: n = 32
+    sources: [kaston1970]
+  - value: 94
+    unit: km
+    label: farther north, recent records
+    note: northernmost record 1990–2016 vs. 1960–1989
+    sources: [wang2018]
+  - value: "0 / 18"
+    label: inseminations in crosses with western widows
+    note: historical laboratory trials
+    sources: [kaston1970]
+observations:
+  - id: range
+    text: The World Spider Catalog records the northern widow from Canada and the United States.
+    sources: [wsc2026]
+  - id: split
+    text: Females commonly have two separate red patches beneath, rather than a joined hourglass.
+    sources: [hiskes2013]
+  - id: dorsal
+    text: Females can also keep a row of red marks along the top of the abdomen.
+    sources: [hiskes2013]
+  - id: big-males
+    text: The largest northern males overlapped the smallest females in body length.
+    confidence: supported
+    sources: [kaston1970]
+  - id: sacs
+    text: Northern widow egg sacs were typically pear-shaped and greyish.
+    confidence: supported
+    sources: [kaston1970]
+  - id: records
+    text: The range study combined museum specimens with citizen-science sightings.
+    sources: [wang2018]
+  - id: north
+    text: The northernmost recent records lay farther north than those of earlier decades.
+    confidence: supported
+    sources: [wang2018]
+  - id: model
+    text: Models suggest suitable climate about 50 km beyond the current northern limit — a prediction, not a sighting.
+    confidence: supported
+    sources: [wang2018]
+  - id: warming
+    text: The authors consider warming a plausible contributor.
+    confidence: debated
+    sources: [wang2018]
+  - id: crosses
+    text: None of eighteen pairings between northern and western widows achieved insemination.
+    confidence: supported
+    sources: [kaston1970]
+terms:
+  - { term: occurrence record, def: evidence of a spider at a place and date — not necessarily a breeding population }
+  - { term: niche model, def: a prediction of suitable places from where a species has been found }
+  - { term: pyriform, def: pear-shaped }
+related: [genus.southern, genus.western, genus.hybrids, genus.identification]
+media:
+  - src: /specimens/genus-northern.webp
+    alt: "Underside of a northern widow in her web, the red hourglass split into two separate marks"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

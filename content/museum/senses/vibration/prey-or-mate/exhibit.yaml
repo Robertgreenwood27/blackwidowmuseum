@@ -1,0 +1,80 @@
+id: senses.vibration.prey-or-mate
+accession: BWM-04.03.01
+title: A Meal, a Mate, or a Rival?
+kicker: The answer depends on how hard the web moves
+summary: A struggling insect and a courting male shake the web at overlapping frequencies. In playback experiments, what decided a female's response was how strongly the silk moved.
+status: open
+order: 1
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: "52 / 32 / 29"
+    unit: Hz
+    label: male / cricket / fly dominant frequency
+    note: means, n = 16 each; the distributions overlap widely
+    featured: true
+    sources: [vibert2014]
+  - value: "2.0 / 9.5"
+    unit: mm/s
+    label: low / high playback strength
+    note: mean maximum vibrational velocity — not spider speed
+    sources: [vibert2014]
+  - value: 64
+    label: females in the playback test
+    note: four source × amplitude treatments, 16 each
+    sources: [vibert2014]
+  - value: "15 / 19"
+    label: pairs that mated
+    note: observational trials in the structured-signalling study
+    sources: [sivalinghem2021b]
+observations:
+  - id: overlap
+    text: Vibrations from courting males, crickets and flies overlapped in waveform.
+    confidence: supported
+    sources: [vibert2014]
+  - id: whisper
+    text: Low-amplitude playbacks seldom drew a predatory approach, whether they were recorded from a male or from prey.
+    confidence: supported
+    sources: [vibert2014]
+  - id: shout
+    text: High-amplitude playbacks drew more attacks.
+    confidence: supported
+    sources: [vibert2014]
+  - id: cutting
+    text: When a male cuts threads, the brief, strong jolts resemble prey — a dangerous moment in courtship.
+    confidence: supported
+    sources: [vibert2014]
+  - id: structured
+    text: Males that more often combined signals into stereotyped sequences mated sooner.
+    confidence: supported
+    sources: [sivalinghem2021b]
+  - id: impaired
+    text: Impairing a male's abdominal tremulation delayed mating but did not significantly reduce his success.
+    confidence: supported
+    sources: [sivalinghem2021b]
+  - id: small-males
+    text: Smaller males produced structured displays at higher rates.
+    confidence: supported
+    sources: [sivalinghem2021b]
+  - id: intruders
+    text: Redback intruders could mate quickly after a resident male had already done the long courting.
+    confidence: supported
+    sources: [stoltz2010]
+  - id: credit
+    text: Redback females seem not to credit accumulated courtship to the male who actually produced it.
+    confidence: supported
+    sources: [stoltz2010]
+  - id: no-code
+    text: There is no simple frequency code. High pitch does not mean male, nor low pitch prey.
+    sources: [vibert2014, vibert2016]
+terms:
+  - { term: playback, def: replaying a recorded vibration into a web to test a spider's response }
+  - { term: structured signalling, def: combining distinct signal types in a stereotyped sequence }
+  - { term: predatory approach, def: in these tests, a forward move of more than 1 cm toward the source }
+related: [senses.vibration, life.courtship, web.messages, life.cannibalism]
+media:
+  - src: /specimens/senses-prey-or-mate.webp
+    alt: "A female widow hangs between two threads: a beetle's struggle sends a jagged waveform down one, a small male's plucks send a fine, gentle trace down the other"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

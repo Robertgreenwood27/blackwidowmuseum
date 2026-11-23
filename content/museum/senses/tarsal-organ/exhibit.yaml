@@ -1,0 +1,79 @@
+id: senses.tarsal-organ
+accession: BWM-04.07
+title: The Tarsal Organ
+kicker: A tiny capsule samples the surrounding air
+summary: On top of each foot sits a small pit with sensors sealed inside. In the one spider where it has been recorded, it reports humidity, warmth and some vapours.
+status: open
+order: 7
+taxa: [Latrodectus geometricus, Cupiennius salei]
+figures:
+  - value: 8
+    label: tarsal organs
+    note: brown widow; one on each walking leg
+    featured: true
+    sources: [parra2009]
+  - value: 7
+    label: sensilla inside one capsule
+    note: Cupiennius; six with three cells, one with two
+    sources: [anton1994]
+  - value: "0.4"
+    unit: °C
+    label: warming step a warm cell can resolve
+    note: Cupiennius, average single-cell sensitivity
+    sources: [ehn1994]
+  - value: "≈10"
+    unit: "% RH"
+    label: humidity step moist and dry cells can tell apart
+    note: Cupiennius; 11 points rising, 10 falling
+    sources: [ehn1994]
+  - value: 3
+    label: brain regions its nerves reach
+    note: Cupiennius, tracer anatomy
+    sources: [anton1994]
+observations:
+  - id: widow
+    text: A tarsal organ sits on the upper side of each brown widow foot.
+    confidence: supported
+    sources: [parra2009]
+  - id: capsule
+    text: The organ is an air-filled capsule in the cuticle with a small opening to the outside.
+    sources: [anton1994]
+  - id: pores
+    text: The sensilla inside it are open at their tips.
+    sources: [anton1994]
+  - id: moist-dry
+    text: In Cupiennius, moist cells and dry cells answer a sudden change in humidity in opposite directions.
+    confidence: supported
+    sources: [ehn1994]
+  - id: warm
+    text: Warm-sensitive cells sit alongside them in the same organ.
+    confidence: supported
+    sources: [ehn1994]
+  - id: vapours
+    text: Both humidity cells were also excited by some pungent polar vapours.
+    confidence: supported
+    sources: [ehn1994]
+  - id: projections
+    text: The organ's nerves run to the leg's own neuropil and to other regions below the oesophagus.
+    confidence: supported
+    sources: [anton1994]
+  - id: parallel
+    text: Several destinations suggest the brain processes its information along parallel routes.
+    confidence: supported
+    sources: [anton1994]
+  - id: open
+    text: No widow temperature or humidity threshold has been measured; the performance figures here belong to Cupiennius.
+    confidence: supported
+    sources: [ehn1994]
+terms:
+  - { term: hygroreception, def: sensing humidity }
+  - { term: thermoreception, def: sensing temperature }
+  - { term: Blumenthal organ, def: another name for the tarsal organ }
+related: [senses.heat-and-water, senses.olfaction, body.legs]
+media:
+  - src: /specimens/senses-tarsal-organ.webp
+    alt: "Micrograph-style view of a round pit in leg cuticle with small knobbed pegs inside and a tiny central opening"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

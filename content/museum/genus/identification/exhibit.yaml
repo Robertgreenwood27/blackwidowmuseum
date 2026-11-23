@@ -1,0 +1,72 @@
+id: genus.identification
+accession: BWM-06.19
+title: Telling Them Apart
+kicker: Look beyond the red mark
+summary: Identifying a widow means weighing where it was found, its sex and age, its markings and its egg sac. Where colour patterns overlap, only a microscope will settle it.
+status: open
+order: 19
+taxa: [Latrodectus mactans, Latrodectus variolus, Latrodectus geometricus, Latrodectus tredecimguttatus, Steatoda]
+figures:
+  - value: Split
+    label: northern widow's hourglass
+    note: commonly two separate patches
+    featured: true
+    sources: [hiskes2013]
+  - value: Spiked
+    label: brown widow egg sac
+    note: L. rhodesiensis sacs are smooth
+    sources: [vetter2017, mackay1973]
+  - value: Joined
+    label: southern widow's hourglass
+    note: usually; exceptions exist
+    sources: [eiden2013, kaston1970]
+  - value: "Purple → grey"
+    label: Phinda button spider egg sac
+    note: fresh to old; L. umbukwane
+    sources: [wright2019]
+observations:
+  - id: overlap
+    text: The markings of North American adult female widows overlap and vary within each species.
+    sources: [kaston1970]
+  - id: juveniles
+    text: Juveniles can look very different from adult females.
+    sources: [kaston1970]
+  - id: males
+    text: Mature males keep different proportions and markings from females.
+    sources: [kaston1970]
+  - id: brown-lookalike
+    text: A brown widow's mottled body and banded legs can resemble a young western widow.
+    sources: [vetter2017]
+  - id: sacs-better
+    text: In North America, a brown widow's spiked sac is a better clue than its colour.
+    confidence: supported
+    sources: [vetter2017]
+  - id: not-unique
+    text: Some South American widows also ornament their sacs.
+    confidence: supported
+    sources: [miller2026b]
+  - id: spotless
+    text: An all-black Mediterranean widow is still L. tredecimguttatus.
+    sources: [nentwig2026b]
+  - id: microscope
+    text: Genital ducts and abdominal hairs separate regional species that look alike.
+    sources: [melic2000, lotz1994]
+  - id: false-widows
+    text: False widows belong to Steatoda, a different genus in the same family.
+    sources: [vetter2017]
+  - id: no-hourglass
+    text: A missing red mark does not rule a spider in or out as a widow.
+    confidence: supported
+    sources: [vetter2017, lotz1994]
+terms:
+  - { term: ventral / dorsal, def: underside / upper side }
+  - { term: epigynum, def: the external genital plate of a female spider, key to identification }
+  - { term: ontogenetic change, def: change in appearance as an individual grows up }
+related: [body.hourglass, body.colour, venom.false-widows, genus.northern, genus.southern]
+media:
+  - src: /specimens/genus-telling-apart.webp
+    alt: "Six widow females side by side from above: all-black, red-striped, red-spotted, mottled brown, pale cream and red-legged"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

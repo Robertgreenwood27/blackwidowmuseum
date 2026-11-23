@@ -2,26 +2,33 @@ id: genus.the-widows
 accession: BWM-06.01
 title: The Widows
 kicker: Latrodectus Walckenaer, 1805
+summary: Latrodectus is a genus of comb-footed spiders. Its species share one anatomical toolkit, while their colour, size, habitat and mating behaviour vary far more than the "black with a red hourglass" image suggests.
 status: open
 order: 1
+taxa: [Latrodectus]
 figures:
   - value: 35
     label: accepted species
-    note: World Spider Catalog, Nov 2026
+    note: World Spider Catalog, checked 23 Nov 2026; a newer atlas names 39
     featured: true
-    sources: [wsc2026]
+    sources: [wsc2026, miller2026]
   - value: 1805
     label: genus described
     note: by Walckenaer
     sources: [wsc2026]
+  - value: "7–20"
+    unit: mm
+    label: female body length
+    note: across the African species; legs excluded
+    sources: [lotz1994]
+  - value: "2.5–6.5"
+    unit: mm
+    label: male body length
+    note: same African revision; not a genus-wide limit
+    sources: [lotz1994]
   - value: "8–10"
     unit: mm
     label: female body length, commonly
-    note: southern widow, legs excluded
-    sources: [kaston1970]
-  - value: "3–4"
-    unit: mm
-    label: male body length, commonly
     note: southern widow, legs excluded
     sources: [kaston1970]
 observations:
@@ -31,14 +38,49 @@ observations:
   - id: count
     text: The World Spider Catalog recognises 35 species of Latrodectus as of November 2026.
     sources: [wsc2026]
+  - id: atlas
+    text: A November 2026 atlas of the genus recognises 39 named species instead — the two treatments have not yet converged.
+    confidence: debated
+    sources: [miller2026]
+  - id: diagnosis
+    text: The genus is recognised by a combination of characters — a large colulus, toothless chelicerae, widely separated lateral eyes and its genitalia.
+    sources: [lotz1994]
+  - id: comb
+    text: The comb of serrated bristles on the fourth legs is shared with the rest of the family, not unique to widows.
+    sources: [lotz1994, jocque2006]
+  - id: shapes
+    text: Female abdomens are usually globe-shaped; males are slimmer and more elongate.
+    sources: [lotz1994]
+  - id: ducts
+    text: Females store sperm in paired receptacles reached by coiled copulatory ducts.
+    sources: [lotz1994]
+  - id: embolus
+    text: The male palp carries a long, coiled embolus that delivers sperm.
+    sources: [lotz1994]
   - id: size
     text: Kaston measured female southern widows at 5–13.5 mm and males at 2.9–5.1 mm.
     sources: [kaston1970]
-related: [body.hourglass]
+  - id: dimorphism
+    text: How much bigger females are than males varies from species to species.
+    confidence: supported
+    sources: [kaston1970, australianmuseum2026]
+  - id: two-clades
+    text: DNA splits the sampled widows into two major clades — the brown widow's relatives and nearly everyone else.
+    confidence: supported
+    sources: [garb2004]
+  - id: behaviour
+    text: Five widow species mated under identical laboratory conditions with clearly different courtship and outcomes.
+    confidence: supported
+    sources: [baruffaldi2024]
+terms:
+  - { term: colulus, def: a small appendage in front of the spinnerets, used to diagnose theridiids }
+  - { term: embolus, def: the sperm-conducting tip of the male palp }
+  - { term: sexual size dimorphism, def: a size difference between the sexes — always say whether by length or by mass }
+related: [genus.roster, genus.family-tree, genus.naming, body.hourglass]
 media:
   - src: /specimens/genus-the-widows.webp
     alt: "Five glass specimen vials holding preserved widow spiders"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-20
+revised: 2026-11-23
