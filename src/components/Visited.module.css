@@ -1,0 +1,18 @@
+/* Visit marks are silk, never red: red is rationed for the hourglass. */
+.mark {
+  display: inline-flex; align-items: center; gap: 6px; margin-left: 10px;
+  color: var(--silk);
+}
+.dot {
+  width: 7px; height: 7px; border-radius: 50%; flex: none;
+  background: var(--silk); box-shadow: 0 0 0 2px var(--ink), 0 0 0 3px var(--silk-3);
+}
+.within { color: var(--silk-2); margin-left: 4px; }
+
+.progress { display: inline-flex; align-items: center; gap: 8px; color: var(--silk); }
+.forget {
+  all: unset; cursor: pointer; margin-left: 4px; color: var(--silk-3);
+  border-bottom: 1px solid var(--thread); transition: color .2s;
+}
+.forget:hover { color: var(--silk); }
+.forget:focus-visible { outline: 1px solid var(--signal); outline-offset: 3px; }

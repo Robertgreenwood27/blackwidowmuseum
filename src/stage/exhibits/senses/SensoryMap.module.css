@@ -39,7 +39,7 @@
 
 .index { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--thread); }
 .row {
-  display: grid; grid-template-columns: 4.5em 1fr; gap: 10px; align-items: baseline;
+  display: grid; grid-template-columns: 4.5em 1fr auto; gap: 10px; align-items: baseline;
   padding: 10px 0; border-bottom: 1px solid var(--thread-2);
   color: var(--silk-2); text-decoration: none; transition: color .25s;
 }
@@ -52,3 +52,5 @@
   .grid { grid-template-columns: 1fr; }
   .tag { font-size: 18px; }
 }
+
+.seen { width: 7px; height: 7px; border-radius: 50%; background: var(--silk); box-shadow: 0 0 0 2px var(--ink), 0 0 0 3px var(--silk-3); align-self: center; }

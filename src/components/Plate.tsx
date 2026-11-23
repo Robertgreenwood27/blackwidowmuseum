@@ -14,6 +14,7 @@ import { Motif } from "@/stage/motifs";
 import { ExhibitCase } from "./ExhibitCase";
 import { SilkTrail } from "./SilkTrail";
 import { Colophon } from "./Colophon";
+import { VisitTracker, VisitedMark } from "./Visited";
 import s from "./Plate.module.css";
 
 export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
@@ -34,6 +35,7 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
 
   return (
     <article className={s.plate}>
+      {open && <VisitTracker id={exhibit.id} />}
       <header className={s.head}>
         <div className={s.trail}><SilkTrail chain={chain} /></div>
         <div className={s.titleBlock}>
@@ -153,6 +155,7 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
                 <Link href={r.href}>
                   <span className="label">{shortAccession(r.accession)}</span>
                   <span className={s.relTitle}>{r.title}</span>
+                  <span className="label"><VisitedMark id={r.id} /></span>
                 </Link>
               </li>
             ))}

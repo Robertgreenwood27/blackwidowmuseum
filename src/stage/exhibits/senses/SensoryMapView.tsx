@@ -7,6 +7,7 @@
  */
 import Link from "next/link";
 import { useState } from "react";
+import { useVisits } from "@/museum/visits";
 import s from "./SensoryMap.module.css";
 
 export type MapItem = { id: string; title: string; kicker: string; href: string; accession: string };
@@ -40,6 +41,7 @@ const SPOTS: Record<string, { at: [number, number]; side: "l" | "r" }> = {
 
 export function SensoryMapView({ items }: { items: MapItem[] }) {
   const [on, setOn] = useState<string | null>(null);
+  const visits = useVisits();
   const active = items.find((i) => i.id === on) ?? null;
   const drawn = items.filter((i) => SPOTS[i.id]);
 
@@ -131,6 +133,7 @@ export function SensoryMapView({ items }: { items: MapItem[] }) {
               >
                 <span className={s.rowN}>{it.accession}</span>
                 <span className={s.rowT}>{it.title}</span>
+                {visits.has(it.id) && <span className={s.seen} title="Visited" aria-label="Visited" />}
               </Link>
             </li>
           ))}

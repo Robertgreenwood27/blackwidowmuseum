@@ -7,6 +7,7 @@ import { stageFor } from "@/stage/registry";
 import { ExhibitCase } from "./ExhibitCase";
 import { SilkTrail } from "./SilkTrail";
 import { Colophon } from "./Colophon";
+import { VaultProgress } from "./Visited";
 import s from "./VaultView.module.css";
 
 export function VaultView({ vault }: { vault: ExhibitNode }) {
@@ -37,6 +38,7 @@ export function VaultView({ vault }: { vault: ExhibitNode }) {
           <p className="label">
             {all.filter((e) => e.status === "open").length} open · {all.filter((e) => e.status === "planned").length} in preparation
           </p>
+          <VaultProgress ids={all.filter((e) => e.id !== vault.id && e.status === "open").map((e) => e.id)} />
         </div>
       </section>
 
