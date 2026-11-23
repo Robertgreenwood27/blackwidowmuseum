@@ -1,0 +1,67 @@
+id: humans.latrodectism.children-and-pregnancy
+accession: BWM-07.01.02
+title: Children and Pregnancy
+kicker: Special patients need their own evidence
+summary: Young children may arrive irritable and sweating, with no story of a bite. Pregnancy reports are reassuring about short-term outcomes, but the evidence is thin.
+status: open
+order: 2
+taxa: [Latrodectus hasselti, Latrodectus]
+figures:
+  - value: 65
+    unit: "%"
+    label: irritable, hypertensive and sweating
+    note: 35 of 54 children, Alice Springs Hospital, 1992–2001
+    featured: true
+    sources: [trethewy2003]
+  - value: 54
+    label: children in a Central Australian redback series
+    note: selected from hospital discharge diagnoses
+    sources: [trethewy2003]
+  - value: "43 / 16 / 34"
+    label: children at grades 1 / 2 / 3
+    note: 93 US poison-centre cases, 2012–2015
+    sources: [glatstein2018]
+  - value: 97
+    label: pregnant patients reported
+    note: US poison centres, 2003–2007
+    sources: [wolfe2011]
+  - value: 0
+    label: documented pregnancy losses
+    note: same series; follow-up was short and incomplete
+    sources: [wolfe2011]
+observations:
+  - id: presentation
+    text: Irritability, high blood pressure and sweating together were the typical picture in Central Australian children.
+    confidence: supported
+    sources: [trethewy2003]
+  - id: selected
+    text: That series came from hospital discharge records, so it over-represents sicker children.
+    sources: [trethewy2003]
+  - id: ages
+    text: Younger and older children in it did not differ significantly in signs or outcome.
+    confidence: supported
+    sources: [trethewy2003]
+  - id: us-children
+    text: In the US series, many children were grade 1, but over a third were grade 3.
+    confidence: supported
+    sources: [glatstein2018]
+  - id: unavailable
+    text: For 14 of the 20 severe cases who did not get antivenom, the recorded reason was that none was available.
+    confidence: supported
+    sources: [glatstein2018]
+  - id: pregnant-admitted
+    text: Pregnant patients were admitted more often than other women of reproductive age — 13.4% vs. 4.0%.
+    confidence: supported
+    sources: [wolfe2011]
+  - id: no-losses
+    text: No pregnancy losses were documented in that series.
+    confidence: supported
+    sources: [wolfe2011]
+  - id: label
+    text: Australian antivenom product information calls pregnancy data limited and inconclusive.
+    sources: [seqirus2026]
+terms:
+  - { term: discharge diagnosis, def: the diagnosis recorded when a patient leaves hospital }
+  - { term: clinical grade, def: a severity score from the patient's signs, not a poison-centre outcome label }
+related: [humans.latrodectism, humans.antivenom]
+revised: 2026-11-23

@@ -1,0 +1,66 @@
+id: humans.history
+accession: BWM-07.06
+title: A History of Latrodectism
+kicker: Old accounts, new names, unequal records
+summary: Widow poisoning has been described wherever people farmed and herded — from the karakurt of the Russian steppe to Chilean harvests. Old death rates are hard to trust; modern records are far more reassuring.
+status: open
+order: 6
+taxa: [Latrodectus indistinctus, Latrodectus geometricus, Latrodectus tredecimguttatus]
+figures:
+  - value: ">150"
+    label: cases in one Chilean summer outbreak
+    note: 1983–1984, central-southern regions
+    featured: true
+    sources: [schenone2003]
+  - value: "30 / 15"
+    label: black / brown widow patients
+    note: Tygerberg, South Africa, 1987–1992
+    sources: [muller1993]
+  - value: "≈500"
+    label: envenomations in European literature
+    note: 36 publications, 1973–2025; confirmed and presumed
+    sources: [terzi2026]
+  - value: 1888
+    label: a Russian collection of 22 cases
+    note: as summarised in 1935
+    sources: [chamberlin1935]
+observations:
+  - id: karakurt
+    text: Historical accounts tied karakurt poisoning to people and livestock in southern Russia.
+    confidence: supported
+    sources: [chamberlin1935]
+  - id: livestock
+    text: The same accounts reported deaths of horses, camels and cattle.
+    confidence: supported
+    sources: [chamberlin1935]
+  - id: chile
+    text: Chilean outbreaks were linked to summer farm work.
+    confidence: supported
+    sources: [schenone2003]
+  - id: uruguay
+    text: Uruguay is among the countries with historical outbreak reports.
+    confidence: supported
+    sources: [schenone2003]
+  - id: south-africa
+    text: In South Africa, black button spider bites were more severe than brown widow bites.
+    confidence: supported
+    sources: [muller1993]
+  - id: madagascar
+    text: A Malagasy intensive-care series of ten patients included high blood pressure and kidney problems; one died.
+    confidence: supported
+    sources: [ramialiharisoa1994]
+  - id: identified
+    text: Only two of those ten spiders were identified — both brown widows.
+    sources: [ramialiharisoa1994]
+  - id: peru
+    text: Peru describes latrodectism as mainly rural and admits it is under-reported.
+    sources: [ministeriodesalud2005]
+  - id: modern
+    text: Modern US poison-centre series recorded no deaths in their study periods.
+    confidence: supported
+    sources: [monte2011, kerns2025]
+terms:
+  - { term: karakurt, def: the name used in Russia and Central Asia for the local widow }
+  - { term: case fatality, def: deaths among recorded cases — not the risk to everyone bitten }
+related: [humans.self-experimenters, humans.other-animals, genus.naming]
+revised: 2026-11-23

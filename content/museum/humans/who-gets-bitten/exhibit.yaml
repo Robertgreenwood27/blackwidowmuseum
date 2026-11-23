@@ -1,0 +1,82 @@
+id: humans.who-gets-bitten
+accession: BWM-07.04
+title: Who Gets Bitten?
+kicker: Exposure follows seasons, work and everyday contact
+summary: Poison-centre and hospital records show bites peaking in late summer, mostly in men, often on hands and feet. But each dataset counts something different, and none measures true risk.
+status: open
+order: 4
+taxa: [Latrodectus, Latrodectus hasselti, Latrodectus tredecimguttatus]
+figures:
+  - value: "15,299"
+    label: reported US exposures, 2012–2022
+    note: genus-level poison-centre records
+    featured: true
+    sources: [kerns2025]
+  - value: "55.4"
+    unit: "%"
+    label: of US patients male
+    note: same dataset; 58% in 2000–2008
+    sources: [kerns2025, monte2011]
+  - value: 28
+    unit: "%"
+    label: bitten while putting on shoes
+    note: 19 of 68 confirmed redback bites
+    sources: [isbister2003]
+  - value: 74
+    unit: "%"
+    label: of bites on the limbs
+    note: Australia and New Zealand, 1963–1976; 2,144 cases
+    sources: [sutherland1978]
+  - value: "17 / 32"
+    label: Croatian cases in July
+    note: all fell June–September
+    sources: [dzelalija2003]
+observations:
+  - id: september
+    text: Both large US poison-centre studies found reports peaked in September.
+    confidence: supported
+    sources: [monte2011, kerns2025]
+  - id: winter
+    text: Winter months had the fewest reports.
+    confidence: supported
+    sources: [monte2011, kerns2025]
+  - id: men
+    text: Men made up the majority of patients in both US datasets.
+    confidence: supported
+    sources: [monte2011, kerns2025]
+  - id: redback-summer
+    text: Historical redback reports clustered in summer, in the afternoon and evening.
+    confidence: supported
+    sources: [sutherland1978]
+  - id: buttocks
+    text: Bites to the genitals or buttocks made up 9.7% of the historical redback series — the outdoor-toilet era.
+    confidence: supported
+    sources: [sutherland1978]
+  - id: clothing
+    text: Clothing and shoes were recorded circumstances in an Arizona hospital series.
+    confidence: supported
+    sources: [clark1992]
+  - id: europe
+    text: Published European cases come mostly from Mediterranean farming regions in summer.
+    confidence: supported
+    sources: [terzi2026]
+  - id: france
+    text: French poison centres attributed 46 of 1,194 native-spider reports to Latrodectus.
+    confidence: supported
+    sources: [leroux2022]
+  - id: helmets
+    text: Two confirmed Malaysian brown widow bites happened as men put on motorcycle helmets.
+    confidence: supported
+    sources: [mokhtar2021]
+terms:
+  - { term: exposure, def: a reported contact — not necessarily a verified bite }
+  - { term: incidence, def: new cases relative to a population over time; report counts alone can't give it }
+  - { term: case series, def: a described group of patients with no comparison population }
+related: [humans.latrodectism, humans.at-home, life.seasons]
+media:
+  - src: /specimens/humans-who-gets-bitten.webp
+    alt: "Inside an old backyard outhouse at dusk, a redback in a small web beneath the rim of the wooden seat"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

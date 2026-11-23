@@ -1,6 +1,94 @@
 id: humans.antivenom
 accession: BWM-07.02
 title: Antivenom
-kicker: Evidence and argument
-status: planned
+kicker: Antibodies, relief, and a hard test of evidence
+summary: Widow antivenoms are made from the blood of immunised horses and have been used for ninety years. Randomised trials have given conflicting answers about how much they help, and the debate is still open.
+status: open
 order: 2
+taxa: [Latrodectus hasselti, Latrodectus mactans]
+figures:
+  - value: 1936
+    label: US widow antivenin licensed
+    note: 13 February; Antivenin (Latrodectus mactans)
+    featured: true
+    sources: [foodanddrugadministration2026]
+  - value: 1956
+    label: Australian redback antivenom produced
+    note: by CSL
+    sources: [healy2013]
+  - value: "34 / 23"
+    unit: "%"
+    label: pain relief, antivenom / placebo
+    note: RAVE-II, 224 patients, at 2 h; difference not significant
+    sources: [isbister2014]
+  - value: "62 / 53"
+    unit: "%"
+    label: pain relief, into vein / into muscle
+    note: RAVE-I, 126 patients; no clear difference
+    sources: [isbister2008]
+  - value: "15 / 24"
+    label: treatment failures, antivenom / placebo
+    note: later US trial, 29 vs. 31 patients, over 48 h
+    sources: [dart2019]
+  - value: "3.6"
+    unit: "%"
+    label: acute allergic reactions
+    note: 4 of 112 antivenom recipients in RAVE-II
+    sources: [isbister2014]
+observations:
+  - id: horses
+    text: The Australian antivenom is made from the plasma of horses immunised with female redback venom.
+    sources: [seqirus2026]
+  - id: products
+    text: The older US Merck antivenin and the purified F(ab′)₂ product tested later are different formulations.
+    sources: [ryan2017, dart2019]
+  - id: rave-1
+    text: RAVE-I compared two routes of giving antivenom and found no clear advantage for either.
+    confidence: supported
+    sources: [isbister2008]
+  - id: rave-2
+    text: RAVE-II compared antivenom with placebo after standard pain relief, and found no significant extra benefit at two hours.
+    confidence: supported
+    sources: [isbister2014]
+  - id: us-2013
+    text: A small 2013 US trial missed its main endpoint but found faster improvement on a secondary one.
+    confidence: supported
+    sources: [dart2013]
+  - id: us-2019
+    text: A larger US trial of a purified product reported fewer treatment failures than placebo.
+    confidence: supported
+    sources: [dart2019]
+  - id: debate
+    text: Whether antivenom helps appears to depend on the product, the setting and what is measured.
+    confidence: debated
+    sources: [ryan2017, isbister2014, dart2019]
+  - id: cross
+    text: In the laboratory, redback antivenom neutralised the venoms of other widow species.
+    confidence: supported
+    sources: [graudins2001]
+  - id: allergy
+    text: Product information lists both immediate allergic reactions and delayed serum sickness.
+    sources: [seqirus2026]
+  - id: california
+    text: A California series of 96 treated patients found no severe allergic reactions.
+    confidence: supported
+    sources: [nordt2012]
+  - id: argentina
+    text: Argentina's national institute manufactures an equine F(ab′)₂ widow antivenom.
+    sources: [ministeriodesalud2025]
+  - id: south-africa
+    text: South Africa's national laboratory service manufactures its spider antivenom.
+    sources: [nationalhealthlaboratoryservice2024]
+terms:
+  - { term: antivenom, def: antibodies that neutralise venom toxins — also called antivenin }
+  - { term: F(ab′)₂, def: a trimmed antibody fragment that keeps both binding arms }
+  - { term: serum sickness, def: a delayed immune reaction to foreign proteins }
+  - { term: placebo-controlled, def: compared against an inactive treatment under the same protocol }
+related: [humans.latrodectism, venom.alpha-latrotoxin, humans.antivenom.future-antibodies]
+media:
+  - src: /specimens/humans-antivenom.webp
+    alt: "Vintage antivenom ampoules and vials in a worn wooden case beside an old glass syringe, a horse's head in shadow behind"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

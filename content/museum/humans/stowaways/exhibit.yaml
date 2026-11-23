@@ -1,0 +1,68 @@
+id: humans.stowaways
+accession: BWM-07.08
+title: Stowaways
+kicker: A bunch of grapes can carry more than fruit
+summary: Widows travel as accidental passengers in grapes, cars and freight. Border records document real interceptions, but arriving is not the same as establishing.
+status: open
+order: 8
+taxa: [Latrodectus hesperus, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: 14
+    label: widow imports recorded in the Netherlands
+    note: by 2016
+    featured: true
+    sources: [noordijk2016]
+  - value: "6 / 14"
+    label: arrived with vehicles
+    note: same Dutch records
+    sources: [noordijk2016]
+  - value: 3
+    label: female redbacks in one container
+    note: Australian torpedo parts, Netherlands, 2014
+    sources: [noordijk2016]
+  - value: "54 / 54"
+    label: spiders killed by low oxygen in cold storage
+    note: western widows on grapes, laboratory test
+    sources: [liu2008]
+observations:
+  - id: grapes
+    text: New Zealand's 2002 risk assessment documents widows among spiders intercepted on imported grapes.
+    sources: [reed2002]
+  - id: which
+    text: Recorded grape passengers included redbacks and western black widows.
+    sources: [reed2002]
+  - id: post-border
+    text: Some were found after the border, not at inspection.
+    sources: [reed2002]
+  - id: arrival
+    text: An interception proves arrival, not a breeding population.
+    sources: [reed2002, noordijk2016]
+  - id: pathways
+    text: Dutch records include widows arriving with vehicles, plants and industrial goods.
+    sources: [noordijk2016]
+  - id: hatched
+    text: Redback eggs hatched in one intercepted Dutch shipment.
+    confidence: supported
+    sources: [noordijk2016]
+  - id: shelter
+    text: Grape bunches give widows shelter and hunting ground, not food.
+    sources: [ministryforprimaryindustries2022]
+  - id: low-oxygen
+    text: Killing spiders on grapes depended on both oxygen level and temperature, without harming the fruit.
+    confidence: supported
+    sources: [liu2008]
+  - id: standard
+    text: A 2026 New Zealand grape import standard names several widow species.
+    sources: [ministryforprimaryindustries2026]
+terms:
+  - { term: interception, def: an organism caught at or after a border }
+  - { term: biosecurity, def: measures to keep unwanted organisms from arriving and spreading }
+  - { term: pathway, def: the route by which an organism is carried — a commodity, vehicle or container }
+related: [genus.invasions, genus.redback, genus.brown-widow]
+media:
+  - src: /specimens/humans-stowaways.webp
+    alt: "Dark table grapes in a wooden shipping crate, a small widow and her silk tucked among the stems under an inspection lamp"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

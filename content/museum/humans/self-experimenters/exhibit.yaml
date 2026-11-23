@@ -1,0 +1,67 @@
+id: humans.self-experimenters
+accession: BWM-07.05
+title: The People Who Offered a Finger
+kicker: A laboratory notebook became a record of pain
+summary: In 1922 and 1933, two American scientists let widows bite them to settle whether the spiders could really poison people. Their accounts are history, not a guide to typical risk.
+status: open
+order: 5
+taxa: [Latrodectus mactans]
+figures:
+  - value: 1922
+    label: Baerg's self-experiment
+    note: published 1923
+    featured: true
+    sources: [dry2026, baerg1923]
+  - value: 5
+    unit: s
+    label: the spider held on, second test
+    note: not a measure of venom dose
+    sources: [dry2026]
+  - value: 3
+    unit: days
+    label: of symptoms Baerg recorded
+    sources: [dry2026]
+  - value: 1933
+    label: Blair's self-experiment
+    note: published December 1934
+    sources: [healy2013, blair1934]
+observations:
+  - id: baerg
+    text: Entomologist William J. Baerg used himself as the subject of widow-venom research.
+    sources: [baerg1923, dry2026]
+  - id: first
+    text: His first self-test caused only a slight, sharp pain.
+    confidence: supported
+    sources: [dry2026]
+  - id: second
+    text: Repeating it the next day produced far more severe symptoms.
+    confidence: supported
+    sources: [dry2026]
+  - id: spread
+    text: He described pain spreading to his shoulder, chest and hips.
+    confidence: supported
+    sources: [dry2026]
+  - id: breathing
+    text: He recorded difficulty breathing and speaking.
+    confidence: supported
+    sources: [dry2026]
+  - id: blair
+    text: Allan W. Blair deliberately had a widow bite him in Alabama in 1933.
+    sources: [healy2013, blair1934]
+  - id: skepticism
+    text: Blair framed his experiment as an answer to doubts that widows poison people at all.
+    sources: [blair1934]
+  - id: published
+    text: His report appeared in the Archives of Internal Medicine in December 1934.
+    sources: [blair1934]
+terms:
+  - { term: self-experimentation, def: a researcher acting as their own experimental subject }
+  - { term: single-subject account, def: observations of one person, which can't establish how common anything is }
+related: [humans.latrodectism, humans.history, venom.discovery]
+media:
+  - src: /specimens/humans-self-experimenters.webp
+    alt: "A 1930s lab desk at night: an open handwritten notebook, pocket watch, thermometer, and a widow in a glass jar under a green lamp"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

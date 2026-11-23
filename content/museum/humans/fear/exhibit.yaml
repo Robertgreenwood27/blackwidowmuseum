@@ -1,0 +1,75 @@
+id: humans.fear
+accession: BWM-07.09
+title: Widows and Fear
+kicker: Count the evidence behind the headline
+summary: Widows can cause real illness, yet fear, news coverage and mistaken "spider bites" inflate the risk. Researchers have examined the story as carefully as the spider.
+status: open
+order: 9
+taxa: [Latrodectus]
+figures:
+  - value: 47
+    unit: "%"
+    label: of spider news stories contained errors
+    note: 5,348 articles, 81 countries, 2010–2020; all spiders
+    featured: true
+    sources: [mammola2022b, mammola2022]
+  - value: 43
+    unit: "%"
+    label: were sensationalised
+    note: same database
+    sources: [mammola2022b]
+  - value: "85.7"
+    unit: "%"
+    label: of claimed "spider bites" were infections
+    note: 156 of 182 emergency patients, southern California
+    sources: [suchard2011]
+  - value: "3.8"
+    unit: "%"
+    label: diagnosed as actual spider bites
+    note: 7 of 182, same study
+    sources: [suchard2011]
+observations:
+  - id: database
+    text: The global spider-news database includes encounters as well as bites.
+    sources: [mammola2022]
+  - id: errors
+    text: Experts found factual errors in nearly half of the articles.
+    confidence: supported
+    sources: [mammola2022b]
+  - id: scored
+    text: Sensationalism was scored separately from factual error.
+    sources: [mammola2022, mammola2022b]
+  - id: deaths
+    text: News of a fatal bite is a report to investigate, not a verified death.
+    sources: [mammola2022]
+  - id: infections
+    text: Most patients who believed a spider had bitten them were diagnosed with skin infections.
+    confidence: supported
+    sources: [suchard2011]
+  - id: widows-real
+    text: Where spiders could be identified in the genuine bite cases, they were black widows.
+    confidence: supported
+    sources: [suchard2011]
+  - id: proof
+    text: French poison-centre reports often lacked enough detail to prove a bite.
+    confidence: supported
+    sources: [leroux2022]
+  - id: size
+    text: In one phobic sample, more fear went with larger estimates of a spider's size afterwards.
+    confidence: supported
+    sources: [vasey2012]
+  - id: size-2
+    text: A later study found phobic people judged size accurately — the bias depends on the task.
+    confidence: debated
+    sources: [li2021, vasey2012]
+terms:
+  - { term: arachnophobia, def: an intense, persistent fear of spiders }
+  - { term: misattribution, def: blaming a condition on the wrong cause }
+related: [humans.myth, humans.latrodectism.the-bite, genus.identification]
+media:
+  - src: /specimens/humans-fear.webp
+    alt: "A tiny widow at the bottom of the frame casts a huge monstrous shadow on the wall above a pile of old newspapers"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

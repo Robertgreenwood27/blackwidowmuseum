@@ -1,0 +1,67 @@
+id: humans.antivenom.future-antibodies
+accession: BWM-07.02.01
+title: Antibodies Without a Horse?
+kicker: A defined molecule for an old manufacturing problem
+summary: Researchers have selected fully human antibodies against Mediterranean widow alpha-latrotoxin and tested them in cells and brain tissue. They are promising experiments, not a medicine.
+status: open
+order: 1
+taxa: [Latrodectus tredecimguttatus, Latrodectus mactans]
+figures:
+  - value: "0.30"
+    unit: nM
+    label: potency of the best antibody
+    note: IC₅₀ in a cell assay, Mediterranean widow toxin
+    featured: true
+    sources: [ruschig2024]
+  - value: 534
+    label: antibody clones screened
+    note: a first binding screen
+    sources: [fons2020]
+  - value: 14
+    label: lead antibodies in a later panel
+    sources: [ruschig2024]
+  - value: "2 / 14"
+    label: also neutralised southern widow venom
+    note: L. mactans whole venom, cell assay
+    sources: [ruschig2024]
+  - value: "5.8 → 19.1"
+    unit: min
+    label: toxin effect delayed by antibodies
+    note: rat brain slices, means
+    sources: [fons2020]
+observations:
+  - id: phage
+    text: Phage display let researchers pick antibodies without immunising any horse.
+    sources: [fons2020, ruschig2024]
+  - id: binds
+    text: The first lead recognised both purified toxin and whole Mediterranean widow venom.
+    confidence: supported
+    sources: [fons2020]
+  - id: delay
+    text: In rat brain slices it delayed the toxin's effect rather than preventing it.
+    confidence: supported
+    sources: [fons2020]
+  - id: neutralise
+    text: Later lead antibodies neutralised the toxin in cell assays.
+    confidence: supported
+    sources: [ruschig2024]
+  - id: neurons
+    text: They were also tested on cultured nerve cells.
+    sources: [ruschig2024]
+  - id: species
+    text: Most leads raised against the Mediterranean toxin failed against southern widow venom.
+    confidence: supported
+    sources: [ruschig2024]
+  - id: best-fails
+    text: Even the most potent one did not cross-neutralise southern widow venom.
+    confidence: supported
+    sources: [ruschig2024]
+  - id: not-yet
+    text: None of this shows clinical benefit; no patient has been treated.
+    sources: [fons2020, ruschig2024]
+terms:
+  - { term: phage display, def: a laboratory method for selecting antibodies from huge libraries }
+  - { term: IC₅₀, def: the concentration that halves a measured effect }
+  - { term: cross-neutralisation, def: one antibody working against more than one species' venom }
+related: [humans.antivenom, venom.alpha-latrotoxin, venom.research-tool]
+revised: 2026-11-23

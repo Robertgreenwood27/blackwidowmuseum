@@ -1,25 +1,84 @@
 id: humans.latrodectism
 accession: BWM-07.01
 title: Latrodectism
-kicker: The syndrome of the bite
+kicker: A small wound, a whole-body syndrome
+summary: Widow venom can cause intense pain, muscle cramping and sweating far from the bite. Severity varies widely — many bites stay local — and a severe case can be mistaken for an abdominal emergency.
 status: open
 order: 1
+taxa: [Latrodectus hasselti, Latrodectus hesperus, Latrodectus tredecimguttatus]
 figures:
   - value: 0
     label: deaths in a large US poison-centre review
-    note: Monte et al. 2011
+    note: 23,409 reported exposures, 2000–2008
+    featured: true
     sources: [monte2011]
+  - value: 62
+    unit: "%"
+    label: had severe pain
+    note: 42 of 68 expertly confirmed Australian redback bites
+    sources: [isbister2003]
+  - value: 35
+    unit: "%"
+    label: had systemic effects
+    note: 24 of 68, same redback cohort
+    sources: [isbister2003]
+  - value: 48
+    unit: h
+    label: median duration of all effects
+    note: interquartile range 24–96 h; same cohort
+    sources: [isbister2003]
+  - value: "0.8"
+    unit: "%"
+    label: major effects in later US reports
+    note: 121 of 15,299 exposures, 2012–2022; no deaths
+    sources: [kerns2025]
 observations:
+  - id: mechanism
+    text: Alpha-latrotoxin makes nerve terminals release their neurotransmitters, which links the venom to the symptoms.
+    sources: [ryan2017]
   - id: symptoms
     text: Latrodectism can cause severe pain, muscle cramps, a rigid abdomen and heavy sweating.
     sources: [ryan2017]
-  - id: rare-deaths
-    text: Deaths are rare in the modern era.
-    sources: [monte2011, ryan2017]
+  - id: autonomic
+    text: It combines muscular symptoms with autonomic ones such as sweating and raised blood pressure.
+    sources: [ryan2017]
   - id: variable
     text: Severity varies, and not every bite produces systemic illness.
+    sources: [ryan2017, isbister2003]
+  - id: grade-1
+    text: In Clark's grading, grade 1 means no symptoms or only local pain, with normal vital signs.
+    sources: [clark1992]
+  - id: grade-2
+    text: Grade 2 adds regional pain and local sweating, with normal vital signs.
+    sources: [clark1992]
+  - id: grade-3
+    text: Grade 3 means generalised pain, sweating far from the bite and abnormal vital signs.
+    sources: [clark1992]
+  - id: redback-limb
+    text: Regional limb pain is prominent in Australian redback bites.
+    confidence: supported
     sources: [ryan2017]
+  - id: abdomen
+    text: In a Croatian hospital series, patients were first assessed for an abdominal emergency; two were referred to surgeons before the diagnosis was clarified.
+    confidence: supported
+    sources: [dzelalija2003]
+  - id: rare-deaths
+    text: Deaths are rare in the modern era; both large US poison-centre series recorded none.
+    sources: [monte2011, kerns2025]
+  - id: cardiac
+    text: Published European cases include serious heart complications — reported cases, not a measure of how often they occur.
+    confidence: supported
+    sources: [terzi2026]
 terms:
-  - { term: diaphoresis, def: heavy sweating }
-related: [venom.alpha-latrotoxin]
-revised: 2026-11-20
+  - { term: latrodectism, def: the clinical syndrome caused by widow-spider venom }
+  - { term: diaphoresis, def: heavy sweating — local, regional or all over }
+  - { term: autonomic, def: involving involuntary functions such as sweating, blood pressure and heart rate }
+  - { term: acute abdomen, def: abdominal symptoms that raise concern for an urgent surgical problem }
+related: [venom.alpha-latrotoxin, humans.antivenom, humans.who-gets-bitten]
+media:
+  - src: /specimens/humans-latrodectism.webp
+    alt: "Anatomical diagram of a human torso: fine red lines spread from a point on the hand up the arm, the abdominal muscles highlighted as tense"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

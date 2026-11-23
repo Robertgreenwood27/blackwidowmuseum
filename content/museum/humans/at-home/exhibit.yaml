@@ -1,0 +1,74 @@
+id: humans.at-home
+accession: BWM-07.10
+title: Widows in the Home
+kicker: Shelter brings spiders and people together
+summary: Widows use the sheltered corners people build — patio furniture, sheds, outbuildings, clutter. Experiments show they bite mainly when pinched, and often hold back their venom.
+status: open
+order: 10
+taxa: [Latrodectus geometricus, Latrodectus hesperus]
+figures:
+  - value: "90.1"
+    unit: "%"
+    label: of US exposures at the person's home
+    note: 13,788 of 15,299, 2012–2022; includes yards
+    featured: true
+    sources: [kerns2025]
+  - value: "53.7"
+    unit: "%"
+    label: of defensive bites delivered no venom
+    note: western widows biting artificial targets; not a human figure
+    sources: [nelsen2014]
+  - value: 43
+    label: female widows threat-tested
+    note: gelatin "finger" experiment
+    sources: [nelsen2014]
+  - value: "94–100"
+    unit: "%"
+    label: hatching blocked by oil-based sprays
+    note: brown widow sacs treated directly in the laboratory
+    sources: [vetter2016b]
+observations:
+  - id: urban
+    text: In southern California, brown widows were common around the outsides of urban buildings.
+    confidence: supported
+    sources: [vetter2012b]
+  - id: playgrounds
+    text: Surveyed sites included playground equipment, plant nurseries and landscaping.
+    confidence: supported
+    sources: [vetter2012b]
+  - id: wild
+    text: Brown widows were scarce or absent in the undeveloped habitats sampled.
+    confidence: supported
+    sources: [vetter2012b]
+  - id: western
+    text: Western widows live around barns, outbuildings, rock walls and clutter.
+    sources: [vetter2017]
+  - id: toilets
+    text: Early US authors described bites in outdoor toilets.
+    confidence: supported
+    sources: [chamberlin1935]
+  - id: avoid
+    text: Gentle prodding mostly made western widows retreat.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: pinch
+    text: Pinching made them far more likely to bite.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: metering
+    text: They varied how much venom they spent on defensive bites.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: water-sprays
+    text: Five of six water-based sprays failed to stop brown widow eggs hatching.
+    confidence: supported
+    sources: [vetter2016b]
+  - id: silk-barrier
+    text: Oil-based products got through the egg-sac silk far better.
+    confidence: supported
+    sources: [vetter2016b]
+terms:
+  - { term: dry bite, def: a bite that delivers no venom }
+  - { term: venom metering, def: adjusting how much venom is used }
+related: [humans.who-gets-bitten, web.site, web.egg-sac-silk.defence, genus.brown-widow]
+revised: 2026-11-23

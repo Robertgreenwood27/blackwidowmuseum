@@ -1,0 +1,70 @@
+id: humans.latrodectism.the-bite
+accession: BWM-07.01.01
+title: The Bite Itself
+kicker: The skin may tell only part of the story
+summary: A widow bite may leave redness, a patch of sweat or a pale-centred target mark — and often no visible fang punctures at all. Pain that grows and spreads says more than the size of the wound.
+status: open
+order: 1
+taxa: [Latrodectus hasselti, Latrodectus hesperus, Latrodectus tredecimguttatus]
+figures:
+  - value: 6
+    unit: "%"
+    label: had visible punctures
+    note: 4 of 68 confirmed redback bites
+    featured: true
+    sources: [isbister2003]
+  - value: 74
+    unit: "%"
+    label: had redness
+    note: 50 of 68
+    sources: [isbister2003]
+  - value: 34
+    unit: "%"
+    label: sweated at or near the bite
+    note: 23 of 68
+    sources: [isbister2003]
+  - value: 54
+    unit: "%"
+    label: pain increased in the first hour
+    note: 37 of 68
+    sources: [isbister2003]
+  - value: "15–60"
+    unit: min
+    label: regional pain onset
+    note: Mediterranean literature summary; not a universal clock
+    sources: [fusto2020]
+observations:
+  - id: punctures
+    text: Fang punctures were uncommon in confirmed redback bites.
+    confidence: supported
+    sources: [isbister2003]
+  - id: redness
+    text: Redness was far more common than swelling.
+    confidence: supported
+    sources: [isbister2003]
+  - id: sweat
+    text: Sweating can appear right at the bite or across a region of the body.
+    confidence: supported
+    sources: [isbister2003]
+  - id: rising
+    text: Pain often grew during the first hour.
+    confidence: supported
+    sources: [isbister2003]
+  - id: halo
+    text: A Mediterranean review describes a pale centre surrounded by a red halo.
+    sources: [fusto2020]
+  - id: target
+    text: Clark illustrated a central point, a pale ring and an outer red ring.
+    sources: [clark1992]
+  - id: spreads
+    text: Local pain can spread well beyond the bite site.
+    sources: [fusto2020]
+  - id: not-necrotic
+    text: Destroyed skin is not a feature of latrodectism — that is a different spider's syndrome.
+    sources: [fusto2020]
+terms:
+  - { term: erythema, def: visible redness of the skin }
+  - { term: blanching, def: a pale patch where less blood shows through the skin }
+  - { term: target lesion, def: a mark of concentric rings — a description, not a species test }
+related: [humans.latrodectism, humans.fear]
+revised: 2026-11-23

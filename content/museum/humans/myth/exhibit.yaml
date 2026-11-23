@@ -1,6 +1,75 @@
 id: humans.myth
 accession: BWM-07.03
 title: The Widow in Myth
-kicker: How a name became a story
-status: planned
+kicker: A name can outgrow the animal
+summary: The widow's name comes from a real but variable habit — females eating mates. The tarantism of southern Italy adds a stranger history, in which real pain, blamed spiders and healing music became one cultural ritual.
+status: open
 order: 3
+taxa: [Latrodectus hasselti, Latrodectus tredecimguttatus]
+figures:
+  - value: "11 / 17"
+    label: matings ending in cannibalism
+    note: one redback field sample; many males survive elsewhere
+    featured: true
+    sources: [andrade1996]
+  - value: "15th–18th"
+    unit: c.
+    label: centuries of recorded tarantism
+    note: chiefly southern Italy
+    sources: [russell1979]
+  - value: 1782
+    label: a Spanish tarantism epidemic
+    note: reinterpreted as possible widow bites
+    sources: [corralcorral2016]
+  - value: 1959
+    label: de Martino's Salento fieldwork
+    note: published 1961 as La terra del rimorso
+    sources: [pizza2002]
+observations:
+  - id: name
+    text: The common name refers to the belief that females kill and eat their mates.
+    sources: [eiden2013]
+  - id: real
+    text: Sexual cannibalism did occur in field observations of redbacks.
+    confidence: supported
+    sources: [andrade1996]
+  - id: survivors
+    text: Surviving males turned up in that same sample.
+    confidence: supported
+    sources: [andrade1996]
+  - id: tarantism
+    text: Tarantism linked a supposed spider bite with illness cured by music and dancing.
+    sources: [russell1979]
+  - id: apulia
+    text: Apulia was the heartland of the musical healing tradition.
+    sources: [russell1979]
+  - id: which-spider
+    text: The old word "tarantula" never reliably named one spider.
+    sources: [russell1979, corralcorral2016]
+  - id: spain
+    text: Symptoms recorded in a Spanish epidemic have been read as Mediterranean widow envenomation.
+    confidence: supported
+    sources: [corralcorral2016]
+  - id: cannot-know
+    text: Whether widow bites lay behind particular historical episodes cannot now be proven.
+    confidence: debated
+    sources: [russell1979, corralcorral2016]
+  - id: culture
+    text: Anthropologists studied Apulian tarantism as a culturally organised response to suffering.
+    sources: [pizza2002]
+  - id: revival
+    text: Later revivals turned tarantism into public music and heritage.
+    confidence: supported
+    sources: [pizza2002]
+terms:
+  - { term: tarantism, def: a historical illness-and-ritual complex blamed on a spider bite }
+  - { term: tarantella, def: the music and dance associated with tarantism }
+  - { term: retrospective diagnosis, def: interpreting old descriptions without the patient or the spider }
+related: [life.cannibalism, life.courtship, genus.mediterranean, humans.fear]
+media:
+  - src: /specimens/humans-myth.webp
+    alt: "Engraving-style scene of a woman dancing the tarantella in an Apulian village square at night, musicians around her, a small spotted spider on a wheat stalk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

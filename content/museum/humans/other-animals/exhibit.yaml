@@ -1,0 +1,70 @@
+id: humans.other-animals
+accession: BWM-07.07
+title: Widows and Other Animals
+kicker: The same venom meets different nervous systems
+summary: Dogs, cats, horses and livestock can all be poisoned by widows, and laboratory animals differ sharply in sensitivity. The veterinary evidence is much thinner than the human record.
+status: open
+order: 7
+taxa: [Latrodectus, Latrodectus tredecimguttatus]
+figures:
+  - value: "1–2"
+    unit: h
+    label: until muscle signs in animals
+    note: general veterinary description; varies
+    featured: true
+    sources: [nagy2026]
+  - value: "0.0075"
+    unit: mg/kg
+    label: lethal dose in guinea pigs
+    note: reported LD₅₀, Mediterranean widow crude venom
+    sources: [hardy2014]
+  - value: "0.9"
+    unit: mg/kg
+    label: lethal dose in mice
+    note: reported LD₅₀; protocols not matched
+    sources: [hardy2014]
+  - value: 1
+    label: published cat case report
+    note: Colorado, 1999
+    sources: [twedt1999]
+observations:
+  - id: pets
+    text: Dogs and cats are the most commonly reported veterinary patients.
+    confidence: supported
+    sources: [nagy2026]
+  - id: cats
+    text: Cats are considered especially susceptible.
+    confidence: supported
+    sources: [nagy2026, hardy2014]
+  - id: dogs
+    text: Dogs can develop tremors, pain and vomiting.
+    sources: [nagy2026]
+  - id: severe
+    text: Severe animal cases include breathing difficulty and weakness.
+    sources: [nagy2026]
+  - id: hidden
+    text: In a furry animal the bite itself is often impossible to find.
+    sources: [nagy2026]
+  - id: horses
+    text: Horses and guinea pigs are described as susceptible, some canids as relatively resistant.
+    confidence: supported
+    sources: [nagy2026]
+  - id: livestock
+    text: Livestock poisonings are reported historically from southern Russia, Spain and Chile.
+    confidence: supported
+    sources: [nagy2026]
+  - id: models
+    text: Reported lethal doses differ greatly between guinea pigs and mice.
+    confidence: supported
+    sources: [hardy2014]
+terms:
+  - { term: LD₅₀, def: the dose that kills half the animals tested }
+  - { term: crude venom, def: whole venom, not a purified toxin }
+related: [humans.history, venom.prey, venom.species-variation]
+media:
+  - src: /specimens/humans-animals.webp
+    alt: "At dusk a dog sniffs the gap under a woodpile where a widow waits in her web, while a cat watches from a fence"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

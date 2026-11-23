@@ -1765,3 +1765,379 @@ miller2026b:
   container: ZooKeys 1281 49–67
   doi: 10.3897/zookeys.1281.185973
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13250612/
+
+# --- Widows & Humans vault (research/humans-dossier.md, 2026-11-23) ---
+
+isbister2003:
+  authors: Isbister, G. K.; Gray, M. R.
+  year: 2003
+  title: "Latrodectism: a prospective cohort study of bites by formally identified redback spiders"
+  container: Medical Journal of Australia 179(2) 88–91
+  doi: 10.5694/j.1326-5377.2003.tb05442.x
+  url: https://www.mja.com.au/journal/2003/179/2/latrodectism-prospective-cohort-study-bites-formally-identified-redback-spiders
+
+clark1992:
+  authors: Clark, R. F.; Wethern-Kestner, S.; Vance, M. V.; Gerkin, R.
+  year: 1992
+  title: "Clinical presentation and treatment of black widow spider envenomation: a review of 163 cases"
+  container: Annals of Emergency Medicine 21(7) 782–787
+  doi: 10.1016/S0196-0644(05)81021-2
+  url: https://clinicalmonster.com/wp-content/uploads/sites/3/2013/10/black-widow.pdf
+
+dzelalija2003:
+  authors: Dželalija, B.; Medić, A.
+  year: 2003
+  title: "Latrodectus bites in Northern Dalmatia, Croatia: clinical, laboratory, epidemiological, and therapeutical aspects"
+  container: Croatian Medical Journal 44(2) 135–138
+  url: https://neuron.mefst.hr/docs/CMJ/issues/2003/44/2/12698502.pdf
+
+isbister2008:
+  authors: Isbister, G. K.; Brown, S. G. A.; Miller, M.; Tankel, A.; Macdonald, E.; Stokes, B.; Ellis, R.; Nagree, Y.; Wilkes, G. J.; James, R.; Short, A.; Holdgate, A.
+  year: 2008
+  title: A randomised controlled trial of intramuscular vs. intravenous antivenom for latrodectism—the RAVE study
+  container: QJM 101(7) 557–565
+  doi: 10.1093/qjmed/hcn048
+  url: https://pubmed.ncbi.nlm.nih.gov/18400776/
+
+isbister2014:
+  authors: Isbister, G. K.; Page, C. B.; Buckley, N. A.; Fatovich, D. M.; Pascu, O.; MacDonald, S. P.; Calver, L. A.; Brown, S. G.
+  year: 2014
+  title: "Randomized controlled trial of intravenous antivenom versus placebo for latrodectism: the second Redback Antivenom Evaluation (RAVE-II) study"
+  container: Annals of Emergency Medicine 64(6) 620–628.e2
+  doi: 10.1016/j.annemergmed.2014.06.006
+  url: https://www.acep.org/siteassets/sites/acep/media/moc/moc-documents/antivenom.pdf
+
+dart2013:
+  authors: Dart, R. C.; Bogdan, G.; Heard, K.; Bucher Bartelson, B.; Garcia-Ubbelohde, W.; Bush, S.; Arnold, T.; Clark, R. C.; Hendey, G. W.; Holstege, C.; Spradley, E. A.
+  year: 2013
+  title: A randomized, double-blind, placebo-controlled trial of a highly purified equine F(ab)2 antibody black widow spider antivenom
+  container: Annals of Emergency Medicine 61(4) 458–467
+  doi: 10.1016/j.annemergmed.2012.10.008
+  url: https://pubmed.ncbi.nlm.nih.gov/23380292/
+
+dart2019:
+  authors: Dart, R. C.; Bush, S. P.; Heard, K.; Arnold, T. C.; Sutter, M.; Campagne, D.; Holstege, C. P.; Seifert, S. A.; Lo, J. C. Y.; Quan, D.; Borron, S.; Meurer, D. A.; Burnham, R. I.; McNally, J.; Garcia-Ubbelohde, W.; Anderson, V. E.
+  year: 2019
+  title: "The efficacy of Antivenin Latrodectus (Black Widow) equine immune F(ab′)2 versus placebo in the treatment of latrodectism: a randomized, double-blind, placebo-controlled, clinical trial"
+  container: Annals of Emergency Medicine 74(3) 439–449
+  doi: 10.1016/j.annemergmed.2019.02.007
+  url: https://pubmed.ncbi.nlm.nih.gov/30926190/
+
+nordt2012:
+  authors: Nordt, S. P.; Clark, R. F.; Lee, A.; Berk, K.; Cantrell, F. L.
+  year: 2012
+  title: Examination of adverse events following black widow antivenom use in California
+  container: Clinical Toxicology 50(1) 70–73; first online December 2011
+  doi: 10.3109/15563650.2011.639714
+  url: https://pubmed.ncbi.nlm.nih.gov/22175789/
+
+seqirus2026:
+  authors: Seqirus Pty Ltd
+  year: 2026
+  title: Australian product information—Red Back Spider Antivenom solution for injection
+  container: Product information, version 8.0; revision 9 April 2026; AUST R 74893
+  url: https://labeling.seqirus.com/PI/AU/Red-Back-Spider-Antivenom/EN/Red-Back-Spider-Antivenom-Product-Information.pdf
+
+foodanddrugadministration2026:
+  authors: US Food and Drug Administration
+  year: 2026
+  title: "Purple Book product details: Antivenin (Latrodectus mactans), BLA 101062"
+  container: FDA Purple Book database; original approval 13 February 1936; checked 23 November 2026
+  url: https://purplebooksearch.fda.gov/index.cfm?blaNo=101062&event=productdetails
+
+healy2013:
+  authors: Healy, J.; Winkel, K. D. (editors)
+  year: 2013
+  title: "Venom: Fear, fascination and discovery"
+  container: Medical History Museum, University of Melbourne; exhibition catalogue
+  url: https://medicalhistorymuseum.mdhs.unimelb.edu.au/__data/assets/pdf_file/0008/3475322/03_Venom-eBook.pdf
+
+ministeriodesalud2025:
+  authors: Ministerio de Salud de la Nación Argentina
+  year: 2025
+  title: Boletín Epidemiológico Nacional N° 769, semana epidemiológica 32
+  container: 18 August 2025; section VIII.6, antivenom production, p. 88
+  url: https://www.argentina.gob.ar/sites/default/files/2025/01/ben_769_se_32_1882025.pdf
+
+nationalhealthlaboratoryservice2024:
+  authors: National Health Laboratory Service
+  year: 2024
+  title: Annual Report 2023–2024
+  container: South Africa; section 2.9.1, South African Vaccine Producers; official PDF hosted in 2025
+  url: https://www.nhls.ac.za/wp-content/uploads/2025/03/NHLS_Annual_Report_2023-2024.pdf
+
+russell1979:
+  authors: Russell, J. F.
+  year: 1979
+  title: Tarantism
+  container: Medical History 23(4) 404–425
+  doi: 10.1017/S0025727300052054
+  url: https://www.cambridge.org/core/journals/medical-history/article/tarantism/E48236CE504359115D4450E9DF454F20
+
+pizza2002:
+  authors: Pizza, G.
+  year: 2002
+  title: "Politics of memory in 2001 Salento: the re-invention of tarantism and the debate on its therapeutical value"
+  container: AM—Rivista della Società italiana di antropologia medica 13–14 223–236
+  url: https://www.amantropologiamedica.unipg.it/index.php/am/article/download/150/142/
+
+corralcorral2016:
+  authors: Corral-Corral, I.; Corral-Corral, C.
+  year: 2016
+  title: "El tarantismo en España en el siglo XVIII: latrodectismo y sugestión"
+  container: Revista de Neurología 63(8) 370–379; Spanish historical review, English abstract
+  url: https://pubmed.ncbi.nlm.nih.gov/27699754/
+
+kerns2025:
+  authors: Kerns, A. F.; Scheffel, E. T.; Farah, R.; Holstege, C. P.
+  year: 2025
+  title: "Black widow spider exposures: a retrospective review of the National Poison Data System 2012–2022"
+  container: Wilderness & Environmental Medicine 36(2) 154–158
+  doi: 10.1177/10806032241300134
+  url: https://journals.sagepub.com/doi/10.1177/10806032241300134
+
+sutherland1978:
+  authors: Sutherland, S. K.; Trinca, J. C.
+  year: 1978
+  title: "Survey of 2144 cases of red-back spider bites: Australia and New Zealand, 1963–1976"
+  container: Medical Journal of Australia 2(14) 620–623
+  doi: 10.5694/j.1326-5377.1978.tb131783.x
+  url: https://pubmed.ncbi.nlm.nih.gov/732670/
+
+leroux2022:
+  authors: Le Roux, G.; Richard, V.; Larcher, G.; French PCC Research Group; Sinno-Tellier, S.; Labadie, M.; de Haro, L.; Descatha, A.
+  year: 2022
+  title: "Spider bites in France: Epidaemiology of cases occurring in 10 years in metropolitan France"
+  container: Medical and Veterinary Entomology 36(2) 159–167; first online 15 December 2021
+  doi: 10.1111/mve.12562
+  url: https://resjournals.onlinelibrary.wiley.com/doi/10.1111/mve.12562
+
+terzi2026:
+  authors: Terzi, I.; Delivalta, N.; Ntoga, M.; Stamatiou, I.
+  year: 2026
+  title: "Latrodectism in Europe (1973–2025): a systematic review of clinical manifestations, management and outcomes"
+  container: Toxicon 274 109024
+  doi: 10.1016/j.toxicon.2026.109024
+  url: https://www.sciencedirect.com/science/article/pii/S0041010126000425
+
+mokhtar2021:
+  authors: Mokhtar, A. S.; Muslimin, M.; Mat-Saat, A. Y.; Ghazali, A.-R. M.; Ismail, A. K.; Abdul-Aziz, N. M.
+  year: 2021
+  title: "Bite envenomation by Latrodectus geometricus (Araneae: Theridiidae) spiders in Malaysia"
+  container: Tropical Biomedicine 38(4) 568–577
+  doi: 10.47665/tb.38.4.100
+  url: https://pubmed.ncbi.nlm.nih.gov/35001923/
+
+fusto2020:
+  authors: Fusto, G.; Bennardo, L.; Duca, E. D.; Mazzuca, D.; Tamburi, F.; Patruno, C.; et al.
+  year: 2020
+  title: "Spider bites of medical significance in the Mediterranean area: misdiagnosis, clinical features and management"
+  container: Journal of Venomous Animals and Toxins including Tropical Diseases 26 e20190100
+  doi: 10.1590/1678-9199-jvatitd-2019-0100
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7534902/
+
+dry2026:
+  authors: Dry, E.
+  year: 2026
+  title: William J. Baerg (1885–1980)
+  container: CALS Encyclopedia of Arkansas; updated 1 March 2026; institutional historical biography
+  url: https://encyclopediaofarkansas.net/entries/william-j-baerg-1582/
+
+chamberlin1935:
+  authors: Chamberlin, R. V.; Ivie, W.
+  year: 1935
+  title: The black widow spider and its varieties in the United States
+  container: Bulletin of the University of Utah 25(8), Biological Series 3(1); June 1935
+  url: https://collections.lib.utah.edu/dl_files/c0/94/c094b00fee069079c181614ea1bebe5f2868d0d1.pdf
+
+muller1993:
+  authors: Müller, G. J.
+  year: 1993
+  title: "Black and brown widow spider bites in South Africa: a series of 45 cases"
+  container: South African Medical Journal 83(6) 399–405
+  url: https://scorpions.co.za/wp-content/uploads/2020/07/muller_black_1993.pdf
+
+ramialiharisoa1994:
+  authors: Ramialiharisoa, A.; de Haro, L.; Jouglard, J.; Goyffon, M.
+  year: 1994
+  title: Le latrodectisme à Madagascar
+  container: Médecine Tropicale 54(2) 127–130; French article, English abstract
+  url: https://pubmed.ncbi.nlm.nih.gov/7934777/
+
+schenone2003:
+  authors: Schenone, H.
+  year: 2003
+  title: "Cuadros tóxicos producidos por mordeduras de araña en Chile: latrodectismo y loxoscelismo"
+  container: Revista Médica de Chile 131(4) 437–444
+  doi: 10.4067/S0034-98872003000400013
+  url: https://www.scielo.cl/scielo.php?pid=S0034-98872003000400013&script=sci_arttext
+
+ministeriodesalud2005:
+  authors: Ministerio de Salud del Perú, Dirección General de Salud de las Personas
+  year: 2005
+  title: Norma técnica sobre prevención y tratamiento de accidentes por animales ponzoñosos
+  container: Lima, Ministerio de Salud; official technical document hosted by EsSalud
+  url: https://www.essalud.gob.pe/downloads/guias_emergencia_epidemiologica/normas_animales_ponzonosos.pdf
+
+nagy2026:
+  authors: Nagy, A. L.
+  year: 2026
+  title: Spider and scorpion bites and stings to animals
+  container: MSD Veterinary Manual; reviewed by Ahna Brutlag; revised April 2026
+  url: https://www.msdvetmanual.com/toxicology/bites-and-stings-from-spiders-scorpions-and-insects/spider-and-scorpion-bites-and-stings-to-animals
+
+hardy2014:
+  authors: Hardy, M. C.; Cochrane, J.; Allavena, R. E.
+  year: 2014
+  title: "Venomous and poisonous Australian animals of veterinary importance: a rich source of novel therapeutics"
+  container: BioMed Research International 2014 671041
+  doi: 10.1155/2014/671041
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4131074/
+
+twedt1999:
+  authors: Twedt, D. C.; Cuddon, P. A.; Horn, T. W.
+  year: 1999
+  title: Black widow spider envenomation in a cat
+  container: Journal of Veterinary Internal Medicine 13(6) 613–616
+  doi: 10.1892/0891-6640(1999)013<0613:BWSEIA>2.3.CO;2
+  url: https://pubmed.ncbi.nlm.nih.gov/10587265/
+
+reed2002:
+  authors: Reed, C.; Newland, S.
+  year: 2002
+  title: Pest risk assessment for spiders associated with table grapes from United States (State of California), Australia, Mexico and Chile
+  container: MAF Biosecurity Authority, New Zealand; 12 June 2002
+  url: https://www.mpi.govt.nz/dmsdocument/8701/direct
+
+noordijk2016:
+  authors: Noordijk, J.
+  year: 2016
+  title: "Nieuwe vondsten van weduwen Latrodectus in Nederland (Araneae: Theridiidae)"
+  container: Nederlandse Faunistische Mededelingen 47 17–26
+  url: https://repository.naturalis.nl/pub/671670
+
+liu2008:
+  authors: Liu, Y.-B.; Daane, K. M.; Tebbets, J. S.; Bettiga, L. J.
+  year: 2008
+  title: "Ultralow oxygen treatment for control of Latrodectus hesperus (Araneae: Theridiidae) on harvested table grapes"
+  container: Journal of Economic Entomology 101(5) 1515–1518
+  doi: 10.1603/0022-0493(2008)101[1515:UOTFCO]2.0.CO;2
+  url: https://pubmed.ncbi.nlm.nih.gov/18950031/
+
+ministryforprimaryindustries2022:
+  authors: Ministry for Primary Industries, New Zealand
+  year: 2022
+  title: Risk management proposal for new treatment options for fresh table grapes
+  container: MPI risk management proposal; sections on contaminating spiders; clinical mortality claims not adopted
+  url: https://www.mpi.govt.nz/dmsdocument/53767/direct
+
+ministryforprimaryindustries2026:
+  authors: Ministry for Primary Industries, New Zealand
+  year: 2026
+  title: Fresh table grapes (Vitis spp.) for human consumption—Import Health Standard
+  container: MPI official import health standard; checked 23 November 2026
+  url: https://www.mpi.govt.nz/dmsdocument/71320/direct
+
+mammola2022:
+  authors: Mammola, S.; Malumbres-Olarte, J.; Arabesky, V.; et al.
+  year: 2022
+  title: An expert-curated global database of online newspaper articles on spiders and spider bites
+  container: Scientific Data 9 109
+  doi: 10.1038/s41597-022-01197-6
+  url: https://www.nature.com/articles/s41597-022-01197-6
+
+mammola2022b:
+  authors: Mammola, S.; Malumbres-Olarte, J.; Arabesky, V.; et al.
+  year: 2022
+  title: The global spread of misinformation on spiders
+  container: Current Biology 32(16) R871–R873
+  doi: 10.1016/j.cub.2022.07.026
+  url: https://pubmed.ncbi.nlm.nih.gov/35998593/
+
+suchard2011:
+  authors: Suchard, J. R.
+  year: 2011
+  title: "\"Spider bite\" lesions are usually diagnosed as skin and soft-tissue infections"
+  container: Journal of Emergency Medicine 41(5) 473–481
+  doi: 10.1016/j.jemermed.2009.09.014
+  url: https://www.sciencedirect.com/science/article/pii/S0736467909007926
+
+vasey2012:
+  authors: Vasey, M. W.; Vilensky, M. R.; Heath, J. H.; Harbaugh, C. N.; Buffington, A. G.; Fazio, R. H.
+  year: 2012
+  title: "It was as big as my head, I swear!: biased spider size estimation in spider phobia"
+  container: Journal of Anxiety Disorders 26(1) 20–24; first online 2011
+  doi: 10.1016/j.janxdis.2011.08.009
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3244514/
+
+li2021:
+  authors: Li, S. H.; Graham, B. M.
+  year: 2021
+  title: "Mind’s eye: the impact of spider presence and cognitive therapy on size estimation biases in spider phobia"
+  container: Journal of Anxiety Disorders 83 102456
+  doi: 10.1016/j.janxdis.2021.102456
+  url: https://www.sciencedirect.com/science/article/pii/S0887618521001031
+
+vetter2012b:
+  authors: Vetter, R. S.; Vincent, L. S.; Danielsen, D. W. R.; Reinker, K. I.; Clarke, D. E.; Itnyre, A. A.; Kabashima, J. N.; Rust, M. K.
+  year: 2012
+  title: "The prevalence of brown widow and black widow spiders (Araneae: Theridiidae) in urban southern California"
+  container: Journal of Medical Entomology 49(4) 947–951
+  doi: 10.1603/ME11285
+  url: https://doi.org/10.1603/ME11285
+
+vetter2016b:
+  authors: Vetter, R. S.; Tarango, J.; Campbell, K. A.; Tham, C.; Hayashi, C. Y.; Choe, D.-H.
+  year: 2016
+  title: "Efficacy of several pesticide products on brown widow spider (Araneae: Theridiidae) egg sacs and their penetration through the egg sac silk"
+  container: Journal of Economic Entomology 109(1) 267–272; first online 3 November 2015
+  doi: 10.1093/jee/tov288
+  url: https://ucanr.edu/sites/ucrurbanpest/files/232647.pdf
+
+nelsen2014:
+  authors: Nelsen, D. R.; Kelln, W.; Hayes, W. K.
+  year: 2014
+  title: "Poke but don’t pinch: risk assessment and venom metering in the western black widow spider, Latrodectus hesperus"
+  container: Animal Behaviour 89 107–114
+  doi: 10.1016/j.anbehav.2013.12.019
+  url: https://redtox.org/sites/default/files/toxiblog/descargables/2014-latrodectus-hesperus-ea_1.pdf
+
+trethewy2003:
+  authors: Trethewy, C. E.; Bolisetty, S.; Wheaton, G.
+  year: 2003
+  title: Red-back spider envenomation in children in Central Australia
+  container: Emergency Medicine 15(2) 170–175
+  doi: 10.1046/j.1442-2026.2003.00435.x
+  url: https://pubmed.ncbi.nlm.nih.gov/12675627/
+
+glatstein2018:
+  authors: Glatstein, M.; Carbell, G.; Scolnik, D.; Rimon, A.; Hoyte, C.
+  year: 2018
+  title: "Treatment of pediatric black widow spider envenomation: a national poison center's experience"
+  container: American Journal of Emergency Medicine 36 998–1002; accepted November 2017
+  doi: 10.1016/j.ajem.2017.11.011
+  url: https://training-georgiapoisoncenter.seoteric.com/wp-content/uploads/2018/12/Black-Widow-antivenom-rocky-mountain-poison-center-1.pdf
+
+wolfe2011:
+  authors: Wolfe, M. D.; Myers, O.; Caravati, E. M.; Rayburn, W. F.; Seifert, S. A.
+  year: 2011
+  title: Black widow spider envenomation in pregnancy
+  container: Journal of Maternal-Fetal & Neonatal Medicine 24(1) 122–126; first online May 2010
+  doi: 10.3109/14767058.2010.481317
+  url: https://pubmed.ncbi.nlm.nih.gov/20459336/
+
+fons2020:
+  authors: Føns, S.; Ledsgaard, L.; Nikolaev, M. V.; Vassilevski, A. A.; Sørensen, C. V.; Chevalier, M. K.; Fiebig, M.; Laustsen, A. H.
+  year: 2020
+  title: Discovery of a recombinant human monoclonal immunoglobulin G antibody against α-latrotoxin from the Mediterranean black widow spider (Latrodectus tredecimguttatus)
+  container: Frontiers in Immunology 11 587825
+  doi: 10.3389/fimmu.2020.587825
+  url: https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.587825/full
+
+ruschig2024:
+  authors: Ruschig, M.; Nerlich, J.; Becker, M.; et al.
+  year: 2024
+  title: Human antibodies neutralizing the alpha-latrotoxin of the European black widow
+  container: Frontiers in Immunology 15 1407398
+  doi: 10.3389/fimmu.2024.1407398
+  url: https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1407398/full
