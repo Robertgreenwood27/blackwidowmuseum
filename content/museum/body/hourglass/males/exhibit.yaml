@@ -1,0 +1,90 @@
+id: body.hourglass.males
+accession: BWM-01.01.05
+title: The Other Adult
+kicker: Small and striped can still mean mature
+summary: Adult males often look like juveniles, but maturity is a reproductive state, not a colour. Several widow males carry a ventral hourglass of their own.
+status: open
+order: 5
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Latrodectus mactans
+  - Latrodectus variolus
+  - Latrodectus hasselti
+  - Latrodectus occidentalis
+figures:
+  - value: 3–4
+    unit: mm
+    label: male redback body length
+    note: institutional size range
+    sources:
+      - australianmuseum2026
+  - value: Yes
+    label: males with a ventral hourglass
+    note: L. occidentalis adult males; narrower than the female's
+    sources:
+      - valdezmondragon2023
+observations:
+  - id: western-juvenile-like
+    text: Adult male western widows commonly keep juvenile-like abdominal patterns.
+    sources:
+      - vetter2017
+  - id: brown-juvenile-like
+    text: Male brown widows also keep much of their juvenile colouring.
+    sources:
+      - vetter2012c
+  - id: eastern-spots
+    text: Southern and northern widow males can carry orange-red spots along the back, edged with white lines on the sides.
+    sources:
+      - hiskes2013
+  - id: redback-males
+    text: Redback males have light brown bodies with white markings on the back.
+    sources:
+      - australianmuseum2026
+  - id: redback-fainter
+    text: A redback male's red markings can be less distinct than a female's.
+    sources:
+      - australianmuseum2026
+  - id: male-hourglass
+    text: Redback males can carry a pale hourglass on the underside.
+    sources:
+      - australianmuseum2026
+  - id: occidentalis
+    text: Described adult males of L. occidentalis bear complete ventral hourglasses.
+    sources:
+      - valdezmondragon2023
+  - id: late-maturing
+    text: Western widow males that matured later kept roughly fifth-instar patterns in Kaston's observations.
+    sources:
+      - kaston1970
+    confidence: supported
+  - id: courtship-null
+    text: Painting over females' hourglasses did not detectably change male courtship in a thesis experiment.
+    sources:
+      - gburek2014
+    confidence: supported
+  - id: guanine-back
+    text: In redbacks, a reflective layer of guanine lies beneath the male's abdominal back.
+    sources:
+      - forster1995
+    confidence: supported
+terms:
+  - term: sexual dichromatism
+    def: a difference in colour between the sexes
+  - term: sexual dimorphism
+    def: any difference in form between the sexes
+  - term: juvenile-like
+    def: resembling a juvenile, not proof that development stopped
+  - term: pedipalp
+    def: a paired appendage that a mature male uses to transfer sperm
+related:
+  - body.pedipalps
+  - life.mate-search
+  - body.colour
+media:
+  - src: /specimens/body-hourglass-males.webp
+    alt: "Comparison plate at the same scale: a small striped adult male western widow with swollen palps beside a large glossy black adult female"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

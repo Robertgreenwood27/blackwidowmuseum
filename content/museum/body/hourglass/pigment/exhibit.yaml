@@ -1,0 +1,99 @@
+id: body.hourglass.pigment
+accession: BWM-01.01.08
+title: What Makes the Red?
+kicker: A colour can leave a molecular fingerprint
+summary: Laser spectroscopy of the western widow's mark points to ommochrome pigments, though the exact molecule is not known. The black, the white and the gloss each need their own evidence.
+status: open
+order: 8
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus hasselti
+  - Latrodectus occidentalis
+figures:
+  - value: 4
+    label: Raman peaks in the red patch
+    note: ≈595, 1255, 1430, 1490 cm⁻¹; tentatively ommochromes
+    sources:
+      - hsiung2017
+  - value: 532
+    unit: nm
+    label: the measuring laser
+    note: excitation wavelength, not a colour of the spider
+    sources:
+      - hsiung2017
+  - value: 14
+    label: spider species tested for melanin
+    note: 6 families, including L. hesperus black hairs
+    sources:
+      - hsiung2015
+observations:
+  - id: ommochrome
+    text: Four Raman peaks from the western widow's red patch were tentatively assigned to ommochromes.
+    sources:
+      - hsiung2017
+    confidence: supported
+  - id: no-standard
+    text: The assignment had no commercially available ommochrome standard to compare against.
+    sources:
+      - hsiung2017
+  - id: jumping-spiders
+    text: Similar peaks turned up in the orange-red patches of jumping spiders.
+    sources:
+      - hsiung2017
+    confidence: supported
+  - id: melanin
+    text: Western widow black hairs gave Raman signals consistent with eumelanin.
+    sources:
+      - hsiung2015
+    confidence: supported
+  - id: ommatin-ommin
+    text: Early chemistry separated spiders' orange-brown ommatin-like pigments from darker ommin-like ones.
+    sources:
+      - seligy1972
+    confidence: supported
+  - id: guanine-redback
+    text: A layer of guanine has been described beneath the male redback's abdominal back.
+    sources:
+      - forster1995
+    confidence: supported
+  - id: guanine-crabs
+    text: In crab spiders, guanine crystals under the skin act as a reflective white layer.
+    sources:
+      - gawryszewski2015
+  - id: christmas-spider
+    text: In Christmas spiders, crystal-like deposits filled the white regions and were missing from black forms.
+    sources:
+      - salgadoroa2026
+    confidence: supported
+  - id: christmas-genes
+    text: Black and white Christmas spiders differed most in genes for building cuticle.
+    sources:
+      - salgadoroa2026
+    confidence: supported
+  - id: ethanol
+    text: The red of L. occidentalis faded in ethanol, so preserved specimens lose the colour.
+    sources:
+      - valdezmondragon2023
+terms:
+  - term: ommochromes
+    def: pigments built from tryptophan, including ommatins and ommins
+  - term: Raman shift
+    def: the energy change of scattered laser light, in cm⁻¹ — not a wavelength in nm
+  - term: eumelanin
+    def: a dark melanin that absorbs broadly
+  - term: guanine reflector
+    def: crystals that scatter light to make white, rather than absorbing colours
+  - term: hypodermis
+    def: the layer of cells beneath the cuticle
+  - term: structural colour
+    def: colour produced by physical structure rather than pigment
+related:
+  - body.colour
+  - body.exoskeleton
+media:
+  - src: /specimens/body-hourglass-pigment.webp
+    alt: Scientific plate pairing a close-up of a red hourglass on glossy black cuticle with a Raman spectrum showing four labelled peaks
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

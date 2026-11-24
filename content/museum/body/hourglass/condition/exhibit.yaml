@@ -1,0 +1,89 @@
+id: body.hourglass.condition
+accession: BWM-01.01.07
+title: A Mark That Can Vary
+kicker: Area and colour need different explanations
+summary: Field measurements tie the size of the hourglass to a widow's body condition more clearly than its colour. Neither makes the mark a gauge of venom.
+status: open
+order: 7
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus mactans
+figures:
+  - value: "0.26"
+    unit: R²
+    label: body condition vs. hourglass area
+    note: L. hesperus field regression; an association
+    sources:
+      - johnson2017
+  - value: 59 / 30
+    label: urban / desert females measured
+    note: nine / seven sites around Phoenix, 2013
+    sources:
+      - johnson2017
+  - value: 35
+    label: females measured repeatedly
+    note: thesis; 12 families over 13 weeks
+    sources:
+      - gburek2014
+observations:
+  - id: site-variation
+    text: Hourglass area, hue and brightness differed among collection sites.
+    sources:
+      - johnson2017
+    confidence: supported
+  - id: no-urban-effect
+    text: The published analysis found no difference in hourglasses between city and desert widows.
+    sources:
+      - johnson2017
+    confidence: supported
+  - id: urban-bigger
+    text: City females had larger cephalothoraxes than desert females.
+    sources:
+      - johnson2017
+    confidence: supported
+  - id: condition-area
+    text: Body condition predicted the area of the hourglass better than any measured colour variable.
+    sources:
+      - johnson2017
+    confidence: supported
+  - id: photo-method
+    text: Colour was measured from calibrated photographs, not modelled through a predator's eye.
+    sources:
+      - johnson2017
+  - id: within-individual
+    text: In a thesis, the same females had larger hourglasses when they were in better condition.
+    sources:
+      - gburek2014
+    confidence: supported
+  - id: diet-weak
+    text: The planned feeding treatments in that thesis did not clearly separate average body condition.
+    sources:
+      - gburek2014
+    confidence: supported
+  - id: dyes
+    text: Dyes eaten by southern widows gave the abdomen only a faint tinge, rather than recolouring it.
+    sources:
+      - gillespie1989
+    confidence: supported
+terms:
+  - term: body condition
+    def: an index of mass relative to size, used to estimate physiological state
+  - term: plasticity
+    def: variation in a trait with environment or physiology
+  - term: residual index
+    def: how far an animal sits above or below the expected mass for its size
+  - term: hue / saturation / brightness
+    def: three separate colour attributes, none of them pigment quantity
+  - term: correlation
+    def: two things varying together, without showing a cause
+related:
+  - body.size
+  - web.hunger
+  - humans.at-home
+media:
+  - src: /specimens/body-hourglass-condition.webp
+    alt: Two western black widow females on a laboratory scale, one lean and one well-fed with a swollen abdomen, the ventral hourglass stretched larger on the fuller one
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

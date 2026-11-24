@@ -56,3 +56,13 @@
 }
 .top, .lead, .body { position: relative; z-index: 1; }
 .case:hover .image { opacity: .6; transform: scale(1.03); filter: grayscale(0); }
+
+/* An exhibit with halls: doorframes in the corner, and a deeper case —
+   a second frame set back inside the first, like a room seen through a door. */
+.halls { display: inline-flex; align-items: center; gap: 8px; color: var(--silk); }
+.hallsGlyph { fill: none; stroke: currentColor; stroke-width: 1; }
+.frame {
+  position: absolute; inset: 7px; z-index: 1; pointer-events: none;
+  border: 1px solid var(--thread); transition: border-color .4s, inset .6s var(--ease);
+}
+.open:hover .frame { border-color: var(--silk-3); inset: 11px; }

@@ -1,0 +1,81 @@
+id: body.hourglass.growing
+accession: BWM-01.01.04
+title: Before the Red Hourglass
+kicker: The adult pattern has a history
+summary: "A widow's markings change as she grows, and individuals differ widely. The best-described sequence is the western widow's: as stripes on the back break up, a pale patch underneath reddens and narrows into an hourglass."
+status: open
+order: 4
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus variolus
+  - Latrodectus hasselti
+figures:
+  - value: 1st
+    label: "instar: a pale yellow precursor"
+    note: L. hesperus; ventral patch scarcely narrowed
+    sources:
+      - kaston1970
+  - value: 6th
+    label: "instar: redder and narrower"
+    note: L. hesperus; Kaston's stage labels, not a universal timetable
+    sources:
+      - kaston1970
+observations:
+  - id: precursor
+    text: First-instar western widows already carry a pale yellow patch underneath, the forerunner of the hourglass.
+    sources:
+      - kaston1970
+  - id: white-emergence
+    text: Western widows leave the egg sac with white abdomens marked with dark spots.
+    sources:
+      - vetter2012c
+  - id: tan-legs
+    text: Their legs and carapace start out tan.
+    sources:
+      - vetter2012c
+  - id: stripes-fragment
+    text: As the background darkens, the stripes on a western widow's back break into pieces.
+    sources:
+      - vetter2012c
+  - id: orange-in-stripe
+    text: Some juvenile western widows carry orange-red inside the pale stripe on the back.
+    sources:
+      - vetter2012c
+  - id: sixth-instar
+    text: Kaston described the ventral mark becoming redder and pinched at the middle by the sixth instar.
+    sources:
+      - kaston1970
+  - id: northern-joined
+    text: Young northern widows may have a more connected hourglass than they keep later.
+    sources:
+      - kaston1970
+  - id: redback-white
+    text: Juvenile redbacks carry extra white markings on the abdomen.
+    sources:
+      - australianmuseum2026
+  - id: adult-retains
+    text: Some adult female western widows keep pale markings at the front of the abdomen.
+    sources:
+      - vetter2017
+terms:
+  - term: ontogeny
+    def: an individual's development
+  - term: instar
+    def: a stage between two moults
+  - term: penultimate
+    def: the stage before the final moult to maturity
+  - term: emergence
+    def: leaving the egg sac — not the same as hatching
+  - term: pattern element
+    def: one stripe, spot or patch, considered apart from the background
+related:
+  - body.colour
+  - life.molting
+  - life.development
+media:
+  - src: /specimens/body-hourglass-growing.webp
+    alt: "Growth series of the western black widow in two rows: dorsal views from white spotted spiderling to glossy black adult above, and ventral views from pale yellow patch to red hourglass below"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

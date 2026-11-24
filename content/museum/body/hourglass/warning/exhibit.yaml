@@ -1,0 +1,110 @@
+id: body.hourglass.warning
+accession: BWM-01.01.01
+title: A Warning Put to the Test
+kicker: A red patch can change an attack
+summary: Widow defence includes biting and silk-flicking, both observed experimentally. Whether a particular attacker responds to the colour has to be tested separately from whether the spider can defend itself.
+status: open
+order: 1
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus revivensis
+  - Latrodectus mactans
+  - Latrodectus variolus
+figures:
+  - value: "2.9"
+    unit: ×
+    label: more attacks on unmarked models
+    note: wild birds; species-controlled analysis
+    sources:
+      - brandley2016
+  - value: 24
+    label: gecko–widow pairings
+    note: Hemidactylus turcicus; thesis, three paint treatments
+    sources:
+      - gburek2014
+  - value: ">50"
+    unit: "%"
+    label: of defensive bites were dry
+    note: L. hesperus, artificial targets; not a field bite rate
+    sources:
+      - nelsen2014
+observations:
+  - id: models
+    text: Wild birds at feeders were offered single belly-up widow models, painted all black or black with a red mark.
+    sources:
+      - brandley2016
+  - id: attack-definition
+    text: Any contact with beak or foot counted as an attack on a model.
+    sources:
+      - brandley2016
+  - id: visitors
+    text: Feeder visitors included chickadees, cardinals, house finches, titmice, nuthatches and red-headed and pileated woodpeckers.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: fewer-attacks
+    text: Models bearing the red mark were attacked less often than all-black models.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: pinch-bite
+    text: Pinching female western widows drew more bites than prodding them.
+    sources:
+      - nelsen2014
+    confidence: supported
+  - id: metered-venom
+    text: Western widows changed how much venom they spent with the location and timing of a threat.
+    sources:
+      - nelsen2014
+    confidence: supported
+  - id: gecko-null
+    text: In thesis trials, painting over the hourglass did not change how house geckos behaved toward western widows.
+    sources:
+      - gburek2014
+    confidence: supported
+  - id: gecko-rare
+    text: No geckos ate widows in the initial trials, and only two predation events occurred during later cohabitation.
+    sources:
+      - gburek2014
+    confidence: supported
+  - id: shrikes
+    text: Field observations in Israel identified great grey shrikes as predators of desert widows.
+    sources:
+      - konigswald1990
+    confidence: supported
+  - id: lizard-resistance
+    text: Southern alligator lizards kept their sprint performance after injection with western widow venom.
+    sources:
+      - thill2022
+    confidence: supported
+  - id: lizards-differ
+    text: A later injection study found that different lizard species respond to widow venom very differently.
+    sources:
+      - thill2025
+    confidence: supported
+  - id: untested-learning
+    text: The model experiment cannot tell whether birds had learned to avoid the hourglass, or were simply wary of red or of anything unfamiliar.
+    sources:
+      - brandley2016
+    confidence: debated
+terms:
+  - term: aposematism
+    def: signalling a defence to potential attackers
+  - term: neophobia
+    def: reluctance to approach or touch an unfamiliar object
+  - term: qualitative honesty
+    def: a signal that goes with having a defence at all
+  - term: quantitative honesty
+    def: a signal whose strength predicts how strong the defence is
+  - term: venom resistance
+    def: reduced impairment at a given dose, not immunity
+related:
+  - venom.prey
+  - humans.other-animals
+media:
+  - src: /specimens/body-hourglass-warning.webp
+    alt: "Two trial panels: a belly-up black widow model painted all black, and an identical model with a red hourglass, each on a plain feeder board"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

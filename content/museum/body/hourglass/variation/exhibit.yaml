@@ -1,0 +1,124 @@
+id: body.hourglass.variation
+accession: BWM-01.01.06
+title: A Family of Different Marks
+kicker: Joined, divided, orange, pale — or gone
+summary: A useful field pattern is not a fixed character of the genus. Shape, hue and the body around the mark vary within species as well as between them, and a colour form that changes with geography is not necessarily a separate species.
+status: open
+order: 6
+taxa:
+  - Latrodectus mactans
+  - Latrodectus variolus
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Latrodectus bishopi
+  - Latrodectus katipo
+  - Latrodectus pallidus
+  - Latrodectus indistinctus
+  - Latrodectus tredecimguttatus
+  - Latrodectus occidentalis
+figures:
+  - value: 2
+    label: separated red marks
+    note: often, in the northern widow
+    sources:
+      - carlton2021
+  - value: 1–2
+    label: ventral spots, no full hourglass
+    note: the red widow, L. bishopi
+    sources:
+      - floridanaturalareasinventory2023
+  - value: Orange
+    label: typical brown widow hourglass
+    note: occasionally approaching red-orange
+    sources:
+      - hannum2010
+      - vetter2012c
+  - value: Cream
+    label: the white widow's ventral patch
+    note: L. pallidus
+    sources:
+      - lotz1994
+observations:
+  - id: southern-joined
+    text: Female southern widows usually have a connected hourglass.
+    sources:
+      - carlton2021
+  - id: northern-split
+    text: Female northern widows often have two separated marks.
+    sources:
+      - carlton2021
+  - id: western-any
+    text: Western widow hourglasses can be joined, separated, reduced or occasionally absent.
+    sources:
+      - vetter2017
+  - id: southern-hues
+    text: A southern widow's mark can be red, orange or yellowish orange.
+    sources:
+      - carlton2021
+  - id: brown-orange
+    text: Brown widow hourglasses are typically orange but can approach red-orange.
+    sources:
+      - vetter2012c
+  - id: brown-body
+    text: Brown widow bodies range from very pale to nearly black.
+    sources:
+      - vetter2017
+  - id: red-widow
+    text: Red widows have reddish-orange legs and head, with dark abdomens bearing ringed spots on the back.
+    sources:
+      - floridanaturalareasinventory2023
+  - id: red-widow-spots
+    text: Instead of a complete hourglass, the red widow has spots on its underside.
+    sources:
+      - floridanaturalareasinventory2023
+  - id: mediterranean
+    text: Mediterranean widow material includes both spotted and entirely dark adult females.
+    sources:
+      - lotz1994
+  - id: katipo-cline
+    text: Katipō colour changes with geography and correlates with mean annual temperature.
+    sources:
+      - vink2008
+    confidence: supported
+  - id: katipo-one
+    text: Crossing and molecular evidence showed that the black katipō is the same species as the red katipō.
+    sources:
+      - vink2008
+      - wsc2026
+  - id: white-widow
+    text: White widows have cream abdomens with dark spots on the back and pale marks underneath.
+    sources:
+      - lotz1994
+  - id: indistinctus
+    text: Adults of the African L. indistinctus may have no ventral hourglass at all.
+    sources:
+      - lotz1994
+  - id: occidentalis
+    text: Described L. occidentalis females combine red patterns on the back with a complete hourglass underneath.
+    sources:
+      - valdezmondragon2023
+terms:
+  - term: intraspecific variation
+    def: differences within one species
+  - term: cline
+    def: a gradual change in a trait across geography
+  - term: synonym
+    def: a second scientific name for the same species
+  - term: ground colour
+    def: the background colour that pattern elements sit on
+  - term: heritability
+    def: how much of a trait's variation in a population is genetic
+related:
+  - genus.northern
+  - genus.brown-widow
+  - genus.red-widow
+  - genus.katipo
+  - genus.pale-widows
+  - genus.mediterranean
+media:
+  - src: /specimens/body-hourglass-variation.webp
+    alt: "Ventral specimen atlas of six widow abdomens: a joined red hourglass, a split pair of marks, a reduced mark, an orange hourglass, a cream patch, and red spots"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

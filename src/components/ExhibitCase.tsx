@@ -5,6 +5,7 @@ import { children, descendants } from "@/museum/catalogue";
 import { VisitedMark } from "./Visited";
 import { stageFor } from "@/stage/registry";
 import { mediaUrl } from "@/museum/media";
+import { HallsGlyph, hallsLabel } from "./Halls";
 import s from "./ExhibitCase.module.css";
 
 /** A vitrine: how an exhibit appears from the gallery floor. */
@@ -21,9 +22,14 @@ export function ExhibitCase({ exhibit, size = "m" }: { exhibit: ExhibitNode; siz
         // eslint-disable-next-line @next/next/no-img-element
         <img className={s.image} src={mediaUrl(image.src)} alt="" loading="lazy" />
       )}
+      {subs.length > 0 && <span className={s.frame} aria-hidden="true" />}
       <span className={s.top}>
         <span className="label">{shortAccession(exhibit.accession)}</span>
-        <span className="label">{open ? (stage ? stage.medium : "Plate") : "In preparation"}</span>
+        {subs.length > 0 ? (
+          <span className={`${s.halls} label`}><HallsGlyph className={s.hallsGlyph} />{hallsLabel(subs.length)}</span>
+        ) : (
+          <span className="label">{open ? (stage ? stage.medium : "Plate") : "In preparation"}</span>
+        )}
       </span>
       {open && lead && (
         <span className={s.lead} aria-hidden="true">
@@ -36,7 +42,6 @@ export function ExhibitCase({ exhibit, size = "m" }: { exhibit: ExhibitNode; siz
         {exhibit.kicker && <span className={s.kicker}>{exhibit.kicker}</span>}
         <span className={`${s.meta} label`}>
           {open ? `${exhibit.observations.length} observations` : "Case draped"}
-          {subs.length > 0 && ` · ${subs.length} within`}
           {open && <VisitedMark id={exhibit.id} within={within} />}
         </span>
       </span>

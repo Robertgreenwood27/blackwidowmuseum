@@ -1,0 +1,88 @@
+id: body.hourglass.receivers
+accession: BWM-01.01.02
+title: Red Through Other Eyes
+kicker: A colour belongs to its viewer
+summary: A spectrometer records the light the hourglass returns; a visual model estimates how a given eye would receive it. To a bird the mark stands out sharply from the black. To an insect it barely does.
+status: open
+order: 2
+taxa:
+  - Latrodectus mactans
+  - Latrodectus variolus
+figures:
+  - value: "0.67"
+    label: red–black contrast for a bird eye
+    note: Michelson contrast, modelled
+    sources:
+      - brandley2016
+  - value: "0.21"
+    label: the same contrast for an insect eye
+    note: Michelson contrast, modelled
+    sources:
+      - brandley2016
+  - value: 9 / 5
+    label: females measured
+    note: L. mactans / L. variolus
+    sources:
+      - brandley2016
+  - value: 520 / 607
+    unit: nm
+    label: receptor peaks used in the models
+    note: insect green / blue tit long-wave
+    sources:
+      - brandley2016
+observations:
+  - id: little-short
+    text: The measured hourglasses reflected little light below about 550 nm.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: no-uv
+    text: The sampled adult females showed no significant ultraviolet reflectance.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: bird-contrast
+    text: Visual models predict the red-on-black contrast is about three times stronger for a bird than for an insect.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: guanine-uv
+    text: In crab spiders, white guanine reflects ultraviolet light that the tissues above it partly filter.
+    sources:
+      - gawryszewski2015
+  - id: day-hiding
+    text: Female southern and northern widows hide in dense silk by day and commonly wait inverted at night.
+    sources:
+      - hiskes2013
+  - id: night-collection
+    text: Western widows in the Phoenix study were collected at night, active on their webs.
+    sources:
+      - johnson2017
+  - id: daylight-models
+    text: The receiver models assume daylight and standard receptor sensitivities; how the mark looks at night has not been measured.
+    sources:
+      - brandley2016
+    confidence: debated
+terms:
+  - term: reflectance
+    def: the fraction of light returned at each wavelength
+  - term: photon catch
+    def: light absorbed by one receptor type under a given light
+  - term: chromatic contrast
+    def: the difference between two colours
+  - term: achromatic contrast
+    def: the difference in brightness alone
+  - term: Michelson contrast
+    def: the difference between two intensities divided by their sum
+  - term: UV
+    def: ultraviolet light, outside human colour vision
+related:
+  - senses.vision
+  - body.colour
+media:
+  - src: /specimens/body-hourglass-receivers.webp
+    alt: "Scientific plate: red and black reflectance curves rising above 550 nanometres, beside schematic bird and insect receptor sensitivity curves"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

@@ -1,0 +1,59 @@
+/* The corridor: halls are rooms off one passage, read top to bottom. */
+.corridor { padding: 0 var(--gutter) 14vh; }
+.head {
+  display: flex; align-items: center; gap: 14px;
+  padding-bottom: 16px; border-bottom: 1px solid var(--silk-3);
+}
+.head h2 { flex: 1; }
+.glyph { fill: none; stroke: var(--silk); stroke-width: 1; flex: none; }
+
+.list { list-style: none; }
+.hall {
+  position: relative;
+  display: grid; grid-template-columns: minmax(90px, 2fr) 6fr 2.4fr minmax(110px, 2fr);
+  gap: var(--gutter); align-items: center;
+  padding: 26px 0; border-bottom: 1px solid var(--thread);
+  transition: background .5s;
+}
+.hall::before {
+  /* the doorway's threshold: a silk line that crosses as you approach */
+  content: ""; position: absolute; left: 0; bottom: -1px; height: 1px; width: 0;
+  background: var(--silk); transition: width .7s var(--ease);
+}
+.hall:hover::before { width: 100%; }
+
+.num { display: flex; flex-direction: column; gap: 6px; }
+.numeral {
+  font-family: var(--display); font-size: clamp(44px, 5vw, 88px); line-height: .8;
+  letter-spacing: -.03em; color: var(--silk-3); transition: color .4s;
+}
+.hall:hover .numeral { color: var(--silk); }
+
+.body { display: flex; flex-direction: column; gap: 6px; }
+.title {
+  font-family: var(--display); font-size: clamp(28px, 3vw, 50px); line-height: .95; letter-spacing: -.02em;
+  transition: transform .6s var(--ease);
+}
+.hall:hover .title { transform: translateX(14px); font-style: italic; }
+.kicker { font-family: var(--display); font-style: italic; font-size: 18px; color: var(--silk-2); }
+
+.meta { display: flex; flex-direction: column; gap: 6px; }
+.meta > :global(span) { margin-left: 0; }
+
+.thumb { aspect-ratio: 3 / 2; overflow: hidden; background: var(--char); border: 1px solid var(--thread); }
+.thumb img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  opacity: .55; filter: grayscale(.4); transition: opacity .5s, filter .5s, transform 1s var(--ease);
+}
+.hall:hover .thumb img { opacity: .9; filter: grayscale(0); transform: scale(1.04); }
+
+.draped .title, .draped .numeral { color: var(--silk-3); }
+.draped .thumb {
+  background: repeating-linear-gradient(-45deg, transparent 0 9px, rgba(236, 230, 217, .04) 9px 10px), var(--ink);
+}
+
+@media (max-width: 760px) {
+  .hall { grid-template-columns: 64px 1fr; row-gap: 14px; }
+  .meta { grid-column: 2; flex-direction: row; flex-wrap: wrap; gap: 4px 14px; }
+  .thumb { display: none; }
+}

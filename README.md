@@ -34,6 +34,14 @@ new gumfoot line in the 3D entrance.
 The build validates everything: unknown citation keys, broken `related` links, duplicate ids or
 accession numbers, and malformed YAML all fail with a readable list.
 
+## Halls
+
+An exhibit folder that contains exhibit folders is an **exhibit with halls**, and each child is a
+**Hall**, numbered I, II, III… in `order`. Nothing declares it; the folders do. Its case card gets
+receding doorframes and an "n halls" label. Its plate gets a corridor listing the halls, and each
+hall's placard reads "Hall III of VII · Parent", with "Next hall" links ending in a return to the
+parent. `body/hourglass/` is the reference.
+
 ## Changing how an exhibit looks (without touching its science)
 
 Every exhibit renders as a **Plate** by default. To give one a richer presentation:

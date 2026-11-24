@@ -1,0 +1,85 @@
+id: body.hourglass.evolution
+accession: BWM-01.01.09
+title: Ancestry Written on Two Surfaces
+kicker: Similar colours can have different histories
+summary: Family trees make the history of colour testable. They suggest red on the back is ancestral in widows and was lost in some North American lineages. Where the ventral hourglass itself came from is a separate, open question.
+status: open
+order: 9
+taxa:
+  - Latrodectus
+  - Steatoda
+figures:
+  - value: 2
+    label: major clades in the first molecular tree
+    note: geometricus group and mactans group, 2004
+    sources:
+      - garb2004
+  - value: ≥5
+    unit: "%"
+    label: red on the back, coded as 'red'
+    note: the threshold used to reconstruct ancestors
+    sources:
+      - brandley2016
+observations:
+  - id: monophyly-2004
+    text: The 2004 molecular analysis supported Latrodectus as a single natural group.
+    sources:
+      - garb2004
+    confidence: supported
+  - id: geometricus-clade
+    text: That tree paired the brown widow with the African L. rhodesiensis.
+    sources:
+      - garb2004
+    confidence: supported
+  - id: dorsal-ancestral
+    text: A reconstruction across the genus inferred red on the back as ancestral, later lost in some North American lineages.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: monophyly-2026
+    text: The 2026 atlas again strongly supported Latrodectus as a single group.
+    sources:
+      - miller2026
+    confidence: supported
+  - id: steatoda-split
+    text: In the same atlas, Steatoda did not form a single natural group.
+    sources:
+      - miller2026
+    confidence: supported
+  - id: umbukwane
+    text: L. umbukwane moved position depending on which analysis the atlas ran.
+    sources:
+      - miller2026
+    confidence: supported
+  - id: steatoda-outline
+    text: Some Steatoda show an hourglass-like outline underneath, without the widow's red-orange fill.
+    sources:
+      - johnson2003
+    confidence: supported
+  - id: katipo-interbreed
+    text: Red and black katipō forms interbred and lacked the separation expected of two species.
+    sources:
+      - vink2008
+    confidence: supported
+terms:
+  - term: monophyletic group
+    def: an ancestor and all of its descendants
+  - term: ancestral-state reconstruction
+    def: inferring past traits from a tree and its living tips
+  - term: homology
+    def: similarity inherited from a common ancestor
+  - term: convergence
+    def: similarity that evolved independently
+  - term: character coding
+    def: the categories used to turn observations into data
+related:
+  - genus.family-tree
+  - venom.false-widows
+  - venom.evolution
+media:
+  - src: /specimens/body-hourglass-evolution.webp
+    alt: Simplified family tree of widow spiders with two columns of small abdomen icons, one showing the back and one the underside, ancestors marked with question marks
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

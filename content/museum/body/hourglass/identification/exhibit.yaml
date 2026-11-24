@@ -1,0 +1,90 @@
+id: body.hourglass.identification
+accession: BWM-01.01.10
+title: A Clue, Not a Verdict
+kicker: Identify the spider around the mark
+summary: A red hourglass is a valuable field clue, especially on a familiar adult female. A reliable identification also weighs life stage, geography, the egg sac and anatomy, and a specialist's characters where they are needed.
+status: open
+order: 10
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Latrodectus pallidus
+  - Latrodectus occidentalis
+  - Latrodectus lucacha
+  - Steatoda grossa
+figures:
+  - value: Spiked
+    label: brown widow egg sac
+    note: a useful companion clue
+    sources:
+      - vetter2012
+  - value: 2
+    label: "views to record: back and belly"
+    note: editorial standard, from taxonomic practice
+    sources:
+      - valdezmondragon2023
+observations:
+  - id: steatoda-shape
+    text: The false widow Steatoda grossa shares the widow's round abdomen and cobweb habit.
+    sources:
+      - vetter2017
+  - id: steatoda-no-red
+    text: S. grossa lacks red colouring on its underside.
+    sources:
+      - vetter2017
+  - id: pale-hourglass
+    text: A pale, not red, hourglass occurs in L. pallidus.
+    sources:
+      - lotz1994
+  - id: juvenile-lookalike
+    text: Juvenile western widows can resemble adult brown widows.
+    sources:
+      - vetter2012c
+  - id: spiky-sac
+    text: Brown widow egg sacs bristle with conspicuous silk spikes.
+    sources:
+      - vetter2012
+  - id: genitalia
+    text: The description of L. occidentalis relies on genitalia and body measurements as well as colour.
+    sources:
+      - valdezmondragon2023
+  - id: atlas-method
+    text: The 2026 atlas combines DNA, reproductive anatomy, abdominal hairs and egg-sac traits.
+    sources:
+      - miller2026
+  - id: lucacha-overlap
+    text: L. lucacha females vary in their back patterns and can overlap L. thoracicus.
+    sources:
+      - miller2026b
+  - id: photo-protocol
+    text: Identifying L. lucacha from photographs uses colour, egg sac and locality together.
+    sources:
+      - miller2026b
+  - id: no-mark-no-proof
+    text: A missing red mark does not rule out a widow, and an hourglass alone does not settle the species.
+    sources:
+      - vetter2017
+      - lotz1994
+terms:
+  - term: field character
+    def: a clue you can see during observation
+  - term: diagnosis
+    def: the combination of traits that sets a species apart
+  - term: voucher
+    def: a kept specimen or record that lets an identification be checked
+  - term: epigynum / palp
+    def: the female and male reproductive structures used in identification
+  - term: look-alike
+    def: a practical resemblance, with no implied evolutionary cause
+related:
+  - genus.identification
+  - venom.false-widows
+  - genus.brown-widow
+  - humans.at-home
+media:
+  - src: /specimens/body-hourglass-identification.webp
+    alt: "Comparison plate: a brown widow beside its spiked egg sac and a western widow beside its smooth sac, both in tangle webs, with a false widow Steatoda grossa for contrast"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

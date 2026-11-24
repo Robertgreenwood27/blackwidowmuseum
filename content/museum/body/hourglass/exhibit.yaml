@@ -2,7 +2,7 @@ id: body.hourglass
 accession: BWM-01.01
 title: The Hourglass
 kicker: A signal worn upside down
-summary: The red mark sits on the underside of the abdomen. Because she hangs inverted, the side she shows the world is the warning, and its shape changes from species to species.
+summary: The red mark sits on the underside of the abdomen. Because she hangs inverted, the side she shows the world is the warning. Ten halls follow it further, into the eyes that see it, how it grows, what it is made of and where it came from.
 status: open
 order: 4
 taxa: [Latrodectus mactans, Latrodectus hesperus, Latrodectus variolus, Latrodectus hasselti, Latrodectus geometricus]
@@ -20,6 +20,15 @@ figures:
     note: wild birds, choice experiment with painted models
     featured: true
     sources: [brandley2016]
+  - value: "0.26"
+    unit: R²
+    label: body condition vs. hourglass area
+    note: western widows, field regression
+    sources: [johnson2017]
+  - value: Cream
+    label: an hourglass without red
+    note: the white widow, L. pallidus
+    sources: [lotz1994]
 observations:
   - id: ventral
     text: Adult female southern and western black widows usually bear a red hourglass beneath the abdomen.
@@ -50,6 +59,12 @@ observations:
     text: Visual models predict the red-on-black contrast is more conspicuous to birds than to the insects widows eat.
     confidence: supported
     sources: [brandley2016]
+  - id: precursor
+    text: First-instar western widows already carry a pale yellow patch beneath the abdomen, the forerunner of the hourglass.
+    sources: [kaston1970]
+  - id: males-too
+    text: The mark is not only female; adult male redbacks can carry a pale hourglass on the underside.
+    sources: [australianmuseum2026]
   - id: pigment
     text: Raman spectra of the western widow's hourglass have been tentatively assigned to ommochrome pigments.
     confidence: supported
@@ -58,6 +73,7 @@ terms:
   - { term: ventral, def: the underside of the body }
   - { term: opisthosoma, def: the abdomen — the rear body region of a spider }
   - { term: aposematism, def: a warning signal advertising that an animal is defended }
+  - { term: venter, def: the anatomical underside, whichever way the spider is facing }
   - { term: ommochromes, def: a class of pigments behind many yellow, orange, red and brown spider colours }
 related: [body.colour, genus.brown-widow, genus.redback, genus.northern]
 media:
@@ -71,4 +87,4 @@ media:
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-23

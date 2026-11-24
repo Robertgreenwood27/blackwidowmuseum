@@ -11,10 +11,10 @@ import { roman, shortAccession, vaultNumber } from "@/museum/format";
 import { mediaUrl } from "@/museum/media";
 import { stageFor } from "@/stage/registry";
 import { Motif } from "@/stage/motifs";
-import { ExhibitCase } from "./ExhibitCase";
 import { SilkTrail } from "./SilkTrail";
 import { Colophon } from "./Colophon";
 import { VisitTracker, VisitedMark } from "./Visited";
+import { HallCorridor, hallsLabel } from "./Halls";
 import s from "./Plate.module.css";
 
 export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
@@ -29,6 +29,9 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
   const related = exhibit.related.map(getById).filter((n): n is ExhibitNode => !!n);
   const siblings = exhibit.parentId ? children(getById(exhibit.parentId)!) : [];
   const si = siblings.findIndex((x) => x.id === exhibit.id);
+  const parent = exhibit.parentId ? getById(exhibit.parentId)! : null;
+  /** A plate below vault level that sits inside another exhibit is a hall. */
+  const isHall = !!parent && parent.depth > 1;
   const next = siblings[si + 1];
   const open = exhibit.status === "open";
   const replace = stage?.placement === "replace";
@@ -45,7 +48,11 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
         <dl className={s.placard}>
           <div><dt>Accession</dt><dd>{shortAccession(exhibit.accession)}</dd></div>
           <div><dt>Vault</dt><dd>{roman(vaultNumber(exhibit.accession))} · {vault.title}</dd></div>
-          <div><dt>Medium</dt><dd>{open ? (stage?.medium ?? "Illustrated plate") : "—"}</dd></div>
+          <div><dt>Medium</dt><dd>{open ? (stage?.medium ?? (subs.length ? "Exhibit with halls" : "Illustrated plate")) : "—"}</dd></div>
+          {isHall && (
+            <div><dt>Hall</dt><dd>{roman(si + 1)} of {roman(siblings.length)} · <Link href={parent!.href}>{parent!.title}</Link></dd></div>
+          )}
+          {subs.length > 0 && <div><dt>Halls</dt><dd>{hallsLabel(subs.length)}</dd></div>}
           <div><dt>Status</dt><dd className={open ? undefined : s.prep}>{open ? "On view" : "In preparation"}</dd></div>
           {exhibit.taxa.length > 0 && <div><dt>Taxa</dt><dd><i>{exhibit.taxa.join(", ")}</i></dd></div>}
           {exhibit.revised && <div><dt>Revised</dt><dd>{exhibit.revised}</dd></div>}
@@ -61,6 +68,8 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
           <p className="label">Accession {exhibit.accession} is reserved. The research is under way.</p>
         </section>
       )}
+
+      {subs.length > 0 && <HallCorridor parent={exhibit} halls={subs} />}
 
       {Stage && stage?.placement !== "inline" && (
         <section className={s.stage}><Stage exhibit={exhibit} /></section>
@@ -137,15 +146,6 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
         </section>
       )}
 
-      {subs.length > 0 && (
-        <section className={s.subs} aria-label="Within this exhibit">
-          <h2 className="label">Within this exhibit</h2>
-          <div className={s.subGrid}>
-            {subs.map((c) => <ExhibitCase key={c.id} exhibit={c} size={c.status === "open" ? "m" : "s"} />)}
-          </div>
-        </section>
-      )}
-
       {related.length > 0 && (
         <section className={s.related} aria-label="Related exhibits">
           <h2 className="label">Threads to other cases</h2>
@@ -181,10 +181,15 @@ export function Plate({ exhibit }: { exhibit: ExhibitNode }) {
         </section>
       )}
 
-      {next && (
+      {next ? (
         <Link href={next.href} className={s.next}>
-          <span className="label">Next case · {shortAccession(next.accession)}</span>
+          <span className="label">{isHall ? `Next hall · ${roman(si + 2)}` : "Next case"} · {shortAccession(next.accession)}</span>
           <span className={s.nextTitle}>{next.title} →</span>
+        </Link>
+      ) : isHall && (
+        <Link href={parent!.href} className={s.next}>
+          <span className="label">Last hall · return to the exhibit · {shortAccession(parent!.accession)}</span>
+          <span className={s.nextTitle}>← {parent!.title}</span>
         </Link>
       )}
       <Colophon />

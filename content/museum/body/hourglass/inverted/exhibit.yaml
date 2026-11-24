@@ -1,0 +1,85 @@
+id: body.hourglass.inverted
+accession: BWM-01.01.03
+title: The Side Facing the Sky
+kicker: Underside need not mean hidden
+summary: The hourglass is on the anatomical underside, but a widow hangs upside down, so that underside faces up. The shape of the web, its height and the retreat decide which surfaces are exposed; a stripe on the back is a separate mark.
+status: open
+order: 3
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus mactans
+  - Latrodectus variolus
+  - Latrodectus hasselti
+  - Latrodectus katipo
+  - Latrodectus revivensis
+figures:
+  - value: Up
+    label: the way the venter faces
+    note: inverted southern and northern widows
+    sources:
+      - hiskes2013
+  - value: 2
+    label: abdominal surfaces bearing red
+    note: "the redback: dorsal stripe plus ventral hourglass"
+    sources:
+      - australianmuseum2026
+observations:
+  - id: venter-up
+    text: An inverted widow presents its anatomical underside upward.
+    sources:
+      - hiskes2013
+  - id: gumfoot
+    text: Western widow cobwebs include gumfoot lines that run down to the ground below.
+    sources:
+      - blackledge2005b
+  - id: ground-prey
+    text: Gumfoot lines catch prey walking across the ground and carry its struggles up to the spider.
+    sources:
+      - blackledge2005b
+  - id: beneath-platform
+    text: Desert widows sit beneath their capture platform at night.
+    sources:
+      - konigswald1990
+  - id: retreat-hides
+    text: A desert widow's retreat, covered in debris, can hide her from view.
+    sources:
+      - konigswald1990
+  - id: higher-webs
+    text: In laboratory habitats, northern widows settled higher than southern widows.
+    sources:
+      - brandley2016
+    confidence: supported
+  - id: redback-both
+    text: Female redbacks bear both a stripe along the back and a mark on the underside.
+    sources:
+      - australianmuseum2026
+  - id: katipo-stripe
+    text: Red katipō females have a red stripe down the middle of the back.
+    sources:
+      - vink2008
+  - id: viewing-angle
+    text: Spiders in higher webs, seen from below, may lose less by giving up red on the back; this is a hypothesis, not a tested result.
+    sources:
+      - brandley2016
+    confidence: debated
+terms:
+  - term: dorsal / ventral
+    def: anatomical back and belly, which do not change when the spider turns over
+  - term: viewing angle
+    def: the direction a viewer looks from, relative to the displayed surface
+  - term: gumfoot line
+    def: a capture line with glue near where it meets the ground
+  - term: retreat
+    def: the sheltered part of the web where the spider rests
+related:
+  - web.gumfoot
+  - web.retreat
+  - genus.redback
+  - genus.katipo
+media:
+  - src: /specimens/body-hourglass-inverted.webp
+    alt: Side elevation of a female black widow hanging upside down in a tangle cobweb, gumfoot lines running to the ground, her red hourglass facing upward
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23
