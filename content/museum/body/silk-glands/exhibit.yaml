@@ -1,8 +1,8 @@
 id: body.silk-glands
 accession: BWM-01.16
 title: The Silk Factory
-kicker: Seven glands, seven kinds of silk
-summary: Inside an adult female western widow's abdomen sit seven classes of silk gland — for draglines, scaffold, wrapping, egg cases, anchors and glue — each feeding its own spigots.
+kicker: Seven classes of gland, many overlapping recipes
+summary: Inside an adult female western widow's abdomen sit seven classes of silk gland, from single pairs to hundreds of tiny organs, making draglines, wrapping, egg cases, anchors and glue. Ten halls follow the silk from living tissue to finished thread.
 status: open
 order: 16
 taxa: [Latrodectus hesperus]
@@ -25,6 +25,10 @@ figures:
     label: silk-gland-specific transcripts
     note: not 647 distinct silk genes
     sources: [clarke2014]
+  - value: 2
+    label: kinds of cell lining the dragline duct
+    note: at least two, major ampullate gland
+    sources: [casem2002]
 observations:
   - id: classes
     text: Adult female western widows have major ampullate, minor ampullate, aciniform, tubuliform, pyriform, aggregate and flagelliform glands.
@@ -66,6 +70,14 @@ observations:
     text: In mature male western widows, minor ampullate genes are the most highly expressed silk genes.
     confidence: supported
     sources: [correagarhwal2017]
+  - id: sac-coats
+    text: The major ampullate sac is not just storage; it adds a coating around the protein arriving from the tail.
+    confidence: supported
+    sources: [casem2002]
+  - id: acid
+    text: Acidifying liquid dope from a widow's dragline gland turns it into fibres in a dish.
+    confidence: supported
+    sources: [xu2015]
   - id: scaffold-strength
     text: Scaffold threads collected from the web break at a similar stress, 1,069 ± 204 MPa.
     confidence: supported
@@ -82,4 +94,4 @@ media:
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-23

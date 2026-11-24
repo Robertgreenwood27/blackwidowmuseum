@@ -1,0 +1,96 @@
+id: body.silk-glands.tubuliform
+accession: BWM-01.16.04
+title: A Factory That Swells for Eggs
+kicker: Reproduction reshapes the organ
+summary: Tubuliform glands make the main fibres of the egg case from a spidroin and several other proteins. They swell as eggs develop and shrink after spinning, tying the gland to the reproductive cycle.
+status: open
+order: 4
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus mactans
+  - Latrodectus variolus
+figures:
+  - value: 125 → 340
+    unit: µm
+    label: gland diameter, virgin to gravid
+    note: L. hesperus, means; three individuals per stage
+    sources:
+      - casem2010
+  - value: 157
+    unit: µm
+    label: diameter after spinning an egg case
+    note: same study
+    sources:
+      - casem2010
+  - value: 3
+    label: pairs of tubuliform glands
+    note: female southern widow
+    sources:
+      - moon1998
+observations:
+  - id: shape
+    text: Tubuliform glands are long tubes with curled ducts.
+    sources:
+      - chaw2018
+  - id: outlets
+    text: Their outlets are on both pairs of rear spinnerets.
+    sources:
+      - coddington1989
+  - id: tusp1
+    text: TuSp1 is a repeat-rich spidroin identified in western widow egg-case silk.
+    sources:
+      - hu2005
+  - id: ecps
+    text: ECP-1 and ECP-2 are separate, non-spidroin proteins tied to the large egg-case fibres.
+    sources:
+      - hu2006
+  - id: crosslinks
+    text: Their cysteine-rich regions may link the fibre's molecules together.
+    sources:
+      - hu2006
+    confidence: supported
+  - id: ecp3
+    text: A third protein, ECP3, was found in the gland, the stored silk and the finished sac.
+    sources:
+      - shanafelt2021
+    confidence: supported
+  - id: more-proteins
+    text: The same study also found CRP4 and fasciclin in all three.
+    sources:
+      - shanafelt2021
+    confidence: supported
+  - id: timing
+    text: As eggs fill with yolk, TuSp1 and ECP-2 switch on earlier than ECP-1.
+    sources:
+      - casem2010
+    confidence: supported
+  - id: flattened
+    text: After an egg case is spun, the glands look flattened.
+    sources:
+      - casem2010
+    confidence: supported
+  - id: females-only
+    text: Adult males lack working tubuliform outlets.
+    sources:
+      - correagarhwal2017
+    confidence: supported
+terms:
+  - term: tubuliform
+    def: also called cylindrical; the egg-case silk gland
+  - term: vitellogenesis
+    def: the build-up of yolk in developing eggs
+  - term: gravid
+    def: carrying developed eggs
+  - term: ECP
+    def: egg-case protein; ECP-1, -2 and -3 are not spidroins
+related:
+  - web.egg-sac-silk
+  - web.egg-sac-silk.defence
+  - life.egg-sac
+media:
+  - src: /specimens/body-silk-glands-tubuliform.webp
+    alt: "Three tubuliform silk glands drawn to the same scale: a slim gland from a virgin female, a swollen gland from a gravid female, and a flattened gland after egg-case spinning"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

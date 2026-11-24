@@ -1,0 +1,89 @@
+id: body.silk-glands.aggregate
+accession: BWM-01.16.06
+title: Two Glue Factories per Side
+kicker: Related glands, different shapes
+summary: A female widow has two pairs of aggregate glands, front and back, shaped and wired differently. They make the glue at the foot of the gumfoot line, a mixture of proteins and moisture-drawing salts.
+status: open
+order: 6
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Steatoda grossa
+  - Parasteatoda tepidariorum
+figures:
+  - value: 2
+    label: pairs of aggregate glands
+    note: anterior and posterior, adult female
+    sources:
+      - chaw2018
+  - value: 48
+    label: protein groups enriched in the glue
+    note: glue-bearing vs. dry gumfoot samples
+    sources:
+      - ayoub2021
+observations:
+  - id: anterior
+    text: The anterior aggregate glands have lobed bodies and sheathed ducts.
+    sources:
+      - chaw2018
+  - id: posterior
+    text: The posterior aggregate ducts are wider and unsheathed.
+    sources:
+      - chaw2018
+  - id: outlets
+    text: Both pairs feed the rear lateral spinnerets.
+    sources:
+      - moon1998
+  - id: distinct-expression
+    text: Aggregate glands switch on a different set of genes from the fibre-making glands.
+    sources:
+      - clarke2017
+    confidence: supported
+  - id: agsp1
+    text: Fragments of AgSp1 were among the most abundant proteins in western widow glue samples.
+    sources:
+      - ayoub2021
+    confidence: supported
+  - id: agsf2
+    text: Another glue factor, AgSF2, was also abundant.
+    sources:
+      - ayoub2021
+    confidence: supported
+  - id: not-spidroins
+    text: The glue factors AgSF1 and AgSF2 are built differently from ordinary spidroins.
+    sources:
+      - vasanthavada2012
+    confidence: supported
+  - id: junctions
+    text: Antibodies found these factors at junctions in webs and in wrapping silk.
+    sources:
+      - vasanthavada2012
+    confidence: supported
+  - id: salts
+    text: Widow gumfoot glue contains glycoproteins and salts that draw in water from the air.
+    sources:
+      - jain2015
+  - id: viscoelastic
+    text: Tested droplets behaved as a liquid that both flows and springs back.
+    sources:
+      - sahni2011
+    confidence: supported
+terms:
+  - term: anterior / posterior aggregate
+    def: the two gland pairs, once called typical and atypical
+  - term: AgSp
+    def: aggregate spidroin
+  - term: AgSF
+    def: aggregate silk factor — a separate naming system from AgSp
+  - term: viscoelastic
+    def: both flowing like a liquid and recovering like an elastic
+related:
+  - web.gumfoot.glue
+  - web.gumfoot
+media:
+  - src: /specimens/body-silk-glands-aggregate.webp
+    alt: "Paired aggregate silk glands: a lobed anterior gland with a sheathed duct and a posterior gland with a wide duct, both leading to the rear spinnerets"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

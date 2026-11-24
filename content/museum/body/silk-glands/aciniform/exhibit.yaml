@@ -1,0 +1,95 @@
+id: body.silk-glands.aciniform
+accession: BWM-01.16.03
+title: Many Small Wrapping Factories
+kicker: A huge protein from a tiny organ
+summary: Hundreds of small aciniform glands feed the rear spinnerets. Their protein, AcSp1, goes into prey wrapping and the fine fibres of the egg sac, and its gene is one of the largest ever sequenced from a widow.
+status: open
+order: 3
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus mactans
+  - Latrodectus variolus
+figures:
+  - value: 18,999
+    unit: bp
+    label: the complete AcSp1 gene
+    note: L. hesperus coding sequence; 6,332 amino acids
+    sources:
+      - ayoub2013
+  - value: 16
+    label: long repeats in that gene
+    note: each about 371–375 amino acids
+    sources:
+      - ayoub2013
+  - value: 100s
+    label: aciniform glands
+    note: southern widow material
+    sources:
+      - moon1998
+observations:
+  - id: shape
+    text: Aciniform glands have no tail and very fine ducts.
+    sources:
+      - chaw2018
+  - id: hundreds
+    text: Anatomical work on southern widows counted hundreds of aciniform glands.
+    sources:
+      - moon1998
+  - id: outlets
+    text: Their outlets are spread over both pairs of rear spinnerets.
+    sources:
+      - coddington1989
+  - id: two-products
+    text: An AcSp1-like protein was found both in fine egg-case fibres and in prey wrapping.
+    sources:
+      - vasanthavada2007
+    confidence: supported
+  - id: bigger
+    text: The complete gene predicts a far larger protein than earlier lab measurements suggested.
+    sources:
+      - ayoub2013
+      - vasanthavada2007
+  - id: helices
+    text: The repeating units of widow AcSp1 fold into bundles of seven helices.
+    sources:
+      - qin2025
+    confidence: supported
+  - id: linkers
+    text: Flexible linkers between those bundles help the protein separate into dense droplets.
+    sources:
+      - qin2025
+    confidence: supported
+  - id: no-ph-switch
+    text: Unlike dragline protein, the AcSp1 head does not change its pairing with acidity.
+    sources:
+      - qin2025
+    confidence: supported
+  - id: tetramers
+    text: That head can join into groups of four as well as pairs.
+    sources:
+      - qin2025
+    confidence: supported
+  - id: ecp3
+    text: Low levels of ECP3 are also expressed in aciniform tissue.
+    sources:
+      - shanafelt2021
+    confidence: supported
+terms:
+  - term: AcSp1
+    def: aciniform spidroin 1
+  - term: disordered linker
+    def: a flexible protein segment without one fixed shape
+  - term: dimer / tetramer
+    def: a group of two / four identical units
+  - term: α-helix / β-sheet
+    def: two ways a protein chain can fold locally
+related:
+  - web.wrapping
+  - web.egg-sac-silk
+media:
+  - src: /specimens/body-silk-glands-aciniform.webp
+    alt: A cluster of many small grape-like aciniform silk glands with fine ducts converging on the rear spinnerets, one gland enlarged in an inset
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

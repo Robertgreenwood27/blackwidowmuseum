@@ -1,0 +1,96 @@
+id: body.silk-glands.minor-ampullate
+accession: BWM-01.16.02
+title: A Smaller Ampulla, a Shared Product
+kicker: Small does not mean expendable
+summary: Minor ampullate silk goes into the widow's prey wrapping. Fibres drawn straight from its outlets are a distinct material, and sequencing shows more than one gene behind it.
+status: open
+order: 2
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Latrodectus variolus
+  - Steatoda grossa
+figures:
+  - value: 245
+    unit: MPa
+    label: strength of minor ampullate fibres
+    note: L. hesperus, mean true stress, seven females
+    sources:
+      - vienneauhathaway2017
+  - value: "0.57"
+    label: true strain at breaking
+    note: same study; a logarithmic measure, not 57%
+    sources:
+      - vienneauhathaway2017
+  - value: ≥2
+    label: MiSp genes in the western widow
+    note: targeted genomic sequencing
+    sources:
+      - vienneauhathaway2017
+observations:
+  - id: shape
+    text: Minor ampullate glands have smaller sacs, shorter tails and folded ducts.
+    sources:
+      - chaw2018
+  - id: outlet
+    text: Their outlets are on the middle pair of rear spinnerets.
+    sources:
+      - coddington1989
+  - id: in-wrap
+    text: Peptides of a MiSp1-like protein were found in western widow prey-wrapping silk.
+    sources:
+      - lamattina2008
+    confidence: supported
+  - id: concentrated
+    text: Its transcripts were concentrated in the minor ampullate gland in the first comparison.
+    sources:
+      - lamattina2008
+    confidence: supported
+  - id: sequence
+    text: The protein's sequence runs alanine stretches interrupted by glycine.
+    sources:
+      - lamattina2008
+  - id: overlap
+    text: Major and minor ampullate glands share more of their proteins with each other than with the egg-case gland.
+    sources:
+      - chaw2015
+    confidence: supported
+  - id: ecp3
+    text: Low levels of the egg-case gene ECP3 are switched on in minor ampullate tissue.
+    sources:
+      - shanafelt2021
+    confidence: supported
+  - id: unequal
+    text: The two MiSp genes are not expressed equally in the gland.
+    sources:
+      - vienneauhathaway2017
+    confidence: supported
+  - id: species-differ
+    text: Minor fibres from western widows, brown widows and false widows differed mechanically.
+    sources:
+      - vienneauhathaway2017
+    confidence: supported
+  - id: males
+    text: In mature males, minor ampullate genes are the most highly expressed silk genes.
+    sources:
+      - correagarhwal2017
+    confidence: supported
+terms:
+  - term: MiSp
+    def: minor ampullate spidroin
+  - term: qPCR
+    def: a method that measures how much of a chosen gene's RNA is present
+  - term: true stress / strain
+    def: stress and stretch calculated on the fibre's changing length and width
+  - term: C-terminus
+    def: the tail end of a protein chain
+related:
+  - web.wrapping
+  - web.male-silk
+media:
+  - src: /specimens/body-silk-glands-minor-ampullate.webp
+    alt: Plate comparing a large major ampullate gland and a smaller minor ampullate gland side by side, each with tail, sac and folded duct
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

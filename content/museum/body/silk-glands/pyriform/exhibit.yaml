@@ -1,0 +1,80 @@
+id: body.silk-glands.pyriform
+accession: BWM-01.16.05
+title: The Anchorage Workshop
+kicker: A small gland makes a complex joint
+summary: Pyriform glands supply the cement that fixes structural threads to surfaces. Widow studies find their protein, PySp1, in the gland and in attachment discs. How the discs hold and let go belongs to Two Kinds of Anchor.
+status: open
+order: 5
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus variolus
+  - Parasteatoda tepidariorum
+figures:
+  - value: ">500"
+    unit: ×
+    label: more PySp1 RNA in the pyriform gland
+    note: than in several other gland types
+    sources:
+      - blasingame2009
+  - value: ≈60
+    unit: ×
+    label: more than in the aggregate gland
+    note: enriched, not exclusive
+    sources:
+      - blasingame2009
+observations:
+  - id: shape
+    text: Widow pyriform glands are small, irregular and slightly elongated.
+    sources:
+      - blasingame2009
+  - id: no-tail
+    text: Pyriform glands have no tail and fine ducts.
+    sources:
+      - chaw2018
+  - id: ring
+    text: Many pyriform outlets ring the major ampullate outlet on the front spinnerets.
+    sources:
+      - coddington1989
+  - id: in-lumen
+    text: PySp1 peptides were found in material taken from inside the gland.
+    sources:
+      - blasingame2009
+    confidence: supported
+  - id: in-discs
+    text: Attachment discs also yielded PySp1 peptides.
+    sources:
+      - blasingame2009
+    confidence: supported
+  - id: sequence
+    text: PySp1 combines alanine-rich stretches with glutamine-rich regions.
+    sources:
+      - blasingame2009
+  - id: mixture
+    text: The gland's contents differ in composition from PySp1 alone, so the cement is a mixture.
+    sources:
+      - blasingame2009
+    confidence: supported
+  - id: disc-shape
+    text: In house spiders, attachment discs of different shapes resisted pulling differently.
+    sources:
+      - sahni2012
+    confidence: supported
+terms:
+  - term: pyriform
+    def: also spelled piriform; pear-shaped
+  - term: attachment disc
+    def: a patch of cement fixing a silk line to a surface
+  - term: luminal extract
+    def: material taken from inside a gland, not from its wall
+  - term: enrichment
+    def: more abundant in one place than another, not only found there
+related:
+  - web.gumfoot.anchors
+  - body.spinnerets
+media:
+  - src: /specimens/body-silk-glands-pyriform.webp
+    alt: Small pear-shaped pyriform silk glands with ducts leading to a ring of outlets around one larger outlet on a spinneret, with an attachment disc of cement gluing a thread to a surface
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

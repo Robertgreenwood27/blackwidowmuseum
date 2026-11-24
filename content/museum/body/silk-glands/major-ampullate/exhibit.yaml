@@ -1,0 +1,91 @@
+id: body.silk-glands.major-ampullate
+accession: BWM-01.16.01
+title: The Gland Behind the Lifeline
+kicker: The storage sac also adds to the recipe
+summary: The best-studied widow gland is more than a reservoir with a nozzle. Its tail makes protein, its sac stores and coats it, and its duct is lined with specialised cells. How strong the finished thread is belongs to the Safety Line.
+status: open
+order: 1
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus variolus
+figures:
+  - value: 3
+    label: "linked regions: tail, sac, duct"
+    note: major ampullate gland; the sac also secretes
+    sources:
+      - casem2002
+  - value: 2
+    label: kinds of cell lining the duct
+    note: at least two, by electron microscopy
+    sources:
+      - casem2002
+  - value: ≈1,000
+    unit: MPa
+    label: dragline breaking stress
+    note: 996 ± 274 MPa, engineering stress
+    sources:
+      - blackledge2005
+observations:
+  - id: tail
+    text: The tail of the major ampullate gland is built for heavy protein synthesis.
+    sources:
+      - casem2002
+  - id: ampulla
+    text: Its sac, the ampulla, stores the liquid silk.
+    sources:
+      - casem2002
+  - id: coating
+    text: The sac adds a dense secretion that appears to coat the core arriving from the tail.
+    sources:
+      - casem2002
+    confidence: supported
+  - id: honeycomb
+    text: One kind of duct cell is packed with vesicles that look like honeycomb.
+    sources:
+      - casem2002
+  - id: microvilli
+    text: Another kind of duct cell carries dense microvilli on the side facing the silk.
+    sources:
+      - casem2002
+  - id: masp
+    text: MaSp1 and MaSp2 are the main structural proteins of widow dragline.
+    sources:
+      - ayoub2007
+  - id: extras
+    text: Dragline also contains smaller amounts of AcSp1 and cysteine-rich proteins.
+    sources:
+      - larracas2016
+    confidence: supported
+  - id: shared
+    text: An esterase, a possible lectin and a mucin-like protein were found in both the gland and the fibre.
+    sources:
+      - chaw2015
+    confidence: supported
+  - id: outlet
+    text: Its outlet sits on the front spinnerets, surrounded by pyriform outlets.
+    sources:
+      - coddington1989
+  - id: uses
+    text: Major ampullate silk makes the lifeline and the structural threads of the web.
+    sources:
+      - blackledge2005
+terms:
+  - term: ampulla
+    def: the swollen sac of an ampullate gland
+  - term: microvilli
+    def: tiny projections that enlarge a cell's surface
+  - term: apical
+    def: here, the side of a cell facing the gland's interior
+  - term: CRP
+    def: cysteine-rich protein, a family of silk ingredients that are not spidroins
+related:
+  - web.dragline
+  - web.scaffold
+  - web.silk-proteins
+media:
+  - src: /specimens/body-silk-glands-major-ampullate.webp
+    alt: "Anatomical plate of the major ampullate silk gland: a long tail, a swollen storage sac, and a folded duct running to a spinneret, with cell insets"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

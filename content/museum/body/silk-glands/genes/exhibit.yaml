@@ -1,0 +1,104 @@
+id: body.silk-glands.genes
+accession: BWM-01.16.09
+title: A Library Larger Than Seven Recipes
+kicker: One name can cover several genes
+summary: "Widow silk research moved from single complete genes to whole-tissue gene readouts and a chromosome-scale genome. Each answers a different question: what DNA is there, what a gland switches on, and what reaches the thread."
+status: open
+order: 9
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Latrodectus elegans
+  - Steatoda grossa
+figures:
+  - value: 9,390 / 11,340
+    unit: bp
+    label: MaSp1 / MaSp2 coding sequence
+    note: L. hesperus, each a single giant exon
+    sources:
+      - ayoub2007
+  - value: 14
+    label: chromosomes in the western widow genome
+    note: 2024 assembly, 1.46 Gb
+    sources:
+      - miles2024
+  - value: 647
+    label: silk-gland-enriched transcripts
+    note: not 647 silk genes
+    sources:
+      - clarke2014
+  - value: 26
+    label: spidroin genes in L. elegans
+    note: a different species' genome
+    sources:
+      - wang2022
+observations:
+  - id: no-introns
+    text: The first complete western widow MaSp1 and MaSp2 genes had no introns.
+    sources:
+      - ayoub2007
+  - id: structure
+    text: Both encode long repetitive middles flanked by less repetitive ends.
+    sources:
+      - ayoub2007
+  - id: glycine-alanine
+    text: Glycine and alanine make up more than 64% of each MaSp protein.
+    sources:
+      - ayoub2007
+  - id: multiple
+    text: Western and brown widows each carry several working MaSp1 genes.
+    sources:
+      - ayoub2008
+    confidence: supported
+  - id: pseudogene
+    text: A broken MaSp1 copy, a pseudogene, was also found in the western widow.
+    sources:
+      - ayoub2008
+  - id: recombination
+    text: The widow's dragline genes appear to swap sequence with one another.
+    sources:
+      - ayoub2008
+    confidence: supported
+  - id: 2014-design
+    text: The 2014 transcriptome compared silk glands with venom glands and the front body.
+    sources:
+      - clarke2014
+  - id: unknowns
+    text: Many of the silk-gland transcripts had no recognisable function.
+    sources:
+      - clarke2014
+  - id: overlap
+    text: MaSp1 and MaSp2 are also switched on in the egg-case and front glue glands.
+    sources:
+      - clarke2017
+    confidence: supported
+  - id: no-duplication-needed
+    text: Glands changed which genes they use without needing new gene copies.
+    sources:
+      - clarke2017
+    confidence: supported
+  - id: assembly
+    text: The 2024 genome was built from long DNA reads, chromosome-contact data and RNA.
+    sources:
+      - miles2024
+terms:
+  - term: genome / transcriptome / proteome
+    def: all the DNA / the RNA in a tissue / the proteins in a sample
+  - term: locus
+    def: a gene's position in the genome
+  - term: paralog
+    def: a related gene made by duplication
+  - term: pseudogene
+    def: a gene copy too damaged to make its normal product
+  - term: Hi-C
+    def: data on which stretches of DNA touch, used to assemble chromosomes
+related:
+  - web.silk-proteins
+  - web.human-uses
+media:
+  - src: /specimens/body-silk-glands-genes.webp
+    alt: "Three evidence tracks stacked as a museum chart: a strand of DNA with long repeating blocks, an RNA readout from a silk gland, and protein in a silk thread"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

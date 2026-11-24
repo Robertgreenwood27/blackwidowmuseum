@@ -1,0 +1,82 @@
+id: body.silk-glands.flagelliform
+accession: BWM-01.16.07
+title: The Factory With No Known Product
+kicker: An organ can outlast its job
+summary: Widows keep small glands identified as flagelliform, the gland orb weavers use for their stretchy capture spiral. Widows build no spiral. The gland is real; what it makes for a cobweb weaver is still unknown.
+status: open
+order: 7
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus variolus
+  - Parasteatoda tepidariorum
+  - Steatoda grossa
+figures:
+  - value: 1
+    label: pair of flagelliform glands
+    note: adult female, anatomical identification
+    sources:
+      - chaw2018
+  - value: "?"
+    label: known product in a widow
+    note: no flagelliform fibre isolated
+    sources:
+      - chaw2018
+      - clarke2017
+observations:
+  - id: shape
+    text: The putative flagelliform glands have tails and thicker ducts than aciniform glands.
+    sources:
+      - chaw2018
+    confidence: supported
+  - id: outlet
+    text: Its duct runs to a small outlet beside the aggregate outlets on the rear spinnerets.
+    sources:
+      - chaw2018
+    confidence: supported
+  - id: tentative
+    text: An earlier study of northern widow spinnerets marked the flagelliform outlet only tentatively.
+    sources:
+      - coddington1989
+  - id: pooled
+    text: In the gene-expression study, flagelliform glands were sampled together with the surrounding aciniform glands.
+    sources:
+      - clarke2017
+  - id: reduced
+    text: Western widow flagelliform glands are smaller than those of the common house spider.
+    sources:
+      - ayoub2021
+    confidence: supported
+  - id: in-sac
+    text: A flagelliform spidroin variant turned up among proteins in whole western widow egg sacs.
+    sources:
+      - shanafelt2021
+    confidence: supported
+  - id: not-gumfoot
+    text: The core of the gumfoot line is major ampullate silk, not flagelliform.
+    sources:
+      - blackledge2005b
+  - id: unknown
+    text: What the retained gland does for a cobweb weaver remains unresolved.
+    sources:
+      - chaw2018
+      - clarke2017
+    confidence: debated
+terms:
+  - term: flagelliform
+    def: the gland and spidroin behind the stretchy capture spiral of orb weavers
+  - term: triad
+    def: a flagelliform outlet flanked by two aggregate outlets
+  - term: homology
+    def: similarity inherited from a shared ancestor, whatever its current use
+  - term: pooled sample
+    def: tissues analysed together, so results cannot be assigned to one
+related:
+  - web.evolution
+  - web.gumfoot
+media:
+  - src: /specimens/body-silk-glands-flagelliform.webp
+    alt: A small flagelliform silk gland and its duct traced to a tiny outlet between two glue-gland outlets on a spinneret, beside an empty specimen window
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

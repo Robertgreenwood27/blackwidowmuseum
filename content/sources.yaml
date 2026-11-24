@@ -393,7 +393,7 @@ clarke2017:
 chaw2015:
   authors: Chaw, R. C.; Correa-Garhwal, S. M.; Clarke, T. H.; Ayoub, N. A.; Hayashi, C. Y.
   year: 2015
-  title: Proteomic evidence for components of spider silk synthesis from black widow silk glands
+  title: Proteomic evidence for components of spider silk synthesis from black widow silk glands and fibers
   container: Journal of Proteome Research 14(10) 4223–4231
   doi: 10.1021/acs.jproteome.5b00353
 
@@ -2226,3 +2226,147 @@ johnson2003:
   title: Steatoda Spiders
   container: Washington State University Cooperative Extension, Puyallup REC, PLS-107, updated May 2003
   url: https://wpcdn.web.wsu.edu/wp-puyallup/uploads/sites/408/2015/02/PLS-107-Steatoda-Spiders.pdf
+
+# --- silk-glands halls (research/silk-glands-dossier.md) ---
+casem2002:
+  authors: Casem, M. L.; Tran, L. P. P.; Moore, A. M. F.
+  year: 2002
+  title: "Ultrastructure of the major ampullate gland of the black widow spider, Latrodectus hesperus"
+  container: Tissue and Cell 34(6) 427–436
+  doi: 10.1016/S0040816602000836
+  url: https://pubmed.ncbi.nlm.nih.gov/12441095/
+
+moon1998:
+  authors: Moon, M.-J.; Townley, M. A.; Tillinghast, E. K.
+  year: 1998
+  title: "Fine structural analysis of secretory silk production in the black widow spider, Latrodectus mactans"
+  container: Korean Journal of Biological Sciences 2(2) 145–152
+  doi: 10.1080/12265071.1998.9647401
+  url: https://www.tandfonline.com/doi/pdf/10.1080/12265071.1998.9647401
+
+ayoub2008:
+  authors: Ayoub, N. A.; Hayashi, C. Y.
+  year: 2008
+  title: "Multiple recombining loci encode MaSp1, the primary constituent of dragline silk, in widow spiders (Latrodectus: Theridiidae)"
+  container: Molecular Biology and Evolution 25(2) 277–286; first online 28 November 2007
+  doi: 10.1093/molbev/msm246
+  url: https://academic.oup.com/mbe/article/25/2/277/1127633
+
+ayoub2013:
+  authors: Ayoub, N. A.; Garb, J. E.; Kuelbs, A.; Hayashi, C. Y.
+  year: 2013
+  title: "Ancient properties of spider silks revealed by the complete gene sequence of the prey-wrapping silk protein (AcSp1)"
+  container: Molecular Biology and Evolution 30(3) 589–601; first online 15 November 2012
+  doi: 10.1093/molbev/mss254
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3563967/
+
+vienneauhathaway2017:
+  authors: Vienneau-Hathaway, J. M.; Brassfield, E. R.; Lane, A. K.; Collin, M. A.; Correa-Garhwal, S. M.; Clarke, T. H.; Schwager, E. E.; Garb, J. E.; Hayashi, C. Y.; Ayoub, N. A.
+  year: 2017
+  title: "Duplication and concerted evolution of MiSp-encoding genes underlie the material properties of minor ampullate silks of cobweb weaving spiders"
+  container: BMC Evolutionary Biology 17 78
+  doi: 10.1186/s12862-017-0927-x
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5348893/
+
+vasanthavada2012:
+  authors: Vasanthavada, K.; Hu, X.; Tuton-Blasingame, T.; Hsia, Y.; Sampath, S.; Pacheco, R.; Freeark, J.; Falick, A. M.; Tang, S.; Fong, J.; Kohler, K.; La Mattina-Hawkins, C.; Vierra, C.
+  year: 2012
+  title: "Spider glue proteins have distinct architectures compared with traditional spidroin family members"
+  container: Journal of Biological Chemistry 287(43) 35986–35999
+  doi: 10.1074/jbc.M112.399816
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3476267/
+
+xu2015:
+  authors: Xu, D.; Guo, C.; Holland, G. P.
+  year: 2015
+  title: "Probing the impact of acidification on spider silk assembly kinetics"
+  container: Biomacromolecules 16(7) 2072–2079
+  doi: 10.1021/acs.biomac.5b00487
+  url: https://pubmed.ncbi.nlm.nih.gov/26030517/
+
+bauer2016:
+  authors: Bauer, J.; Schaal, D.; Eisoldt, L.; Schweimer, K.; Schwarzinger, S.; Scheibel, T.
+  year: 2016
+  title: "Acidic residues control the dimerization of the N-terminal domain of black widow spiders' major ampullate spidroin 1"
+  container: Scientific Reports 6 34442
+  doi: 10.1038/srep34442
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5041093/
+
+parent2018:
+  authors: Parent, L. R.; Onofrei, D.; Xu, D.; Stengel, D.; Roehling, J. D.; Addison, J. B.; Forman, C.; Amin, S. A.; Cherry, B. R.; Yarger, J. L.; Gianneschi, N. C.; Holland, G. P.
+  year: 2018
+  title: "Hierarchical spidroin micellar nanoparticles as the fundamental precursors of spider silks"
+  container: Proceedings of the National Academy of Sciences 115(45) 11507–11512
+  doi: 10.1073/pnas.1810203115
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6233143/
+
+addison2018:
+  authors: Addison, B.; Onofrei, D.; Stengel, D.; Blass, B.; Brenneman, B.; Ayon, J.; Holland, G. P.
+  year: 2018
+  title: "Spider prey-wrapping silk is an α-helical coiled-coil/β-sheet hybrid nanofiber"
+  container: Chemical Communications 54 10746–10749
+  doi: 10.1039/C8CC05246H
+  url: https://pubs.rsc.org/en/content/getauthorversionpdf/C8CC05246H
+
+qin2025:
+  authors: Qin, R.; Yang, R.; Yu, S.; Guo, W.; Cong, H.; Ning, Y.; Chen, C.; Yang, D.; Yuan, W.; Lin, Z.
+  year: 2025
+  title: "Intrinsically disordered linkers and terminal domains codrive aciniform spidroin self-assembly through liquid–liquid phase separation"
+  container: Proceedings of the National Academy of Sciences 122(41) e2510216122
+  doi: 10.1073/pnas.2510216122
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12541454/
+
+johnson2025:
+  authors: Johnson, H. R.; Chalek, K.; Elathram, N.; Chau, A. T.; Domingo, A. R.; Aldana, J. E.; Nguyen, H.; de Loera, A.; Duarte, B. A.; Shapakidze, L.; Onofrei, D.; Debelouchina, G. T.; Lorenz, C. D.; Holland, G. P.
+  year: 2025
+  title: "Arg–Tyr cation–π interactions drive phase separation and β-sheet assembly in native spider dragline silk"
+  container: Proceedings of the National Academy of Sciences 122(52) e2523198122
+  doi: 10.1073/pnas.2523198122
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12772222/
+
+knight1999:
+  authors: Knight, D. P.; Vollrath, F.
+  year: 1999
+  title: "Liquid crystals and flow elongation in a spider's silk production line"
+  container: Proceedings of the Royal Society B 266(1418) 519–523
+  doi: 10.1098/rspb.1999.0667
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1689793/
+
+knight2001:
+  authors: Knight, D. P.; Vollrath, F.
+  year: 2001
+  title: "Changes in element composition along the spinning duct in a Nephila spider"
+  container: Naturwissenschaften 88(4) 179–182
+  doi: 10.1007/s001140100220
+  url: https://pubmed.ncbi.nlm.nih.gov/11480706/
+
+andersson2014:
+  authors: Andersson, M.; Chen, G.; Otikovs, M.; Landreh, M.; Nordling, K.; Kronqvist, N.; Westermark, P.; Jörnvall, H.; Knight, S.; Ridderstråle, Y.; Holm, L.; Meng, Q.; Jaudzems, K.; Chesler, M.; Johansson, J.; Rising, A.
+  year: 2014
+  title: "Carbonic anhydrase generates CO2 and H+ that drive spider silk formation via opposite effects on the terminal domains"
+  container: PLoS Biology 12(8) e1001921
+  doi: 10.1371/journal.pbio.1001921
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001921
+
+blamires2018:
+  authors: Blamires, S. J.; Nobbs, M.; Martens, P. J.; Tso, I.-M.; Chuang, W.-T.; Chang, C.-K.; Sheu, H.-S.
+  year: 2018
+  title: "Multiscale mechanisms of nutritionally induced property variation in spider silks"
+  container: PLoS ONE 13(2) e0192005
+  doi: 10.1371/journal.pone.0192005
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0192005
+
+townley1988:
+  authors: Townley, M. A.; Tillinghast, E. K.
+  year: 1988
+  title: "Orb web recycling in Araneus cavaticus (Araneae, Araneidae) with an emphasis on the adhesive spiral component, GABamide"
+  container: Journal of Arachnology 16(3) 303–319
+  url: https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/JoA_v16_p303.pdf/?no_cache=1
+
+townley1993:
+  authors: Townley, M. A.; Tillinghast, E. K.; Cherim, N. A.
+  year: 1993
+  title: "Moult-related changes in ampullate silk gland morphology and usage in the araneid spider Araneus cavaticus"
+  container: Philosophical Transactions of the Royal Society B 340(1291) 25–38
+  doi: 10.1098/rstb.1993.0046
+  url: https://pubmed.ncbi.nlm.nih.gov/8099743/

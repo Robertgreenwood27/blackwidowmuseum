@@ -1,0 +1,124 @@
+id: body.silk-glands.spinning
+accession: BWM-01.16.08
+title: From Liquid to Fibre
+kicker: The duct changes the conditions
+summary: Silk is stored as a concentrated liquid and leaves the body as a solid. Widow experiments show acid, salts and shear each push the protein toward a fibre; measurements from other spiders fill in the duct itself.
+status: open
+order: 8
+taxa:
+  - Latrodectus hesperus
+  - Nephila edulis
+  - Euprosthenops australis
+figures:
+  - value: 10–100
+    unit: µm
+    label: fibres assembled by acid alone
+    note: L. hesperus dope in a dish, about 2 µm wide
+    sources:
+      - xu2015
+  - value: 200–400
+    unit: nm
+    label: protein assemblies in the dope
+    note: L. hesperus, cryo-electron microscopy, prepared samples
+    sources:
+      - parent2018
+  - value: 7.6 → 5.7
+    unit: pH
+    label: acidity falls along the duct
+    note: another spider, E. australis, not yet measured in widows
+    sources:
+      - andersson2014
+observations:
+  - id: acid-fibres
+    text: Acidified widow dope assembled into fibres in a dish, starting from seeds that then grew.
+    sources:
+      - xu2015
+    confidence: supported
+  - id: ph-rate
+    text: Changing the acidity changed how fast it assembled and how much β-sheet formed.
+    sources:
+      - xu2015
+    confidence: supported
+  - id: n-terminal
+    text: The head of widow MaSp1 changes how it pairs up and folds when acidified.
+    sources:
+      - bauer2016
+    confidence: supported
+  - id: residues
+    text: Specific acidic building blocks control that switch.
+    sources:
+      - bauer2016
+    confidence: supported
+  - id: entangled
+    text: Inside excised widow glands, spidroins appear to be entangled in assemblies.
+    sources:
+      - parent2018
+    confidence: supported
+  - id: spheres
+    text: Imaging of prepared dope showed nested, roughly spherical assemblies.
+    sources:
+      - parent2018
+    confidence: supported
+  - id: shear
+    text: Shearing those samples rearranged their insides toward fibrils.
+    sources:
+      - parent2018
+    confidence: supported
+  - id: droplets
+    text: Phosphate made extracted widow dope separate into dense liquid droplets.
+    sources:
+      - johnson2025
+    confidence: supported
+  - id: still-disordered
+    text: Inside those droplets the protein stayed disordered rather than forming β-sheets at once.
+    sources:
+      - johnson2025
+    confidence: supported
+  - id: arg-tyr
+    text: In finished widow dragline, arginine and tyrosine sit in contact with each other.
+    sources:
+      - johnson2025
+    confidence: supported
+  - id: ions
+    text: Along a golden silk spider's duct, sodium and chlorine fall while potassium, phosphorus and sulfur rise.
+    sources:
+      - knight2001
+    confidence: supported
+  - id: liquid-crystal
+    text: The golden silk spider's dope flows as a liquid crystal along the gland.
+    sources:
+      - knight1999
+    confidence: supported
+  - id: carbonic
+    text: Blocking the enzyme carbonic anhydrase erased the acid gradient in another spider's duct.
+    sources:
+      - andersson2014
+    confidence: supported
+  - id: water
+    text: Widow duct cells look built to pull water out of the silk, though the rate is unmeasured.
+    sources:
+      - casem2002
+    confidence: debated
+terms:
+  - term: dope
+    def: the concentrated liquid silk stored in a gland
+  - term: nucleation
+    def: the first formation of a seed that can then grow
+  - term: shear
+    def: sliding of fluid layers past one another
+  - term: liquid crystal
+    def: a fluid whose molecules line up, without being solid
+  - term: phase separation
+    def: a liquid splitting into protein-rich and protein-poor parts
+  - term: carbonic anhydrase
+    def: an enzyme that turns carbon dioxide and water into bicarbonate and acid
+related:
+  - body.spinnerets
+  - web.silk-proteins
+media:
+  - src: /specimens/body-silk-glands-spinning.webp
+    alt: "Diagram of a silk gland's duct with four magnified stages: dissolved protein, dense droplets, aligned molecules, and a solid fibre leaving the spigot"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23

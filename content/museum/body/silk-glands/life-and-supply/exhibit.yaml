@@ -1,0 +1,114 @@
+id: body.silk-glands.life-and-supply
+accession: BWM-01.16.10
+title: Growing, Spending, Replenishing
+kicker: The factory changes with the spider
+summary: Age, sex and diet change what the glands make. Widow studies show males switching emphasis, egg-case genes staying on after spinning, and protein-starved females making stickier glue. Stories about rapid refilling and efficient recycling need evidence that does not yet exist for widows.
+status: open
+order: 10
+taxa:
+  - Latrodectus hesperus
+  - Latrodectus geometricus
+  - Latrodectus hasselti
+  - Latrodectus mirabilis
+  - Araneus cavaticus
+figures:
+  - value: ">64"
+    unit: "%"
+    label: glycine + alanine in dragline protein
+    note: L. hesperus MaSp; not a dietary need
+    sources:
+      - ayoub2007
+  - value: 48
+    unit: h
+    label: egg-case genes still on after spinning
+    note: L. hesperus; not a refill time
+    sources:
+      - casem2010
+  - value: 5
+    unit: days
+    label: a protein-deprivation experiment
+    note: protein vs. sugar-only diets
+    sources:
+      - blamires2014
+observations:
+  - id: spiderlings
+    text: First-instar L. mirabilis already spin webs.
+    sources:
+      - barrantes2010
+  - id: males-genes
+    text: Mature males expressed major ampullate, minor ampullate, aciniform and pyriform genes strongly.
+    sources:
+      - correagarhwal2017
+    confidence: supported
+  - id: males-outlets
+    text: Males lacked working tubuliform, aggregate and flagelliform outlets.
+    sources:
+      - correagarhwal2017
+    confidence: supported
+  - id: males-minor
+    text: Minor ampullate genes dominated in mature male western and brown widows.
+    sources:
+      - correagarhwal2017
+    confidence: supported
+  - id: males-traces
+    text: Traces of egg-case and glue genes could still be detected in some males.
+    sources:
+      - correagarhwal2017
+    confidence: supported
+  - id: after-spinning
+    text: Egg-case genes stayed active after females spun an egg case.
+    sources:
+      - casem2010
+    confidence: supported
+  - id: granules
+    text: Pulling silk from southern widows changed the secretory granules in their ampullate glands.
+    sources:
+      - moon1998
+    confidence: supported
+  - id: stickier
+    text: Protein-deprived widows made stickier capture threads.
+    sources:
+      - blamires2014
+    confidence: supported
+  - id: redback-null
+    text: In redbacks, feeding protein did not change dragline mechanics.
+    sources:
+      - blamires2018
+    confidence: supported
+  - id: molt-switch
+    text: Before molting, barn spiders spin from smaller ampullate glands while the larger ones rebuild.
+    sources:
+      - townley1993
+  - id: recycling
+    text: Barn spiders that ate labelled silk put some of the label into new silk.
+    sources:
+      - townley1988
+    confidence: supported
+  - id: recycling-limit
+    text: Less ended up in new silk than was digested, so recycling is far from complete.
+    sources:
+      - townley1988
+    confidence: supported
+terms:
+  - term: instar
+    def: a stage between two molts
+  - term: proecdysis
+    def: the preparation for shedding the old skin
+  - term: tartipore
+    def: a scar left where an old spigot's duct passed during molting
+  - term: replenishment
+    def: replacing what a gland has spent
+  - term: recycling
+    def: reusing eaten silk; digestion and reuse in new silk are different
+related:
+  - web.hunger
+  - web.male-silk
+  - web.growing-up
+  - life.molting
+media:
+  - src: /specimens/body-silk-glands-life-and-supply.webp
+    alt: "Three study windows: a spiderling, a slender adult male, and a gravid adult female black widow, each with its abdomen cut away to show its silk glands"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-23
