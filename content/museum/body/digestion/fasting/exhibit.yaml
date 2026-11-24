@@ -1,0 +1,66 @@
+id: body.digestion.fasting
+accession: BWM-01.14.07
+title: Going Without
+kicker: Endurance depends on the animal and the conditions
+summary: Adult female widows can survive months without food in the laboratory, longer when cool. Survival is not free; activity, web-building and reproduction fall away first, and males run out far sooner.
+status: open
+order: 7
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: 89.3
+    unit: days
+    label: mean survival without food
+    note: L. hesperus, 37 females deprived from the adult molt; range 36–193 days
+    featured: true
+    sources: [kaston1970]
+  - value: 11
+    label: of those 37 females passed 100 days
+    note: same cohort
+    sources: [kaston1970]
+  - value: "11.7 / 8.9"
+    unit: days
+    label: male survival, rested / after courting
+    note: "redbacks, n = 25 each, 25 °C, unfed after a 3-hour trial; means, ± 0.59 SE"
+    sources: [kasumovic2009]
+observations:
+  - id: cold
+    text: Starved female redbacks survived longest at 10 °C and less long at 25 °C.
+    confidence: supported
+    sources: [forster1989]
+  - id: recovery
+    text: Most redbacks deprived for two to three months recovered when fed.
+    confidence: supported
+    sources: [forster1989]
+  - id: shutdown
+    text: Starving redbacks lost web-building and then walking ability in succession.
+    confidence: supported
+    sources: [forster1989]
+  - id: sluggish
+    text: Their sluggishness in the cold was interpreted as lowered metabolism, without being measured directly.
+    confidence: debated
+    sources: [forster1989]
+  - id: courting-cost
+    text: Adult male redbacks survived less long after sustained courtship.
+    confidence: supported
+    sources: [kasumovic2009]
+  - id: juvenile-diet
+    text: A leaner juvenile diet did not extend an adult male redback's survival.
+    confidence: supported
+    sources: [kasumovic2009]
+  - id: males-eat
+    text: Kaston saw adult American widow males still catching and eating prey.
+    confidence: supported
+    sources: [kaston1970]
+terms:
+  - { term: starvation tolerance, def: survival under a stated food-deprivation treatment }
+  - { term: metabolic depression, def: lowered energy use compared with a defined baseline }
+  - { term: subadult, def: the stage just before maturity }
+  - { term: recovery, def: function regained after feeding, not necessarily every reserve }
+related: [life.lifespan, life.mate-search, body.digestion.energy]
+media:
+  - src: /specimens/body-digestion-fasting.webp
+    alt: "Side-by-side specimens of two female widows hanging inverted in tangle webs: one with a full, glossy abdomen, one with a shrunken, wrinkled abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

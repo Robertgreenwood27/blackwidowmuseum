@@ -1,0 +1,56 @@
+id: body.digestion.enzymes
+accession: BWM-01.14.04
+title: A Mixed Chemical Kitchen
+kicker: Breaking tissue takes more than one enzyme
+summary: Studies of other spiders find dozens of enzymes in digestive fluid, aimed at protein, fat, sugar and DNA. Nobody has yet sampled a widow's digestive fluid the same way; widow venom gives only indirect leads.
+status: open
+order: 4
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 25
+    label: astacin proteases detected in digestive fluid
+    note: a comparator spider, Nephilingis cruentata; not a widow gene count
+    sources: [fuzita2016]
+  - value: "527 / 305"
+    label: proteins identified in two digestive fluids
+    note: Stegodyphus mimosarum / Acanthoscurria geniculata; detections, not all active enzymes
+    sources: [walter2017]
+  - value: Not yet
+    label: a widow digestive-fluid proteome
+    note: none found in this research pass; venom and silk data do not substitute
+observations:
+  - id: classes
+    text: Nephilingis digestive fluid contained enzymes for proteins, carbohydrates and lipids, plus a nuclease.
+    sources: [fuzita2016]
+  - id: chitinase
+    text: Chitinase, which cuts the chitin of insect skeletons, was detected in that fluid.
+    sources: [fuzita2016]
+  - id: astacins
+    text: Astacin-like metalloproteases were prominent in the digestive fluids of two further spiders.
+    confidence: supported
+    sources: [walter2017]
+  - id: overlap
+    text: Those two spiders differed in how many proteins their venom and digestive fluid shared.
+    confidence: supported
+    sources: [walter2017]
+  - id: widow-lead
+    text: Transcripts enriched in western-widow venom glands included chitinase and protease candidates.
+    confidence: supported
+    sources: [haney2014]
+  - id: widow-design
+    text: That widow study compared venom glands with silk glands and cephalothorax, not with the gut.
+    sources: [haney2014]
+terms:
+  - { term: protease, def: an enzyme that cuts proteins; also called a peptidase }
+  - { term: astacin, def: a family of zinc-dependent protein-cutting enzymes }
+  - { term: lipase, def: an enzyme that breaks down fats }
+  - { term: chitinase, def: an enzyme that cuts chitin }
+  - { term: proteome, def: the set of proteins detected in a sample }
+related: [venom.venom-gland, venom.cocktail, body.digestion.extra-oral]
+media:
+  - src: /specimens/body-digestion-enzymes.webp
+    alt: "Diagram of two separate routes on a spider's head: digestive fluid leaving the mouth and venom leaving a fang, with a small inset of shared protein shapes"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

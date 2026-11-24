@@ -1,0 +1,55 @@
+id: body.legs.growth-and-sex
+accession: BWM-01.11.10
+title: Growing Different Proportions
+kicker: Maturity changes the comparison
+summary: A male can look conspicuously long-legged and still have shorter legs than the female. Measured species by species, the leg gap between the sexes is far smaller than the gap in weight, and it differs between widows.
+status: open
+order: 10
+taxa: [Latrodectus hesperus, Latrodectus mactans, Latrodectus geometricus, Latrodectus mirabilis, Latrodectus hasselti]
+figures:
+  - value: "≈¾"
+    label: male / female front-leg segment length
+    note: L. hesperus and L. mactans, lab-reared adults; patella + tibia of leg I, not whole legs
+    featured: true
+    sources: [baruffaldi2024]
+  - value: "≈½"
+    label: the same ratio in three other widows
+    note: L. geometricus, L. mirabilis, L. hasselti
+    sources: [baruffaldi2024]
+observations:
+  - id: brown-young
+    text: Early-instar brown widows had proportionally shorter legs than later instars.
+    confidence: supported
+    sources: [barrantes2026]
+  - id: southern-steady
+    text: Southern-widow leg proportions stayed similar through development.
+    confidence: supported
+    sources: [barrantes2026]
+  - id: quadratic
+    text: Femur and tibia growth in both widows and both sexes fitted a curved, quadratic pattern best.
+    confidence: supported
+    sources: [barrantes2026]
+  - id: steatoda
+    text: Female false widows, Steatoda grossa, followed a different growth curve.
+    confidence: supported
+    sources: [barrantes2026]
+  - id: less-than-mass
+    text: Across five widow species, the size difference between the sexes was smaller in the legs than in body mass.
+    confidence: supported
+    sources: [baruffaldi2024]
+  - id: hesperus-males
+    text: Male western widows can have legs nearly as long as a female's despite much smaller bodies.
+    sources: [vetter2017]
+terms:
+  - { term: instar, def: a stage between molts }
+  - { term: allometry, def: proportions changing with size }
+  - { term: sexual dimorphism, def: a difference between the sexes; say whether in mass, length or a particular segment }
+  - { term: size proxy, def: a rigid body part measured to stand for overall size }
+related: [body.size, life.molting, life.mate-search]
+media:
+  - src: /specimens/body-legs-growth-and-sex.webp
+    alt: "Same-scale comparison plate: a large glossy black female western widow and a small slender patterned male, with the front patella and tibia of each highlighted in cream"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

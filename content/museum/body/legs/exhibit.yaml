@@ -2,14 +2,14 @@ id: body.legs
 accession: BWM-01.11
 title: Seven Segments
 kicker: Muscle bends them; blood pressure straightens them
-summary: Every leg has seven segments and ends in three claws. Two of its main joints have no muscle to extend them — hemolymph pressure does the job.
+summary: Every leg has seven segments and ends in three claws. Two of its main joints have no muscle to extend them; hemolymph pressure does the job. Eleven halls follow the legs further, into their joints and grip, their work on silk and in courtship, and what happens when one is lost.
 status: open
 order: 6
-taxa: [Latrodectus, Latrodectus variolus]
+taxa: [Latrodectus variolus, Latrodectus hasselti, Latrodectus hesperus, Latrodectus geometricus, Latrodectus mactans]
 figures:
   - value: 7
     label: segments per leg
-    note: coxa to tarsus; claws not counted
+    note: coxa to tarsus; the claw-bearing pretarsus not counted
     sources: [foelix2011]
   - value: 3
     label: claws on each foot
@@ -31,12 +31,16 @@ observations:
     text: The femur–patella and tibia–metatarsus joints of spiders have no extensor muscles.
     sources: [foelix2011]
   - id: pressure
-    text: Raised hemolymph pressure supplies the force that straightens these joints.
+    text: In house spiders, raised hemolymph pressure supplies the force that straightens these joints.
     confidence: supported
     sources: [parry1959]
   - id: claws
     text: In theridiids each walking foot ends in three claws.
     sources: [jocque2006]
+  - id: threads
+    text: Redbacks climb a scaffold of single silk threads, gripping them with the claws at their leg tips.
+    confidence: supported
+    sources: [clarke1986]
   - id: autotomy
     text: Widows can shed a leg at the coxa–trochanter joint, a built-in breaking point.
     confidence: supported
@@ -46,14 +50,19 @@ observations:
     confidence: supported
     sources: [randall1981]
   - id: distal-repair
-    text: Legs cut through the middle of the femur or farther out did regenerate in the same experiments.
+    text: Legs cut at mid-femur or farther out did regenerate in the same experiments.
     confidence: supported
     sources: [randall1981]
+  - id: growth
+    text: Brown and southern widow legs change proportion differently as the spiders grow.
+    confidence: supported
+    sources: [barrantes2026]
 terms:
   - { term: hemolymph, def: the circulating fluid of a spider's open circulatory system }
   - { term: flexor, def: a muscle that bends a joint }
   - { term: autotomy, def: self-amputation at a preformed breaking point }
   - { term: leg formula, def: the four leg pairs ranked from longest to shortest }
+  - { term: podomere, def: one segment of an arthropod limb }
 related: [body.comb-foot, body.circulation, senses.slit-sensilla]
 media:
   - src: /specimens/body-legs.webp
@@ -61,4 +70,4 @@ media:
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-24

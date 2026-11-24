@@ -1,0 +1,63 @@
+id: body.digestion.meal-clock
+accession: BWM-01.14.06
+title: A Meal in Hours
+kicker: Feeding, digestion and waste run on different clocks
+summary: A meal is not a single bite. A southern widow spends around eight hours on a mealworm, moving between feeding sites, and her metabolism stays raised long after the husk is dropped.
+status: open
+order: 6
+taxa: [Latrodectus mactans, Latrodectus hasselti, Latrodectus pallidus]
+figures:
+  - value: "≈8.3"
+    unit: h
+    label: handling one mealworm
+    note: "L. mactans adult females, 25 °C; larvae 8.36 ± 0.4 h, adult beetles 8.20 ± 0.3 h (mean ± SE)"
+    featured: true
+    sources: [barnes2019]
+  - value: "24–26"
+    unit: "% of body mass"
+    label: prey offered in one meal
+    note: same study; prey offered, not fluid swallowed
+    sources: [barnes2019]
+  - value: "≈1"
+    unit: day
+    label: feeding on one lizard
+    note: a single white widow, observed most of the following day
+    sources: [blondheim1989]
+observations:
+  - id: same-time
+    text: Handling time did not differ detectably between larval and adult mealworm prey.
+    confidence: supported
+    sources: [barnes2019]
+  - id: larvae-richer
+    text: Widows extracted more lipid and protein from larvae than from armoured adult beetles.
+    confidence: supported
+    sources: [barnes2019]
+  - id: to-retreat
+    text: Redbacks carried wrapped prey up to the retreat before feeding.
+    confidence: supported
+    sources: [forster1995]
+  - id: sites
+    text: Redbacks fed at several sites in turn, around the prey's head, body and leg joints.
+    confidence: supported
+    sources: [forster1995]
+  - id: cache
+    text: Gravid redbacks accumulated prey inside their retreats.
+    confidence: supported
+    sources: [forster1995]
+  - id: later
+    text: Feeding can end long before the gut finishes processing the meal.
+    confidence: supported
+    sources: [barnes2019]
+terms:
+  - { term: handling time, def: the time a predator spends processing one prey item }
+  - { term: intake rate, def: amount swallowed per unit time; needs volume or mass, not movement counts }
+  - { term: specific dynamic action, def: the extra energy spent processing a meal }
+  - { term: cache, def: prey kept outside the body for later }
+related: [web.retreat, web.hunger, body.digestion.energy]
+media:
+  - src: /specimens/body-digestion-meal-clock.webp
+    alt: "A redback in her silk retreat feeding at the leg joint of a wrapped beetle, with a faint timeline of hours along the bottom edge"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

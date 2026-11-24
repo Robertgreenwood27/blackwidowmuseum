@@ -1,0 +1,54 @@
+id: body.legs.hydraulics
+accession: BWM-01.11.03
+title: Straightened by Pressure
+kicker: Fluid pressure supplies the opposing push
+summary: Two major joints straighten when hemolymph pressure pushes on their flexible membranes. The classic measurements come from house spiders; nobody has yet measured the pressure inside a widow's leg.
+status: open
+order: 3
+taxa: []
+figures:
+  - value: "≈5"
+    unit: cm Hg
+    label: pressure held in a resting leg
+    note: house spider, Tegenaria; about 6.7 kPa; not a widow measurement
+    sources: [parry1959]
+  - value: "≤40"
+    unit: cm Hg
+    label: brief pressure peaks
+    note: same study, struggling spiders; about 53 kPa
+    featured: true
+    sources: [parry1959]
+  - value: Not yet
+    label: a widow leg pressure
+    note: no Latrodectus measurement found in this research pass
+observations:
+  - id: measured
+    text: Parry and Brown measured pressure inside house-spider legs and related it to the force of extension.
+    sources: [parry1959]
+  - id: enough
+    text: The brief peaks were high enough to explain the force legs produced when accelerating an attached weight.
+    confidence: supported
+    sources: [parry1959]
+  - id: squeeze
+    text: Squeezing the prosoma raises the pressure in a spider's legs.
+    sources: [foelix2011]
+  - id: necrobotics
+    text: Air pumped into dead wolf spiders extended their legs, and releasing it let them close.
+    sources: [yap2022]
+  - id: death-curl
+    text: Losing this pressure explains why spiders' legs curl inward when they die.
+    confidence: supported
+    sources: [yap2022]
+terms:
+  - { term: hemocoel, def: the connected body spaces that hold hemolymph }
+  - { term: torque, def: turning force about a joint }
+  - { term: antagonism, def: two opposing actions, here muscle against pressure }
+  - { term: gauge pressure, def: pressure measured relative to the surrounding air }
+related: [body.circulation, body.legs.muscles, body.breathing]
+media:
+  - src: /specimens/body-legs-hydraulics.webp
+    alt: "Schematic cross-section of a spider leg joint in two states, folded and extended, with a dorsal hinge, a flexible lower membrane and arrows showing muscle pull versus internal fluid pressure"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

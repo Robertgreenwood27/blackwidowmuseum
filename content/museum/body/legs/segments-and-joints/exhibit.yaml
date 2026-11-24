@@ -1,0 +1,59 @@
+id: body.legs.segments-and-joints
+accession: BWM-01.11.01
+title: Seven Pieces, Many Axes
+kicker: A joint is more than a bend
+summary: The segment names describe a limb whose joints each move in their own way. Some swing the leg forward and back, others reach it out and in, and a single measured widow gives the lengths.
+status: open
+order: 1
+taxa: [Latrodectus elegans, Latrodectus hasselti]
+figures:
+  - value: I > IV > II > III
+    label: the leg formula, longest to shortest
+    note: African revision; also reported for a described L. elegans female
+    sources: [lotz1994, kananbala2012]
+  - value: 21.47
+    unit: mm
+    label: first leg of one widow, femur to tarsus
+    note: L. elegans female, Manipur voucher; coxa and trochanter excluded
+    featured: true
+    sources: [kananbala2012]
+  - value: "19.18 / 14.52"
+    unit: mm
+    label: fourth / second leg, same specimen
+    note: individual values, not population means
+    sources: [kananbala2012]
+observations:
+  - id: sequence
+    text: The seven segments run coxa, trochanter, femur, patella, tibia, metatarsus and tarsus.
+    sources: [foelix2011]
+  - id: swing
+    text: In a huntsman spider, movements at the body–coxa and coxa–trochanter joints swing the leg forward and back.
+    sources: [clarke1984]
+  - id: reach
+    text: In the same spider, the trochanter–femur, femur–patella and tibia–metatarsus joints change the distance from body to foot.
+    sources: [clarke1984]
+  - id: hinge
+    text: Its femur–patella and tibia–metatarsus joints pivot on paired contacts along a hinge line on the upper side.
+    sources: [clarke1984]
+  - id: front-back
+    text: In the redback, the patella–tibia joint is built differently in the front and rear leg pairs.
+    confidence: supported
+    sources: [clarke1986]
+  - id: elegans
+    text: The described L. elegans specimen has its first legs longest, then the fourth, second and third.
+    sources: [kananbala2012]
+terms:
+  - { term: coxa, def: the basal segment, joined to the body }
+  - { term: trochanter, def: the short segment between coxa and femur }
+  - { term: patella, def: the short segment between femur and tibia }
+  - { term: metatarsus, def: the long segment just before the foot }
+  - { term: arthrodial membrane, def: the flexible cuticle between the hard segments }
+  - { term: bicondylic, def: pivoting on two contact points }
+related: [body.body-plan, body.exoskeleton, body.pedipalps]
+media:
+  - src: /specimens/body-legs-segments-and-joints.webp
+    alt: "Museum plate of a single widow walking leg with its seven segments separated slightly, each joint shown with small curved arrows for its direction of movement"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

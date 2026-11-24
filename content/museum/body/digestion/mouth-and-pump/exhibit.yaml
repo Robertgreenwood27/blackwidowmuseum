@@ -1,0 +1,65 @@
+id: body.digestion.mouth-and-pump
+accession: BWM-01.14.02
+title: The Gate and the Pump
+kicker: Filter first, pull inward
+summary: Hairs on the mouthparts and a ridged plate in the pharynx screen the liquid before a muscular foregut pump draws it in. The anatomy is well described for spiders; a measured widow mouth width or filter cut-off is still missing.
+status: open
+order: 2
+taxa: [Latrodectus geometricus]
+figures:
+  - value: "≈1"
+    unit: µm
+    label: scale of particles screened out
+    note: general spider estimate, not a measured widow cut-off
+    sources: [eberhard2006]
+  - value: 2
+    label: successive filters
+    note: endite hairs, then the pharyngeal plate; comparative anatomy
+    sources: [foelix2011, dunlop1994]
+  - value: Slit
+    label: shape of the embryonic mouth
+    note: L. geometricus, developmental electron microscopy
+    sources: [liu2009]
+observations:
+  - id: endites
+    text: The endites, expanded bases of the pedipalps, border the spider's mouth on either side.
+    sources: [foelix2011]
+  - id: lips
+    text: The rostrum lies in front of the mouth and the labium behind it.
+    sources: [foelix2011]
+  - id: setae
+    text: Dense hairs on the inner faces of the endites filter incoming food.
+    sources: [foelix2011]
+  - id: palate
+    text: In a tarantula examined by electron microscopy, serrated platelets flank a groove along the pharyngeal palate.
+    sources: [dunlop1994]
+  - id: embryo
+    text: Brown-widow embryos develop a slit-like mouth overhung by the upper lip.
+    sources: [liu2009]
+  - id: through-brain
+    text: The oesophagus passes through the central nerve mass before reaching the pump in the rear of the prosoma.
+    sources: [snodgrass1952]
+  - id: dilators
+    text: In a comparator spider, dorsal dilator muscles run from the pump to an inward ridge of the carapace, and lateral dilators to the endosternite.
+    sources: [snodgrass1952]
+  - id: compressors
+    text: Short compressor muscles squeeze the pump from its sides.
+    sources: [snodgrass1952]
+  - id: lined
+    text: The foregut is lined with cuticle, like the outside of the body.
+    sources: [foelix2011]
+terms:
+  - { term: endite, def: the feeding expansion of a pedipalp's base; also called gnathocoxa or maxilla }
+  - { term: labium, def: the lower lip, behind the mouth }
+  - { term: rostrum, def: the upper lip, in front of the mouth }
+  - { term: pharynx, def: the flattened foregut just behind the mouth }
+  - { term: apodeme, def: an inward projection of cuticle that anchors a muscle }
+  - { term: endosternite, def: an internal supporting plate in the prosoma }
+related: [body.chelicerae, body.nervous-system, life.molting]
+media:
+  - src: /specimens/body-digestion-mouth-and-pump.webp
+    alt: "Anatomical schematic of a spider prosoma in side view: mouth, pharynx, oesophagus passing through the nerve mass, and the muscular sucking stomach with muscles running up to the carapace"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

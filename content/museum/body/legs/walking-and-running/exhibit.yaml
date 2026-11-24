@@ -1,0 +1,59 @@
+id: body.legs.walking-and-running
+accession: BWM-01.11.05
+title: Across Silk and Ground
+kicker: A route changes what a long leg can do
+summary: Adult males leave their webs to search for females, travelling over ground, through vegetation and along silk. Field tracking and laboratory sprints answer different questions, and neither has yet produced a widow gait atlas.
+status: open
+order: 5
+taxa: [Latrodectus hesperus, Latrodectus pallidus]
+figures:
+  - value: ">200"
+    unit: m
+    label: some males' moves between webs
+    note: L. hesperus, 2016 field releases; most recaptures were within 60 m
+    featured: true
+    sources: [scott2019]
+  - value: ">1.25 / <0.25"
+    unit: m/min
+    label: average search rates in two field seasons
+    note: L. hesperus males, contrasting wind; distance over elapsed time, not sprint speed
+    sources: [scott2019]
+  - value: "2 × 4"
+    label: legs in alternating sets, a reference gait
+    note: comparator tarantula; real footfalls varied around this pattern
+    sources: [kane2025]
+observations:
+  - id: silk-faster
+    text: Western-widow males travelled faster along silk than across ground or vegetation.
+    confidence: supported
+    sources: [scott2019]
+  - id: climbing
+    text: Vertical climbing speed did not correlate with body size in adult male western widows.
+    confidence: supported
+    sources: [brandt2007]
+  - id: horizontal
+    text: Horizontal running speed did increase with size in the same males.
+    confidence: supported
+    sources: [brandt2007]
+  - id: pallidus
+    text: Leg length did not significantly predict how far male white widows walked in the field.
+    confidence: supported
+    sources: [segoli2006]
+  - id: gait
+    text: Footfall patterns in a tarantula departed from a perfectly synchronised two-set gait.
+    confidence: supported
+    sources: [kane2025]
+terms:
+  - { term: stance / swing, def: the parts of a step with the foot down / lifted }
+  - { term: duty factor, def: the share of a stride spent with the foot down }
+  - { term: tetrapod gait, def: walking with the eight legs in two alternating sets of four }
+  - { term: search rate, def: distance covered over elapsed time, pauses included }
+  - { term: gravity hypothesis, def: the idea that small males climb faster, favouring small size }
+related: [life.mate-search, web.male-silk, web.navigation]
+media:
+  - src: /specimens/body-legs-walking-and-running.webp
+    alt: "A slender adult male western widow, pale with patterned abdomen and long legs, walking along a silk bridge strung between dry grass stems at dusk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

@@ -1,0 +1,59 @@
+id: body.digestion.first-meals
+accession: BWM-01.14.12
+title: Before the First Catch
+kicker: A spiderling begins with a maternal reserve
+summary: Hatching, leaving the egg sac and the first meal are different milestones. Yolk carries the young through the first, and the supply of prey afterward decides how many reach adulthood.
+status: open
+order: 12
+taxa: [Latrodectus hasselti, Latrodectus geometricus, Latrodectus hesperus, Latrodectus mactans, Latrodectus variolus]
+figures:
+  - value: 1
+    label: true molt inside the egg sac
+    note: redback; hatching is not emergence
+    sources: [downes1987]
+  - value: "1 vs 3"
+    unit: weeks
+    label: between meals, two rearing regimes
+    note: L. geometricus from hatching to adulthood; fruit flies first, larger prey later
+    sources: [harvey2025]
+observations:
+  - id: yolk
+    text: Redback development inside the egg sac runs on yolk reserves.
+    confidence: supported
+    sources: [mowery2022b]
+  - id: molt-in-sac
+    text: Redbacks hatch and molt once before leaving the egg sac.
+    sources: [downes1987]
+  - id: sneak
+    text: Some redback young approached the female's prey and fed on its far side.
+    confidence: supported
+    sources: [forster1995]
+  - id: sweep
+    text: The female sometimes drove these feeders off with sweeps of a leg.
+    confidence: supported
+    sources: [forster1995]
+  - id: flies-first
+    text: Brown widows were reared on fruit flies at first and on larger prey later.
+    sources: [harvey2025]
+  - id: mortality
+    text: Less frequent feeding raised juvenile mortality in brown widows.
+    confidence: supported
+    sources: [harvey2025]
+  - id: kaston
+    text: In Kaston's early rearing on fruit flies alone, some males reached adulthood but no females did.
+    confidence: supported
+    sources: [kaston1970]
+terms:
+  - { term: yolk reserve, def: material provisioned by the mother in the egg }
+  - { term: postembryo, def: the stage after hatching and before the first true molt }
+  - { term: emergence, def: leaving the silk egg sac }
+  - { term: instar, def: a stage between molts; numbering differs between authors }
+  - { term: sneak feeding, def: feeding at another's prey without being given it }
+related: [life.hatching, life.siblings, life.molting]
+media:
+  - src: /specimens/body-digestion-first-meals.webp
+    alt: "A tiny pale widow spiderling feeding cautiously at the far end of a silk-wrapped fly that a much larger mother is feeding on, in a tangle of silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

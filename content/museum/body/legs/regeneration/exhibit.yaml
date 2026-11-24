@@ -1,0 +1,69 @@
+id: body.legs.regeneration
+accession: BWM-01.11.09
+title: A Conditional Return
+kicker: The location of loss changes the outcome
+summary: Northern widows grew back legs lost far enough from the body, but never legs they had shed themselves. When a whole coxa was removed, nothing regrew; instead the neighbouring leg's base slid over to fill the gap.
+status: open
+order: 9
+taxa: [Latrodectus variolus]
+figures:
+  - value: Mid-femur
+    label: the closest cut that still regrew
+    note: L. variolus, Randall's amputation experiments
+    featured: true
+    sources: [randall1981]
+  - value: 5 of 20
+    label: survivors after whole-coxa removal
+    note: fourth-instar L. variolus, 27 °C; survival of the surgery, not a regrowth rate
+    sources: [randall1982]
+  - value: "≤1"
+    unit: day
+    label: to recover running after losing two legs
+    note: a comparator tarantula; performance, not regrowth
+    sources: [kane2025]
+observations:
+  - id: proximal
+    text: Northern widows cut closer to the body than mid-femur did not regrow the leg.
+    confidence: supported
+    sources: [randall1981]
+  - id: autotomized
+    text: Legs the spiders had shed themselves did not regenerate.
+    confidence: supported
+    sources: [randall1981]
+  - id: no-shedding
+    text: Randall saw no autotomy after his amputations.
+    confidence: supported
+    sources: [randall1981]
+  - id: scar
+    text: Removing a whole coxa left a healed scar and no replacement limb.
+    confidence: supported
+    sources: [randall1982]
+  - id: relocation
+    text: After later molts, the neighbouring coxa moved into the vacated space.
+    confidence: supported
+    sources: [randall1982]
+  - id: not-after-shedding
+    text: No such shift happened after ordinary autotomy, which leaves the coxa in place.
+    confidence: supported
+    sources: [randall1982]
+  - id: at-molts
+    text: In other web-building spiders, regenerated legs appeared at molts, some at first incomplete.
+    confidence: supported
+    sources: [vollrath1990]
+  - id: running
+    text: Tarantulas that regrew legs returned to their earlier running performance.
+    confidence: supported
+    sources: [kane2025]
+terms:
+  - { term: proximal / distal, def: nearer the body / nearer the foot }
+  - { term: regenerate, def: a newly grown replacement limb }
+  - { term: coxal relocation, def: an existing leg base shifting to fill a gap }
+  - { term: functional recovery, def: regained performance in a specified test }
+related: [life.molting, body.legs.leg-loss, life.development]
+media:
+  - src: /specimens/body-legs-regeneration.webp
+    alt: "A three-panel scientific diagram of a widow leg: a cut through the tibia with a small regrown leg after a molt, a cut near the body with only a healed stump, and a leg shed at the base with no regrowth"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

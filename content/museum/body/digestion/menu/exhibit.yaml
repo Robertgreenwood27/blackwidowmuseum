@@ -1,0 +1,74 @@
+id: body.digestion.menu
+accession: BWM-01.14.05
+title: What Counts as Dinner?
+kicker: A broad menu can have local favourites
+summary: Insects dominate every measured widow diet, but woodlice, other spiders, scorpions and the occasional lizard, snake or mouse broaden the picture. Prey collections tell us what a population eats; a dramatic photograph tells us only that something happened once.
+status: open
+order: 5
+taxa: [Latrodectus hesperus, Latrodectus lilianae, Latrodectus mirabilis, Latrodectus pallidus, Latrodectus hasselti]
+figures:
+  - value: "2,106"
+    label: prey items from 164 webs
+    note: L. lilianae, Spanish shrub-steppe, 1990–93
+    sources: [hodar2002]
+  - value: ">86"
+    unit: "%"
+    label: of prey items were ants
+    note: L. mirabilis, 1,004 items from 144 webs in Argentine wheat and oat fields; by count, not mass
+    featured: true
+    sources: [pompozzi2013]
+  - value: 25
+    unit: mm
+    label: a lizard caught and eaten
+    note: snout–vent length; one female L. pallidus, Israel, 1988
+    sources: [blondheim1989]
+observations:
+  - id: hesperus
+    text: Western-widow prey remains included insects, woodlice and other spiders.
+    confidence: supported
+    sources: [salomon2011]
+  - id: hesperus-beetles
+    text: Beetles and ants, bees and wasps dominated that western-widow sample.
+    confidence: supported
+    sources: [salomon2011]
+  - id: lilianae
+    text: Darkling beetles and woodlice dominated the Spanish sample.
+    confidence: supported
+    sources: [hodar2002]
+  - id: spiders
+    text: Argentine crop webs held other spiders as well as abundant ants.
+    confidence: supported
+    sources: [pompozzi2013]
+  - id: scorpions
+    text: A natural-history account from Israel lists scorpions among prey remains in widow nests.
+    confidence: supported
+    sources: [blondheim1989]
+  - id: lizard
+    text: A female white widow fed on a silk-wrapped juvenile lizard, now a museum voucher.
+    confidence: supported
+    sources: [blondheim1989]
+  - id: mice
+    text: Mice have been reported caught by redbacks and by brown, western and southern widows.
+    confidence: supported
+    sources: [nyffeler2018]
+  - id: snakes
+    text: Published records document widows eating snakes.
+    confidence: supported
+    sources: [nyffeler2021]
+  - id: skinks
+    text: In feeding trials, redbacks extracted nutrients less efficiently from fence skinks than from locusts.
+    confidence: supported
+    sources: [wilder2022]
+terms:
+  - { term: polyphagy, def: feeding on many kinds of prey }
+  - { term: araneophagy, def: eating other spiders }
+  - { term: intraguild predation, def: eating another predator that competes for the same prey }
+  - { term: prey remains, def: the husks left in a web, used to reconstruct the diet }
+related: [venom.prey, web.wrapping, web.guests, life.cannibalism]
+media:
+  - src: /specimens/body-digestion-menu.webp
+    alt: "Specimen trays of a widow's prey remains: darkling beetles, ants, woodlice and a small spider, each tray labelled by locality, beside a tangle of silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

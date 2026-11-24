@@ -1,0 +1,67 @@
+id: body.digestion.midgut
+accession: BWM-01.14.03
+title: The Branching Larder
+kicker: Absorption and storage share living tissue
+summary: The midgut is not a straight pipe but a branching organ that fills the abdomen and reaches toward the legs. Its cells finish digestion inside themselves and keep reserves of fat and sugar for leaner days.
+status: open
+order: 3
+taxa: [Latrodectus mirabilis]
+figures:
+  - value: 2
+    label: principal jobs of the gut lining
+    note: secretory and resorptive cells; spider framework, not a complete widow atlas
+    sources: [laino2009, fuzita2016]
+  - value: 80
+    unit: "%"
+    label: of plasma lipid carried in one lipoprotein
+    note: L. mirabilis, the HDL₁ fraction; not a body-fat percentage
+    sources: [cunningham2000]
+  - value: 2
+    label: body regions the gut branches through
+    note: prosoma and abdomen
+    sources: [snodgrass1952]
+observations:
+  - id: toward-legs
+    text: Branches of the anterior midgut run toward the bases of the legs.
+    sources: [snodgrass1952]
+  - id: abdomen
+    text: Branched abdominal diverticula occupy much of the upper abdomen.
+    sources: [snodgrass1952]
+  - id: widow-histology
+    text: Normal midgut-diverticulum tissue has been photographed in section from a black widow identified to genus.
+    sources: [gaudette2023]
+  - id: secretory
+    text: Secretory cells release digestive enzymes into the gut lumen.
+    sources: [fuzita2016]
+  - id: resorptive
+    text: Resorptive cells take predigested material into vacuoles and finish breaking it down inside themselves.
+    sources: [laino2009]
+  - id: storage
+    text: Histology showed fat and glycogen stored in spider digestive tissue before tracer studies confirmed it.
+    confidence: supported
+    sources: [laino2009]
+  - id: tracer
+    text: In a huntsman spider, labelled fatty acid collected mainly in the midgut diverticula after feeding or injection.
+    confidence: supported
+    sources: [laino2009]
+  - id: synthesis
+    text: Those diverticula built several kinds of lipid from the label.
+    confidence: supported
+    sources: [laino2009]
+  - id: carriers
+    text: Two high-density lipoproteins have been isolated from the haemolymph of L. mirabilis.
+    sources: [cunningham2000]
+terms:
+  - { term: diverticulum, def: a blind-ended outgrowth of the gut; plural diverticula }
+  - { term: midgut gland, def: the branched digestive tissue, sometimes loosely called a hepatopancreas }
+  - { term: digestive vacuole, def: a compartment inside a cell where ingested material is processed }
+  - { term: glycogen, def: a storage carbohydrate built from glucose }
+  - { term: lipoprotein, def: a lipid–protein particle that carries fat through body fluid }
+related: [body.circulation, body.body-plan, body.digestion.energy]
+media:
+  - src: /specimens/body-digestion-midgut.webp
+    alt: "Cutaway schematic of a female widow's abdomen: pale branching lobes of the midgut fill the upper abdomen around a central tube, leaving room for other organs"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

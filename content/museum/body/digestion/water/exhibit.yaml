@@ -1,0 +1,56 @@
+id: body.digestion.water
+accession: BWM-01.14.09
+title: Water in a Liquid Life
+kicker: Keeping water and finding water are different problems
+summary: Redbacks have been seen drinking, yet young widows have been reared on prey alone. A waxy layer in the cuticle holds water in so well that stripping it away multiplies water loss about two hundredfold.
+status: open
+order: 9
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: "≈200×"
+    label: faster water loss with the cuticle's lipids stripped
+    note: L. hesperus abdominal cuticle, solvent-treated versus control; an experiment, not natural variation
+    featured: true
+    sources: [hadley1989]
+  - value: "30 °C, 0%"
+    unit: RH
+    label: conditions of the drying assay
+    note: far drier than a normal retreat
+    sources: [hadley1989]
+observations:
+  - id: drinking
+    text: Adult male redbacks have been observed drinking water.
+    confidence: supported
+    sources: [forster1995]
+  - id: prey-only
+    text: Redback young have been reared on supplied prey with no drinking water provided.
+    sources: [downes1987]
+  - id: barrier
+    text: Removing the cuticle's surface lipids with solvent sharply increased water loss in western widows.
+    confidence: supported
+    sources: [hadley1989]
+  - id: temperature
+    text: Cuticular permeability rose with temperature.
+    confidence: supported
+    sources: [hadley1989]
+  - id: preparations
+    text: Isolated cuticle lost water faster than the same cuticle left in place on a dead spider.
+    confidence: supported
+    sources: [hadley1989]
+  - id: other-routes
+    text: Comparisons of living spiders with patches of cuticle hinted at other water-loss routes, without a significant difference.
+    confidence: debated
+    sources: [hadley1989]
+terms:
+  - { term: relative humidity, def: water vapour in air as a share of saturation at that temperature }
+  - { term: cuticular permeability, def: how readily water passes through the body covering }
+  - { term: epicuticular lipids, def: waxy surface lipids that limit water loss }
+  - { term: in situ, def: measured in place on the animal }
+related: [body.exoskeleton, body.breathing, senses.heat-and-water]
+media:
+  - src: /specimens/body-digestion-water.webp
+    alt: "A small male redback with pale markings drinking from a single water droplet on a silk thread, with a cutaway inset of cuticle layers"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

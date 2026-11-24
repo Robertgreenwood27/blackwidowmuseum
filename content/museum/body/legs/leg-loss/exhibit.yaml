@@ -1,0 +1,51 @@
+id: body.legs.leg-loss
+accession: BWM-01.11.08
+title: The Break at the Base
+kicker: Shedding and cutting are different injuries
+summary: A widow can let go of a leg at a built-in breaking plane between coxa and trochanter, leaving the coxa behind. How often wild widows lose legs, and what it costs them, has not yet been measured.
+status: open
+order: 8
+taxa: [Latrodectus variolus, Latrodectus hesperus]
+figures:
+  - value: Coxa | trochanter
+    label: where the leg comes away
+    note: L. variolus, experimentally induced; the coxa stays on the body
+    featured: true
+    sources: [randall1981]
+  - value: Not yet
+    label: a count of widows missing legs in the wild
+    note: no field survey with a denominator found in this research pass
+observations:
+  - id: ligation
+    text: Tying off a northern widow's leg at or above mid-tibia made her shed it at the coxa–trochanter joint.
+    confidence: supported
+    sources: [randall1981]
+  - id: gradient
+    text: The closer to the body the tie, the more often the leg was shed.
+    confidence: supported
+    sources: [randall1981]
+  - id: pinch
+    text: Western widows pinched in a defence experiment did not shed legs.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: zygiella-web
+    text: Orb weavers missing legs built webs with less silk but the same capture area.
+    confidence: supported
+    sources: [pasquet2011]
+  - id: zygiella-capture
+    text: That study found no difference in prey capture after losing one or two legs, under laboratory conditions.
+    confidence: supported
+    sources: [pasquet2011]
+terms:
+  - { term: breakage plane, def: a built-in line of weakness where a limb comes away }
+  - { term: amputation, def: removal by cutting, not by the animal itself }
+  - { term: ligation, def: tying off a limb, used to trigger autotomy in experiments }
+  - { term: prevalence, def: the share of animals missing a leg when surveyed }
+related: [body.legs.regeneration, life.molting, venom.prey]
+media:
+  - src: /specimens/body-legs-leg-loss.webp
+    alt: "Calm anatomical diagram of a northern widow seen from below, with one leg detached at the coxa–trochanter plane and the coxa still attached to the body"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

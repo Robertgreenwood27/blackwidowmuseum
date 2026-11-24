@@ -1,28 +1,27 @@
 id: body.digestion
 accession: BWM-01.14
 title: Liquid Meals
-kicker: Digestion begins outside the body
-summary: A widow cannot chew. She floods her prey with digestive fluid, drinks back the result, and can then go many months without eating again.
+kicker: A meal continues after the prey is gone
+summary: A widow cannot chew. She wets her prey with digestive fluid, drinks the result back, filters it, pumps it inward, and finishes the work inside a branching gut that doubles as a larder. Twelve halls follow the meal from the prey package to reserves, fasting and wastes.
 status: open
 order: 12
-taxa: [Latrodectus geometricus, Latrodectus hasselti]
+taxa: [Latrodectus geometricus, Latrodectus hesperus, Latrodectus hasselti, Latrodectus mactans]
 figures:
-  - value: ">300"
+  - value: "36–193"
     unit: days
-    label: adult survival without food
-    note: some female redbacks, laboratory trials
+    label: adult females surviving unfed
+    note: L. hesperus, 37 females deprived from the adult molt, laboratory room temperature
     featured: true
-    sources: [forster1989]
-  - value: 160
-    unit: days
-    label: longest subadult survival without food
-    note: redback, same study
-    sources: [forster1989]
+    sources: [kaston1970]
   - value: "4.9–7.4"
     unit: pulses/s
     label: rhythm of drinking
-    note: one feeding brown widow, three bouts
+    note: one feeding brown widow, three bouts; movement rate, not volume
     sources: [eberhard2006]
+  - value: 2
+    label: digestive phases, outside and inside
+    note: spider framework, confirmed molecularly in a comparator spider
+    sources: [fuzita2016]
 observations:
   - id: regurgitation
     text: Brown widows have been filmed releasing clear fluid onto prey and then taking the fluid back up.
@@ -36,11 +35,14 @@ observations:
     text: Flies fed on by brown widows stayed largely intact apart from holes at the feeding sites.
     confidence: supported
     sources: [eberhard2006]
+  - id: inside-too
+    text: In spiders, digestion begins outside the body but is finished inside cells of the midgut.
+    sources: [fuzita2016, laino2009]
   - id: filter
-    text: Hairs on the mouthparts and a filter in the pharynx keep solid particles out.
-    sources: [eberhard2006]
+    text: In spiders generally, hairs on the mouthparts and a filter in the pharynx keep solid particles out.
+    sources: [foelix2011, dunlop1994]
   - id: pump
-    text: A muscular sucking stomach in the prosoma pumps the liquid meal into the gut.
+    text: In spiders generally, a muscular sucking stomach in the prosoma pumps the liquid meal into the gut.
     sources: [snodgrass1952]
   - id: diverticula
     text: Branched pouches of the midgut fill much of the upper abdomen and carry on digestion inside.
@@ -48,24 +50,29 @@ observations:
   - id: excretion
     text: Branched Malpighian tubules remove wastes into the rear of the gut.
     sources: [snodgrass1952]
+  - id: metabolic-brake
+    text: Mated redback females reduced their resting CO₂ output while deprived of food.
+    confidence: supported
+    sources: [stoltz2010b]
   - id: cold
     text: Starved female redbacks survived longest at 10 °C and markedly less long at 25 °C.
     confidence: supported
     sources: [forster1989]
-  - id: recovery
-    text: Most redbacks starved for two to three months recovered once they were fed.
+  - id: droppings
+    text: Brown-widow droppings carried a prey-derived isotope label onward into a nutrient-transfer experiment.
     confidence: supported
-    sources: [forster1989]
+    sources: [nishi2013]
 terms:
   - { term: extra-oral digestion, def: breaking food down outside the mouth and gut }
   - { term: sucking stomach, def: a muscular pump in the foregut }
   - { term: diverticulum, def: a blind-ended branch of the gut }
   - { term: Malpighian tubules, def: branched excretory tubes opening into the gut }
-related: [body.comb-foot, body.chelicerae, web.gumfoot]
+  - { term: reserve, def: stored material available for later use, not just a recently filled gut }
+related: [body.comb-foot, body.chelicerae, web.wrapping, venom.prey]
 media:
   - src: /specimens/body-digestion.webp
     alt: "A widow hanging inverted in a tangle web, feeding on a beetle she has wrapped in white silk"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-24

@@ -1,0 +1,64 @@
+id: body.legs.tools
+accession: BWM-01.11.06
+title: Eight Working Limbs
+kicker: Pull, hold, reel and clean
+summary: Legs handle silk as well as carry weight. Filmed brown widows give each leg pair its own job while building a gumfoot line, and redbacks probe prey with a foreleg, carry it between the hind legs and wipe glue off through the mouthparts.
+status: open
+order: 6
+taxa: [Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: I / II–III / IV
+    label: reel / manage loose silk / hold the dragline
+    note: L. geometricus building gumfoot lines; roles change with the phase
+    sources: [eberhard2008]
+  - value: 35
+    unit: "%"
+    label: of wrapping strokes used both hind legs at once
+    note: L. geometricus, 329 strokes filmed in four prey encounters
+    sources: [barrantes2007]
+observations:
+  - id: hold-dragline
+    text: Brown widows held a descending dragline with one fourth leg before anchoring it to the floor.
+    confidence: supported
+    sources: [eberhard2008]
+  - id: reel
+    text: Climbing back up, the first legs reeled in silk that gathered on the second legs and passed toward the third.
+    confidence: supported
+    sources: [eberhard2008]
+  - id: attach
+    text: A hind leg extended just before the spinnerets fixed the line to the ground.
+    confidence: supported
+    sources: [eberhard2008]
+  - id: wrap-strokes
+    text: Brown widows wrapped prey with both alternating and simultaneous strokes of the fourth legs.
+    confidence: supported
+    sources: [barrantes2007]
+  - id: probe
+    text: Redbacks probed prey with a foreleg before turning to throw silk.
+    confidence: supported
+    sources: [forster1995]
+  - id: carry
+    text: Redbacks carried wrapped prey supported by silk and held between the hind legs.
+    confidence: supported
+    sources: [forster1995]
+  - id: clean
+    text: Young redbacks freeing themselves from sticky silk wiped their legs through the mouthparts.
+    confidence: supported
+    sources: [forster1995]
+  - id: groom
+    text: Another cobweb spider's grooming repertoire includes passing the feet between the chelicerae.
+    confidence: supported
+    sources: [japyassu2008]
+terms:
+  - { term: reeling, def: gathering in an existing thread }
+  - { term: dragline, def: the safety line a spider trails behind it }
+  - { term: gumfoot, def: a sticky capture line anchored to the ground beneath the web }
+  - { term: grooming, def: cleaning actions, often using the mouthparts }
+related: [web.construction, web.wrapping, body.comb-foot]
+media:
+  - src: /specimens/body-legs-tools.webp
+    alt: "A brown widow in her tangle cobweb drawing a gumfoot line down to the ground: one hind leg holding the dragline, the front legs reeling silk"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

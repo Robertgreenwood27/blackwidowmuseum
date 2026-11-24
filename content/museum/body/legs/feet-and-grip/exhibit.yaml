@@ -1,0 +1,55 @@
+id: body.legs.feet-and-grip
+accession: BWM-01.11.04
+title: A Foot Around a Thread
+kicker: Holding silk is a contact problem
+summary: A web-builder's foot is a clasp, not a sticky pad. A hooked median claw presses a thread against serrated bristles, and lifting the hook lets it go. That is how a widow hangs inverted in her tangle.
+status: open
+order: 4
+taxa: [Latrodectus hasselti]
+figures:
+  - value: 3
+    label: claws on every walking foot
+    note: theridiid family character; bristles are not counted as claws
+    sources: [jocque2006]
+  - value: Hook + bristles
+    label: the thread clasp
+    note: general web-spider mechanism, not a measured widow grip force
+    sources: [foelix2011]
+  - value: Not yet
+    label: a widow grip force or hanging endurance
+    note: no such measurement found in this research pass
+observations:
+  - id: three
+    text: Theridiid walking feet bear three claws.
+    sources: [jocque2006]
+  - id: clasp
+    text: In web-building spiders, the median hook presses a silk thread against opposing serrated bristles.
+    sources: [foelix2011]
+  - id: release
+    text: Raising the hook releases the thread.
+    sources: [foelix2011]
+  - id: redback-threads
+    text: Redbacks grip individual scaffold threads with the claws at their leg tips.
+    confidence: supported
+    sources: [clarke1986]
+  - id: stiff-tip
+    text: Clarke linked the redback's restricted metatarsus–tarsus movement to supporting itself on single threads.
+    confidence: debated
+    sources: [clarke1986]
+  - id: not-pads
+    text: The scopulae and claw tufts of hunting spiders are adhesive hair pads, a different solution from a thread clasp.
+    sources: [wolff2013]
+terms:
+  - { term: pretarsus, def: the claw-bearing tip of the foot }
+  - { term: pectinate claw, def: a claw with comb-like teeth }
+  - { term: auxiliary bristle, def: a serrated bristle that opposes the median claw }
+  - { term: scopula, def: a dense pad of adhesive hairs, found in many hunting spiders }
+  - { term: claw tuft, def: an adhesive hair pad beneath the claws }
+related: [body.comb-foot, senses.proprioception, web.navigation]
+media:
+  - src: /specimens/body-legs-feet-and-grip.webp
+    alt: "Extreme macro of a spider's tarsus tip gripping a single silk thread: a hooked median claw pressing the thread against serrated bristles, two toothed paired claws above"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

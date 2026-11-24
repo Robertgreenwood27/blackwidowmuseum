@@ -1,0 +1,70 @@
+id: body.digestion.microbes
+accession: BWM-01.14.11
+title: Passengers Inside
+kicker: Detecting a passenger does not tell us its job
+summary: Widows carry distinctive bacteria, and most brown widows carry one in particular. But the studies sampled whole spiders or half-abdomens, not the gut alone, so whether any of these microbes helps with digestion is still unknown.
+status: open
+order: 11
+taxa: [Latrodectus geometricus, Latrodectus hesperus, Latrodectus mactans]
+figures:
+  - value: 86
+    unit: "%"
+    label: of brown widows carrying Rhabdochlamydia
+    note: targeted screening of 118 adult females from three countries; Wolbachia 14%
+    featured: true
+    sources: [mowery2024]
+  - value: 103
+    label: brown-widow bacterial communities sequenced
+    note: surface-sterilised half-abdomens, not dissected guts
+    sources: [mowery2024]
+  - value: 5
+    label: cobweb species compared tissue by tissue
+    note: three widows and two other theridiids, three whole-animal replicates each
+    sources: [dunaj2020]
+observations:
+  - id: dominant
+    text: Rhabdochlamydia dominated the bacterial profiles of many brown widows.
+    confidence: supported
+    sources: [mowery2024]
+  - id: eggs
+    text: Rhabdochlamydia was detected in brown-widow eggs, consistent with passage from mother to young.
+    confidence: supported
+    sources: [mowery2024]
+  - id: geography
+    text: The share of brown widows carrying Wolbachia varied between regions.
+    confidence: supported
+    sources: [mowery2024]
+  - id: spiroplasma
+    text: Spiroplasma was prominent in whole western widows.
+    confidence: supported
+    sources: [dunaj2020]
+  - id: gilliamella
+    text: Sequences assigned to Gilliamella appeared in southern and western widows.
+    confidence: supported
+    sources: [dunaj2020]
+  - id: phylosymbiosis
+    text: Some microbiome differences tracked how closely the sampled cobweb spiders are related.
+    confidence: supported
+    sources: [dunaj2020]
+  - id: early
+    text: An earlier survey reported a widow sample positive for Wolbachia and Rickettsia.
+    confidence: supported
+    sources: [dunaj2020, goodacre2006]
+  - id: unknown-role
+    text: Neither study tested whether these microbes help with digestion; their role is unknown.
+    confidence: supported
+    sources: [mowery2024, dunaj2020]
+terms:
+  - { term: microbiome, def: the community of microbes living with a host }
+  - { term: endosymbiont, def: an organism living inside a host, often inside its cells; not necessarily helpful }
+  - { term: 16S sequencing, def: identifying bacteria from a marker gene }
+  - { term: vertical transmission, def: passage from parent to offspring }
+  - { term: phylosymbiosis, def: microbiomes that mirror the relationships of their hosts }
+related: [genus.brown-widow, venom.venom-in-eggs, life.egg-sac]
+media:
+  - src: /specimens/body-digestion-microbes.webp
+    alt: "Schematic of the sample types in a microbiome study: a whole brown widow, a halved abdomen and separated organs, with an empty window labelled for the gut itself"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

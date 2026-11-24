@@ -1,0 +1,66 @@
+id: body.digestion.wastes
+accession: BWM-01.14.10
+title: What Leaves the Spider
+kicker: A prey shell and a dropping tell different stories
+summary: Spiders dispose of nitrogen mainly as guanine, collected by Malpighian tubules and stored in a pocket at the end of the gut. Some guanine is never expelled but kept as white crystals. What drops beneath a web goes on to feed the soil.
+status: open
+order: 10
+taxa: [Latrodectus geometricus, Latrodectus mactans, Latrodectus pallidus]
+figures:
+  - value: 34
+    label: spider species whose excreta held guanine
+    note: 17 families; the only purine detected; comparative survey
+    sources: [anderson1966]
+  - value: 70
+    label: brown widows fed labelled prey for their droppings
+    note: ¹⁵N-labelled mealworms; pooled collection, not a per-spider rate
+    sources: [nishi2013]
+  - value: β
+    label: guanine crystal form in the skin
+    note: L. pallidus integument crystals; stored, not excreted
+    sources: [pinsk2022]
+observations:
+  - id: tubules
+    text: Malpighian tubules branch among the abdominal diverticula and open into the end of the gut.
+    sources: [snodgrass1952]
+  - id: pocket
+    text: A short passage connects the enlarged stercoral pocket to the anus.
+    sources: [snodgrass1952]
+  - id: coxal
+    text: A study of southern-widow musculature described muscles serving the coxal glands, a second excretory system.
+    sources: [whitehead1959]
+  - id: guanine
+    text: Guanine was the only purine detected in a chromatographic survey of spider excreta.
+    confidence: supported
+    sources: [anderson1966]
+  - id: crystals
+    text: The integument of the white widow contains prism-shaped guanine crystals.
+    sources: [pinsk2022]
+  - id: guanocytes
+    text: Guanocytes at the edge of the digestive tissue can store guanine as visible white colour.
+    sources: [oxford1998]
+  - id: separate
+    text: Brown-widow droppings and the husks of their prey were collected separately in a plant-nutrition experiment.
+    sources: [nishi2013]
+  - id: soil
+    text: In southern-widow mesocosms, soil ammonia and phosphorus differed with position beneath the web.
+    confidence: supported
+    sources: [wilder2025]
+  - id: no-nitrate
+    text: The same experiment found no location effect on total nitrogen or nitrate.
+    confidence: supported
+    sources: [wilder2025]
+terms:
+  - { term: guanine, def: a purine through which spiders dispose of nitrogen }
+  - { term: stercoral pocket, def: the enlarged collecting chamber at the rear of the gut }
+  - { term: guanocyte, def: a cell that stores guanine crystals }
+  - { term: coxal gland, def: an excretory organ with outlets near the leg bases }
+  - { term: prey remains, def: uneaten material outside the spider, not faeces }
+related: [body.colour, body.hourglass.pigment, body.circulation]
+media:
+  - src: /specimens/body-digestion-wastes.webp
+    alt: "Ground beneath a widow's tangle web: separately labelled spent prey husks and small dried white droppings, with an inset of prismatic guanine crystals"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

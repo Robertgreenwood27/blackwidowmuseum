@@ -1,0 +1,60 @@
+id: body.digestion.extra-oral
+accession: BWM-01.14.01
+title: A Meal Outside the Mouth
+kicker: Wet, withdraw, repeat
+summary: Close filming of brown widows shows fluid released onto prey and drawn back again, cycle after cycle. The fly's shell survives almost whole; what leaves it is a liquid, gathered without any sealed straw.
+status: open
+order: 1
+taxa: [Latrodectus geometricus]
+figures:
+  - value: "4.9–7.4"
+    unit: pulses/s
+    label: a visible uptake rhythm
+    note: one brown widow, means of three bouts, 76 pulses counted; not an intake volume
+    sources: [eberhard2006]
+  - value: 30
+    unit: frames/s
+    label: filming speed of the record
+    note: two adult females, 50–100 mg muscoid flies, room temperature
+    sources: [eberhard2006]
+observations:
+  - id: alternation
+    text: Rapid regurgitation alternated with slower, pulsing uptake.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: no-seal
+    text: Liquid pooled on the surfaces of the chelicerae; the mouth did not form a seal against the prey.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: intact
+    text: Fly bodies stayed largely intact except at the feeding holes.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: regrasp
+    text: Regrasping the prey with the fangs accompanied the release of fluid.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: capillary
+    text: Fluid rose inside a fly only after a delay, which supports entry by capillary action.
+    confidence: debated
+    sources: [eberhard2006]
+  - id: source
+    text: In a comparator spider, matched gut transcripts and fluid proteins pointed to the midgut diverticula as the source of the digestive fluid.
+    confidence: supported
+    sources: [fuzita2016]
+  - id: not-venom
+    text: Digestive fluid returns through the mouth; venom leaves through a pore near each fang tip. They are different secretions on different routes.
+    sources: [foelix2011, walter2017]
+terms:
+  - { term: regurgitation, def: return of gut fluid out through the mouth }
+  - { term: capillarity, def: liquid movement driven by surface tension in narrow spaces }
+  - { term: prey package, def: the prey and its silk wrapping, outside the spider }
+  - { term: mastication, def: mechanical crushing or grinding of food }
+related: [web.wrapping, body.chelicerae, body.digestion.enzymes]
+media:
+  - src: /specimens/body-digestion-extra-oral.webp
+    alt: "Close-up of a brown widow feeding on a fly: a bead of clear fluid bridges her mouthparts and a small hole in the fly's largely intact body"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

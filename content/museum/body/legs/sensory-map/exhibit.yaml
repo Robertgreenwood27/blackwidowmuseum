@@ -1,0 +1,61 @@
+id: body.legs.sensory-map
+accession: BWM-01.11.11
+title: A Limb Covered in Instruments
+kicker: Locate the sensors, then follow their signals
+summary: The legs carry most of a widow's sense organs. A small atlas of brown-widow legs counts and places them, and microscopy of western-widow feet shows open-tipped hairs that probably taste. How each one works is told in the Senses vault.
+status: open
+order: 11
+taxa: [Latrodectus geometricus, Latrodectus hesperus]
+figures:
+  - value: 88
+    label: lyriform organs across the eight legs
+    note: L. geometricus, five females; organs, not individual slits
+    featured: true
+    sources: [parra2009]
+  - value: "≈68"
+    label: trichobothria across the eight legs
+    note: same atlas; an approximate inventory
+    sources: [parra2009]
+  - value: 8
+    label: tarsal organs, one on each foot
+    note: same atlas; palps excluded
+    sources: [parra2009]
+  - value: "50–60"
+    unit: µm
+    label: length of the presumed taste hairs
+    note: L. hesperus tarsi, scanning electron microscopy
+    sources: [ross1979]
+observations:
+  - id: rows
+    text: Trichobothria on brown-widow tibiae stand in two roughly parallel rows.
+    confidence: supported
+    sources: [parra2009]
+  - id: not-iv
+    text: A trichobothrium near the end of the metatarsus was found on legs I–III but not on leg IV.
+    confidence: supported
+    sources: [parra2009]
+  - id: tarsal-organ
+    text: Each walking foot carried a tarsal organ on its upper surface.
+    confidence: supported
+    sources: [parra2009]
+  - id: taste-hairs
+    text: Western-widow feet bear curved, blunt hairs open at the tip, interpreted as contact chemoreceptors.
+    confidence: supported
+    sources: [ross1979]
+  - id: cupiennius
+    text: In a wandering spider, internal joint receptors, slit organs and hairs have been mapped together along the leg.
+    sources: [seyfarth1985]
+terms:
+  - { term: trichobothrium, def: a fine socketed hair moved by air currents }
+  - { term: lyriform organ, def: a cluster of slit-shaped strain sensors in the cuticle }
+  - { term: tarsal organ, def: a small sensory pit on the foot }
+  - { term: tip-pore sensillum, def: a hair open at its tip, a sign of chemical sensing }
+  - { term: proprioception, def: sensing one's own position, movement and load }
+related: [senses.slit-sensilla, senses.trichobothria, senses.tarsal-organ, senses.contact-chemistry]
+media:
+  - src: /specimens/body-legs-sensory-map.webp
+    alt: "Scientific map of a brown widow's walking leg drawn in cream linework, with small symbols marking rows of fine hairs on the tibia, slit-sensor clusters near the joints and a sensory pit on the foot"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

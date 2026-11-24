@@ -1,0 +1,60 @@
+id: body.legs.muscles
+accession: BWM-01.11.02
+title: The Muscles Inside
+kicker: Pulling from inside a rigid tube
+summary: A spider's muscles sit inside its armour, pulling on the segments from within. A 1959 survey counted more than five hundred in a whole widow; later dissections of redbacks show how her leg muscles differ from a hunter's.
+status: open
+order: 2
+taxa: [Latrodectus mactans, Latrodectus hasselti]
+figures:
+  - value: "537 / 533"
+    label: muscles in a whole widow, female / male
+    note: whole animal, not per leg; serial sections and dissection, 1959
+    featured: true
+    sources: [whitehead1959]
+  - value: "3 / 2"
+    label: patella–tibia muscles, front / rear legs
+    note: comparative dissection including the redback
+    sources: [clarke1986]
+observations:
+  - id: survey
+    text: Whitehead and Rempel mapped widow musculature by serial sections and dissection.
+    sources: [whitehead1959]
+  - id: sex-difference
+    text: The only substantial difference they found between the sexes was the absence of muscles in the tip of the male palp.
+    confidence: supported
+    sources: [whitehead1959]
+  - id: extrinsic
+    text: In a tarantula, muscles running from the carapace and the internal plate move the leg at its base.
+    sources: [snodgrass1952]
+  - id: levators
+    text: Coxal muscles work the trochanter, and lifting and lowering muscle groups move the femur.
+    sources: [snodgrass1952]
+  - id: no-extensors
+    text: The femur–patella and tibia–metatarsus joints have muscles that bend them but none that straighten them.
+    sources: [snodgrass1952, foelix2011]
+  - id: simpler
+    text: Redbacks have a smaller, simpler trochanter–patella muscle complex than the grasping hunters they were compared with.
+    confidence: supported
+    sources: [clarke1986]
+  - id: big-flexor
+    text: Clarke described an especially enlarged tibia–metatarsus muscle in the redback's rear legs.
+    confidence: supported
+    sources: [clarke1986]
+  - id: claws
+    text: Spiders raise and lower their claws with an opposing pair of muscles acting through tendons.
+    sources: [foelix2011]
+terms:
+  - { term: extrinsic muscle, def: one that starts in the body and acts on the leg's base }
+  - { term: intrinsic muscle, def: one contained within the leg }
+  - { term: levator / depressor, def: muscles that raise / lower a part }
+  - { term: apodeme, def: an inward fold of cuticle that anchors a muscle }
+  - { term: tendon, def: the cord that carries a muscle's pull to a segment }
+related: [body.pedipalps, body.digestion.mouth-and-pump, body.exoskeleton]
+media:
+  - src: /specimens/body-legs-muscles.webp
+    alt: "Translucent anatomical plate of a spider leg showing pale bundled muscles and fine tendons inside the dark segments, cream linework on near-black"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

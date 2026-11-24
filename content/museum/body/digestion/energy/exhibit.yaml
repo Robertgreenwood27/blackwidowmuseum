@@ -1,0 +1,63 @@
+id: body.digestion.energy
+accession: BWM-01.14.08
+title: What a Meal Buys
+kicker: Processing food also costs energy
+summary: Respirometry links a widow's meals to her running costs. Deprived of food, a mated redback turns her metabolism down, then resumes laying eggs once she eats again.
+status: open
+order: 8
+taxa: [Latrodectus mactans, Latrodectus hasselti, Latrodectus mirabilis, Latrodectus hesperus]
+figures:
+  - value: "0.014–0.016"
+    unit: mL CO₂/h
+    label: a resting widow's breath
+    note: L. mactans adult females of about 0.34 g, fasted, 25 °C; per spider
+    sources: [barnes2019]
+  - value: 6
+    unit: weeks
+    label: of deprivation, reversed by feeding
+    note: mated and virgin L. hasselti females, 25 °C, stop-flow respirometry
+    sources: [stoltz2010b]
+  - value: 100
+    label: adult females pooled for one biochemical sample
+    note: L. mirabilis, summer collection, Argentina
+    sources: [cunningham2000]
+observations:
+  - id: armour-cost
+    text: Adult-beetle meals cost a larger share of their energy to process than larval meals.
+    confidence: supported
+    sources: [barnes2019]
+  - id: mated-drop
+    text: Mated redbacks lowered their resting CO₂ output by the first measurement, two weeks into deprivation.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: virgins
+    text: Virgin redbacks did not show the same early response.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: resume
+    text: Mated females resumed making egg sacs after they were fed again.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: lifetime
+    text: No difference was detected in lifetime spiderling output between continuously fed and deprived-then-refed females.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: hemocyanin
+    text: The second lipoprotein of L. mirabilis haemolymph is built mainly on haemocyanin, the oxygen-carrying protein.
+    sources: [cunningham2000]
+  - id: condition
+    text: Body condition in western widows has been estimated as mass relative to structural size.
+    sources: [johnson2017]
+terms:
+  - { term: resting metabolic rate, def: baseline energy use of a resting, unfed animal }
+  - { term: respirometry, def: measuring metabolism from gas exchange, here CO₂ output }
+  - { term: body condition index, def: mass relative to a measure of skeletal size }
+  - { term: capital breeding, def: reproducing on resources gathered earlier }
+related: [body.breathing, body.silk-glands.life-and-supply, web.hunger]
+media:
+  - src: /specimens/body-digestion-energy.webp
+    alt: "A female widow resting inside a small glass respirometry chamber, with a single faint trace line of CO₂ output drawn beneath"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

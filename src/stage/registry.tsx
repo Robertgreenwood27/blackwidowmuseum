@@ -25,6 +25,8 @@ import { GumfootDiagram } from "./exhibits/web/GumfootDiagram";
 import { SensoryMap } from "./exhibits/senses/SensoryMap";
 import { PlaybackExperiment } from "./exhibits/senses/PlaybackExperiment";
 import { SpeciesRoster } from "./exhibits/genus/SpeciesRoster";
+import { GutMap } from "./exhibits/body/GutMap";
+import { LegAtlas } from "./exhibits/body/LegAtlas";
 
 export type StageProps = { exhibit: ExhibitNode };
 export type StageEntry = {
@@ -39,6 +41,8 @@ export const STAGES: Record<string, StageEntry> = {
   senses: { component: SensoryMap, medium: "Interactive sensory map", placement: "lead" },
   "senses.vibration.prey-or-mate": { component: PlaybackExperiment, medium: "Interactive playback experiment", placement: "inline" },
   "genus.roster": { component: SpeciesRoster, medium: "Interactive species roster", placement: "inline" },
+  "body.digestion": { component: GutMap, medium: "Exhibit with halls · interactive gut map", placement: "inline" },
+  "body.legs": { component: LegAtlas, medium: "Exhibit with halls · animated leg atlas", placement: "inline" },
 };
 
 export const stageFor = (id: string): StageEntry | null => STAGES[id] ?? null;

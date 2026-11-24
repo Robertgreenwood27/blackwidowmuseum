@@ -1,0 +1,62 @@
+id: body.legs.courtship-and-contest
+accession: BWM-01.11.07
+title: Signals, Touch and Leverage
+kicker: A movement can carry a message
+summary: Courting males pluck threads, bounce on the web and reach out to touch the female, all with their legs. After the redback's somersault, the male braces several legs against her to pull free.
+status: open
+order: 7
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: 0.16
+    unit: s
+    label: one courtship pluck
+    note: "L. hesperus, 16 males, mean ± 0.02 SD; the web's vibration, not a muscle twitch"
+    featured: true
+    sources: [sivalinghem2021]
+  - value: "3–4"
+    label: legs braced to withdraw
+    note: redback males after copulation; a description, not a threshold
+    sources: [forster1995]
+  - value: 51
+    label: two-male contest trials
+    note: size-mismatched redback rivals, 25 °C
+    sources: [stoltz2008]
+observations:
+  - id: pluck
+    text: Western-widow males plucked the web with one leg or with several legs on different threads.
+    confidence: supported
+    sources: [sivalinghem2021]
+  - id: bounce
+    text: Their bounces began with leg flexion that drove the body against the silk or the female.
+    confidence: supported
+    sources: [sivalinghem2021]
+  - id: touch
+    text: Courting western widows touched leg to leg before closer contact.
+    confidence: supported
+    sources: [ross1979]
+  - id: jerk
+    text: Redback males flexed and jerked their legs before withdrawing after copulation.
+    confidence: supported
+    sources: [forster1995]
+  - id: purchase
+    text: They gripped the female's abdomen with several legs while freeing the embolus.
+    confidence: supported
+    sources: [forster1995]
+  - id: contest
+    text: In staged contests, larger redback males did not consistently chase off or disable smaller rivals.
+    confidence: supported
+    sources: [stoltz2008]
+terms:
+  - { term: web pluck, def: a brief signal made by pulling a thread }
+  - { term: bounce, def: a percussive body movement driven by the legs }
+  - { term: tremulation, def: signalling by shaking the abdomen, distinct from plucking }
+  - { term: somersault, def: the redback male's flip that places his abdomen at the female's mouth }
+  - { term: purchase, def: a hold the legs can push or pull against }
+related: [life.courtship, senses.vibration, body.pedipalps]
+media:
+  - src: /specimens/body-legs-courtship-and-contest.webp
+    alt: "A small male western widow on the edge of a female's tangle web, one foreleg raised and plucking a single taut thread, the large female hanging inverted beyond"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-24

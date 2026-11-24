@@ -2370,3 +2370,257 @@ townley1993:
   container: Philosophical Transactions of the Royal Society B 340(1291) 25–38
   doi: 10.1098/rstb.1993.0046
   url: https://pubmed.ncbi.nlm.nih.gov/8099743/
+
+# ── Liquid Meals halls (body.digestion.*), 2026-11-24 ──
+
+dunlop1994:
+  authors: Dunlop, J. A.
+  year: 1994
+  title: "Filtration mechanisms in the mouthparts of tetrapulmonate arachnids (Trigonotarbida, Araneae, Amblypygi, Uropygi, Schizomida)"
+  container: Bulletin of the British Arachnological Society 9(8) 267–273
+  url: https://britishspiders.org.uk/system/files/library/090804.pdf
+
+liu2009:
+  authors: Liu, Y.; Maas, A.; Waloszek, D.
+  year: 2009
+  title: "Early development of the anterior body region of the grey widow spider Latrodectus geometricus Koch, 1841 (Theridiidae, Araneae)"
+  container: Arthropod Structure & Development 38(5) 401–416
+  doi: 10.1016/j.asd.2009.04.001
+  url: https://doi.org/10.1016/j.asd.2009.04.001
+
+whitehead1959:
+  authors: Whitehead, W. F.; Rempel, J. G.
+  year: 1959
+  title: "A study of the musculature of the black widow spider, Latrodectus mactans (Fabr.)"
+  container: Canadian Journal of Zoology 37(6) 831–870
+  doi: 10.1139/z59-084
+  url: https://cdnsciencepub.com/doi/10.1139/z59-084
+
+gaudette2023:
+  authors: Gaudette, C.; LaDouceur, E. E. B.; Troan, B. V.; Whitehurst, N.; Dombrowski, D. S.; Lewbart, G. A.; Linder, K. E.; Passingham, K.; Christian, L. S.; Schreeg, M. E.
+  year: 2023
+  title: Retrospective analysis of histologic lesions in captive arachnids
+  container: Veterinary Pathology 60(5) 652–666
+  doi: 10.1177/03009858231162948
+  url: https://journals.sagepub.com/doi/10.1177/03009858231162948
+
+laino2009:
+  authors: Laino, A.; Cunningham, M. L.; García, F.; Heras, H.
+  year: 2009
+  title: "First insight into the lipid uptake, storage and mobilization in arachnids: role of midgut diverticula and lipoproteins"
+  container: Journal of Insect Physiology 55(12) 1118–1124
+  doi: 10.1016/j.jinsphys.2009.08.005
+  url: https://pubmed.ncbi.nlm.nih.gov/19686754/
+
+cunningham2000:
+  authors: Cunningham, M.; González, A.; Pollero, R.
+  year: 2000
+  title: Characterization of lipoproteins isolated from the hemolymph of the spider Latrodectus mirabilis (Araneae, Theridiidae)
+  container: Journal of Arachnology 28(1) 49–55
+  doi: 10.1636/0161-8202(2000)028[0049:COLIFT]2.0.CO;2
+  url: https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac_28_01_0049.pdf/?no_cache=1
+
+fuzita2016:
+  authors: Fuzita, F. J.; Pinkse, M. W. H.; Patane, J. S. L.; Verhaert, P. D. E. M.; Lopes, A. R.
+  year: 2016
+  title: High throughput techniques to reveal the molecular physiology and evolution of digestion in spiders
+  container: BMC Genomics 17 716
+  doi: 10.1186/s12864-016-3048-9
+  url: https://link.springer.com/article/10.1186/s12864-016-3048-9
+
+walter2017:
+  authors: Walter, A.; Bechsgaard, J.; Scavenius, C.; Dyrlund, T. S.; Sanggaard, K. W.; Enghild, J. J.; Bilde, T.
+  year: 2017
+  title: Characterisation of protein families in spider digestive fluids and their role in extra-oral digestion
+  container: BMC Genomics 18 600
+  doi: 10.1186/s12864-017-3987-9
+  url: https://link.springer.com/article/10.1186/s12864-017-3987-9
+
+barnes2019:
+  authors: Barnes, C. L.; Hawlena, D.; McCue, M. D.; Wilder, S. M.
+  year: 2019
+  title: "Consequences of prey exoskeleton content for predator feeding and digestion: black widow predation on larval versus adult mealworm beetles"
+  container: Oecologia 190(1) 1–9; first online 26 November 2018
+  doi: 10.1007/s00442-018-4308-y
+  url: https://pubmed.ncbi.nlm.nih.gov/30478619/
+
+blondheim1989:
+  authors: Blondheim, S.; Werner, Y. L.
+  year: 1989
+  title: Lizard predation by the widow spiders Latrodectus pallidus and L. revivensis (Theridiidae)
+  container: British Herpetological Society Bulletin 30 26–28
+  url: https://www.thebhs.org/publications/the-herpetological-bulletin/issue-number-30-winter-1989/2369-hb030-07/file
+
+nyffeler2018:
+  authors: Nyffeler, M.; Vetter, R. S.
+  year: 2018
+  title: "Black widow spiders, Latrodectus spp. (Araneae: Theridiidae), and other spiders feeding on mammals"
+  container: Journal of Arachnology 46(3) 541–548
+  doi: 10.1636/JoA-S-18-026.1
+  url: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-46-3-541.pdf/
+
+wilder2022:
+  authors: Wilder, S. M.; Simpson, S. J.
+  year: 2022
+  title: A vertebrate, the fence skink, is a common but relatively low-quality prey for an invertebrate predator, the redback spider
+  container: Food Webs 32 e00236
+  doi: 10.1016/j.fooweb.2022.e00236
+  url: https://par.nsf.gov/servlets/purl/10327826
+
+anderson1966:
+  authors: Anderson, J. F.
+  year: 1966
+  title: The excreta of spiders
+  container: Comparative Biochemistry and Physiology 17(3) 973–982
+  doi: 10.1016/0010-406X(66)90136-8
+  url: https://www.sciencedirect.com/science/article/pii/0010406X66901368
+
+oxford1998:
+  authors: Oxford, G. S.
+  year: 1998
+  title: "Guanine as a colorant in spiders: development, genetics, phylogenetics and ecology"
+  container: Proceedings of the 17th European Colloquium of Arachnology, Edinburgh 1997, P. A. Selden (ed.), 121–131
+  url: https://european-arachnology.org/esa/wp-content/uploads/2015/08/121-131_Oxford.pdf
+
+pinsk2022:
+  authors: Pinsk, N.; Wagner, A.; Cohen, L.; Smalley, C. J. H.; Hughes, C. E.; Zhang, G.; Pavan, M. J.; Casati, N.; Jantschke, A.; Goobes, G.; Harris, K. D. M.; Palmer, B. A.
+  year: 2022
+  title: Biogenic Guanine Crystals Are Solid Solutions of Guanine and Other Purine Metabolites
+  container: Journal of the American Chemical Society 144(11) 5180–5189
+  doi: 10.1021/jacs.2c00724
+  url: https://doi.org/10.1021/jacs.2c00724
+
+nishi2013:
+  authors: Nishi, A. H.; Vasconcellos-Neto, J.; Romero, G. Q.
+  year: 2013
+  title: The role of multiple partners in a digestive mutualism with a protocarnivorous plant
+  container: Annals of Botany 111(1) 143–150; first online 2012
+  doi: 10.1093/aob/mcs242
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3523655/
+
+wilder2025:
+  authors: Wilder, S. M.; Barnes, C. L.; Smith, G.; Youssef, N. H.; Hawlena, D.
+  year: 2025
+  title: Spider waste enhances soil nutrient content, soil respiration, and plant growth
+  container: Functional Ecology 39(1) 140–153; first online 5 November 2024
+  doi: 10.1111/1365-2435.14691
+  url: https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2435.14691
+
+dunaj2020:
+  authors: Dunaj, S. J.; Bettencourt, B. R.; Garb, J. E.; Brucker, R. M.
+  year: 2020
+  title: "Spider phylosymbiosis: divergence of widow spider species and their tissues’ microbiomes"
+  container: BMC Evolutionary Biology 20 104
+  doi: 10.1186/s12862-020-01664-x
+  url: https://link.springer.com/article/10.1186/s12862-020-01664-x
+
+mowery2024:
+  authors: Mowery, M. A.; Rosenwald, L. C.; Chapman, E.; Lubin, Y.; Segoli, M.; Khoza, T.; Lyle, R.; White, J. A.
+  year: 2024
+  title: Endosymbiont diversity across native and invasive brown widow spider populations
+  container: Scientific Reports 14 8556
+  doi: 10.1038/s41598-024-58723-2
+  url: https://www.nature.com/articles/s41598-024-58723-2
+
+goodacre2006:
+  authors: Goodacre, S. L.; Martin, O. Y.; Thomas, C. F. G.; Hewitt, G. M.
+  year: 2006
+  title: Wolbachia and other endosymbiont infections in spiders
+  container: Molecular Ecology 15(2) 517–527
+  doi: 10.1111/j.1365-294X.2005.02802.x
+  url: https://pubmed.ncbi.nlm.nih.gov/16448417/
+
+harvey2025:
+  authors: Harvey, J. A.; Gerosa, F.; Gols, R.; Verberk, W. C. E. P.
+  year: 2025
+  title: Growth, development, and survival in the brown widow spider, Latrodectus geometricus, under different feeding regimes
+  container: Journal of Arachnology 53(3) 154–161; journal issue labelled 2025, institutional records give 29 December 2025 or 2 January 2026 release
+  doi: 10.1636/JoA-S-24-013
+  url: https://doi.org/10.1636/JoA-S-24-013
+
+# ── Seven Segments halls (body.legs.*), 2026-11-24 ──
+
+clarke1984:
+  authors: Clarke, J.
+  year: 1984
+  title: "On the relationship between structure and function in the leg joints of Heteropoda venatoria (L.) (Araneae: Eusparassidae)"
+  container: Bulletin of the British Arachnological Society 6(5) 181–192
+  url: https://britishspiders.org.uk/system/files/library/060501.pdf
+
+clarke1986:
+  authors: Clarke, J.
+  year: 1986
+  title: "The comparative functional morphology of the leg joints and muscles of five spiders"
+  container: Bulletin of the British Arachnological Society 7(2) 37–47
+  url: https://britishspiders.org.uk/system/files/library/070201.pdf
+
+brandt2007:
+  authors: Brandt, Y.; Andrade, M. C. B.
+  year: 2007
+  title: "Testing the gravity hypothesis of sexual size dimorphism: are small males faster climbers?"
+  container: Functional Ecology 21(2) 379–385
+  doi: 10.1111/j.1365-2435.2007.01243.x
+  url: https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2435.2007.01243.x
+
+eberhard2008:
+  authors: Eberhard, W. G.; Barrantes, G.; Madrigal-Brenes, R.
+  year: 2008
+  title: "Vestiges of an orb-weaving ancestor? The “biogenetic law” and ontogenetic changes in the webs and building behavior of the black widow spider Latrodectus geometricus (Araneae Theridiidae)"
+  container: Ethology Ecology and Evolution 20(3) 211–244
+  doi: 10.1080/08927014.2008.9522523
+  url: https://repository.si.edu/bitstream/handle/10088/19122/stri_2008_Vestiges_of_and_orb_Eberhard_William_G.pdf
+
+japyassu2008:
+  authors: Japyassú, H. F.; Caires, R. A.
+  year: 2008
+  title: "Hunting tactics in a cobweb spider (Araneae-Theridiidae) and the evolution of behavioral plasticity"
+  container: Journal of Insect Behavior 21(4) 258–284
+  doi: 10.1007/s10905-008-9124-5
+  url: https://doi.org/10.1007/s10905-008-9124-5
+
+randall1982:
+  authors: Randall, J. B.
+  year: 1982
+  title: "Coxal relocation following the loss of an adjacent coxa in Latrodectus variolus (Walckenaer)"
+  container: Journal of Arachnology 10 247–250
+  url: https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/JoA_v10_p247.pdf/?no_cache=1
+
+pasquet2011:
+  authors: Pasquet, A.; Anotaux, M.; Leborgne, R.
+  year: 2011
+  title: "Loss of legs: is it or not a handicap for an orb-weaving spider?"
+  container: Naturwissenschaften 98(7) 557–564
+  doi: 10.1007/s00114-011-0799-7
+  url: https://pubmed.ncbi.nlm.nih.gov/21533554/
+
+wolff2013:
+  authors: Wolff, J. O.; Nentwig, W.; Gorb, S. N.
+  year: 2013
+  title: "The great silk alternative: multiple co-evolution of web loss and sticky hairs in spiders"
+  container: PLoS ONE 8(5) e62682
+  doi: 10.1371/journal.pone.0062682
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062682
+
+yap2022:
+  authors: Yap, T. F.; Liu, Z.; Rajappan, A.; Shimokusu, T. J.; Preston, D. J.
+  year: 2022
+  title: "Necrobotics: biotic materials as ready-to-use actuators"
+  container: Advanced Science 9(29) e2201174
+  doi: 10.1002/advs.202201174
+  url: https://pubmed.ncbi.nlm.nih.gov/35875913/
+
+kane2025:
+  authors: Kane, S. A.; Quinn, B. L.; Wu, X. K.; Xi, S. Y.; Ochs, M. F.; Hsieh, S. T.
+  year: 2025
+  title: "Unsupervised learning reveals rapid gait adaptation after leg loss and regrowth in spiders"
+  container: Journal of Experimental Biology 228(12) jeb250243
+  doi: 10.1242/jeb.250243
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12211592/
+
+barrantes2026:
+  authors: Barrantes, G.; Zúñiga-Madrigal, J.; Cambronero-Ulloa, G.; Sánchez-Quirós, C.; Sandoval, L.; Madrigal-Brenes, R.
+  year: 2026
+  title: "Ontogenetic growth patterns of leg segments in three theridiid spiders"
+  container: Journal of Morphology 287(5) e70132
+  doi: 10.1002/jmor.70132
+  url: https://pubmed.ncbi.nlm.nih.gov/42117401/
