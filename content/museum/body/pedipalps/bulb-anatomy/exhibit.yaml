@@ -1,0 +1,62 @@
+id: body.pedipalps.bulb-anatomy
+accession: BWM-01.12.03
+title: Parts of the Bulb
+kicker: A cup, a reservoir and interlocking pieces
+summary: The bulb is an assembly of hardened sclerites joined by soft membrane, seated in a cup and threaded with a blind-ended sperm duct. The names depend on whose scheme you follow, so each label here keeps its author.
+status: open
+order: 3
+taxa: [Latrodectus revivensis, Latrodectus geometricus, Latrodectus hesperus]
+figures:
+  - value: 3
+    label: regions of the internal sperm duct
+    note: fundus → reservoir → ejaculatory duct; L. revivensis, cleared palps
+    featured: true
+    sources: [berendonck2002]
+  - value: 60
+    label: theridiid species compared
+    note: across 29 genera, to settle which part is which
+    sources: [agnarsson2007]
+  - value: Cup
+    label: the cymbium holds the bulb
+    note: the modified male tarsus, with a hollow — the alveolus
+    sources: [jocque2006, agnarsson2007]
+observations:
+  - id: cymbium
+    text: A spoon-shaped cymbium, the modified tarsus, supports the widow's copulatory organ.
+    sources: [bhatnagar1962]
+  - id: tegulum
+    text: The subtegulum and tegulum form the bulb's basal and principal divisions.
+    sources: [agnarsson2007]
+  - id: three-processes
+    text: The 2007 theridiid scheme distinguishes a conductor, a median apophysis and a theridiid tegular apophysis.
+    confidence: supported
+    sources: [agnarsson2007]
+  - id: hook-groove
+    text: In Latrodectus, a hooked embolus base fits into the grooved base of the conductor.
+    confidence: supported
+    sources: [agnarsson2004]
+  - id: spermophor
+    text: The internal sperm duct of L. revivensis runs from a blind fundus through a reservoir to a narrow outgoing duct.
+    sources: [berendonck2002]
+  - id: truncus
+    text: Its embolus pairs a hardened outer truncus with a membranous inner strip, the pars pendula.
+    sources: [berendonck2002]
+  - id: vocabularies
+    text: Older accounts name a radix and a terminal apophysis; whether these match the modern parts one-to-one is unresolved.
+    confidence: debated
+    sources: [bhatnagar1962, agnarsson2007]
+terms:
+  - { term: cymbium, def: the modified male palpal tarsus that carries the bulb }
+  - { term: alveolus, def: the hollow in the cymbium in which the bulb sits }
+  - { term: tegulum, def: the main sclerite of the bulb, holding the sperm reservoir }
+  - { term: conductor, def: a process that guides and supports the embolus }
+  - { term: TTA, def: theridiid tegular apophysis — a process characteristic of the family }
+  - { term: spermophor, def: the bulb's internal sperm duct, blind at the fundus }
+related: [body.pedipalps.inflation, body.pedipalps.the-coil, genus.identification]
+media:
+  - src: /specimens/body-pedipalps-bulb-anatomy.webp
+    alt: "Museum plate: a widow's male palpal bulb seated in its cupped cymbium, drawn in cream line on black with a cutaway showing the internal sperm duct coiling from its blind end to the coiled embolus"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

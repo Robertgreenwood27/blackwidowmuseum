@@ -1,0 +1,58 @@
+id: body.epigynum.plugged
+accession: BWM-01.13.09
+title: What the Male Leaves Behind
+kicker: Where a tip lodges matters more than how many
+summary: Broken embolus tips stay in the female, and some carry several on one side. Dissections of wild white widows show tips piling up and keeping later males out only partly. Whether a female ever removes them has not been shown.
+status: open
+order: 9
+taxa: [Latrodectus pallidus, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: 216
+    label: wild females dissected
+    note: L. pallidus, Israel; right tract only
+    sources: [segoli2008b]
+  - value: 5
+    label: tips in one female's right tract
+    note: the most found; 4 inside the store
+    featured: true
+    sources: [segoli2008b]
+  - value: "48 / 95 / 58 / 14 / 1"
+    label: females carrying 0 / 1 / 2 / 3 / 5 tips
+    note: same white widow sample, right side
+    sources: [segoli2008b]
+observations:
+  - id: several
+    text: White widow females sometimes carried several embolus tips on one side.
+    confidence: supported
+    sources: [segoli2008b]
+  - id: later-tips
+    text: Later tips were less likely than the first to reach the store.
+    confidence: supported
+    sources: [segoli2008b]
+  - id: entrance
+    text: Redback tips at the entrance to a store protected paternity best.
+    confidence: supported
+    sources: [snow2006]
+  - id: anterior
+    text: Brown widow tips extended from the narrow entrance into the front lobe.
+    sources: [sentenska2021]
+  - id: historical
+    text: Abalos and Báez recovered fragments both in stores and in connecting ducts.
+    sources: [abalos1963]
+  - id: tolerated
+    text: White widows went on reproducing with tips still lodged inside them.
+    confidence: supported
+    sources: [segoli2008b]
+terms:
+  - { term: retained fragment, def: male material recovered from the female — not automatically a plug }
+  - { term: partial plug, def: an obstruction that reduces later access without blocking it }
+  - { term: spermathecal entrance, def: the narrow neck between duct and store }
+  - { term: pseudoreplication, def: counting linked observations as independent — why one side was analysed }
+related: [body.pedipalps.breaking-point, life.mating-plugs, body.epigynum.spermathecae]
+media:
+  - src: /specimens/body-epigynum-plugged.webp
+    alt: "Scientific plate: cleared widow genitalia with a coiled duct leading to a rounded sperm store, several tiny dark S-shaped embolus tips lodged at its narrow entrance and one stranded in the duct"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

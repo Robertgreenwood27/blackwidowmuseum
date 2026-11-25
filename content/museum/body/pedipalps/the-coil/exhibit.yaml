@@ -1,0 +1,64 @@
+id: body.pedipalps.the-coil
+accession: BWM-01.12.05
+title: Counting the Turns
+kicker: A useful character with a counting problem
+summary: The number of turns in the embolus once sorted widows into species groups. Count from a different angle, or a different sibling, and the number shifts, and DNA did not recover the groups the coils drew.
+status: open
+order: 5
+taxa: [Latrodectus mactans, Latrodectus variolus, Latrodectus hesperus, Latrodectus geometricus, Latrodectus lucacha]
+figures:
+  - value: "≈3"
+    label: turns, southern widow
+    note: L. mactans; a typical description, not a measured range
+    featured: true
+    sources: [kaston1970]
+  - value: "≈2"
+    label: turns, northern and western widows
+    note: L. variolus; type L. hesperus, with documented departures
+    sources: [kaston1970]
+  - value: "≈4"
+    label: turns, brown widow
+    note: L. geometricus; looks like 3 or 4 depending on the view
+    sources: [garb2004, kaston1970]
+  - value: "≈3"
+    label: turns, L. lucacha
+    note: counted on the retrolateral side, per the original diagnosis
+    sources: [miller2026b]
+observations:
+  - id: siblings
+    text: Kaston drew sibling western widows whose palps showed misleadingly different coil counts.
+    confidence: supported
+    sources: [kaston1970]
+  - id: brown-view
+    text: A brown widow's embolus can show three or four coils over different parts of its circle.
+    confidence: supported
+    sources: [kaston1970]
+  - id: dna
+    text: Garb's mitochondrial phylogeny did not recover the historical coil-count groups as natural groups.
+    confidence: supported
+    sources: [garb2004]
+  - id: located
+    text: The L. lucacha diagnosis says where to count, locating its roughly three turns on the retrolateral palp.
+    sources: [miller2026b]
+  - id: methods
+    text: The 2026 genus atlas questions whether observers have counted loops consistently.
+    confidence: supported
+    sources: [miller2026]
+  - id: not-length
+    text: A coil count is not a measure of embolus length, and the redback's count remains unpinned here.
+    confidence: supported
+    sources: [kaston1970, miller2026]
+terms:
+  - { term: turn, def: one full revolution of the embolus about a stated axis }
+  - { term: retrolateral, def: the rear-facing side of an appendage }
+  - { term: prolateral, def: the front-facing side of an appendage }
+  - { term: projection, def: a flat view of a three-dimensional structure, which can hide or merge turns }
+  - { term: homoplasy, def: similar features arising independently, not from shared ancestry }
+related: [genus.identification, genus.family-tree, genus.south-america.lucacha]
+media:
+  - src: /specimens/body-pedipalps-the-coil.webp
+    alt: "Museum plate: one widow's male palp drawn in three aligned views, the dark coiled embolus traced by a single cream centreline with each complete turn numbered"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

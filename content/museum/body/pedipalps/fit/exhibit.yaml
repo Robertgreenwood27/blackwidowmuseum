@@ -1,0 +1,61 @@
+id: body.pedipalps.fit
+accession: BWM-01.12.07
+title: Lock and Key
+kicker: First anchor the apparatus, then follow the duct
+summary: Before the embolus can enter, the bulb clamps onto the female with hooks and sockets of its own. Micro-CT of brown widows caught mid-mating shows those contacts. A tight fit is not an absolute barrier, though, because redbacks and katipō can hybridise.
+status: open
+order: 7
+taxa: [Latrodectus geometricus, Latrodectus revivensis, Latrodectus hasselti, Latrodectus katipo]
+figures:
+  - value: Right → right
+    label: same-side insertion
+    note: brown widow; the left palp enters the left duct
+    featured: true
+    sources: [sentenska2025]
+  - value: "9 / 6 / 8"
+    label: coupled pairs reconstructed
+    note: "brown widow: after somersault / before / immature female"
+    sources: [sentenska2025]
+  - value: Fertile
+    label: hybrid daughters
+    note: redback male × katipō female, laboratory crosses
+    sources: [uludag2026]
+observations:
+  - id: ipsilateral
+    text: Brown widow insertion is ipsilateral — each palp enters the duct on its own side.
+    sources: [sentenska2025]
+  - id: hook
+    text: A hook on the cymbium engages a hood on the median apophysis.
+    sources: [sentenska2025]
+  - id: socket
+    text: The conductor base locks to the embolus base by a socket and protrusion.
+    sources: [sentenska2025]
+  - id: pinch
+    text: The tegular apophysis and embolus base appear to pinch the lip of the epigynum.
+    confidence: supported
+    sources: [sentenska2025]
+  - id: same-mechanism
+    text: Coupling worked the same way whether or not the male somersaulted, and with immature females.
+    confidence: supported
+    sources: [sentenska2025]
+  - id: entrance
+    text: In L. revivensis, the embolus tip reaches inside the narrow entrance of the spermatheca.
+    sources: [berendonck2002]
+  - id: hybrids
+    text: Laboratory crosses of redback males with katipō females produced hybrid daughters able to backcross.
+    confidence: supported
+    sources: [uludag2026]
+terms:
+  - { term: ipsilateral, def: on the same side — here, right palp into right duct }
+  - { term: self-bracing, def: contacts among the male's own parts that hold the coupling steady }
+  - { term: atrium, def: the chamber holding the entrances to the copulatory ducts }
+  - { term: mechanical isolation, def: reproductive isolation caused by genitalia that fail to couple }
+  - { term: backcross, def: mating a hybrid to one of its parent species }
+related: [body.epigynum, genus.hybrids, genus.katipo]
+media:
+  - src: /specimens/body-pedipalps-fit.webp
+    alt: "Museum plate: cutaway of a male widow's expanded bulb coupled to the female's genital plate, hooks engaged at the rim and the coiled embolus threading into her coiled duct on the same side"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

@@ -1,0 +1,59 @@
+id: body.epigynum.laying
+accession: BWM-01.13.08
+title: Laying an Egg Mass
+kicker: Eggs leave together; the silk comes afterward
+summary: The eggs leave through the primary genital opening in the epigastric furrow, not through the copulatory ducts. They come out bound in fluid onto a silk base she has spun ready. That fluid coats the eggs with protective spheres.
+status: open
+order: 8
+taxa: [Latrodectus revivensis, Latrodectus hesperus, Latrodectus geometricus]
+figures:
+  - value: 1
+    label: exit for eggs
+    note: the gonopore in the epigastric furrow — not the copulatory openings
+    featured: true
+    sources: [berendonck2005]
+  - value: Eggs + fluid
+    label: what leaves the body
+    note: a cohesive mass; L. revivensis
+    sources: [berendonck2005]
+  - value: Antibacterial
+    label: egg-surface spheres
+    note: brown widow, laboratory assays
+    sources: [makover2019]
+observations:
+  - id: base
+    text: L. revivensis lays its egg mass onto a silk base prepared beforehand.
+    confidence: supported
+    sources: [berendonck2005]
+  - id: fluid
+    text: Fluid accompanies the eggs and binds them together.
+    confidence: supported
+    sources: [berendonck2005]
+  - id: gonopore
+    text: The primary genital opening lies within the epigastric furrow.
+    sources: [berendonck2005]
+  - id: emptied
+    text: Western widows sectioned late in laying had few mature oocytes left.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: spheres
+    text: Brown widow laying fluid contains spheres like those coating laid eggs.
+    confidence: supported
+    sources: [makover2019]
+  - id: protect
+    text: Those egg-surface spheres slowed bacterial growth in laboratory tests.
+    confidence: supported
+    sources: [makover2019]
+terms:
+  - { term: oviposition, def: laying eggs }
+  - { term: gonopore, def: the primary genital opening, used for laying }
+  - { term: egg mass, def: a newly laid cluster of eggs and fluid }
+  - { term: chorion, def: the egg's own envelope, distinct from the silk sac }
+related: [life.egg-sac, web.egg-sac-silk, venom.venom-in-eggs]
+media:
+  - src: /specimens/body-epigynum-laying.webp
+    alt: "Museum plate: a black widow female hanging upside down in a tangle web, depositing a glistening cluster of pale yellow eggs onto a small silk platform beneath her abdomen"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

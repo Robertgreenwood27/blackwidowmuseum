@@ -1,0 +1,57 @@
+id: body.pedipalps.sperm-induction
+accession: BWM-01.12.06
+title: Loading the Palps
+kicker: Made in one place, delivered from another
+summary: Sperm is made in the abdomen, but the organs that deliver it sit at the front of the body, with no tube between them. The male lays a drop on a little silk web and draws it up into his palps. Widows can do this more than once.
+status: open
+order: 6
+taxa: [Latrodectus hasselti, Latrodectus hesperus, Latrodectus revivensis]
+figures:
+  - value: 2
+    label: widow species seen reloading as adults
+    note: redback and western widow; a capability, not a field frequency
+    featured: true
+    sources: [modanu2013]
+  - value: 1
+    label: sperm cell per capsule
+    note: cleistospermia — the transfer form of a widow's sperm
+    sources: [michalik2014, berendonck2005]
+  - value: Web → palp
+    label: the route
+    note: an external step; no internal duct joins abdomen and palp
+    sources: [michalik2011, abalos1963]
+observations:
+  - id: route
+    text: In sperm induction, semen released from the abdomen onto silk is taken up into the palpal organs.
+    sources: [michalik2011, abalos1963]
+  - id: secondary
+    text: The palps are secondary sperm-transfer organs; they do not make sperm.
+    sources: [michalik2011]
+  - id: reload
+    text: Redback and western widow males transferred sperm into their palps more than once as adults.
+    confidence: supported
+    sources: [modanu2013]
+  - id: not-depleted
+    text: Neither species ran permanently out of sperm on maturing, as had once been assumed.
+    confidence: supported
+    sources: [modanu2013]
+  - id: capsules
+    text: Recently mated L. revivensis females held encapsulated sperm in the front lobe of the spermatheca.
+    sources: [berendonck2005]
+  - id: forms
+    text: Spider sperm travels either as single encapsulated cells, cleistospermia, or as several cells sealed together, coenospermia.
+    sources: [michalik2014]
+terms:
+  - { term: sperm induction, def: filling the palps from semen laid on silk }
+  - { term: sperm web, def: the small silk sheet that holds the semen during loading }
+  - { term: spermatogenesis, def: production of sperm in the testes }
+  - { term: cleistospermium, def: a single sperm cell in its own capsule }
+  - { term: coenospermium, def: several sperm cells enclosed together }
+related: [web.male-silk, life.mate-search, body.epigynum]
+media:
+  - src: /specimens/body-pedipalps-sperm-induction.webp
+    alt: "Museum plate: a small slender patterned male widow crouched over a tiny triangular sperm web, a milky droplet on the silk, one palp tip lowered to it"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

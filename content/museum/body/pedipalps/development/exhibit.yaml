@@ -1,0 +1,59 @@
+id: body.pedipalps.development
+accession: BWM-01.12.02
+title: Growing a Bulb
+kicker: Swollen does not yet mean functional
+summary: A young male's palp tips swell a molt or two before maturity, the first outward sign of his sex. The working bulb is built hidden inside that swelling and exposed only at the final molt.
+status: open
+order: 2
+taxa: [Latrodectus mactans, Latrodectus hesperus, Parasteatoda tepidariorum]
+figures:
+  - value: 1
+    label: molt left, palps conspicuously swollen
+    note: the penultimate male, in Kaston's reared widows
+    featured: true
+    sources: [kaston1970]
+  - value: 2
+    label: molts left, swelling sometimes visible
+    note: antepenultimate males; not consistent among individuals
+    sources: [kaston1970]
+  - value: 3
+    label: stages imaged as the bulb forms
+    note: pre-subadult, subadult, adult — in Parasteatoda, a related cobweb spider
+    sources: [quade2019]
+observations:
+  - id: penultimate
+    text: Widow males have conspicuously swollen palpal tarsi in the penultimate instar.
+    sources: [kaston1970]
+  - id: antepenultimate
+    text: Kaston could also recognise swelling in some males two molts from maturity.
+    confidence: supported
+    sources: [kaston1970]
+  - id: inconsistent
+    text: Swelling earlier than that was inconsistent among his specimens, so very young widows cannot reliably be sexed by their palps.
+    confidence: supported
+    sources: [kaston1970]
+  - id: reorganise
+    text: In the cobweb spider Parasteatoda, bulb development extensively reorganises the palp tip during the subadult stage.
+    confidence: supported
+    sources: [quade2019]
+  - id: hidden
+    text: There the bulb forms inside the old cuticle and appears in its adult form only at the final molt.
+    confidence: supported
+    sources: [quade2019]
+  - id: claw-origin
+    text: The tissue that would have made the palpal claw contributes to building the bulb in Parasteatoda.
+    confidence: supported
+    sources: [quade2019]
+terms:
+  - { term: instar, def: the stage between two molts }
+  - { term: penultimate, def: the stage one molt before adulthood; also called subadult }
+  - { term: antepenultimate, def: the stage two molts before adulthood }
+  - { term: primordium, def: developing tissue from which a structure forms }
+related: [life.molting, life.development, body.hourglass.males]
+media:
+  - src: /specimens/body-pedipalps-development.webp
+    alt: "Museum plate: three male widow palps in the same orientation — a slender juvenile palp, a smooth swollen penultimate palp, and an adult palp with the dark coiled bulb exposed in its cupped tip"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

@@ -1,0 +1,56 @@
+id: body.pedipalps.appendage
+accession: BWM-01.12.01
+title: A Leg That Became a Tool
+kicker: Beside the mouth, before the legs
+summary: A palp is built like a walking leg but with one segment fewer. Its base helps feed the spider; its tip ends in a single claw in females and young, and in a copulatory bulb in adult males.
+status: open
+order: 1
+taxa: [Latrodectus geometricus]
+figures:
+  - value: 2nd
+    label: appendage pair
+    note: behind the chelicerae, ahead of walking leg I
+    sources: [snodgrass1952]
+  - value: "6 / 7"
+    label: segments, palp / walking leg
+    note: coxa included; the palp has no separate metatarsus
+    featured: true
+    sources: [jocque2006]
+  - value: 1
+    label: claw on a female palp, usually
+    note: general spider description; walking feet carry three
+    sources: [jocque2006]
+observations:
+  - id: segments
+    text: A palp runs coxa, trochanter, femur, patella, tibia, tarsus.
+    sources: [jocque2006]
+  - id: no-metatarsus
+    text: It lacks the separate metatarsus of a walking leg.
+    sources: [jocque2006]
+  - id: mouth
+    text: The coxal lobes of the palps border the passage leading to the mouth.
+    sources: [snodgrass1952]
+  - id: embryo
+    text: Brown widow embryos grow an inward lobe, the endite, on each pedipalp.
+    confidence: supported
+    sources: [liu2009]
+  - id: claw-varies
+    text: Female palpal claws vary among theridiid lineages and are absent in some, such as Phoroncidia.
+    confidence: supported
+    sources: [agnarsson2004]
+  - id: tendons
+    text: In the tarantula Snodgrass illustrated, the female's palpal claw is worked by levator and depressor tendons.
+    sources: [snodgrass1952]
+terms:
+  - { term: coxa, def: the basal segment of a limb, attached to the prosoma }
+  - { term: endite, def: an inward lobe on the palpal coxa, used in feeding }
+  - { term: maxilla, def: the traditional name for that feeding lobe — not an extra pair of jaws }
+  - { term: serial homology, def: correspondence among repeated appendages along the body }
+related: [body.legs, body.chelicerae, body.digestion.mouth-and-pump]
+media:
+  - src: /specimens/body-pedipalps-appendage.webp
+    alt: "Museum plate: the underside of a female widow's head, two chelicerae flanked by two six-segment palps whose broad coxal lobes frame the mouth, each palp ending in a single small claw"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

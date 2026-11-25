@@ -1,0 +1,55 @@
+id: body.epigynum.taxonomy
+accession: BWM-01.13.11
+title: Reading an Epigynum
+kicker: Identify the view before the species
+summary: Seen from outside and seen cleared from the inside, an epigynum shows different characters. Duct loops can help, but similar shapes, preparation artefacts and shifting species concepts mean no single number names a widow.
+status: open
+order: 11
+taxa: [Latrodectus mactans, Latrodectus variolus, Latrodectus bishopi, Latrodectus revivensis]
+figures:
+  - value: 3
+    label: cleared epigyna on one historical plate
+    note: McCrone & Levi 1964, dorsal view
+    sources: [mccrone1964]
+  - value: "+1"
+    label: extra duct loop, southern widow
+    note: versus related widows in the 1964 treatment
+    featured: true
+    sources: [mccrone1964]
+  - value: 5
+    unit: "%"
+    label: potassium hydroxide to clear tissue
+    note: one L. revivensis preparation
+    sources: [berendonck2002]
+observations:
+  - id: cleared
+    text: McCrone and Levi illustrated female epigyna cleared and seen from the inside.
+    sources: [mccrone1964]
+  - id: similar
+    text: They found the genitalia of several named species strikingly similar.
+    sources: [mccrone1964]
+  - id: combined
+    text: Their diagnosis combined genital characters with external body characters.
+    sources: [mccrone1964]
+  - id: clearing
+    text: Clearing exposed the internal ducts of L. revivensis, along with lodged male tips.
+    sources: [berendonck2002]
+  - id: micro-ct
+    text: Micro-CT reconstructed the brown widow's storage pathways in three dimensions.
+    sources: [sentenska2021]
+  - id: catalogue
+    text: The World Spider Catalog records each original description and later treatment.
+    sources: [wsc2026]
+terms:
+  - { term: cleared preparation, def: tissue treated so the cuticle shows through }
+  - { term: dorsal view, def: of an excised epigynum, its inner face }
+  - { term: diagnosis, def: the combination of features that separates a taxon }
+  - { term: voucher, def: a kept specimen allowing an identification to be checked }
+related: [body.pedipalps.taxonomy, genus.identification, genus.naming]
+media:
+  - src: /specimens/body-epigynum-taxonomy.webp
+    alt: "Taxonomic figure plate: three cleared widow epigyna side by side in dorsal view, each showing coiled ducts and paired sperm stores in fine cream stippled ink on black, small scale bars beneath"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

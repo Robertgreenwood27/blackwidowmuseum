@@ -1,0 +1,55 @@
+id: body.pedipalps.taxonomy
+accession: BWM-01.12.11
+title: Reading a Palp
+kicker: Compare views before assigning a name
+summary: Genitalia are the core evidence in widow taxonomy. A name is never read off one photograph, though; it comes from combining characters, views and, now, DNA. Line drawings, SEM and micro-CT each answer a different question about the same organ.
+status: open
+order: 11
+taxa: [Latrodectus hystrix, Latrodectus lucacha]
+figures:
+  - value: 1959
+    label: Levi's revision
+    note: worldwide, with broad species concepts
+    sources: [levi1959]
+  - value: 1994
+    label: Lotz's African revision
+    note: genitalia plus abdominal setae
+    sources: [lotz1994]
+  - value: 4
+    label: views per palp, modern standard
+    note: prolateral, ventral, retrolateral, dorsal — L. hystrix, 2026 atlas
+    featured: true
+    sources: [miller2026]
+observations:
+  - id: levi
+    text: Levi's historical system grouped many widows by embolus coil categories.
+    sources: [garb2004]
+  - id: lotz
+    text: Lotz's African revision combines genital drawings with characters of the abdominal setae.
+    sources: [lotz1994]
+  - id: homology
+    text: The 2007 theridiid study explicitly tested rival identifications of the palp's sclerites.
+    sources: [agnarsson2007]
+  - id: lucacha
+    text: The L. lucacha diagnosis pairs the form of the embolus with characters outside the genitalia.
+    sources: [miller2026b]
+  - id: integrative
+    text: The 2026 atlas checks molecular clusters against genitalia, female setae and egg-sac traits.
+    sources: [miller2026]
+  - id: catalogue
+    text: The World Spider Catalog keeps historical names and later identifications as separate records.
+    sources: [wsc2026]
+terms:
+  - { term: diagnosis, def: the combination of features that separates a taxon }
+  - { term: type specimen, def: the specimen a scientific name is anchored to }
+  - { term: voucher, def: a kept specimen that lets an identification be re-checked }
+  - { term: SEM, def: scanning electron microscopy — surface detail }
+  - { term: micro-CT, def: X-ray tomography that reconstructs internal structure in 3D }
+related: [genus.identification, genus.naming, genus.roster]
+media:
+  - src: /specimens/body-pedipalps-taxonomy.webp
+    alt: "Museum plate: four oriented views of one widow male palp laid out like a taxonomic figure, prolateral, ventral, retrolateral and dorsal, each with a small scale bar"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

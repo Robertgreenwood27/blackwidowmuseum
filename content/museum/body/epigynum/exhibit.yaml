@@ -2,10 +2,10 @@ id: body.epigynum
 accession: BWM-01.13
 title: The Epigynum
 kicker: Paired pathways for sperm, a separate route for eggs
-summary: A hardened plate under the female's abdomen leads to two coiled ducts and two sperm stores. She can keep sperm alive for well over a year before fertilising her eggs.
+summary: A hardened plate under the female's abdomen leads to two coiled ducts and two sperm stores. Sperm from one mating can last through several egg sacs. Eleven halls follow the female system from the plate inward, through maturation, storage, egg-making and laying, to what males leave behind.
 status: open
 order: 17
-taxa: [Latrodectus geometricus, Latrodectus hesperus]
+taxa: [Latrodectus geometricus, Latrodectus hesperus, Latrodectus revivensis, Latrodectus hasselti]
 figures:
   - value: 2
     label: spermathecae
@@ -15,12 +15,11 @@ figures:
     label: lobes per spermatheca
     note: dumbbell-shaped, L. geometricus
     sources: [sentenska2021]
-  - value: "≥499"
-    unit: days
-    label: sperm kept viable in storage
-    note: one L. hesperus female; mating date unknown
+  - value: "≥4"
+    label: viable egg sacs from one mating, sperm still stored
+    note: single-mated L. revivensis females
     featured: true
-    sources: [kaston1970]
+    sources: [berendonck2005]
 observations:
   - id: plate
     text: In adult brown widows, a hardened epigynal plate gives slit-like access to a shared genital chamber.
@@ -42,10 +41,14 @@ observations:
     text: Separate fertilisation ducts lead from the spermathecae toward the uterus, so sperm enters by one route and meets eggs by another.
     confidence: supported
     sources: [sentenska2021]
-  - id: storage
-    text: A western widow female produced developing offspring after 499 days with no new mating.
+  - id: before-adult
+    text: Brown widow sperm stores can receive sperm before the female's final molt.
     confidence: supported
-    sources: [kaston1970]
+    sources: [sentenska2021]
+  - id: two-stores-paternity
+    text: In redbacks, paternity depends partly on which store each rival male fills.
+    confidence: supported
+    sources: [snow2005]
   - id: yolk
     text: Western widow eggs develop in the ovaries, accumulating lipid and protein yolk as they grow.
     confidence: supported
@@ -69,4 +72,4 @@ media:
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-25

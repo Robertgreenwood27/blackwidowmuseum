@@ -1,0 +1,59 @@
+id: body.epigynum.spermathecae
+accession: BWM-01.13.04
+title: Two Sperm Stores
+kicker: Paired chambers wrapped in living tissue
+summary: Each store has two rounded lobes joined by a waist, with a thick cuticle wall pierced by pores from surrounding glands. The left and right stores can be filled by different males.
+status: open
+order: 4
+taxa: [Latrodectus revivensis, Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: "2 × 2"
+    label: stores × lobes
+    note: paired dumbbells; L. revivensis
+    featured: true
+    sources: [berendonck2002]
+  - value: "30–45"
+    unit: µm
+    label: thickness of the storage wall
+    note: L. revivensis histology; not the chamber's width
+    sources: [berendonck2005]
+  - value: "≤40"
+    unit: µm
+    label: pore diameter through the wall
+    note: L. revivensis, both lobes
+    sources: [berendonck2002]
+observations:
+  - id: waist
+    text: A narrow middle region joins the two lobes of each L. revivensis store.
+    sources: [berendonck2002]
+  - id: in-out
+    text: Incoming and outgoing sperm passages meet different parts of the store.
+    sources: [berendonck2002]
+  - id: glands
+    text: Glandular units around the store open into it through pores in its wall.
+    sources: [berendonck2005]
+  - id: bare-waist
+    text: The narrow waist lacks the glandular units found around the lobes.
+    confidence: supported
+    sources: [berendonck2005]
+  - id: thickens
+    text: Brown widow storage walls are thicker in adults than in late subadults.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: rivals
+    text: Rival redback males can inseminate opposite stores.
+    confidence: supported
+    sources: [snow2005]
+terms:
+  - { term: spermatheca, def: a sperm-storage organ; plural spermathecae }
+  - { term: lobe, def: a rounded subdivision of one store }
+  - { term: epithelium, def: a layer of cells lining or covering a surface }
+  - { term: pore canal, def: a passage through the cuticle wall, separate from the main chamber }
+related: [body.pedipalps.two-palps, body.epigynum.storage, life.mating-plugs]
+media:
+  - src: /specimens/body-epigynum-spermathecae.webp
+    alt: "Scientific plate: cutaway of one widow spermatheca, two rounded lobes joined by a narrow waist, the thick wall pierced by fine pores with gland cells clustered around the outside"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

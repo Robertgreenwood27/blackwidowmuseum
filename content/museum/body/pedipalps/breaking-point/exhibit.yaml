@@ -1,0 +1,60 @@
+id: body.pedipalps.breaking-point
+accession: BWM-01.12.08
+title: The Snapped Tip
+kicker: The fracture has a location and a shape
+summary: The very end of the embolus is a separate S-shaped piece with a built-in weak point, and it can stay behind in the female. Where it lodges decides whether it blocks a rival.
+status: open
+order: 8
+taxa: [Latrodectus revivensis, Latrodectus hasselti, Latrodectus pallidus, Latrodectus geometricus]
+figures:
+  - value: "300–400"
+    unit: µm
+    label: length of the detached tip
+    note: L. revivensis, approximate; individuals vary
+    featured: true
+    sources: [berendonck2002]
+  - value: "13–16"
+    unit: µm
+    label: outer diameter at the break
+    note: L. revivensis; the outside, not the bore
+    sources: [berendonck2002]
+  - value: "≈3"
+    unit: µm
+    label: bore of the tip's sperm canal
+    note: L. revivensis; the outlet itself opens to about 6 µm
+    sources: [berendonck2002]
+observations:
+  - id: s-shape
+    text: In L. revivensis the embolus ends in an S-shaped terminal sclerite.
+    sources: [berendonck2002]
+  - id: saddle
+    text: A saddle-like thickening marks the region where it breaks.
+    sources: [berendonck2002]
+  - id: outlet
+    text: The sperm outlet sits just short of the tip's apex, not at it.
+    sources: [berendonck2002]
+  - id: matched
+    text: Abalos and Báez identified pieces left in females by matching them against intact male emboli.
+    sources: [abalos1963]
+  - id: position
+    text: Redback tips lodged at a spermatheca's entrance protected paternity better than tips stranded elsewhere.
+    confidence: supported
+    sources: [snow2006]
+  - id: partial
+    text: Field inspections of white widows suggest earlier tips exclude later males partially, not absolutely.
+    confidence: supported
+    sources: [segoli2008b]
+terms:
+  - { term: apical sclerite, def: the separate distal piece of the embolus that can detach }
+  - { term: fracture region, def: the place where separation happens — not a joint }
+  - { term: truncus, def: the hardened main shaft of the embolus }
+  - { term: bore, def: the width of the canal inside, never the same as the outer diameter }
+  - { term: mating plug, def: an obstruction that limits later insemination — its effect must be tested }
+related: [life.mating-plugs, body.epigynum, body.pedipalps.two-palps]
+media:
+  - src: /specimens/body-pedipalps-breaking-point.webp
+    alt: "Scientific plate: an enlarged S-shaped embolus tip of a widow spider, with a thickened saddle-shaped band marking the break and a tiny outlet set just short of the apex"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

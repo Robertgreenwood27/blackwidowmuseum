@@ -1,0 +1,59 @@
+id: body.pedipalps.inflation
+accession: BWM-01.12.04
+title: The Hydraulic Unfolding
+kicker: Pressure changes the shape of the apparatus
+summary: There are no muscles inside the bulb. Hemolymph forced into folded membranes swells it, and the swelling tilts and turns its hard parts into position. Widows have been watched inflating; nobody has yet measured the pressure.
+status: open
+order: 4
+taxa: [Latrodectus mactans, Latrodectus geometricus]
+figures:
+  - value: 0
+    label: muscles in the male palpal tip
+    note: historical L. mactans anatomy; the palp's proximal segments do have muscles
+    featured: true
+    sources: [whitehead1959]
+  - value: 107
+    label: species sectioned to trace bulb movement
+    note: from 73 families — a comparative survey, not 107 widows
+    sources: [huber2004]
+  - value: Shallow → full
+    label: inflation sequence at insertion
+    note: brown widow, live observation
+    sources: [sentenska2025]
+observations:
+  - id: no-muscles
+    text: Whitehead and Rempel found no muscles in the male widow's palpal tip.
+    confidence: supported
+    sources: [whitehead1959]
+  - id: survey
+    text: Most bulbs of entelegyne spiders in Huber's survey had no bulbal muscles at all.
+    confidence: supported
+    sources: [huber2004]
+  - id: folds
+    text: The geometry of a hematodocha's folds determines whether inflation expands, tilts or rotates the bulb.
+    confidence: supported
+    sources: [huber2004]
+  - id: kaston
+    text: Kaston watched widow hematodochae distend and collapse after insertion.
+    sources: [kaston1970]
+  - id: sequence
+    text: In brown widows, a shallow inflation came first, followed by fuller inflations.
+    confidence: supported
+    sources: [sentenska2025]
+  - id: hemolymph
+    text: The inflating fluid is hemolymph, which stays separate from the sperm in its duct.
+    confidence: supported
+    sources: [sentenska2025]
+terms:
+  - { term: hematodocha, def: an expandable membrane in the bulb; also spelt haematodocha }
+  - { term: sclerite, def: a hardened piece of cuticle }
+  - { term: hemolymph, def: the spider's circulating fluid — not semen }
+  - { term: hydraulic actuation, def: movement produced by pressure on a fluid-filled structure }
+related: [body.legs.hydraulics, body.circulation, body.pedipalps.fit]
+media:
+  - src: /specimens/body-pedipalps-inflation.webp
+    alt: "Museum plate: a widow's male palp shown twice in matched orientation — compact at rest, then expanded with pale translucent membranes ballooning between the dark sclerites and the coiled embolus swung outward"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

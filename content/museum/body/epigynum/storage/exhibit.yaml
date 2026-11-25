@@ -1,0 +1,60 @@
+id: body.epigynum.storage
+accession: BWM-01.13.05
+title: Sperm Kept Alive
+kicker: Storage is a changing cellular state
+summary: One mating can supply several broods. Inside the stores, sperm arrive in capsules, and some soon shed them. Some sperm are still encapsulated after several egg sacs have been laid. How long storage can last in a widow still needs a checked number.
+status: open
+order: 5
+taxa: [Latrodectus revivensis, Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: "≈24"
+    unit: h
+    label: after mating, first capsules already shed
+    note: L. revivensis, sampled females
+    sources: [berendonck2005]
+  - value: "≥4"
+    label: viable egg sacs, and capsules still stored
+    note: single-mated L. revivensis females
+    featured: true
+    sources: [berendonck2005]
+  - value: 6
+    unit: weeks
+    label: of food restriction, then reproduction resumed
+    note: mated redbacks; not a storage maximum
+    sources: [stoltz2010b]
+observations:
+  - id: encapsulated
+    text: Recently mated L. revivensis females hold encapsulated sperm.
+    sources: [berendonck2005]
+  - id: decapsulated
+    text: Some sperm that have shed their capsules stay coiled.
+    sources: [berendonck2005]
+  - id: persists
+    text: Encapsulated sperm were still present after several viable broods.
+    confidence: supported
+    sources: [berendonck2005]
+  - id: resume
+    text: Mated redbacks resumed making egg sacs after a period of food restriction ended.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: secretions
+    text: Brown widow storage secretions stain differently in subadults and adults.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: low-choice
+    text: Berendonck and Greven read L. revivensis anatomy as leaving little room for sorting sperm inside a store.
+    confidence: debated
+    sources: [berendonck2005]
+terms:
+  - { term: encapsulation, def: a secreted sheath around a sperm cell }
+  - { term: decapsulation, def: loss of that sheath — not the same as becoming active }
+  - { term: activation, def: becoming able to fertilise; criteria must be stated }
+  - { term: cryptic female choice, def: female bias in fertilisation after mating }
+related: [body.pedipalps.sperm-induction, life.egg-sac, body.epigynum.female-control]
+media:
+  - src: /specimens/body-epigynum-storage.webp
+    alt: "Scientific micrograph-style plate: densely packed round encapsulated sperm cells inside a storage chamber, a few uncoiled threadlike cells among them, cream on black"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

@@ -1,0 +1,60 @@
+id: body.epigynum.becoming-adult
+accession: BWM-01.13.02
+title: Opening at the Last Molt
+kicker: Covered does not mean absent
+summary: A female's sperm stores are built before she is adult, under a layer of cuticle that still covers the plate. A male can cut through that cover and mate with her a molt early, and the sperm survives the molt.
+status: open
+order: 2
+taxa: [Latrodectus geometricus, Latrodectus hasselti]
+figures:
+  - value: 1
+    label: molt left, and already mateable
+    note: the late-subadult brown widow female
+    featured: true
+    sources: [sentenska2021]
+  - value: "≈6"
+    unit: days
+    label: before adulthood, the plate darkens under its cover
+    note: L. geometricus; depends on rearing
+    sources: [sentenska2021]
+  - value: 15
+    label: shed skins inspected from immature-mated females
+    note: alongside 15 from virgins; L. geometricus
+    sources: [sentenska2021]
+observations:
+  - id: epithelium
+    text: In early-subadult brown widows, the genital structures are first outlined in epithelium, before any cuticle forms.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: covered
+    text: Late-subadult females still have a covering of cuticle over the epigynum.
+    sources: [sentenska2021]
+  - id: cut
+    text: Males open that covering to reach the normal copulatory entrances.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: survives
+    text: The internal genital structures, and sperm inside them, carry through the final molt.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: offspring
+    text: Redback and brown widow females mated while immature went on to produce viable offspring.
+    confidence: supported
+    sources: [biaggio2016]
+  - id: same-mechanism
+    text: The coupling mechanism was the same whether the female was adult or immature.
+    confidence: supported
+    sources: [sentenska2025]
+terms:
+  - { term: subadult, def: the stage one molt before adulthood }
+  - { term: exuvia, def: a shed skin }
+  - { term: invagination, def: an inward fold of tissue during development }
+  - { term: immature mating, def: insemination before the female's final molt }
+related: [body.pedipalps.development, life.molting, life.cannibalism]
+media:
+  - src: /specimens/body-epigynum-becoming-adult.webp
+    alt: "Museum plate: two views of a brown widow female's underside near the waist — a pale smooth covering over the genital area in the subadult, then the dark exposed adult genital plate after the final molt"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

@@ -1,0 +1,56 @@
+id: body.epigynum.fertilisation
+accession: BWM-01.13.06
+title: Two Routes, One Meeting
+kicker: The sperm's exit is not its entrance
+summary: Sperm leave each store by a small fertilisation duct at the back and converge on a single median channel. Where exactly sperm meet egg, and what the end structures should be called, is still argued over.
+status: open
+order: 6
+taxa: [Latrodectus revivensis, Latrodectus geometricus, Parasteatoda tepidariorum]
+figures:
+  - value: "2 → 1"
+    label: fertilisation ducts converge
+    note: into a common median duct; L. revivensis
+    featured: true
+    sources: [berendonck2005]
+  - value: Rear lobe
+    label: where sperm leave the store
+    note: L. revivensis; they enter elsewhere
+    sources: [berendonck2002]
+  - value: 121
+    label: species compared to rethink the route
+    note: 147 epigyna, 34 families — not 121 widows
+    sources: [zhan2019]
+observations:
+  - id: origin
+    text: L. revivensis fertilisation ducts leave from the rear wall of each spermatheca.
+    sources: [berendonck2002]
+  - id: common
+    text: The two small ducts feed a common median duct.
+    sources: [berendonck2005]
+  - id: brown
+    text: Brown widow sections show the same common fertilisation pathway.
+    sources: [sentenska2021]
+  - id: muscle
+    text: Muscle fibres connect the L. revivensis common duct to the genital plate.
+    sources: [berendonck2005]
+  - id: suction
+    text: The authors proposed these muscles draw sperm out during laying, an inference not yet measured.
+    confidence: debated
+    sources: [berendonck2005]
+  - id: homology
+    text: A 2019 comparative study challenges the traditional identity of the structure called the uterus externus.
+    confidence: debated
+    sources: [zhan2019]
+terms:
+  - { term: fertilisation duct, def: the outgoing sperm path from a store }
+  - { term: oviduct, def: the egg-carrying passage — never a sperm store }
+  - { term: uterus externus, def: a source-dependent name for the end of the genital tract }
+  - { term: homology, def: correspondence due to shared evolutionary origin }
+related: [body.epigynum.ovaries, body.epigynum.laying, body.epigynum.spermathecae]
+media:
+  - src: /specimens/body-epigynum-fertilisation.webp
+    alt: "Scientific plate: schematic cutaway of a widow's female tract, two sperm stores each with a small duct leaving from its rear, converging into one central channel that meets the egg passage"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

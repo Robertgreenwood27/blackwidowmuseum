@@ -1,0 +1,60 @@
+id: body.epigynum.ovaries
+accession: BWM-01.13.07
+title: Making Eggs
+kicker: A growing egg hangs from a stalk
+summary: Eggs grow on the wall of the ovary, each on a short stalk, filling with yolk before they detach. Western widows make yolky eggs even without mating. Redbacks show that food, not a fixed clock, sets the pace.
+status: open
+order: 7
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: 3
+    label: stages of egg growth
+    note: before, during and after yolk; L. hesperus
+    sources: [ouriel2016]
+  - value: "3.77 / 1.10"
+    label: egg sacs per female, fed / food-restricted
+    note: redbacks over six weeks; means
+    featured: true
+    sources: [stoltz2010b]
+  - value: 78
+    label: oocytes examined
+    note: 30 + 30 + 18 across the three stages; L. hesperus thesis
+    sources: [ouriel2016]
+observations:
+  - id: pedicels
+    text: Developing western widow oocytes are attached to the ovary wall by stalks called pedicels.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: yolk
+    text: As they grow they accumulate lipid and protein yolk.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: unmated
+    text: Unmated western widows also carry yolk-filled oocytes.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: detach
+    text: Mature oocytes were detached from their stalks.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: next-cohort
+    text: Smaller oocytes remained in the ovary after the mature cohort had been laid.
+    confidence: supported
+    sources: [ouriel2016]
+  - id: food
+    text: Food-restricted mated redbacks made far fewer egg sacs.
+    confidence: supported
+    sources: [stoltz2010b]
+terms:
+  - { term: oocyte, def: a developing egg cell }
+  - { term: vitellogenesis, def: the build-up of yolk in a growing egg }
+  - { term: pedicel, def: the stalk attaching an oocyte to the ovary wall }
+  - { term: gravid, def: carrying developed eggs — not proof they are fertilised }
+related: [life.egg-sac, body.digestion, body.epigynum.laying]
+media:
+  - src: /specimens/body-epigynum-ovaries.webp
+    alt: "Scientific plate: cutaway of a widow ovary, round cream oocytes of different sizes budding from the wall on short stalks, the largest yolk-filled and detached"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

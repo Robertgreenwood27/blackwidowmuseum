@@ -2624,3 +2624,114 @@ barrantes2026:
   container: Journal of Morphology 287(5) e70132
   doi: 10.1002/jmor.70132
   url: https://pubmed.ncbi.nlm.nih.gov/42117401/
+
+# ── body.pedipalps halls (research/pedipalps-dossier.md, 2026-11-25) ──
+bhatnagar1962:
+  authors: Bhatnagar, R. D. S.; Rempel, J. G.
+  year: 1962
+  title: "The structure, function, and postembryonic development of the male and female copulatory organs of the black widow spider Latrodectus curacaviensis (Müller)"
+  container: Canadian Journal of Zoology 40(3) 465–510
+  doi: 10.1139/z62-043
+  url: https://cdnsciencepub.com/doi/10.1139/z62-043
+
+abalos1963:
+  authors: Abalos, J. W.; Báez, E. C.
+  year: 1963
+  title: On Spermatic Transmission in Spiders
+  container: Psyche 70(4) 197–207
+  url: https://groups.csail.mit.edu/mac/projects/psyche/70/70-197.html
+
+agnarsson2004:
+  authors: Agnarsson, I.
+  year: 2004
+  title: Morphological phylogeny of cobweb spiders and their relatives (Araneae, Araneoidea, Theridiidae)
+  container: Zoological Journal of the Linnean Society 141(4) 447–626
+  doi: 10.1111/j.1096-3642.2004.00120.x
+  url: https://www2.gwu.edu/~spiders/content/publications/Aganrsson%202004.pdf
+
+agnarsson2007:
+  authors: Agnarsson, I.; Coddington, J. A.; Knoflach, B.
+  year: 2007
+  title: Morphology and evolution of cobweb spider male genitalia (Araneae, Theridiidae)
+  container: Journal of Arachnology 35(2) 334–395
+  doi: 10.1636/SH-06-36.1
+  url: https://repository.si.edu/bitstream/handle/10088/8110/AgnarssonetalTheridiidaeGenitalia2007.pdf
+
+huber2004:
+  authors: Huber, B. A.
+  year: 2004
+  title: "Evolutionary transformation from muscular to hydraulic movements in spider (Arachnida, Araneae) genitalia: a study based on histological serial sections"
+  container: Journal of Morphology 261(3) 364–376
+  doi: 10.1002/jmor.10255
+  url: https://pholcidae.de/PDFs/bulbal_muscles_2005.pdf
+
+quade2019:
+  authors: Quade, F. S. C.; Holtzheimer, J.; Frohn, J.; Töpperwien, M.; Salditt, T.; Prpic, N.-M.
+  year: 2019
+  title: Formation and development of the male copulatory organ in the spider Parasteatoda tepidariorum involves a metamorphosis-like process
+  container: Scientific Reports 9 6945
+  doi: 10.1038/s41598-019-43192-9
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6502807/
+
+berendonck2002:
+  authors: Berendonck, B.; Greven, H.
+  year: 2002
+  title: Morphology of female and male genitalia of Latrodectus revivensis Shulov, 1948 (Araneae, Theridiidae) with regard to sperm priority patterns
+  container: "European Arachnology 2000, S. Toft and N. Scharff (eds), Aarhus University Press, 157–167"
+  url: https://www.european-arachnology.org/esa/wp-content/uploads/2015/08/157-167_Berendonck.pdf
+
+berendonck2005:
+  authors: Berendonck, B.; Greven, H.
+  year: 2005
+  title: Genital structures in the entelegyne widow spider Latrodectus revivensis (Arachnida; Araneae; Theridiidae) indicate a low ability for cryptic female choice by sperm manipulation
+  container: Journal of Morphology 263(1) 118–132
+  doi: 10.1002/jmor.10296
+  url: https://onlinelibrary.wiley.com/doi/10.1002/jmor.10296
+
+michalik2014:
+  authors: Michalik, P.; Ramírez, M. J.
+  year: 2014
+  title: "Evolutionary morphology of the male reproductive system, spermatozoa and seminal fluid of spiders (Araneae, Arachnida) — current knowledge and future directions"
+  container: Arthropod Structure & Development 43(4) 291–322
+  doi: 10.1016/j.asd.2014.05.005
+  url: https://doi.org/10.1016/j.asd.2014.05.005
+
+sentenska2025:
+  authors: Sentenská, L.; Poy, D.; Andrade, M. C. B.; Uhl, G. B.
+  year: 2025
+  title: "Alternative mating tactics in brown widow spiders: mating with or without male self-sacrifice does not affect the copulatory mechanism"
+  container: Frontiers in Zoology 22 6
+  doi: 10.1186/s12983-025-00560-8
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11963396/
+
+segoli2008b:
+  authors: Segoli, M.; Lubin, Y.; Harari, A. R.
+  year: 2008
+  title: Frequency and consequences of damage to male copulatory organs in a widow spider
+  container: Journal of Arachnology 36(3) 533–537
+  doi: 10.1636/ST07-30.1
+  url: https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac-36-3-533.pdf/?no_cache=1
+
+knoflach2002:
+  authors: Knoflach, B.; van Harten, A.
+  year: 2002
+  title: The genus Latrodectus (Araneae, Theridiidae) from mainland Yemen, the Socotra Archipelago and adjacent countries
+  container: Fauna of Arabia 19 321–361
+  url: https://wsc.nmbe.ch/reference/9337
+
+# ── body.epigynum halls (research/epigynum-dossier.md, 2026-11-25) ──
+zhan2019:
+  authors: Zhan, Y.; Jiang, H.; Wu, Q.; Zhang, H.; Bai, Z.; Kuntner, M.; Tu, L.
+  year: 2019
+  title: Comparative morphology refines the conventional model of spider reproduction
+  container: PLoS ONE 14(7) e0218486
+  doi: 10.1371/journal.pone.0218486
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218486
+
+makover2019:
+  authors: Makover, V.; Ronen, Z.; Lubin, Y.; Khalaila, I.
+  year: 2019
+  title: Eggshell spheres protect brown widow spider (Latrodectus geometricus) eggs from bacterial infection
+  container: Journal of the Royal Society Interface 16(150) 20180581
+  doi: 10.1098/rsif.2018.0581
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6364662/

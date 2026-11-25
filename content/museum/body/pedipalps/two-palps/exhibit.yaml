@@ -1,0 +1,60 @@
+id: body.pedipalps.two-palps
+accession: BWM-01.12.09
+title: Two Palps, Two Chances
+kicker: One route can stay unused
+summary: Each palp serves one side of the female, so a male who is interrupted, or eaten, can leave half of her unfilled. Losing a tip does not end a male's career, and some males go on to inseminate several females.
+status: open
+order: 9
+taxa: [Latrodectus hasselti, Latrodectus mactans, Latrodectus pallidus]
+figures:
+  - value: 1
+    label: female tract per palp
+    note: redback; shown by removing one embolus experimentally
+    sources: [snow2005]
+  - value: 180
+    unit: °
+    label: the redback somersault
+    note: the male's whole body turns after insertion — not the bulb
+    featured: true
+    sources: [forster1992]
+  - value: 3
+    label: females inseminated in turn by one male
+    note: southern widow; two males in a small laboratory series
+    sources: [breene1985]
+observations:
+  - id: one-side
+    text: Redback males mated using one embolus after the other had been removed.
+    confidence: supported
+    sources: [snow2005]
+  - id: second-palp
+    text: A redback male can survive his first insertion and go on to use the other palp.
+    sources: [forster1992]
+  - id: half-empty
+    text: A redback that loses access after one insertion can leave the other tract uninseminated.
+    confidence: supported
+    sources: [snow2005]
+  - id: tipless
+    text: Experimentally tipless redbacks that did copulate transferred about as much sperm as intact males.
+    confidence: supported
+    sources: [snow2006]
+  - id: serial
+    text: Two southern widow males each inseminated three females in succession.
+    confidence: supported
+    sources: [breene1985]
+  - id: damage
+    text: Palpal damage did not always sterilise white widow males.
+    confidence: supported
+    sources: [segoli2008b]
+terms:
+  - { term: intromission, def: insertion of the embolus into the female }
+  - { term: insemination, def: transfer of sperm — not the same as fathering offspring }
+  - { term: tip loss, def: losing the small distal piece of the embolus, not the palp }
+  - { term: residual reproductive value, def: what a male can still achieve after the current mating }
+related: [life.courtship, life.cannibalism, life.mating-plugs]
+media:
+  - src: /specimens/body-pedipalps-two-palps.webp
+    alt: "Museum plate: a tiny slender redback male in mid-somersault over the large female's underside, one palp engaged, the female hanging inverted in a tangle web"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

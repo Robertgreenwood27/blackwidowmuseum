@@ -1,0 +1,57 @@
+id: body.epigynum.copulatory-ducts
+accession: BWM-01.13.03
+title: The Coiled Path
+kicker: Follow the fold, then the return
+summary: Behind each entrance a duct coils away and then turns back toward its sperm store. Sections show these are connected spiral folds rather than a loose hose, and the published turn counts for one species disagree.
+status: open
+order: 3
+taxa: [Latrodectus revivensis, Latrodectus geometricus, Latrodectus mactans]
+figures:
+  - value: "2 + 2"
+    label: coils out and back
+    note: L. revivensis, 2002 description
+    sources: [berendonck2002]
+  - value: "4 + 2"
+    label: coils out and back
+    note: L. revivensis again, 2005 — the counts conflict
+    featured: true
+    sources: [berendonck2005]
+  - value: "≤17"
+    unit: µm
+    label: width of the narrow end guide
+    note: L. revivensis, sectioned; not the whole duct
+    sources: [berendonck2002]
+observations:
+  - id: turns-back
+    text: Each L. revivensis copulatory duct coils away and then turns back toward its spermatheca.
+    sources: [berendonck2002]
+  - id: guide
+    text: Near its end the duct flattens beside a more strongly hardened guide.
+    sources: [berendonck2002]
+  - id: folds
+    text: Brown widow sections show connected spiral folds, not wholly separate tubes.
+    sources: [sentenska2021]
+  - id: follows
+    text: During insertion, the brown widow male's embolus follows the copulatory duct.
+    sources: [sentenska2025]
+  - id: extra-loop
+    text: McCrone and Levi described an extra duct loop in female L. mactans compared with related widows.
+    confidence: supported
+    sources: [mccrone1964]
+  - id: conflict
+    text: Two descriptions of the same species give different coil counts, so a single turn count is not a safe identifier.
+    confidence: supported
+    sources: [berendonck2002, berendonck2005]
+terms:
+  - { term: copulatory duct, def: the route the embolus and sperm take into storage }
+  - { term: lumen, def: the open space inside a duct }
+  - { term: spiralling fold, def: coiled cuticle whose turns stay connected to one another }
+  - { term: reversal, def: a change in the direction of the duct's course }
+related: [body.pedipalps.the-coil, body.pedipalps.fit, body.epigynum.spermathecae]
+media:
+  - src: /specimens/body-epigynum-copulatory-ducts.webp
+    alt: "Scientific plate: cleared translucent view of a widow's internal genitalia, two dark coiled ducts spiralling from a central atrium and turning back into two rounded dumbbell-shaped sperm stores"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

@@ -1,0 +1,63 @@
+id: body.epigynum.female-control
+accession: BWM-01.13.10
+title: Her Side of Mating
+kicker: Access to the second store changes the outcome
+summary: Two stores mean a female's behaviour can decide whether one male fills both. Redback experiments tie that anatomy to paternity. Choosing between sperm once they are inside a store has not been shown.
+status: open
+order: 10
+taxa: [Latrodectus hasselti, Latrodectus revivensis, Latrodectus geometricus]
+figures:
+  - value: "79.8"
+    unit: "%"
+    label: first male's paternity, rivals in the same store
+    note: redback, mean; median 89.4%
+    featured: true
+    sources: [snow2005]
+  - value: "49.3"
+    unit: "%"
+    label: first male's paternity, rivals in opposite stores
+    note: redback, mean; median 49.9%
+    sources: [snow2005]
+  - value: "38 / 10"
+    unit: "%"
+    label: first males siring all scored young
+    note: same store / opposite stores
+    sources: [snow2005]
+observations:
+  - id: same-store
+    text: Redback rivals forced into the same store gave the first male a strong paternity advantage.
+    confidence: supported
+    sources: [snow2005]
+  - id: opposite
+    text: Rivals in opposite stores split paternity about evenly on average.
+    confidence: supported
+    sources: [snow2005]
+  - id: avoid
+    text: Redback males avoided stores another male had already used.
+    confidence: supported
+    sources: [snow2005]
+  - id: cannibalism
+    text: Eating a male during his first copulation can stop him reaching her second store.
+    confidence: supported
+    sources: [snow2005]
+  - id: little-sorting
+    text: L. revivensis anatomy was read as leaving little scope for selective sperm manipulation.
+    confidence: debated
+    sources: [berendonck2005]
+  - id: somersault
+    text: The brown widow male's somersault did not change how the genitalia couple.
+    confidence: supported
+    sources: [sentenska2025]
+terms:
+  - { term: polyandry, def: a female mating with more than one male }
+  - { term: sperm precedence, def: one male, by mating order, siring more offspring }
+  - { term: paternity share, def: the fraction of scored offspring sired by one male }
+  - { term: route access, def: the chance to inseminate a particular store }
+related: [life.cannibalism, life.courtship, body.pedipalps.two-palps]
+media:
+  - src: /specimens/body-epigynum-female-control.webp
+    alt: "Museum plate: a large glossy black widow female hanging inverted in a tangle web with a tiny slender patterned male approaching along a thread, her red ventral hourglass facing up"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

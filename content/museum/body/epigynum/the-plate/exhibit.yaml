@@ -1,0 +1,57 @@
+id: body.epigynum.the-plate
+accession: BWM-01.13.01
+title: The Plate Under the Abdomen
+kicker: A small entrance on the underside
+summary: The visible plate is only the outer part of a much larger system. It sits on the underside where the abdomen begins, between the two book-lung slits, and leads into a recess with two separate entrances. Eggs leave by another opening.
+status: open
+order: 1
+taxa: [Latrodectus revivensis, Latrodectus geometricus]
+figures:
+  - value: 2
+    label: copulatory openings
+    note: one on each side of the atrium; adult L. revivensis
+    featured: true
+    sources: [berendonck2002]
+  - value: "≈30"
+    unit: µm
+    label: thickness of the plate's cuticle
+    note: L. revivensis histology; thickness, not width
+    sources: [berendonck2005]
+  - value: "2"
+    label: sperm routes per store, in an entelegyne spider
+    note: one in, one out — haplogyne spiders use one duct both ways
+    sources: [zhan2019]
+observations:
+  - id: position
+    text: In L. revivensis, the hardened genital plate sits immediately in front of the epigastric furrow.
+    sources: [berendonck2002]
+  - id: shape
+    text: The adult L. revivensis plate is arched and transversely oval.
+    sources: [berendonck2002]
+  - id: aperture
+    text: Its atrial aperture is roughly triangular, with hairs overhanging the entrance.
+    sources: [berendonck2002]
+  - id: slit
+    text: Adult brown widows have slit-like access to the atrium.
+    sources: [sentenska2021]
+  - id: lip
+    text: During mating, the brown widow male's bulb braces against the rear lip of the epigynum.
+    confidence: supported
+    sources: [sentenska2025]
+  - id: furrow
+    text: The epigastric furrow runs between the paired book-lung openings.
+    sources: [zhan2019]
+terms:
+  - { term: epigastric furrow, def: the crease across the front of the abdomen's underside }
+  - { term: atrium, def: the genital recess that gives access to the copulatory openings }
+  - { term: sclerotisation, def: hardening of cuticle — darker is not necessarily harder }
+  - { term: entelegyne, def: having separate incoming and outgoing sperm routes }
+  - { term: haplogyne, def: using one duct to carry sperm both in and out }
+related: [body.breathing, body.hourglass, body.pedipalps.fit]
+media:
+  - src: /specimens/body-epigynum-the-plate.webp
+    alt: "Museum plate: the underside of a glossy black widow's abdomen, a small dark oval genital plate just behind the waist between two pale lung slits, the red hourglass further back"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

@@ -1,8 +1,8 @@
 id: body.pedipalps
 accession: BWM-01.12
 title: The Palps
-kicker: Sperm delivered by a pair of coiled springs
-summary: An adult male's pedipalps end in swollen bulbs, each wound with a long, coiled embolus. Its tip can snap off inside the female and act as a plug — if it lands in the right place.
+kicker: A pair of limbs, a pair of sperm carriers
+summary: An adult male's pedipalps end in swollen bulbs, each wound with a long, coiled embolus. Its tip can snap off inside the female and act as a plug, but only if it lands in the right place. Eleven halls follow the apparatus from its segments and growth to loading, inflation, coupling and the tiny piece that can stay behind.
 status: open
 order: 10
 taxa: [Latrodectus hesperus, Latrodectus hasselti, Latrodectus mactans, Latrodectus variolus]
@@ -11,6 +11,10 @@ figures:
     label: palps, each its own copulatory organ
     note: adult males
     sources: [snow2005, michalik2011]
+  - value: 6
+    label: segments per palp
+    note: one fewer than a walking leg — no metatarsus
+    sources: [jocque2006]
   - value: 2
     label: insertions to fill both sperm stores
     note: one per palp, in the redback
@@ -28,6 +32,14 @@ observations:
   - id: coiled
     text: Southern, western and northern widows have long, spirally coiled emboli.
     sources: [kaston1970]
+  - id: reload
+    text: Adult redback and western widow males can load their palps with sperm more than once.
+    confidence: supported
+    sources: [modanu2013]
+  - id: hydraulic
+    text: The bulb has no muscles of its own; it moves when hemolymph inflates its membranes.
+    confidence: supported
+    sources: [whitehead1959, huber2004]
   - id: one-each
     text: In the redback, each palp inseminates one of the female's two separate reproductive tracts.
     confidence: supported
@@ -57,4 +69,4 @@ media:
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-25

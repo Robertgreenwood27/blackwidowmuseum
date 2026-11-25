@@ -1,0 +1,59 @@
+id: body.pedipalps.senses-and-tasks
+accession: BWM-01.12.10
+title: Palps at Work
+kicker: The same appendage also touches and handles
+summary: A male's bulb does not stop his palps from doing everything else palps do. In both sexes they carry open-tipped hairs that probably taste, and they help filter food at the mouth. Males also groom them between matings.
+status: open
+order: 10
+taxa: [Latrodectus hesperus, Latrodectus hasselti]
+figures:
+  - value: "50–60"
+    unit: µm
+    label: length of the presumed taste hairs
+    note: L. hesperus, SEM; on palps and tarsi
+    featured: true
+    sources: [ross1979]
+  - value: "≈5 → ≈2"
+    unit: µm
+    label: hair width, base to tip
+    note: same material; the tip pore itself is smaller
+    sources: [ross1979]
+  - value: Both sexes
+    label: carry them under the palp
+    note: L. hesperus; the bulb does not replace the sensory palp
+    sources: [ross1979]
+observations:
+  - id: open-tipped
+    text: Western widow palps carry curved, blunt, open-tipped hairs on their undersides.
+    sources: [ross1979]
+  - id: both
+    text: Ross and Smith found these presumed chemoreceptors in females and males alike.
+    sources: [ross1979]
+  - id: touch-hairs
+    text: Sharp-tipped hairs, presumed to sense touch, are distinct from the open-tipped ones.
+    confidence: supported
+    sources: [ross1979]
+  - id: empty-web
+    text: Western widow males began courting on webs whose female had been removed.
+    confidence: supported
+    sources: [ross1979]
+  - id: grooming
+    text: Redback males groom their palps between copulations.
+    sources: [forster1995]
+  - id: filter
+    text: Brushes of hairs on the palpal coxae help filter liquid food at the mouth.
+    sources: [snodgrass1952]
+terms:
+  - { term: sensillum, def: a cuticular sense organ with its nerve cells }
+  - { term: contact chemoreception, def: tasting by touch }
+  - { term: mechanoreception, def: sensing touch, movement or force }
+  - { term: tip pore, def: the opening at the end of a taste hair }
+  - { term: bioassay, def: a test that uses an animal's response to detect a substance }
+related: [senses.contact-chemistry, life.courtship, body.digestion.mouth-and-pump]
+media:
+  - src: /specimens/body-pedipalps-senses-and-tasks.webp
+    alt: "Scientific plate: the underside of a widow palp magnified, rows of curved blunt open-tipped hairs among sharp pointed bristles"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-25

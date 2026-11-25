@@ -1,0 +1,94 @@
+.wrap { padding: 0 var(--gutter); margin: 0; }
+.head { border-top: 1px solid var(--thread); padding: 14px 0 6px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(220px, 1fr); gap: clamp(16px, 3vw, 48px); align-items: start; }
+
+.canvas { position: relative; }
+.svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+.body { fill: var(--char); stroke: var(--silk-2); stroke-width: 1.4; }
+
+.name { font-family: var(--mono); font-size: 13px; letter-spacing: .16em; fill: var(--silk-3); transition: fill .3s; pointer-events: none; }
+.state { font-family: var(--mono); font-size: 14px; letter-spacing: .16em; fill: var(--silk-2); }
+
+.spot { cursor: pointer; outline: none; }
+.hit { fill: transparent; }
+.ring { fill: var(--ink); stroke: var(--silk); stroke-width: 1.6; transition: r .3s var(--ease), stroke .3s; }
+.dot { fill: var(--silk); transition: fill .3s; }
+.spot:not(.hot) .ring { animation: breathe 3.2s var(--ease) infinite; }
+.hot .ring { stroke: var(--signal); }
+.hot .dot { fill: var(--signal); }
+.spot:focus-visible .ring { stroke: var(--signal); stroke-width: 2; }
+.tag { font-family: var(--mono); font-size: 15px; letter-spacing: .16em; fill: var(--signal); paint-order: stroke; stroke: var(--ink); stroke-width: 5px; }
+
+@keyframes breathe {
+  0%, 100% { opacity: .45; }
+  50% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spot:not(.hot) .ring { animation: none; }
+}
+
+.caption {
+  min-height: 92px; display: flex; flex-direction: column; gap: 6px;
+  border-top: 1px solid var(--thread); padding-top: 14px; margin-top: 8px;
+}
+.capTitle { font-family: var(--display); font-size: clamp(26px, 3vw, 44px); line-height: 1; }
+.capKicker { font-family: var(--display); font-style: italic; color: var(--silk-2); font-size: 17px; }
+.capHint { font-family: var(--display); font-style: italic; color: var(--silk-3); font-size: 19px; }
+
+.index { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--thread); }
+.row {
+  display: grid; grid-template-columns: 3em 1fr auto auto; gap: 10px; align-items: baseline;
+  padding: 10px 0; border-bottom: 1px solid var(--thread-2);
+  color: var(--silk-2); text-decoration: none; transition: color .25s;
+}
+.row:hover, .rowOn { color: var(--silk); }
+.rowOn .rowN { color: var(--signal); }
+.rowN { font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; }
+.rowT { font-family: var(--display); font-size: 19px; line-height: 1.1; }
+.onMap { width: 7px; height: 7px; border-radius: 50%; border: 1px solid var(--silk-3); align-self: center; }
+
+@media (max-width: 860px) {
+  .grid { grid-template-columns: 1fr; }
+  .tag { font-size: 22px; }
+  .name, .state { font-size: 26px; }
+}
+
+.seen { width: 7px; height: 7px; border-radius: 50%; background: var(--silk); box-shadow: 0 0 0 2px var(--ink), 0 0 0 3px var(--silk-3); align-self: center; }
+
+
+.modes { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 0 10px; }
+.mode {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+  background: none; color: var(--silk-3); border: 1px solid var(--thread); border-radius: 999px;
+  padding: 6px 14px; cursor: pointer; transition: color .25s, border-color .25s;
+}
+.mode:hover, .mode:focus-visible { color: var(--silk); border-color: var(--silk-3); }
+.modeOn { color: var(--silk); border-color: var(--silk-2); }
+
+.spinnerets ellipse { fill: var(--char); stroke: var(--silk-3); stroke-width: 1.2; }
+.hourglass { fill: none; stroke: var(--silk-3); stroke-width: 1; stroke-dasharray: 4 4; }
+.nameDim { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; fill: var(--silk-3); opacity: .6; }
+.furrow { fill: none; stroke: var(--silk-3); stroke-width: 1.4; }
+.lung { fill: none; stroke: var(--silk-2); stroke-width: 2; stroke-linecap: round; }
+.plate { fill: var(--soot); stroke: var(--silk); stroke-width: 1.6; }
+.atrium { fill: none; stroke: var(--silk); stroke-width: 2; stroke-linecap: round; }
+
+.duct, .fert { fill: none; stroke: var(--silk-3); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: stroke .4s, opacity .4s; opacity: .7; }
+.fert { stroke-dasharray: 5 4; }
+.lit { stroke: var(--silk); opacity: 1; }
+.waist { stroke: var(--silk-2); stroke-width: 8; stroke-linecap: round; }
+.lobe { fill: var(--soot); stroke: var(--silk); stroke-width: 1.6; }
+.gonopore { fill: var(--ink); stroke: var(--silk); stroke-width: 1.6; }
+
+.ovary { opacity: .55; transition: opacity .4s; }
+.ovary.lit { opacity: 1; }
+.ovTube { fill: none; stroke: var(--silk-3); stroke-width: 10; stroke-linecap: round; }
+.oviduct { fill: none; stroke: var(--silk-3); stroke-width: 4; stroke-linecap: round; }
+.stalk { stroke: var(--silk-3); stroke-width: 1.2; }
+.oocyte { fill: var(--char); stroke: var(--silk-2); stroke-width: 1.2; }
+.yolk { fill: var(--soot); stroke: var(--silk); stroke-width: 1.4; }
+
+.sperm { fill: var(--silk); }
+.egg { fill: var(--soot); stroke: var(--silk); stroke-width: 1.6; }
+.tip { fill: none; stroke: var(--signal); stroke-width: 2.4; stroke-linecap: round; }
