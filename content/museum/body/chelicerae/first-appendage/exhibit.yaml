@@ -1,0 +1,58 @@
+id: body.chelicerae.first-appendage
+accession: BWM-01.05.01
+title: The First Pair
+kicker: First in the limb series, moving around the mouth
+summary: Chelicerae give the chelicerates their name. They are the first of a spider's six pairs of appendages, and in the embryo they migrate from behind the mouth to in front of it. Gene expression places them on the same body segment as an insect's antennae, though their adult job is very different.
+status: open
+order: 1
+taxa: [Latrodectus geometricus, Cupiennius salei]
+figures:
+  - value: 1st
+    label: prosomal appendage pair
+    note: ahead of the palps and four pairs of walking legs
+    featured: true
+    sources: [foelix2011]
+  - value: 6
+    label: appendage pairs on the prosoma
+    note: chelicerae, palps and four pairs of walking legs
+    sources: [foelix2011]
+  - value: "6 → 7"
+    label: embryonic steps, behind → beside the mouth
+    note: brown widow; the study's developmental landmarks, not days
+    sources: [liu2009]
+observations:
+  - id: order
+    text: The chelicerae come before the pedipalps in the spider's series of prosomal appendages.
+    sources: [foelix2011]
+  - id: behind
+    text: In brown widow embryos the chelicerae still sit behind the mouth at the study's Step 6.
+    confidence: supported
+    sources: [liu2009]
+  - id: beside
+    text: By Step 7 they have moved to a position beside the mouth.
+    confidence: supported
+    sources: [liu2009]
+  - id: adult
+    text: In adult spiders the chelicerae lie in front of the mouth, beneath the front of the carapace.
+    sources: [snodgrass1952]
+  - id: hox
+    text: Hox-gene expression in the spider Cupiennius matches the cheliceral segment with the segment that carries an insect's antennae.
+    confidence: supported
+    sources: [damen1998]
+  - id: deutocerebrum
+    text: In the modern scheme the chelicerae are innervated from the deutocerebrum, the second part of the arthropod brain.
+    sources: [liu2009]
+terms:
+  - { term: Chelicerata, def: the arthropod group — spiders, scorpions, mites, horseshoe crabs — named for its chelicerae }
+  - { term: deutocerebrum, def: the second brain region in the comparative arthropod scheme }
+  - { term: homology, def: correspondence through shared ancestry, whatever the present function }
+  - { term: preoral / postoral, def: ahead of / behind the mouth }
+  - { term: clypeus, def: the strip of carapace between the front eyes and its front edge }
+related: [body.pedipalps.appendage, body.digestion.mouth-and-pump, body.nervous-system]
+media:
+  - src: /specimens/body-chelicerae-first-appendage.webp
+    alt: "Museum plate: three outlines of a brown widow's head region — two embryonic stages and the adult — tracing the chelicerae from behind the mouth to in front of it"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

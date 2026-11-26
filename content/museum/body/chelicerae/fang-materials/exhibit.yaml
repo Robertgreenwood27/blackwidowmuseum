@@ -1,0 +1,71 @@
+id: body.chelicerae.fang-materials
+accession: BWM-01.05.04
+title: Metal-Tipped
+kicker: A hard point made from a graded composite
+summary: Studied spider fangs combine chitin and protein with local enrichment in zinc. Histidine-rich protein binds the metal, making the working tip harder than the base. No one has yet mapped the chemistry of a widow's fang, so every number here comes from other spiders.
+status: open
+order: 4
+taxa: [Cupiennius salei, Araneus diadematus]
+figures:
+  - value: "≈1.3 / ≈0.6"
+    unit: GPa
+    label: hardness, tip / base
+    note: adult Cupiennius salei, dry sections — not a widow measurement
+    sources: [politi2012]
+  - value: "≈20 / ≈13"
+    unit: GPa
+    label: stiffness (indentation modulus), tip / base
+    note: same comparison spider
+    sources: [politi2012]
+  - value: "26 / 3"
+    unit: "%"
+    label: histidine in the protein, tip / base
+    note: Cupiennius salei amino-acid analysis — not percent zinc
+    featured: true
+    sources: [politi2012]
+observations:
+  - id: composite
+    text: Cupiennius fang cuticle is a chitin–protein composite whose structure changes from place to place.
+    confidence: supported
+    sources: [politi2012]
+  - id: elements
+    text: Zinc, chlorine and calcium are distributed unevenly through that fang.
+    confidence: supported
+    sources: [politi2012]
+  - id: harder-tip
+    text: Its tip is harder under indentation than its base.
+    confidence: supported
+    sources: [politi2012]
+  - id: sequence
+    text: In that spider, histidine-rich protein is laid down first and zinc arrives after the molt.
+    confidence: supported
+    sources: [politi2017]
+  - id: channels
+    text: Nanoscale channels in the fang cuticle are interpreted as routes that carry the zinc in.
+    confidence: supported
+    sources: [politi2017]
+  - id: orb-weaver
+    text: A wider survey of sharp organismal tools found zinc-enriched fang material in the garden spider Araneus diadematus.
+    confidence: supported
+    sources: [schofield2021]
+  - id: alternative
+    text: That survey treats zinc- and manganese-rich materials as an alternative to mineralised tools, keeping a point sharp without crystals.
+    confidence: supported
+    sources: [schofield2021]
+  - id: claws
+    text: In Cupiennius the foot claws are manganese-rich while the fangs are zinc-rich.
+    sources: [politi2021]
+terms:
+  - { term: cuticle, def: the secreted outer composite of chitin and protein — not a metal shell }
+  - { term: histidine, def: an amino acid whose side group can bind metal ions }
+  - { term: hardness, def: resistance to a permanent dent }
+  - { term: indentation modulus, def: elastic stiffness measured by pressing a fine probe into a surface }
+  - { term: sclerotization, def: chemical hardening of the cuticle's protein matrix }
+related: [body.exoskeleton, body.chelicerae.growing-fangs, body.legs.feet-and-grip]
+media:
+  - src: /specimens/body-chelicerae-fang-materials.webp
+    alt: "Museum plate: a comparison spider's fang in a series of sections from base to tip, stippled patterns marking where zinc concentrates toward the point"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

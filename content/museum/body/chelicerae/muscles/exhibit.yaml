@@ -1,0 +1,57 @@
+id: body.chelicerae.muscles
+accession: BWM-01.05.06
+title: Opening and Closing
+kicker: Muscles at the hinge, pressure at the base
+summary: Inside each paturon a small opener and a larger closer work the fang on a two-point hinge. Moving the whole chelicera is another matter. In a 2025 experiment on western widows, body-fluid pressure alone pushed the chelicerae outward.
+status: open
+order: 6
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 2
+    label: opposing fang muscles
+    note: a small extensor, a larger flexor
+    sources: [foelix2011]
+  - value: 3
+    label: western widows in the pressure experiment
+    note: freshly killed females; no live bite-force recordings
+    sources: [wood2025]
+  - value: "+0.33"
+    unit: mm
+    label: chelicerae pushed outward under raised pressure
+    note: mean side-view change; elevation also rose +9.9°
+    sources: [wood2025]
+observations:
+  - id: opener
+    text: The fang extensor swings the fang out of its resting groove.
+    sources: [foelix2011]
+  - id: closer
+    text: The larger flexor closes the fang back toward the paturon.
+    sources: [foelix2011]
+  - id: tendons
+    text: Both muscles pull across the hinge through cuticular attachments.
+    sources: [snodgrass1952]
+  - id: bicondylar
+    text: The fang–paturon joint turns on two points of contact.
+    sources: [black2025]
+  - id: hydraulic
+    text: Raised fluid pressure pushed the chelicerae forward and outward in the sampled western widows.
+    confidence: supported
+    sources: [wood2025]
+  - id: web-builders
+    text: A comparative study estimated from muscle anatomy that web-building spiders bite more weakly than free hunters.
+    confidence: supported
+    sources: [black2025]
+terms:
+  - { term: intrinsic muscle, def: one that lies within the appendage it moves }
+  - { term: extrinsic muscle, def: one running from the prosoma to the cheliceral base }
+  - { term: flexor / extensor, def: closer / opener }
+  - { term: apodeme, def: an inward cuticular tendon to which muscle attaches }
+  - { term: bicondylar, def: hinged on two contact points, which fix the axis of rotation }
+related: [body.legs.hydraulics, body.legs.muscles, body.chelicerae.labidognath, venom.venom-gland]
+media:
+  - src: /specimens/body-chelicerae-muscles.webp
+    alt: "Museum plate: a cutaway chelicera showing a small opener muscle and a much larger closer muscle pulling on the fang's two-point hinge"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

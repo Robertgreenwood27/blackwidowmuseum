@@ -1,0 +1,62 @@
+id: body.exoskeleton.slits-and-strain
+accession: BWM-01.07.07
+title: Reading Its Own Strain
+kicker: Deliberate soft spots in a stiff shell
+summary: Scattered over the legs are tiny slits in the cuticle, each covered by a thin membrane. When the shell flexes, the slits squeeze and a nerve fires. These are strain gauges built into the armour. Brown widows carry 88 groups of them on their walking legs.
+status: open
+order: 7
+taxa: [Latrodectus geometricus, Cupiennius salei]
+figures:
+  - value: 88
+    label: lyriform organs on the walking legs
+    note: five female brown widows; groups of slits, not single slits
+    featured: true
+    sources: [parra2009]
+  - value: "≈27"
+    unit: "°"
+    label: tarsal bend before the slits are pressed
+    note: Cupiennius salei experiment — not a widow angle
+    sources: [schaber2012]
+  - value: "15 → 70"
+    unit: MPa
+    label: joint pad stiffening with vibration frequency
+    note: living Cupiennius; low frequency → 112 Hz
+    sources: [mcconney2007]
+observations:
+  - id: every-segment
+    text: Brown widow lyriform organs sit on several segments of every walking leg.
+    confidence: supported
+    sources: [parra2009]
+  - id: metatarsus
+    text: One lies on top of the leg at the metatarsus–tarsus joint.
+    confidence: supported
+    sources: [parra2009]
+  - id: covered
+    text: Each slit is closed by a thin cuticular membrane — it is not an open hole.
+    sources: [barth2004]
+  - id: unequal
+    text: Neighbouring slits in Cupiennius deform by different amounts under the same load.
+    confidence: supported
+    sources: [schaber2012]
+  - id: pad
+    text: A soft, hydrated pad at the joint absorbs large bends before force reaches the slits.
+    confidence: supported
+    sources: [erko2015]
+  - id: filter
+    text: A stiffer part of the pad passes only a reduced displacement on to the slits, filtering slow movements.
+    confidence: supported
+    sources: [erko2015, mcconney2007]
+terms:
+  - { term: slit sensillum, def: an elongated slit in the cuticle that senses strain }
+  - { term: lyriform organ, def: a cluster of parallel slit sensilla, shaped like a lyre }
+  - { term: strain, def: relative deformation — how much a material is stretched or squeezed }
+  - { term: viscoelastic, def: partly springy, partly sluggish in its response to force }
+  - { term: joint pad, def: the cuticle cushion that passes contact forces on to the slits }
+related: [senses.slit-sensilla, senses.proprioception, body.legs.sensory-map, senses.vibration]
+media:
+  - src: /specimens/body-exoskeleton-slits-and-strain.webp
+    alt: "Museum plate: a widow leg joint with a lyre-shaped cluster of parallel slits in the cuticle, enlarged to show each slit sealed by a thin membrane with a nerve ending beneath"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

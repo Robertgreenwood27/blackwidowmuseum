@@ -1,0 +1,63 @@
+id: body.chelicerae.human-skin
+accession: BWM-01.05.11
+title: Can It Pierce You?
+kicker: Small does not mean mechanically impossible
+summary: A female widow's fangs can breach human skin. So, in at least one identified case, can a male's. Experiments show widows are reluctant to bite at all. Most will flee, freeze or flick silk before they bite, and pinching rather than prodding is what usually provokes it.
+status: open
+order: 11
+taxa: [Latrodectus geometricus, Latrodectus hesperus]
+figures:
+  - value: 1
+    label: identified adult male bite
+    note: brown widow, upper back, Argentina, 2016
+    sources: [peralta2018]
+  - value: "0 / 2 / 60"
+    unit: "%"
+    label: widows biting when prodded once / prodded repeatedly / pinched
+    note: western widow, 43 adult females, laboratory trials
+    featured: true
+    sources: [nelsen2014]
+  - value: 9
+    unit: h
+    label: until the male-bite patient was symptom-free
+    note: a single case, not a recovery time
+    sources: [peralta2018]
+observations:
+  - id: identified
+    text: The spider in Peralta's case was identified from its genitalia as an adult male brown widow.
+    confidence: supported
+    sources: [peralta2018]
+  - id: site
+    text: The bite was on the upper back, between neck and shoulder.
+    confidence: supported
+    sources: [peralta2018]
+  - id: local
+    text: The patient had local effects without the neurotoxic syndrome of latrodectism.
+    confidence: supported
+    sources: [peralta2018]
+  - id: prod
+    text: No western widow bit when prodded once.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: pinch
+    text: Pinching provoked far more bites than prodding.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: repertoire
+    text: Threatened widows also fled, pulled in their legs, flicked silk or played dead.
+    confidence: supported
+    sources: [nelsen2014]
+terms:
+  - { term: penetration, def: breaching a surface — not necessarily reaching deep tissue }
+  - { term: envenomation, def: delivering venom, as distinct from puncturing }
+  - { term: defensive bite, def: a bite in response to threat, not a prey attack }
+  - { term: case report, def: a detailed account of one event, with no denominator }
+  - { term: latrodectism, def: the clinical syndrome caused by widow venom }
+related: [humans.latrodectism, humans.who-gets-bitten, body.chelicerae.venom-route, venom.sex-and-age]
+media:
+  - src: /specimens/body-chelicerae-human-skin.webp
+    alt: "Museum plate: a schematic cross-section of skin with two small opposed widow fangs breaching only its outer surface"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

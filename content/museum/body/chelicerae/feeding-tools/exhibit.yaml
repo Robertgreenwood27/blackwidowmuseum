@@ -1,0 +1,64 @@
+id: body.chelicerae.feeding-tools
+accession: BWM-01.05.09
+title: Jaws That Don't Chew
+kicker: Grip, release and regrip around a liquid meal
+summary: Brown widows drain flies through small holes, leaving the husk largely intact, while their fangs keep changing grip. Under the microscope the meal moves through an exposed film of fluid, not a sealed straw. The chelicerae have other jobs too, including one in mating.
+status: open
+order: 9
+taxa: [Latrodectus geometricus]
+figures:
+  - value: "2 / 3"
+    label: females / large flies observed
+    note: brown widow; flies of about 50–100 mg
+    sources: [eberhard2006]
+  - value: "4.9–7.4"
+    unit: pulses/s
+    label: visible uptake rhythm
+    note: one brown widow, three bouts, 76 pulses — not fang movements
+    featured: true
+    sources: [eberhard2006]
+  - value: Intact
+    label: prey exoskeleton after feeding
+    note: apart from the feeding holes, in the observed flies
+    sources: [eberhard2006]
+observations:
+  - id: regrasp
+    text: Feeding brown widows repeatedly let go of their fly and gripped it again with their fangs.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: film
+    text: Digestive fluid pooled on the exposed surfaces of the chelicerae during regurgitation.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: no-seal
+    text: The mouthparts did not form a seal against the prey.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: husk
+    text: The fly's exoskeleton stayed largely intact apart from the feeding holes.
+    confidence: supported
+    sources: [eberhard2006]
+  - id: separate
+    text: Digestive fluid leaves through the mouth; it does not travel through the venom canal.
+    sources: [eberhard2006, snodgrass1952]
+  - id: grooming
+    text: Spiders groom by drawing legs and palps through their chelicerae and mouthparts.
+    sources: [foelix2011]
+  - id: mating
+    text: Male brown widows use their chelicerae to tear open the cuticle covering an immature female's genital opening.
+    confidence: supported
+    sources: [sentenska2021]
+terms:
+  - { term: mastication, def: crushing or grinding food — which widows do not do }
+  - { term: regurgitation, def: passing digestive fluid out through the mouth }
+  - { term: fluid bridge, def: an exposed film of liquid linking mouthparts and prey }
+  - { term: capillarity, def: liquid drawn along narrow spaces by surface tension }
+  - { term: grooming, def: cleaning the body and appendages }
+related: [body.digestion.extra-oral, body.digestion.mouth-and-pump, body.epigynum.becoming-adult, life.courtship]
+media:
+  - src: /specimens/body-chelicerae-feeding-tools.webp
+    alt: "Museum plate: a brown widow's fangs gripping an almost intact fly, a thin film of fluid bridging her mouthparts and the prey"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

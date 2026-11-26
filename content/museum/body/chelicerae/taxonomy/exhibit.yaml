@@ -1,0 +1,58 @@
+id: body.chelicerae.taxonomy
+accession: BWM-01.05.12
+title: Reading the Jaws
+kicker: Record the margin, the sex and the view
+summary: Arachnologists score teeth, hairs and proportions on the chelicerae as characters for classification. Toothless chelicerae help diagnose Latrodectus, but they cannot pick out a widow from every toothless spider, nor tell one widow species from another.
+status: open
+order: 12
+taxa: [Latrodectus geometricus]
+figures:
+  - value: 0
+    label: groove-margin teeth
+    note: a widow character — shared with some other theridiids
+    sources: [peralta2018, agnarsson2004]
+  - value: 2
+    label: margins scored separately
+    note: front and rear; the groove floor is scored on its own
+    sources: [agnarsson2004]
+  - value: "Nearly as long"
+    label: fang relative to its base
+    note: male Enoplognatha, another theridiid — not a widow ratio
+    sources: [agnarsson2004]
+observations:
+  - id: margins
+    text: The comparative character matrix records front- and rear-margin teeth separately.
+    sources: [agnarsson2004]
+  - id: denticles
+    text: Small denticles on the groove floor are scored apart from marginal teeth.
+    sources: [agnarsson2004]
+  - id: shared
+    text: Some hadrotarsine theridiids share the widows' lack of front-margin teeth.
+    confidence: supported
+    sources: [agnarsson2004]
+  - id: enoplognatha
+    text: Male Enoplognatha have enlarged chelicerae with relatively long fangs.
+    confidence: supported
+    sources: [agnarsson2004]
+  - id: hair-form
+    text: The matrix also records variation in the form of cheliceral hairs.
+    sources: [agnarsson2004]
+  - id: stridulation
+    text: Ridged stridulatory files on male chelicerae characterise linyphioid spiders, not widows.
+    confidence: supported
+    sources: [agnarsson2004]
+terms:
+  - { term: diagnosis, def: the combination of characters that distinguishes a taxon }
+  - { term: character state, def: one recorded alternative of a defined feature }
+  - { term: denticle, def: a small fixed projection — its position must be stated }
+  - { term: homoplasy, def: similarity that arose independently, not from shared ancestry }
+  - { term: stridulatory file, def: a ridged surface rubbed to make vibration or sound }
+  - { term: voucher, def: a kept specimen that lets an identification be checked }
+related: [genus.identification, genus.family-tree, body.chelicerae.paturon]
+media:
+  - src: /specimens/body-chelicerae-taxonomy.webp
+    alt: "Museum plate: two chelicerae compared in matching views — a widow's with smooth groove margins and another theridiid's with a row of small teeth"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

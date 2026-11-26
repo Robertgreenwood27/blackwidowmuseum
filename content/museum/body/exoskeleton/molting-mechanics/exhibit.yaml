@@ -1,0 +1,63 @@
+id: body.exoskeleton.molting-mechanics
+accession: BWM-01.07.09
+title: Getting Out
+kicker: Make the replacement before opening the old shell
+summary: A molt begins hidden beneath the old cuticle. The epidermis pulls away and starts building a new covering underneath. Then the widow hangs from her silk, the old shell splits along her sides, and she pulls herself out, legs last.
+status: open
+order: 9
+taxa: [Latrodectus mactans, Latrodectus tredecimguttatus, Tegenaria atrica]
+figures:
+  - value: "≥2"
+    unit: h
+    label: of twitching before the molt
+    note: historical "L. mactans" account — the build-up, not the whole molt
+    sources: [hagstrum1968]
+  - value: "≈30"
+    unit: min
+    label: to climb out of the old skin
+    note: one observed female, penultimate to adult
+    featured: true
+    sources: [kaston1970]
+  - value: 4
+    label: pairs of legs gripping silk at the start
+    note: the spinnerets attached too
+    sources: [hagstrum1968]
+observations:
+  - id: side-split
+    text: The old cuticle opens along the sides of the prosoma, just above the leg bases.
+    confidence: supported
+    sources: [hagstrum1968]
+  - id: abdomen
+    text: Movements of the abdomen push its old covering back toward the spinnerets.
+    confidence: supported
+    sources: [hagstrum1968]
+  - id: legs
+    text: The widow pulls her legs out of their old casings by hauling downward, then reaches for the web.
+    confidence: supported
+    sources: [hagstrum1968]
+  - id: beneath
+    text: In a comparison house spider, the new exocuticle is laid down before the old skin is shed.
+    confidence: supported
+    sources: [browning1942]
+  - id: fluid
+    text: Molting fluid fills the gap, though little digestion of the old cuticle was seen in that spider.
+    confidence: supported
+    sources: [browning1942]
+  - id: adult-molts
+    text: Some female Mediterranean widows have molted again after reaching adulthood.
+    confidence: supported
+    sources: [nadolny2019]
+terms:
+  - { term: apolysis, def: the separation of the epidermis from the old cuticle }
+  - { term: ecdysial space, def: the gap that opens between the old cuticle and the new }
+  - { term: ecdysis, def: climbing out of the old cuticle }
+  - { term: ecdysial line, def: the seam along which the old covering opens }
+  - { term: instar, def: the stage between two molts }
+related: [life.molting, life.development, web.growing-up, body.chelicerae.growing-fangs]
+media:
+  - src: /specimens/body-exoskeleton-molting-mechanics.webp
+    alt: "Museum plate: a widow hanging head-down from silk, her old skin split along the sides of the prosoma, legs sliding out of their pale casings"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

@@ -1,0 +1,65 @@
+id: body.chelicerae.venom-route
+accession: BWM-01.05.07
+title: From Gland to Pore
+kicker: A separate route through each fang
+summary: Venom runs from a pair of glands in the front body down a duct through each chelicera to an outlet short of each point. Experiments on western widows separate puncturing from envenoming. More than half of single defensive bites delivered no detectable venom.
+status: open
+order: 7
+taxa: [Latrodectus hesperus, Parasteatoda tepidariorum]
+figures:
+  - value: 2
+    label: gland-to-fang routes
+    note: one per side, never cross-connected
+    sources: [snodgrass1952, reese1944]
+  - value: 53.7
+    unit: "%"
+    label: single bites with no detectable venom
+    note: western widow; 67 once-bitten targets from 20 females
+    featured: true
+    sources: [nelsen2014]
+  - value: "34.6 ± 5.3"
+    unit: µg
+    label: venom in a single detectable bite
+    note: mean ± SE, 31 targets — not a gland's full reserve or a human dose
+    sources: [nelsen2014]
+observations:
+  - id: duct
+    text: Each venom gland in the prosoma connects to its own fang by a duct.
+    sources: [snodgrass1952, reese1944]
+  - id: outlet
+    text: The fang outlet lies short of its extreme point.
+    sources: [foelix2011]
+  - id: relative
+    text: In the theridiid Parasteatoda, too, a duct runs through the chelicera from gland to fang.
+    confidence: supported
+    sources: [hassan2024]
+  - id: dry-then-wet
+    text: Targets bitten repeatedly by western widows sometimes received a wet bite after a dry one.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: context
+    text: Widows pinched on the body delivered more venom per bite than widows pinched on a leg.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: not-empty
+    text: Dry bites cannot all be explained by the spider having run out of venom.
+    confidence: supported
+    sources: [nelsen2014]
+  - id: threshold
+    text: "\"No detectable venom\" means below the assay's limit of about 0.06 µg, not proven zero."
+    confidence: supported
+    sources: [nelsen2014]
+terms:
+  - { term: venom duct, def: the tube between the secreting gland and the fang outlet }
+  - { term: dry bite, def: a bite that delivers no measurable venom }
+  - { term: venom metering, def: adjusting how much venom is spent according to circumstance }
+  - { term: ELISA, def: an antibody-based test that estimates how much venom a target received }
+  - { term: µg, def: microgram — one millionth of a gram }
+related: [venom.venom-gland, venom.sex-and-age, humans.latrodectism, body.chelicerae.human-skin]
+media:
+  - src: /specimens/body-chelicerae-venom-route.webp
+    alt: "Museum plate: a pair of venom glands in the front body, each sending its own duct down through a chelicera and fang to a pore just short of the point"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

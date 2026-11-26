@@ -1,0 +1,63 @@
+id: body.exoskeleton.waterproofing
+accession: BWM-01.07.02
+title: The Waxed Shield
+kicker: A thin barrier with a large effect
+summary: A film of surface lipids holds water in. When researchers scrubbed it from western widows with solvent, the spiders lost water about two hundred times faster. Heat weakens the barrier too, most steeply between 45 and 51 °C.
+status: open
+order: 2
+taxa: [Latrodectus hesperus]
+figures:
+  - value: "≈200×"
+    label: faster water loss with the lipids scrubbed off
+    note: western widow; chloroform–methanol treatment versus control
+    featured: true
+    sources: [hadley1989]
+  - value: "45–51"
+    unit: °C
+    label: where permeability rises fastest
+    note: western widow cuticle — a band, not a single melting point
+    sources: [hadley1989]
+  - value: "30 / 0"
+    unit: "°C / % RH"
+    label: test conditions for the whole-body comparison
+    note: warm and bone-dry air
+    sources: [hadley1989]
+observations:
+  - id: temperature
+    text: The cuticle let more water through as temperature rose.
+    confidence: supported
+    sources: [hadley1989]
+  - id: scrubbed
+    text: Scrubbing away the surface lipids greatly increased water loss.
+    confidence: supported
+    sources: [hadley1989]
+  - id: in-place
+    text: Water loss measured through a small capsule on the living spider was close to whole-body loss.
+    confidence: supported
+    sources: [hadley1989]
+  - id: excised
+    text: Cuticle cut out of the body was nearly five times leakier than cuticle measured in place.
+    confidence: supported
+    sources: [hadley1989]
+  - id: not-epidermis
+    text: The living epidermis did not appear to act as a second, active barrier.
+    confidence: supported
+    sources: [hadley1989]
+  - id: canals
+    text: Pore and wax canals connect the epidermis to the surface of widow cuticle.
+    confidence: supported
+    sources: [hadley1981]
+terms:
+  - { term: cuticular permeability, def: how easily water passes through the cuticle under stated conditions }
+  - { term: surface lipid, def: fatty material on the outer surface, not necessarily pure wax }
+  - { term: hydrocarbon, def: a compound made only of carbon and hydrogen }
+  - { term: in situ, def: measured in place on the living animal }
+  - { term: relative humidity, def: how saturated the air is with water vapour }
+related: [senses.heat-and-water, body.digestion.water, web.site, genus.western]
+media:
+  - src: /specimens/body-exoskeleton-waterproofing.webp
+    alt: "Museum plate: two blocks of cuticle side by side — one sealed by an intact waxy film with few vapour wisps escaping, one with the film scrubbed away and vapour streaming out"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

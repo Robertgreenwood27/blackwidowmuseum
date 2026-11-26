@@ -2735,3 +2735,146 @@ makover2019:
   container: Journal of the Royal Society Interface 16(150) 20180581
   doi: 10.1098/rsif.2018.0581
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6364662/
+
+damen1998:
+  authors: Damen, W. G. M.; Hausdorf, M.; Seyfarth, E.-A.; Tautz, D.
+  year: 1998
+  title: A conserved mode of head segmentation in arthropods revealed by the expression pattern of Hox genes in a spider
+  container: Proceedings of the National Academy of Sciences of the United States of America 95(18) 10665–10670
+  doi: 10.1073/pnas.95.18.10665
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC27952/
+
+politi2012:
+  authors: Politi, Y.; Priewasser, M.; Pippel, E.; Zaslansky, P.; Hartmann, J.; Siegel, S.; Li, C.; Barth, F. G.; Fratzl, P.
+  year: 2012
+  title: "A Spider's Fang: How to Design an Injection Needle Using Chitin-Based Composite Material"
+  container: Advanced Functional Materials 22 2519–2528
+  doi: 10.1002/adfm.201200063
+  url: https://www-old.mpi-halle.mpg.de/mpi/publi/pdf/10658_12.pdf
+
+politi2017:
+  authors: Politi, Y.; Pippel, E.; Licuco-Massouh, A. C. J.; Bertinetti, L.; Blumtritt, H.; Barth, F. G.; Fratzl, P.
+  year: 2017
+  title: Nano-channels in the spider fang for the transport of Zn ions to cross-link His-rich proteins pre-deposited in the cuticle matrix
+  container: Arthropod Structure & Development 46(1) 30–38; first online 2016
+  doi: 10.1016/j.asd.2016.06.001
+  url: https://pubmed.ncbi.nlm.nih.gov/27329320/
+
+baron2014:
+  authors: Bar-On, B.; Barth, F. G.; Fratzl, P.; Politi, Y.
+  year: 2014
+  title: Multiscale structural gradients enhance the biomechanical functionality of the spider fang
+  container: Nature Communications 5 3894
+  doi: 10.1038/ncomms4894
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4050259/
+
+schofield2021:
+  authors: Schofield, R. M. S.; Bailey, J.; Coon, J. J.; Devaraj, A.; Garrett, R. W.; Goggans, M. S.; Hebner, M. G.; Lee, B. S.; Lee, D.; Lovern, N.; Ober-Singleton, S.; Saephan, N.; Seagal, V. R.; Silver, D. M.; Som, H. E.; Twitchell, J.; Wang, X.; Zima, J. S.; Nesson, M. H.
+  year: 2021
+  title: "The homogenous alternative to biomineralization: Zn- and Mn-rich materials enable sharp organismal “tools” that reduce force requirements"
+  container: Scientific Reports 11 17481
+  doi: 10.1038/s41598-021-91795-y
+  url: https://pubmed.ncbi.nlm.nih.gov/34471148/
+
+lichtenegger2003:
+  authors: Lichtenegger, H. C.; Schöberl, T.; Bartl, M. H.; Waite, J. H.; Stucky, G. D.
+  year: 2003
+  title: Zinc and mechanical prowess in the jaws of Nereis, a marine worm
+  container: Proceedings of the National Academy of Sciences of the United States of America 100(16) 9144–9149
+  doi: 10.1073/pnas.1632658100
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC170886/
+
+wood2025:
+  authors: Wood, H. M.; Shultz, J. W.
+  year: 2025
+  title: The role of hydraulic pressure in spider cheliceral function
+  container: Arthropod Structure & Development 88 101475
+  doi: 10.1016/j.asd.2025.101475
+  url: https://pubmed.ncbi.nlm.nih.gov/40803078/
+
+black2025:
+  authors: Black, C. R.; Shultz, J. W.; Wood, H. M.
+  year: 2025
+  title: "Extended phenotype affects somatic phenotype in spiders: web builders have lower estimated biting forces than free hunters"
+  container: Evolution 79(3) 380–392
+  doi: 10.1093/evolut/qpae170
+  url: https://academic.oup.com/evolut/article/79/3/380/7908765
+
+hassan2024:
+  authors: Hassan, A.; Blakeley, G.; McGregor, A. P.; Zancolli, G.
+  year: 2024
+  title: Venom gland organogenesis in the common house spider
+  container: Scientific Reports 14 15379
+  doi: 10.1038/s41598-024-65336-2
+  url: https://pubmed.ncbi.nlm.nih.gov/38965282/
+
+barth1973:
+  authors: Barth, F. G.
+  year: 1973
+  title: "Microfiber reinforcement of an arthropod cuticle: Laminated composite material in biology"
+  container: Zeitschrift für Zellforschung und Mikroskopische Anatomie 144 409–433
+  doi: 10.1007/BF00307585
+  url: https://link.springer.com/article/10.1007/BF00307585
+
+browning1942:
+  authors: Browning, H. C.
+  year: 1942
+  title: The integument and moult cycle of Tegenaria atrica (Araneae)
+  container: Proceedings of the Royal Society of London B 131(862) 65–86
+  doi: 10.1098/rspb.1942.0018
+  url: https://doi.org/10.1098/rspb.1942.0018
+
+arakane2005:
+  authors: Arakane, Y.; Muthukrishnan, S.; Beeman, R. W.; Kanost, M. R.; Kramer, K. J.
+  year: 2005
+  title: Laccase 2 is the phenoloxidase gene required for beetle cuticle tanning
+  container: Proceedings of the National Academy of Sciences of the United States of America 102(32) 11337–11342
+  doi: 10.1073/pnas.0504982102
+  url: https://www.ars.usda.gov/ARSUserFiles/30200530/pdf/910_PNAS_102.11337.pdf
+
+asano2019:
+  authors: Asano, T.; Seto, Y.; Hashimoto, K.; Kurushima, H.
+  year: 2019
+  title: "Mini-review an insect-specific system for terrestrialization: Laccase-mediated cuticle formation"
+  container: Insect Biochemistry and Molecular Biology 108 61–70
+  doi: 10.1016/j.ibmb.2019.03.007
+  url: https://pubmed.ncbi.nlm.nih.gov/30904465/
+
+campli2024:
+  authors: Campli, G.; Volovych, O.; Kim, K.; Veldsman, W. P.; Drage, H. B.; Sheizaf, I.; Lynch, S.; Chipman, A. D.; Daley, A. C.; Robinson-Rechavi, M.; Waterhouse, R. M.
+  year: 2024
+  title: "The moulting arthropod: a complete genetic toolkit review"
+  container: Biological Reviews 99(6) 2338–2375
+  doi: 10.1111/brv.13123
+  url: https://doi.org/10.1111/brv.13123
+
+mcconney2007:
+  authors: McConney, M. E.; Schaber, C. F.; Julian, M. D.; Barth, F. G.; Tsukruk, V. V.
+  year: 2007
+  title: Viscoelastic nanoscale properties of cuticle contribute to the high-pass properties of spider vibration receptor (Cupiennius salei Keys)
+  container: Journal of the Royal Society Interface 4(17) 1135–1143
+  doi: 10.1098/rsif.2007.1000
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2396223/
+
+erko2015:
+  authors: Erko, M.; Younes-Metzler, O.; Rack, A.; Zaslansky, P.; Young, S. L.; Milliron, G.; Chyasnavichyus, M.; Barth, F. G.; Fratzl, P.; Tsukruk, V. V.; Zlotnikov, I.; Politi, Y.
+  year: 2015
+  title: "Micro- and nano-structural details of a spider's filter for substrate vibrations: relevance for low-frequency signal transmission"
+  container: Journal of the Royal Society Interface 12(104) 20141111
+  doi: 10.1098/rsif.2014.1111
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4345480/
+
+jeong1997:
+  authors: Jeong, M.-J.; Moon, M.-J.
+  year: 1997
+  title: Fine Structure of the Integumentary Wound Healing Process in the Spider, Pardosa astrigera
+  container: Korean Journal of Entomology 27(1) 29–41; Korean text with English abstract
+  url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09579084
+
+tadayon2020:
+  authors: Tadayon, M.; Younes-Metzler, O.; Shelef, Y.; Zaslansky, P.; Rechels, A.; Berner, A.; Zolotoyabko, E.; Barth, F. G.; Fratzl, P.; Bar-On, B.; Politi, Y.
+  year: 2020
+  title: "Adaptations for Wear Resistance and Damage Resilience: Micromechanics of Spider Cuticular “Tools”"
+  container: Advanced Functional Materials 30(32) 2000400
+  doi: 10.1002/adfm.202000400
+  url: https://pure.mpg.de/rest/items/item_3239790_3/component/file_3255118/content

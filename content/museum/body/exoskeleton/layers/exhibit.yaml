@@ -1,0 +1,59 @@
+id: body.exoskeleton.layers
+accession: BWM-01.07.01
+title: Built in Layers
+kicker: A surface, a laminate, a living maker
+summary: Cut through a widow's cuticle and you meet a thin waxy epicuticle, then the chitin-rich exocuticle and endocuticle, and finally the living epidermis that made them all. Inside the chitin layers, fibres are laid down in sheets whose direction slowly rotates, like a spiral staircase of plywood.
+status: open
+order: 1
+taxa: [Latrodectus hesperus, Cupiennius salei]
+figures:
+  - value: 3
+    label: cuticle regions
+    note: epicuticle / exocuticle / endocuticle — western widow sections
+    featured: true
+    sources: [hadley1981]
+  - value: 3
+    label: epicuticle sublayers in the leg
+    note: outer membrane, outer epicuticle, dense homogeneous layer
+    sources: [hadley1981]
+  - value: 180
+    unit: "°"
+    label: fibre rotation in one lamellar repeat
+    note: comparative spider laminate — not a thickness
+    sources: [barth1973]
+observations:
+  - id: regions
+    text: Hadley examined western widow cuticle from the cephalothorax, abdomen and walking legs under the electron microscope.
+    confidence: supported
+    sources: [hadley1981]
+  - id: sublayers
+    text: In the walking legs the epicuticle splits into an outer membrane, an outer epicuticle and a dense homogeneous layer.
+    confidence: supported
+    sources: [hadley1981]
+  - id: no-cuticulin
+    text: No cuticulin layer, a feature of many insect cuticles, was seen in those preparations.
+    confidence: supported
+    sources: [hadley1981]
+  - id: procuticle
+    text: Beneath the fibreless epicuticle lies the procuticle, built of chitin–protein fibres.
+    sources: [tadayon2020]
+  - id: helicoid
+    text: Fibre direction rotates from sheet to sheet through the laminate.
+    sources: [barth1973]
+  - id: epidermis
+    text: The living epidermal cells beneath secrete the whole cuticle, which is itself non-living.
+    sources: [politi2021]
+terms:
+  - { term: epicuticle, def: the thin outer region with no chitin fibres }
+  - { term: procuticle, def: the chitin-containing region below — exocuticle plus endocuticle }
+  - { term: lamella, def: one structural sheet within the laminate }
+  - { term: Bouligand structure, def: a helicoidal stack in which fibre direction turns gradually from sheet to sheet }
+  - { term: epidermis, def: the living cell layer that secretes the cuticle }
+related: [body.exoskeleton.waterproofing, body.exoskeleton.materials, body.chelicerae.fang-materials]
+media:
+  - src: /specimens/body-exoskeleton-layers.webp
+    alt: "Museum plate: a cutaway block of widow cuticle, a thin outer film over thick fibrous layers whose fibres twist from sheet to sheet, a row of living cells beneath"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

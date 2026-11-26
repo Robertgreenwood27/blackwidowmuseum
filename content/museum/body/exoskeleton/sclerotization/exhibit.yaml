@@ -1,0 +1,59 @@
+id: body.exoskeleton.sclerotization
+accession: BWM-01.07.04
+title: Tanning the Armour
+kicker: Hardness and blackness need separate evidence
+summary: Cuticle hardens when its proteins become cross-linked. It darkens when pigment is laid down. These are different processes. The best-tested hardening chemistry comes from insects, and for widows we know about the pigment, not yet the precise hardening pathway.
+status: open
+order: 4
+taxa: [Latrodectus hesperus, Tribolium castaneum]
+figures:
+  - value: "14 / 6"
+    label: spider species / families surveyed for melanin
+    note: including western widow black hairs — not 14 widows
+    sources: [hsiung2015]
+  - value: "≈1380 / 1580"
+    unit: cm⁻¹
+    label: Raman bands of eumelanin
+    note: spectral signature, not visible colour
+    sources: [hsiung2015]
+  - value: 2
+    label: laccase-2 forms tested in beetle tanning
+    note: red flour beetle — an insect mechanism
+    sources: [arakane2005]
+observations:
+  - id: melanin
+    text: Western widow black hairs gave spectra consistent with eumelanin.
+    confidence: supported
+    sources: [hsiung2015]
+  - id: darkening
+    text: Female western widows grow darker across successive molts.
+    sources: [vetter2017]
+  - id: catechol
+    text: In insects, oxidised catechols cross-link cuticle proteins, hardening them.
+    sources: [arakane2005]
+  - id: rnai
+    text: Beetles with the laccase-2 gene silenced failed to tan their cuticle normally.
+    confidence: supported
+    sources: [arakane2005]
+  - id: unresolved
+    text: Whether spiders and other chelicerates use the same tanning pathway as insects is unresolved.
+    confidence: debated
+    sources: [asano2019, campli2024, politi2021]
+  - id: zinc
+    text: In spider fangs, histidine-rich protein is laid down before zinc is added to harden it.
+    confidence: supported
+    sources: [politi2017]
+terms:
+  - { term: sclerotization, def: chemical hardening of the cuticle's protein matrix }
+  - { term: cross-link, def: a chemical bond tying two molecular chains together }
+  - { term: catechol, def: a small ring-shaped molecule that, once oxidised, can link proteins }
+  - { term: melanisation, def: the laying down of dark melanin pigment }
+  - { term: eumelanin, def: the brown-black melanin that absorbs light broadly }
+related: [body.colour, body.hourglass.pigment, body.chelicerae.fang-materials]
+media:
+  - src: /specimens/body-exoskeleton-sclerotization.webp
+    alt: "Museum plate: two matched diagrams of a protein network — one loosely linked, one densely cross-linked — beside a separate panel of dark pigment granules, showing hardening and darkening as different things"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

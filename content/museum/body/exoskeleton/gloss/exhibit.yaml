@@ -1,0 +1,52 @@
+id: body.exoskeleton.gloss
+accession: BWM-01.07.05
+title: The Shine
+kicker: A bright reflection on a dark animal
+summary: An adult female widow is black and glossy, but those are two separate properties. Black is about how much light is absorbed; gloss is about how the remaining light bounces off. The pigment has been studied. The shine has never been measured.
+status: open
+order: 5
+taxa: [Latrodectus hesperus]
+figures:
+  - value: Shiny black
+    label: adult female western widow
+    note: a description — no gloss meter reading exists
+    featured: true
+    sources: [vetter2017]
+  - value: Carapace
+    label: surface with lipid droplets and film
+    note: western widow, untreated electron-microscope preparation
+    sources: [hadley1981]
+observations:
+  - id: shiny
+    text: Adult female western widows are described as shiny black.
+    sources: [vetter2017]
+  - id: film
+    text: Lipid droplets and a surface film obscured the fine detail of the western widow's carapace.
+    confidence: supported
+    sources: [hadley1981]
+  - id: absorption
+    text: Detecting melanin explains why widows are black, not why they shine.
+    confidence: supported
+    sources: [hsiung2015]
+  - id: hourglass
+    text: The western widow's red hourglass was sampled separately for its pigments.
+    confidence: supported
+    sources: [hsiung2017]
+  - id: open-question
+    text: How much of the shine comes from surface smoothness and how much from the lipid film has not been tested.
+    confidence: debated
+    sources: [hadley1981, hsiung2017]
+terms:
+  - { term: gloss, def: light concentrated in the mirror direction, producing highlights }
+  - { term: specular reflection, def: mirror-like reflection }
+  - { term: diffuse reflection, def: light scattered in many directions }
+  - { term: absorption, def: light taken up by a material rather than reflected }
+  - { term: structural colour, def: colour produced by microscopic physical structure rather than pigment }
+related: [body.hourglass.warning, body.hourglass.pigment, body.colour]
+media:
+  - src: /specimens/body-exoskeleton-gloss.webp
+    alt: "A glossy black widow hanging in a tangle web, a single bright highlight sliding across her round abdomen, the red hourglass on her upturned underside"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

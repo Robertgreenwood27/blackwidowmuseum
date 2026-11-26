@@ -1,0 +1,67 @@
+id: body.exoskeleton.damage-and-repair
+accession: BWM-01.07.11
+title: Wounds and Mends
+kicker: Close the breach, then rebuild beneath it
+summary: The cuticle is not alive and cannot heal itself. When it is punctured, blood cells plug the hole, the epidermis regrows underneath and secretes new cuticle. Replacing a lost leg is a different matter. In northern widows it depends on where the leg was lost.
+status: open
+order: 11
+taxa: [Latrodectus variolus, Pardosa astrigera]
+figures:
+  - value: "<12"
+    unit: h
+    label: to plug a puncture wound
+    note: wolf spider Pardosa astrigera — not a widow timing
+    sources: [jeong1997]
+  - value: "10 → 14"
+    unit: days
+    label: new epidermis, then new cuticle
+    note: same wolf-spider study, sampled days
+    sources: [jeong1997]
+  - value: "5 / 20"
+    label: survivors after whole-coxa removal
+    note: fourth-instar female northern widows — survival, not regrowth
+    featured: true
+    sources: [randall1982]
+observations:
+  - id: plug
+    text: Punctured wolf spiders formed a clot and wound plug made with blood cells.
+    confidence: supported
+    sources: [jeong1997]
+  - id: epidermis
+    text: New epidermis grew in beneath the plug.
+    confidence: supported
+    sources: [jeong1997]
+  - id: new-cuticle
+    text: The restored epidermis then secreted new cuticle over the wound.
+    confidence: supported
+    sources: [jeong1997]
+  - id: autotomy
+    text: Northern widows shed legs at the joint between coxa and trochanter.
+    confidence: supported
+    sources: [randall1981]
+  - id: no-regrowth
+    text: Legs shed this way did not regenerate in Randall's experiments.
+    confidence: supported
+    sources: [randall1981]
+  - id: scar
+    text: Removing a whole coxa left a healed scar and no replacement leg.
+    confidence: supported
+    sources: [randall1982]
+  - id: shift
+    text: Over later molts, the neighbouring leg bases shifted over to fill the gap.
+    confidence: supported
+    sources: [randall1982]
+terms:
+  - { term: hemocyte, def: a blood cell circulating in the hemolymph }
+  - { term: wound plug, def: the clot that seals a hole in the body wall }
+  - { term: autotomy, def: shedding a limb at a built-in breaking point }
+  - { term: regeneration, def: regrowing a lost part, not just sealing the wound }
+  - { term: scar, def: a healed site — not proof the original structure is restored }
+related: [body.legs.leg-loss, body.legs.regeneration, life.molting]
+media:
+  - src: /specimens/body-exoskeleton-damage-and-repair.webp
+    alt: "Museum plate: four cuticle sections in sequence — a puncture, a clot plugging it, new epidermis growing beneath, and new cuticle sealing the wound"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

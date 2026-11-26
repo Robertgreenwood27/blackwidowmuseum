@@ -29,6 +29,8 @@ import { GutMap } from "./exhibits/body/GutMap";
 import { LegAtlas } from "./exhibits/body/LegAtlas";
 import { PalpAtlas } from "./exhibits/body/PalpAtlas";
 import { TractMap } from "./exhibits/body/TractMap";
+import { FangAtlas } from "./exhibits/body/FangAtlas";
+import { CuticleSection } from "./exhibits/body/CuticleSection";
 
 export type StageProps = { exhibit: ExhibitNode };
 export type StageEntry = {
@@ -47,6 +49,8 @@ export const STAGES: Record<string, StageEntry> = {
   "body.legs": { component: LegAtlas, medium: "Exhibit with halls · animated leg atlas", placement: "inline" },
   "body.pedipalps": { component: PalpAtlas, medium: "Exhibit with halls · animated palp atlas", placement: "inline" },
   "body.epigynum": { component: TractMap, medium: "Exhibit with halls · animated tract map", placement: "inline" },
+  "body.chelicerae": { component: FangAtlas, medium: "Exhibit with halls · animated fang atlas", placement: "inline" },
+  "body.exoskeleton": { component: CuticleSection, medium: "Exhibit with halls · interactive cuticle section", placement: "inline" },
 };
 
 export const stageFor = (id: string): StageEntry | null => STAGES[id] ?? null;

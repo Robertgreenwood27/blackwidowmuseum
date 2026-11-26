@@ -1,0 +1,69 @@
+id: body.exoskeleton.materials
+accession: BWM-01.07.12
+title: A Material Toolbox
+kicker: Architecture, water and chemistry tune one material
+summary: From one basic recipe of chitin, protein and water, spiders make soft joint pads, tough claws and metal-hardened fangs. They do it by changing fibre direction, water content and local chemistry. All the measurements so far come from other spiders, and none gives a single stiffness for a widow's body wall.
+status: open
+order: 12
+taxa: [Cupiennius salei]
+figures:
+  - value: "≈0.1–20"
+    unit: GPa
+    label: stiffness range of spider cuticles
+    note: review summary across many samples and methods
+    featured: true
+    sources: [politi2021]
+  - value: "≈15 / 70"
+    unit: MPa
+    label: one pad, slow vs fast testing
+    note: living Cupiennius, low frequency / 112 Hz
+    sources: [mcconney2007]
+  - value: "≈5.6"
+    unit: at.% Zn
+    label: zinc at a fang tip's surface
+    note: Cupiennius salei — atomic percent, not weight
+    sources: [tadayon2020]
+  - value: "0.4 / 0.6"
+    unit: at.% Mn / Ca
+    label: manganese and calcium in claw outer layers
+    note: Cupiennius salei, regional values
+    sources: [tadayon2020]
+observations:
+  - id: architecture
+    text: Fibre arrangement differs between regions of a single Cupiennius claw.
+    confidence: supported
+    sources: [tadayon2020]
+  - id: claw-metals
+    text: The claw's outer layers are enriched in manganese and calcium.
+    confidence: supported
+    sources: [tadayon2020]
+  - id: water
+    text: Wet and dry claws behave differently when indented.
+    confidence: supported
+    sources: [tadayon2020]
+  - id: frequency
+    text: A living joint pad gets stiffer the faster it is vibrated.
+    confidence: supported
+    sources: [mcconney2007]
+  - id: two-parts
+    text: A hydrated pad has a soft contact region and a stiffer supporting frame.
+    confidence: supported
+    sources: [erko2015]
+  - id: channels
+    text: Nanoscale channels in the fang are thought to carry zinc into the cuticle.
+    confidence: supported
+    sources: [politi2017]
+terms:
+  - { term: Young's modulus, def: stiffness — how much stress it takes to produce a given stretch }
+  - { term: hardness, def: resistance to a permanent dent }
+  - { term: toughness, def: resistance to cracking — energy absorbed before breaking }
+  - { term: anisotropy, def: different properties in different directions }
+  - { term: atomic percent, def: share of counted atoms, not share of weight }
+related: [body.chelicerae.fang-materials, body.legs.feet-and-grip, senses.slit-sensilla]
+media:
+  - src: /specimens/body-exoskeleton-materials.webp
+    alt: "Museum plate: a specimen bench of three spider cuticle samples — a soft joint pad, a hooked claw and a fang tip — each labelled with its own test, no widow outline"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

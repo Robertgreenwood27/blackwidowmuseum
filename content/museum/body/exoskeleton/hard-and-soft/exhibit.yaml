@@ -1,0 +1,57 @@
+id: body.exoskeleton.hard-and-soft
+accession: BWM-01.07.03
+title: Plates and Membranes
+kicker: Stiffness changes from place to place
+summary: A shell that must move needs soft seams. Stiff plates armour the prosoma and legs, and pliable membranes join them at every joint. The abdomen is mostly pliable cuticle that stretches with each meal and every clutch of eggs. It is still cuticle, though, and carries hard plates of its own.
+status: open
+order: 3
+taxa: [Latrodectus revivensis]
+figures:
+  - value: "Carapace + sternum"
+    label: stiff plates of the prosoma
+    note: joined at the sides by pliable cuticle
+    sources: [foelix2011]
+  - value: Wavy
+    label: endocuticle layers in soft regions
+    note: comparative spider membranes
+    sources: [barth1973]
+  - value: Sclerotized
+    label: a hard plate on the soft abdomen
+    note: the epigynum of an adult female L. revivensis
+    sources: [berendonck2002]
+observations:
+  - id: prosoma
+    text: The stiff carapace above and sternum below are joined by pliable side walls.
+    sources: [foelix2011]
+  - id: abdomen
+    text: Flexible abdominal cuticle makes room for a meal and for developing eggs.
+    sources: [australianmuseum2018]
+  - id: pedicel
+    text: The narrow pedicel lets the abdomen move relative to the prosoma.
+    sources: [australianmuseum2018]
+  - id: wavy
+    text: In soft abdominal and joint membranes the endocuticle's layers run in waves rather than flat sheets.
+    confidence: supported
+    sources: [barth1973]
+  - id: fibres
+    text: Some joint membranes have fibres all aligned in one direction.
+    confidence: supported
+    sources: [barth1973]
+  - id: epigynum
+    text: The adult female's epigynum is a heavily sclerotized plate set into the soft abdomen.
+    confidence: supported
+    sources: [berendonck2002]
+terms:
+  - { term: sclerite, def: a hardened plate of cuticle }
+  - { term: arthrodial membrane, def: the pliable cuticle that joins two plates }
+  - { term: pleura, def: the side walls between the upper and lower plates }
+  - { term: pedicel, def: the narrow waist between prosoma and abdomen }
+  - { term: compliance, def: how much a structure gives under a load }
+related: [body.legs.segments-and-joints, body.legs.hydraulics, body.epigynum.the-plate, body.size]
+media:
+  - src: /specimens/body-exoskeleton-hard-and-soft.webp
+    alt: "Museum plate: a widow's body mapped by texture — dense hatching on the carapace, sternum and leg segments, loose stippling on the joints and the round abdomen, the narrow pedicel between"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

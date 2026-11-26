@@ -1,0 +1,64 @@
+id: body.chelicerae.prey-bite
+accession: BWM-01.05.08
+title: Biting Prey
+kicker: Brief contact with a restrained target
+summary: Silk does the restraining, so the fangs need only brief contact. Redbacks usually wrap struggling prey before the first bite, then bite, withdraw, wrap more and return. Not every observer has seen the same sequence.
+status: open
+order: 8
+taxa: [Latrodectus hasselti, Latrodectus geometricus]
+figures:
+  - value: "6–10"
+    label: withdrawals during one capture
+    note: redback; a described sequence, not a population average
+    featured: true
+    sources: [forster1995]
+  - value: 3
+    label: kinds of bite site reported
+    note: head, body and leg joints — redback; no frequencies given
+    sources: [forster1995]
+  - value: 1
+    label: captive redback with a different routine
+    note: a single-spider comparison
+    sources: [vanhelsdingen2019]
+observations:
+  - id: wrap-first
+    text: Redbacks commonly partly wrap active prey before biting it.
+    confidence: supported
+    sources: [forster1995]
+  - id: sites
+    text: Forster saw redbacks bite repeatedly at the head, body and leg joints of their prey.
+    confidence: supported
+    sources: [forster1995]
+  - id: rewrap
+    text: More wrapping can follow between bites.
+    confidence: supported
+    sources: [forster1995]
+  - id: torpid
+    text: Sluggish mealworms were sometimes bitten before their movement triggered any silk throwing.
+    confidence: supported
+    sources: [forster1995]
+  - id: withdraw
+    text: Redbacks repeatedly left the prey and came back during biting and trussing.
+    confidence: supported
+    sources: [forster1995]
+  - id: variation
+    text: Van Helsdingen's captive redback did not show the same intensive repeated biting.
+    confidence: supported
+    sources: [vanhelsdingen2019]
+  - id: snake
+    text: A brown widow has been photographed feeding on a Brahminy blindsnake caught in its web.
+    confidence: supported
+    sources: [nyffeler2021]
+terms:
+  - { term: attack wrapping, def: throwing silk over prey to restrain it }
+  - { term: trussing, def: further securing a wrapped prey package }
+  - { term: bite-and-retreat, def: biting, withdrawing and returning — a described sequence, not a fixed programme }
+  - { term: intersegmental membrane, def: the soft joint skin between an insect's hard plates }
+related: [web.wrapping, body.comb-foot, venom.prey, body.digestion.menu]
+media:
+  - src: /specimens/body-chelicerae-prey-bite.webp
+    alt: "Museum plate: a widow hanging in a tangle web, fangs pressed to the leg joint of a silk-wrapped beetle"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

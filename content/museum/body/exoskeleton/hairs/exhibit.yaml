@@ -1,0 +1,59 @@
+id: body.exoskeleton.hairs
+accession: BWM-01.07.06
+title: A Coat of Sensors
+kicker: The socket is part of the instrument
+summary: A widow's hairs are not fur; they are cuticle shaped into instruments. A touch hair pivots in a flexible socket. A trichobothrium is fine enough to swing in a breath of air. A taste hair opens at its tip, and the comb on the fourth leg is a row of serrated bristles for throwing silk.
+status: open
+order: 6
+taxa: [Latrodectus geometricus, Latrodectus hesperus]
+figures:
+  - value: "≈68"
+    label: trichobothria on the walking legs
+    note: five female brown widows examined
+    featured: true
+    sources: [parra2009]
+  - value: "50–60"
+    unit: µm
+    label: length of putative taste hairs
+    note: western widow tarsi, under the scanning microscope
+    sources: [ross1979]
+  - value: IV
+    label: leg pair carrying the comb
+    note: serrated bristles on the tarsus
+    sources: [jocque2006]
+observations:
+  - id: socket
+    text: A sensory hair is jointed to the surrounding cuticle at its base.
+    sources: [barth2004]
+  - id: rows
+    text: Brown widow trichobothria on the tibia stand in two roughly parallel rows.
+    confidence: supported
+    sources: [parra2009]
+  - id: tip-pore
+    text: Western widow tarsi carry blunt, curved hairs that open at the tip.
+    confidence: supported
+    sources: [ross1979]
+  - id: taste
+    text: Their role as contact taste receptors was inferred from their shape.
+    confidence: supported
+    sources: [ross1979]
+  - id: comb
+    text: The fourth-leg tarsi carry a comb of specialised serrated bristles.
+    sources: [jocque2006]
+  - id: suspension
+    text: The flexibility of a hair's socket shapes how it passes on a mechanical stimulus.
+    sources: [barth2004]
+terms:
+  - { term: seta, def: a cuticular hair or bristle; plural setae }
+  - { term: socket, def: the flexible cuticular cup in which a hair pivots }
+  - { term: trichobothrium, def: a very fine hair that swings in air currents }
+  - { term: tip-pore sensillum, def: a hair with an opening at its tip, used for taste }
+  - { term: tarsal comb, def: the serrated bristles on the fourth leg's last segment }
+related: [senses.trichobothria, senses.contact-chemistry, body.comb-foot, body.legs.sensory-map]
+media:
+  - src: /specimens/body-exoskeleton-hairs.webp
+    alt: "Museum plate: three kinds of widow hair in section — a touch hair in its socket, a long fine trichobothrium in a cup, and a blunt taste hair open at the tip — beside a small comb of serrated bristles"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

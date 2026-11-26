@@ -1,0 +1,57 @@
+id: body.chelicerae.fang
+accession: BWM-01.05.03
+title: The Fang Itself
+kicker: The sharp point extends beyond the outlet
+summary: A fang is a curved, hollow-cored point of cuticle with a venom canal running through it. The canal opens short of the tip, so the solid point leads the puncture. The best measured cross-sections come from a much larger wandering spider.
+status: open
+order: 3
+taxa: [Latrodectus geometricus, Cupiennius salei]
+figures:
+  - value: 1
+    label: fang per chelicera
+    note: the one movable, puncturing segment
+    sources: [foelix2011]
+  - value: Subterminal
+    label: pore position
+    note: no widow pore-to-tip distance has been measured
+    sources: [snodgrass1952]
+  - value: 2
+    unit: mm
+    label: fitted curve radius of a fang
+    note: adult Cupiennius salei micro-CT model — a comparison, not widow fang length
+    sources: [baron2014]
+observations:
+  - id: segment
+    text: The fang is the jointed outer segment of the chelicera.
+    sources: [foelix2011]
+  - id: canal
+    text: The venom duct runs through the fang to an opening near its tip.
+    sources: [snodgrass1952]
+  - id: point
+    text: The extreme point lies beyond the canal's outlet.
+    sources: [foelix2011]
+  - id: micro-ct
+    text: Micro-CT of Cupiennius shows a curved canal enclosed within the fang wall.
+    confidence: supported
+    sources: [baron2014]
+  - id: asymmetric
+    text: That fang's cross-section is not perfectly round.
+    confidence: supported
+    sources: [baron2014]
+  - id: gradient
+    text: Its wall thickness and canal width change along its length.
+    confidence: supported
+    sources: [baron2014]
+terms:
+  - { term: venom canal, def: the passage inside the fang }
+  - { term: lumen, def: the open interior of a duct, as distinct from its wall }
+  - { term: subterminal pore, def: an outlet set back from the solid point }
+  - { term: centreline radius, def: a measure of curvature — not the fang's length }
+related: [body.chelicerae.fang-materials, body.chelicerae.venom-route, venom.venom-gland]
+media:
+  - src: /specimens/body-chelicerae-fang.webp
+    alt: "Museum plate: a widow fang shown whole and in long section, a fine canal running through it and opening on one side, short of the solid point"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

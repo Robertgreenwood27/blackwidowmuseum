@@ -1,0 +1,57 @@
+id: body.chelicerae.labidognath
+accession: BWM-01.05.05
+title: Pincers, Not Picks
+kicker: Two tools approach from opposite sides
+summary: Widow fangs close toward each other, the arrangement shared by most spiders. Tarantulas and their kin strike with roughly parallel fangs. The difference is one of direction, not of strength, and neither arrangement is a rung on a ladder.
+status: open
+order: 5
+taxa: [Latrodectus hesperus]
+figures:
+  - value: 2
+    label: opposed fangs
+    note: they meet sideways, across the midline
+    sources: [foelix2011, nelsen2014]
+  - value: "Opposed / parallel"
+    label: araneomorph / mygalomorph
+    note: conventional categories; oblique arrangements also exist
+    sources: [foelix2011]
+  - value: "+7.2"
+    unit: "°"
+    label: added gape under raised pressure
+    note: western widow, three freshly killed females — a change, not a live maximum
+    sources: [wood2025]
+observations:
+  - id: opposed
+    text: A widow's labidognath fangs close toward one another.
+    sources: [nelsen2014, foelix2011]
+  - id: parallel
+    text: Typical mygalomorph fangs work in roughly parallel planes, striking downward.
+    sources: [foelix2011]
+  - id: oblique
+    text: Some spiders hold their chelicerae obliquely, fitting neither category exactly.
+    sources: [foelix2011]
+  - id: bases
+    text: The whole cheliceral bases can move beyond the plane in which the fangs close.
+    sources: [foelix2011]
+  - id: gape
+    text: Raising body-fluid pressure widened the gape between the chelicerae of sampled western widows.
+    confidence: supported
+    sources: [wood2025]
+  - id: no-ladder
+    text: That opposed fangs grip larger prey is a hypothesis, not an established universal advantage.
+    confidence: debated
+    sources: [foelix2011]
+terms:
+  - { term: labidognath, def: with opposed chelicerae whose fangs close toward each other }
+  - { term: orthognath, def: with roughly parallel chelicerae whose fangs strike downward — tarantulas and kin }
+  - { term: plagiognath, def: with an oblique, in-between arrangement }
+  - { term: gape, def: the opening between defined points on the two chelicerae }
+  - { term: adduction / abduction, def: movement toward / away from the midline }
+related: [body.chelicerae.muscles, genus.family-tree, web.wrapping]
+media:
+  - src: /specimens/body-chelicerae-labidognath.webp
+    alt: "Museum plate: front views compared — a widow's two fangs closing toward each other like pincers beside a tarantula's two fangs striking downward in parallel"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

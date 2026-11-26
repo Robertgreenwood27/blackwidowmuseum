@@ -1,0 +1,59 @@
+id: body.chelicerae.growing-fangs
+accession: BWM-01.05.10
+title: New Fangs Every Molt
+kicker: A replacement surface must become a working point
+summary: Cheliceral buds appear early in the embryo, but the fangs come later. At every growth molt the old fang's cuticle leaves with the shed skin. In a studied comparison spider, the new fang goes on gaining its zinc after the molt.
+status: open
+order: 10
+taxa: [Latrodectus geometricus, Latrodectus hasselti, Parasteatoda tepidariorum, Cupiennius salei]
+figures:
+  - value: 13
+    label: embryonic stage when the venom gland begins
+    note: Parasteatoda's staging scheme, at the cheliceral tip — not days
+    sources: [hassan2024]
+  - value: 1
+    label: true molt inside the egg sac
+    note: redback; before spiderlings emerge
+    sources: [downes1987]
+  - value: "Protein → zinc"
+    label: order of fang hardening after a molt
+    note: Cupiennius salei; no widow timing known
+    sources: [politi2017]
+observations:
+  - id: buds
+    text: Brown widow embryos form cheliceral limb buds before the mouthparts take their adult arrangement.
+    confidence: supported
+    sources: [liu2009]
+  - id: gland
+    text: In Parasteatoda the venom-gland primordium first appears at embryonic stage 13, in the chelicera.
+    confidence: supported
+    sources: [hassan2024]
+  - id: postembryo
+    text: Parasteatoda fangs only become visible after hatching, in the postembryo.
+    confidence: supported
+    sources: [hassan2024]
+  - id: first-molt
+    text: Redbacks undergo their first true molt inside the egg sac, before emerging.
+    confidence: supported
+    sources: [downes1987]
+  - id: replaced
+    text: At each molt the fang's outer cuticle is shed and replaced with the rest of the exoskeleton.
+    sources: [foelix2011]
+  - id: zinc-later
+    text: In Cupiennius, zinc enters the new fang after its histidine-rich protein has been deposited.
+    confidence: supported
+    sources: [politi2017]
+terms:
+  - { term: postembryo, def: the stage immediately after hatching, before the first free-living instar }
+  - { term: instar, def: the stage between two molts }
+  - { term: ecdysis, def: the act of shedding the old cuticle }
+  - { term: exuvium, def: the shed skin, which includes the old fang covering }
+  - { term: primordium, def: the earliest recognisable rudiment of an organ }
+related: [life.molting, life.hatching, body.digestion.first-meals, body.chelicerae.fang-materials]
+media:
+  - src: /specimens/body-chelicerae-growing-fangs.webp
+    alt: "Museum plate: the translucent shed skin of a widow's chelicerae with its empty fang casings, beside the newly exposed pale fangs"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

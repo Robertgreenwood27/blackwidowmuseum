@@ -1,0 +1,52 @@
+id: body.exoskeleton.apodemes-and-attachment
+accession: BWM-01.07.08
+title: Muscles on the Inside
+kicker: Pulling on a shell from within
+summary: An exoskeleton has its muscles inside. They pull on the shell through tendon cells, inward folds of cuticle and long cuticular tendons. The prosoma also holds the endosternite, an internal plate of connective tissue that anchors muscles without being part of the shell. A 1959 survey counted over five hundred muscles in a widow.
+status: open
+order: 8
+taxa: [Latrodectus mactans]
+figures:
+  - value: "537 / 533"
+    label: muscles counted, female / male
+    note: historical "L. mactans" survey — whole animal
+    featured: true
+    sources: [whitehead1959]
+  - value: Cuticular
+    label: long tendons to the claws
+    note: shed and renewed with every molt
+    sources: [foelix2011]
+  - value: Non-chitinous
+    label: the endosternite
+    note: an internal connective-tissue support
+    sources: [australianmuseum2018]
+observations:
+  - id: survey
+    text: Whitehead and Rempel mapped the widow's musculature from serial sections and dissection.
+    confidence: supported
+    sources: [whitehead1959]
+  - id: tendon-cell
+    text: A tendon cell sits between each muscle and the cuticle it pulls on.
+    sources: [foelix2011]
+  - id: claw-tendon
+    text: Long claw tendons are bundles of fine cuticular tubes sheathed in epithelium.
+    sources: [foelix2011]
+  - id: shed
+    text: Their cuticular part is shed with the exuvium at each molt.
+    sources: [foelix2011]
+  - id: endosternite
+    text: The endosternite gives muscles an internal anchor without being made of chitin.
+    sources: [australianmuseum2018]
+terms:
+  - { term: apodeme, def: an inward fold or ridge of cuticle that muscles attach to }
+  - { term: tendon cell, def: a specialised epidermal cell bridging muscle and cuticle }
+  - { term: endosternite, def: an internal plate of connective tissue in the prosoma, anchoring muscles }
+  - { term: origin / insertion, def: the fixed end / the moving end of a muscle }
+related: [body.legs.muscles, body.chelicerae.muscles, body.digestion.mouth-and-pump]
+media:
+  - src: /specimens/body-exoskeleton-apodemes-and-attachment.webp
+    alt: "Museum plate: a section through the cuticle showing a muscle joined to the shell by a tendon cell, and inside the prosoma a suspended internal plate with muscles radiating to the legs"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

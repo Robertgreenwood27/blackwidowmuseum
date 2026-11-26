@@ -1,0 +1,57 @@
+id: body.exoskeleton.soft-after-molt
+accession: BWM-01.07.10
+title: The Soft Hours
+kicker: Escape is one event; hardening is another
+summary: A freshly molted widow is pale and pliable. Body-fluid pressure inflates the new cuticle to its larger size before it stiffens. Water leaves it, inner layers keep being added, and specialised parts such as the fangs go on maturing chemically. Nobody has timed this for a widow.
+status: open
+order: 10
+taxa: [Latrodectus geometricus, Tegenaria atrica, Cupiennius salei]
+figures:
+  - value: Hours
+    label: initial hardening
+    note: general spider scale — no widow timing measured
+    sources: [politi2021]
+  - value: "Protein → zinc"
+    label: order of fang maturation
+    note: Cupiennius salei — the job is not done at emergence
+    sources: [politi2017]
+  - value: 1
+    label: molt left when a brown widow can first mate
+    note: a covered genital plate — before, not after, the final molt
+    sources: [sentenska2021]
+observations:
+  - id: expand
+    text: Hemolymph pressure expands a spider's new cuticle after it emerges.
+    sources: [politi2021]
+  - id: dehydrate
+    text: The new cuticle stiffens partly as it loses water.
+    sources: [politi2021]
+  - id: endocuticle
+    text: In a comparison house spider, the endocuticle was laid down after the molt.
+    confidence: supported
+    sources: [browning1942]
+  - id: fang
+    text: Comparison spider fangs take up their zinc only after the protein matrix is in place.
+    confidence: supported
+    sources: [politi2017]
+  - id: covered
+    text: Late-subadult female brown widows keep a cuticle cover over the genital plate.
+    confidence: supported
+    sources: [sentenska2021]
+  - id: opened
+    text: Males can open that cover with their chelicerae and mate before the female's final molt.
+    confidence: supported
+    sources: [sentenska2021]
+terms:
+  - { term: teneral, def: freshly molted, before the new cuticle has matured }
+  - { term: hemolymph, def: the body fluid that also supplies hydraulic pressure }
+  - { term: maturation, def: the hardening and chemical change of new cuticle after the molt }
+  - { term: late subadult, def: the last juvenile stage before the adult molt }
+related: [body.epigynum.becoming-adult, body.legs.hydraulics, life.molting, body.chelicerae.growing-fangs]
+media:
+  - src: /specimens/body-exoskeleton-soft-after-molt.webp
+    alt: "A pale, freshly molted widow hanging beside her empty shed skin in a tangle web, her new cuticle still cream and translucent"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

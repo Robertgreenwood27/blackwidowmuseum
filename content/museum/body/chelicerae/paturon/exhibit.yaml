@@ -1,0 +1,57 @@
+id: body.chelicerae.paturon
+accession: BWM-01.05.02
+title: The Basal Segment
+kicker: A receiving groove and a working base
+summary: The stout paturon shelters the folded fang and houses the muscles that move it. In widows the margins of its groove are smooth. Most of their relatives carry teeth there.
+status: open
+order: 2
+taxa: [Latrodectus geometricus]
+figures:
+  - value: 2
+    label: named groove margins
+    note: promargin and retromargin — anatomical labels, not tooth rows in a widow
+    sources: [agnarsson2004]
+  - value: 0
+    label: groove-margin teeth
+    note: Latrodectus; confirmed in a brown widow preparation
+    featured: true
+    sources: [peralta2018, eberhard2006]
+  - value: Absent
+    label: cheliceral boss
+    note: theridioids in the comparative survey
+    sources: [agnarsson2004]
+observations:
+  - id: groove
+    text: The folded fang rests in a groove on the basal segment.
+    sources: [foelix2011]
+  - id: attachment
+    text: The paturon joins the front of the body through flexible integument rather than a fixed pin.
+    sources: [snodgrass1952]
+  - id: toothless
+    text: Latrodectus chelicerae lack the groove teeth used in many spider identifications.
+    sources: [peralta2018]
+  - id: relatives
+    text: Most theridiids in the comparative survey keep teeth on the front margin of the groove.
+    confidence: supported
+    sources: [agnarsson2004]
+  - id: hairs
+    text: Hairs near the inner tip of the chelicera vary in serration among theridiid lineages.
+    confidence: supported
+    sources: [agnarsson2004]
+  - id: boss
+    text: The survey scores the cheliceral boss, an external knob at the base, separately from the fang and its joint.
+    sources: [agnarsson2004]
+terms:
+  - { term: fang groove, def: the recess that receives the folded fang }
+  - { term: promargin, def: the front margin of the fang groove }
+  - { term: retromargin, def: the rear margin of the fang groove }
+  - { term: seta, def: a cuticular hair — not a fixed tooth }
+  - { term: boss, def: a rounded knob on the outside of the cheliceral base in some spiders }
+related: [body.chelicerae.taxonomy, body.chelicerae.muscles, body.legs.segments-and-joints]
+media:
+  - src: /specimens/body-chelicerae-paturon.webp
+    alt: "Museum plate: a widow's paturon seen from the front and from the inner side, the folded fang drawn as a transparent outline to reveal smooth, toothless groove margins"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

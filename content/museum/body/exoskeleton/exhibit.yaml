@@ -1,57 +1,67 @@
 id: body.exoskeleton
 accession: BWM-01.07
 title: The Exoskeleton
-kicker: Armour that must be shed
-summary: The widow's skeleton is on the outside — a layered composite of chitin and protein, rigid over the legs and carapace, soft enough on the abdomen to swell after a meal.
+kicker: One covering, many material jobs
+summary: The widow's skeleton is on the outside, a layered composite of chitin and protein. It is a stiff shell over the legs and carapace, pliable membrane at the joints and abdomen, a waxed barrier against drying out, and a surface studded with sensors. Twelve halls follow how it is built, sealed, shed and mended.
 status: open
 order: 5
-taxa: [Latrodectus hesperus]
+taxa: [Latrodectus hesperus, Latrodectus geometricus, Latrodectus variolus]
 figures:
   - value: 3
     label: principal cuticle layers
-    note: epicuticle, exocuticle, endocuticle
-    sources: [hadley1981, foelix2011]
+    note: epicuticle, exocuticle, endocuticle — the living epidermis lies beneath
+    sources: [hadley1981]
   - value: 3
     label: sublayers of the leg epicuticle
     note: L. hesperus walking legs
     sources: [hadley1981]
+  - value: "≈200×"
+    label: more water lost with surface lipids scrubbed off
+    note: western widow, solvent-treated versus control
+    featured: true
+    sources: [hadley1989]
 observations:
   - id: composite
     text: Spider cuticle is built from chitin microfibres embedded in a protein matrix.
-    sources: [foelix2011]
+    sources: [foelix2011, politi2021]
   - id: barrier
-    text: The thin outer epicuticle largely controls how much water passes through the cuticle.
-    sources: [foelix2011]
-  - id: sclerotization
-    text: After each molt, the new exocuticle hardens through sclerotization.
-    sources: [foelix2011]
-  - id: soft-abdomen
-    text: The abdominal cuticle is comparatively soft, letting it expand between molts while the prosoma and legs stay rigidly encased.
-    sources: [foelix2011]
-  - id: lipids
-    text: The western widow's carapace surface carries lipid droplets and a film that obscure its finer detail.
+    text: Surface lipids make the western widow's cuticle a far better barrier to water loss.
     confidence: supported
-    sources: [hadley1981]
+    sources: [hadley1989]
   - id: canals
     text: Pore and wax canals run through widow cuticle, connecting the living epidermis to the surface.
     confidence: supported
     sources: [hadley1981]
+  - id: regions
+    text: Different regions of the cuticle do different mechanical jobs — stiff plates, pliable membranes, sensory openings.
+    sources: [politi2021]
+  - id: soft-abdomen
+    text: The abdominal cuticle is pliable, letting the abdomen expand with food and eggs while the prosoma and legs stay rigidly encased.
+    sources: [foelix2011, australianmuseum2018]
   - id: gloss
     text: Adult female western black widows are characteristically shiny black.
     sources: [vetter2017]
   - id: setae
     text: The cuticle bears socketed hairs that act as touch sensors when bent.
     sources: [barth2004]
+  - id: matures
+    text: New cuticle goes on maturing and stiffening after the spider has climbed out of the old one.
+    sources: [politi2021]
+  - id: repair
+    text: Sealing a wound is not the same as replacing a lost part; widow experiments show both outcomes.
+    confidence: supported
+    sources: [randall1981, randall1982]
 terms:
   - { term: cuticle, def: the non-living outer covering secreted by the epidermis }
   - { term: epicuticle, def: the thin outermost layer — the waterproofing barrier }
+  - { term: epidermis, def: the living cell layer that makes the cuticle }
   - { term: sclerotization, def: the chemical hardening of new cuticle }
   - { term: exuvium, def: the empty skin left behind after a molt }
-related: [life.molting, senses.trichobothria, body.body-plan]
+related: [life.molting, senses.slit-sensilla, body.legs, body.colour]
 media:
   - src: /specimens/body-exoskeleton.webp
     alt: "The empty, translucent shed skin of a juvenile widow hanging in silk, its carapace split open where she climbed out"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-26
