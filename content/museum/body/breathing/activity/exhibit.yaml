@@ -1,0 +1,67 @@
+id: body.breathing.activity
+accession: BWM-01.04.08
+title: Out of Breath
+kicker: A burst, a cost, a recovery
+summary: Effort costs breath. A courting male redback drums on the female's web, and middle-weight males do it most efficiently. A related cobweb spider uses about eleven times more power walking than resting. Tarantulas show what happens past the aerobic limit — lactate builds up, and recovery takes time.
+status: open
+order: 8
+taxa: [Latrodectus hasselti, Anelosimus arizona, Brachypelma smithi]
+figures:
+  - value: "4.7 × 10⁻⁶ / 5.4 × 10⁻⁵"
+    unit: W
+    label: resting / walking power
+    note: the cobweb spider Anelosimus arizona, 21 °C
+    featured: true
+    sources: [straus2022]
+  - value: "≈8×"
+    label: oxygen uptake, running vs resting
+    note: 30 g tarantulas, 10-minute runs — not a widow figure
+    sources: [anderson1985]
+  - value: "11.7 / 8.9"
+    unit: days
+    label: survival of unfed males, rested / after courting
+    note: redbacks, 25 each, after a 3-hour trial
+    sources: [kasumovic2009]
+observations:
+  - id: efficiency
+    text: Intermediate-mass male redbacks were the most metabolically efficient courtship signallers.
+    confidence: supported
+    sources: [deluca2015]
+  - id: duty-cycle
+    text: How much of the time a male spent signalling followed a curve with body mass, peaking in the middle.
+    confidence: supported
+    sources: [deluca2015]
+  - id: cost
+    text: Courting shortened the survival of unfed males.
+    confidence: supported
+    sources: [kasumovic2009]
+  - id: walking
+    text: Walking Anelosimus used far more energy than resting ones.
+    confidence: supported
+    sources: [straus2022]
+  - id: ceiling
+    text: Running tarantulas faster did not raise their steady oxygen uptake any further.
+    confidence: supported
+    sources: [anderson1985]
+  - id: lactate
+    text: Lactate accumulated in their hemolymph during that exercise.
+    confidence: supported
+    sources: [anderson1985]
+  - id: recovery
+    text: In tested spiders, CO₂ release could dip during maximal effort and rise during recovery.
+    confidence: supported
+    sources: [paul1989b]
+terms:
+  - { term: aerobic scope, def: how far active oxygen use can rise above rest }
+  - { term: anaerobic metabolism, def: making energy without oxygen, leaving lactate behind }
+  - { term: lactate, def: an end product of anaerobic metabolism }
+  - { term: duty cycle, def: the share of time spent actively signalling }
+  - { term: recovery, def: the period after effort when the body returns to baseline }
+related: [life.courtship, life.mate-search, senses.vibration, web.wrapping]
+media:
+  - src: /specimens/body-breathing-activity.webp
+    alt: "A small male redback drumming on the strands of a tangle web while the large female hangs inverted nearby, her red hourglass facing up"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

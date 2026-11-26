@@ -2878,3 +2878,170 @@ tadayon2020:
   container: Advanced Functional Materials 30(32) 2000400
   doi: 10.1002/adfm.202000400
   url: https://pure.mpg.de/rest/items/item_3239790_3/component/file_3255118/content
+
+levi1967:
+  authors: Levi, H. W.
+  year: 1967
+  title: Adaptations of respiratory systems of spiders
+  container: Evolution 21(3) 571–583
+  doi: 10.1111/j.1558-5646.1967.tb03412.x
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1558-5646.1967.tb03412.x
+
+ramirez2000:
+  authors: Ramírez, M. J.
+  year: 2000
+  title: Respiratory system morphology and the phylogeny of haplogyne spiders (Araneae, Araneomorphae)
+  container: Journal of Arachnology 28(2) 149–157
+  doi: 10.1636/0161-8202(2000)028[0149:RSMATP]2.0.CO;2
+  url: https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac_28_02_0149.pdf/?no_cache=1
+
+ramirez2021:
+  authors: Ramírez, M. J.; Magalhaes, I. L. F.; Derkarabetian, S.; Ledford, J.; Griswold, C. E.; Wood, H. M.; Hedin, M.
+  year: 2021
+  title: Sequence Capture Phylogenomics of True Spiders Reveals Convergent Evolution of Respiratory Systems
+  container: Systematic Biology 70(1) 14–20; first online 2020
+  doi: 10.1093/sysbio/syaa043
+  url: https://pubmed.ncbi.nlm.nih.gov/32497195/
+
+kuntzel2019:
+  authors: Küntzel, N.; Dunlop, J. A.; Scholtz, G.
+  year: 2019
+  title: Morphology and evolution of spider book lungs (Araneae)
+  container: Arthropod Systematics & Phylogeny 77(2) 267–284
+  doi: 10.26049/ASP77-2-2019-05
+  url: https://www.biologie.hu-berlin.de/de/gruppenseiten/compzool/res/publications/pdfs/kntzel-et-al-2019-spider-book-lungs.pdf
+
+lopardo2022:
+  authors: Lopardo, L.; Michalik, P.; Hormiga, G.
+  year: 2022
+  title: Take a deep breath… The evolution of the respiratory system of symphytognathoid spiders (Araneae, Araneoidea)
+  container: Organisms Diversity & Evolution 22 231–263; first online 10 November 2021
+  doi: 10.1007/s13127-021-00524-w
+  url: https://link.springer.com/article/10.1007/s13127-021-00524-w
+
+strazny1984:
+  authors: Strazny, F.; Perry, S. F.
+  year: 1984
+  title: Morphometric diffusing capacity and functional anatomy of the book lungs in the spider Tegenaria spp. (Agelenidae)
+  container: Journal of Morphology 182(3) 339–354
+  doi: 10.1002/jmor.1051820308
+  url: https://pubmed.ncbi.nlm.nih.gov/30029565/
+
+schmitz2000:
+  authors: Schmitz, A.; Perry, S. F.
+  year: 2000
+  title: "Respiratory system of arachnids I: morphology of the respiratory system of Salticus scenicus and Euophrys lanigera (Arachnida, Araneae, Salticidae)"
+  container: Arthropod Structure & Development 29(1) 3–12
+  doi: 10.1016/S1467-8039(00)00008-6
+  url: https://pubmed.ncbi.nlm.nih.gov/18088909/
+
+schmitz2001:
+  authors: Schmitz, A.; Perry, S. F.
+  year: 2001
+  title: "Bimodal breathing in jumping spiders: morphometric partitioning of the lungs and tracheae in Salticus scenicus (Arachnida, Araneae, Salticidae)"
+  container: Journal of Experimental Biology 204(24) 4321–4334
+  doi: 10.1242/jeb.204.24.4321
+  url: https://pubmed.ncbi.nlm.nih.gov/11815656/
+
+fincke1989:
+  authors: Fincke, T.; Paul, R.
+  year: 1989
+  title: "Book lung function in arachnids. III. The function and control of the spiracles"
+  container: Journal of Comparative Physiology B 159 433–441
+  doi: 10.1007/BF00692415
+  url: https://link.springer.com/article/10.1007/BF00692415
+
+rehm2012:
+  authors: Rehm, P.; Pick, C.; Borner, J.; Markl, J.; Burmester, T.
+  year: 2012
+  title: The diversity and evolution of chelicerate hemocyanins
+  container: BMC Evolutionary Biology 12, 19
+  doi: 10.1186/1471-2148-12-19
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3306762/
+
+greenstone1980:
+  authors: Greenstone, M. H.; Bennett, A. F.
+  year: 1980
+  title: Foraging strategy and metabolic rate in spiders
+  container: Ecology 61(5) 1255–1259
+  doi: 10.2307/1936843
+  url: https://www.academia.edu/52752682/Foraging_Strategy_and_Metabolic_Rate_in_Spiders
+
+anderson1970:
+  authors: Anderson, J. F.
+  year: 1970
+  title: Metabolic rates of spiders
+  container: Comparative Biochemistry and Physiology 33(1) 51–72
+  doi: 10.1016/0010-406X(70)90483-4
+  url: https://www.sciencedirect.com/science/article/pii/0010406X70904834
+
+anderson1985:
+  authors: Anderson, J. F.; Prestwich, K. N.
+  year: 1985
+  title: The physiology of exercise at and above maximal aerobic capacity in a theraphosid (tarantula) spider, Brachypelma smithi (F.O. Pickard-Cambridge)
+  container: Journal of Comparative Physiology B 155 529–539
+  url: https://college.holycross.edu/faculty/kprestwi/pubs/jcp_v155_p529.pdf
+
+deluca2015:
+  authors: De Luca, P. A.; Stoltz, J. A.; Andrade, M. C. B.; Mason, A. C.
+  year: 2015
+  title: Metabolic efficiency in courtship favors males with intermediate mass in the Australian redback spider, Latrodectus hasselti
+  container: Journal of Insect Physiology 72 35–42; first online 29 November 2014
+  doi: 10.1016/j.jinsphys.2014.11.004
+  url: https://pubmed.ncbi.nlm.nih.gov/25456451/
+
+straus2022:
+  authors: Straus, S.; González, A. L.; Matthews, P.; Avilés, L.
+  year: 2022
+  title: Economies of scale shape energetics of solitary and group-living spiders and their webs
+  container: Journal of Animal Ecology 91(1) 255–265; first online 10 November 2021
+  doi: 10.1111/1365-2656.13628
+  url: https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13628
+
+paul1989a:
+  authors: Paul, R.; Fincke, T.; Linzen, B.
+  year: 1989
+  title: "Book lung function in arachnids. I. Oxygen uptake and respiratory quotient during rest, activity and recovery — relations to gas transport in the haemolymph"
+  container: Journal of Comparative Physiology B 159 409–418
+  doi: 10.1007/BF00692413
+  url: https://link.springer.com/article/10.1007/BF00692413
+
+paul1989b:
+  authors: Paul, R.; Fincke, T.
+  year: 1989
+  title: "Book lung function in arachnids. II. Carbon dioxide release and its relations to respiratory surface, water loss and heart frequency"
+  container: Journal of Comparative Physiology B 159 419–432
+  doi: 10.1007/BF00692414
+  url: https://link.springer.com/article/10.1007/BF00692414
+
+figueroa2010:
+  authors: Figueroa, D. P.; Sabat, P.; Torres-Contreras, H.; Veloso, C.; Canals, M.
+  year: 2010
+  title: Participation of book lungs in evaporative water loss in Paraphysa parvula, a migalomorph spider from Chilean Andes
+  container: Journal of Insect Physiology 56(7) 731–735
+  doi: 10.1016/j.jinsphys.2010.01.001
+  url: https://pubmed.ncbi.nlm.nih.gov/20064521/
+
+farley2015:
+  authors: Farley, R. D.
+  year: 2015
+  title: Book lung development in the embryo, postembryo and first instar of the cobweb spider, Parasteatoda tepidariorum C. L. Koch, 1841 (Araneomorphae, Theridiidae)
+  container: Arthropod Structure & Development 44(4) 355–377
+  doi: 10.1016/j.asd.2015.04.006
+  url: https://www.sciencedirect.com/science/article/pii/S1467803915000353
+
+farley2018:
+  authors: Farley, R. D.
+  year: 2018
+  title: Book lung development in juveniles and adults of the cobweb spider, Parasteatoda tepidariorum C. L. Koch, 1841 (Araneomorphae, Theridiidae)
+  container: Arthropod Structure & Development 47(2) 180–198
+  doi: 10.1016/j.asd.2018.01.002
+  url: https://www.sciencedirect.com/science/article/pii/S1467803918300021
+
+petillon2009:
+  authors: Pétillon, J.; Montaigne, W.; Renault, D.
+  year: 2009
+  title: Hypoxic coma as a strategy to survive inundation in a salt-marsh inhabiting spider
+  container: Biology Letters 5(4) 442–445
+  doi: 10.1098/rsbl.2009.0127
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2781913/

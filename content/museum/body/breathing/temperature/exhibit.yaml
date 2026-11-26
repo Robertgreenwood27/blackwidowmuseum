@@ -1,0 +1,64 @@
+id: body.breathing.temperature
+accession: BWM-01.04.09
+title: Hot and Cold Breathing
+kicker: Temperature changes demand and water cost
+summary: A spider's body is the temperature of its surroundings, so its metabolism rises with heat. Breathing also costs water. In one Chilean tarantula, the lungs accounted for about 60% of the water lost to evaporation. A widow's version of that sum has never been done.
+status: open
+order: 9
+taxa: [Latrodectus hasselti, Latrodectus hesperus, Paraphysa parvula]
+figures:
+  - value: "10 / 25"
+    unit: °C
+    label: cool vs warm starvation trials
+    note: female redbacks survived longer cool — a survival result, not a breathing rate
+    sources: [forster1989]
+  - value: "≈60"
+    unit: "%"
+    label: of evaporative loss through the lungs
+    note: the tarantula Paraphysa parvula — no widow figure
+    featured: true
+    sources: [figueroa2010]
+  - value: 40
+    unit: °C
+    label: where that tarantula's breathing and water loss jumped
+    note: not a widow threshold
+    sources: [figueroa2010]
+observations:
+  - id: acute
+    text: Sudden temperature changes shifted spider metabolic rates over the tested range.
+    confidence: supported
+    sources: [anderson1970]
+  - id: compensation
+    text: Some spiders partly compensated after a long stay at a warm temperature.
+    confidence: supported
+    sources: [anderson1970]
+  - id: redback-scope
+    text: The cold redback study measured survival and behaviour, not breathing.
+    confidence: supported
+    sources: [forster1989]
+  - id: paraphysa
+    text: The tarantula's CO₂ output rose with temperature.
+    confidence: supported
+    sources: [figueroa2010]
+  - id: co2-water
+    text: Exposure to raised CO₂, which holds the lungs open, increased its water loss.
+    confidence: supported
+    sources: [figueroa2010]
+  - id: cuticle
+    text: Western widow cuticle also leaks more water as it warms.
+    confidence: supported
+    sources: [hadley1989]
+terms:
+  - { term: ectotherm, def: an animal whose body temperature follows its surroundings }
+  - { term: Q10, def: how much a rate multiplies for a 10 °C rise }
+  - { term: acclimation, def: physiological adjustment during a long stay in new conditions }
+  - { term: respiratory water loss, def: water evaporating through the breathing surfaces }
+  - { term: microclimate, def: the conditions where the animal actually sits }
+related: [body.exoskeleton.waterproofing, senses.heat-and-water, web.site, life.seasons]
+media:
+  - src: /specimens/body-breathing-temperature.webp
+    alt: "Museum plate: a widow outline with two routes of water loss — vapour leaving through the lung slits and through the cuticle — beside a thermometer"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

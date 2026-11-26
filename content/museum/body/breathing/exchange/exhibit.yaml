@@ -1,0 +1,58 @@
+id: body.breathing.exchange
+accession: BWM-01.04.05
+title: Across the Thin Wall
+kicker: A short crossing, then a circulating carrier
+summary: Oxygen diffuses across a wall less than a fifth of a micrometre thick and binds hemocyanin, a copper protein dissolved in the hemolymph. The oxygenated fluid flows to the sinus around the heart and enters it through the ostia. Hemocyanin has been found in widow hemolymph, but how strongly it binds oxygen has not been measured.
+status: open
+order: 5
+taxa: [Latrodectus mirabilis, Salticus scenicus]
+figures:
+  - value: "0.164 / 0.186"
+    unit: µm
+    label: total air-to-blood barrier
+    note: jumping spiders averaging 2.7 / 5.3 mg — not widow tissue
+    featured: true
+    sources: [schmitz2001]
+  - value: 6
+    label: subunits in a hemocyanin hexamer
+    note: arthropod building block; the widow assembly is unverified
+    sources: [rehm2012]
+  - value: 2
+    label: copper ions per oxygen-binding site
+    note: per subunit, not per spider
+    sources: [rehm2012]
+observations:
+  - id: physics
+    text: Diffusion rises with surface area and gas gradient, and falls as the barrier thickens.
+    sources: [schmitz2001]
+  - id: return
+    text: Hemolymph from the lungs flows to the sinus around the heart, then enters the heart through the ostia.
+    sources: [snodgrass1952]
+  - id: widow-hemocyanin
+    text: In L. mirabilis hemolymph, a lipoprotein fraction carried hemocyanin as its main protein.
+    confidence: supported
+    sources: [cunningham2000]
+  - id: hexamers
+    text: Arthropod hemocyanins are built from hexamers or multiples of hexamers.
+    sources: [rehm2012]
+  - id: copper
+    text: Each subunit binds oxygen at a pair of copper ions.
+    sources: [rehm2012]
+  - id: tube-walls
+    text: In jumping spiders, oxygen can also diffuse sideways out through the walls of small air tubes.
+    confidence: supported
+    sources: [schmitz2001]
+terms:
+  - { term: partial-pressure gradient, def: the difference in a gas's pressure that drives diffusion }
+  - { term: hemocyanin, def: a copper-containing oxygen carrier dissolved in the hemolymph }
+  - { term: hexamer, def: an assembly of six protein subunits }
+  - { term: oxygen affinity, def: how readily a carrier binds oxygen }
+  - { term: pericardial sinus, def: the hemolymph space surrounding the heart }
+related: [body.circulation, body.breathing.book-lung, body.digestion.energy]
+media:
+  - src: /specimens/body-breathing-exchange.webp
+    alt: "Museum plate: oxygen molecules crossing a thin wall from an air space into hemolymph, with an enlarged inset of a six-part hemocyanin molecule and its paired copper site"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

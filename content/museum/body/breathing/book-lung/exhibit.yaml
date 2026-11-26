@@ -1,0 +1,60 @@
+id: body.breathing.book-lung
+accession: BWM-01.04.02
+title: Pages of Air
+kicker: Keep the air open and the fluid close
+summary: A book lung folds a large surface into a small pocket. Thin air spaces alternate with hemolymph spaces. Cuticle struts hold the air spaces open, and living pillars brace the hemolymph side. No one has counted a widow's pages, so the numbers here come from other spiders.
+status: open
+order: 2
+taxa: [Tegenaria, Parasteatoda tepidariorum]
+figures:
+  - value: 69.8
+    unit: mm²
+    label: lung surface of a 100 mg house spider
+    note: Tegenaria regression estimate — not a widow measurement
+    featured: true
+    sources: [strazny1984]
+  - value: "≈0.2 + ≈0.2"
+    unit: µm
+    label: cuticle + cell layer in the exchange wall
+    note: non-molting Tegenaria
+    sources: [strazny1984]
+  - value: 8
+    label: leaves in one tiny spider's lung
+    note: Crassanapis chilensis, a non-theridiid — not a widow count
+    sources: [lopardo2022]
+observations:
+  - id: atrium
+    text: Each lung slit opens into an atrium beside the stacked exchange spaces.
+    sources: [kuntzel2019]
+  - id: trabeculae
+    text: Tiny cuticular struts, trabeculae, keep the air spaces from collapsing.
+    sources: [kuntzel2019]
+  - id: pillars
+    text: Pillar cells brace the hemolymph spaces between the air spaces.
+    sources: [kuntzel2019]
+  - id: bridges
+    text: Near the atrium some struts bridge an air space completely.
+    confidence: supported
+    sources: [kuntzel2019]
+  - id: variety
+    text: The shapes of the outer struts vary among spider groups.
+    confidence: supported
+    sources: [kuntzel2019]
+  - id: counts
+    text: The number of lung leaves differs among the small spiders that have been surveyed.
+    confidence: supported
+    sources: [lopardo2022]
+terms:
+  - { term: atrium, def: the air chamber between the slit and the stacked exchange spaces }
+  - { term: lamella, def: one thin leaf of the lung — say which side is air and which is hemolymph }
+  - { term: trabecula, def: a cuticular strut propping open an air space }
+  - { term: pillar cell, def: a living support inside a hemolymph space }
+  - { term: diffusion barrier, def: the thin wall separating air from hemolymph }
+related: [body.breathing.exchange, body.exoskeleton.layers, body.circulation]
+media:
+  - src: /specimens/body-breathing-book-lung.webp
+    alt: "Museum plate: a cutaway block of book lung — thin air spaces propped open by tiny struts alternating with hemolymph spaces braced by pillar cells, an air chamber at one end"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

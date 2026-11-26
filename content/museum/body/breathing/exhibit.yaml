@@ -2,9 +2,10 @@ id: body.breathing
 accession: BWM-01.04
 title: Book Lungs
 kicker: Breathing through pages
-summary: Two lungs built like books sit at the front of the abdomen; a slit just ahead of the spinnerets feeds a second system of air tubes.
+summary: Two lungs built like books sit at the front of the abdomen, and a slit just ahead of the spinnerets feeds a second system of air tubes. Eleven halls follow the air from the openings to the blood, then the demands placed on it by rest, hunger, effort, heat, growth and low oxygen.
 status: open
 order: 13
+taxa: [Latrodectus mactans, Latrodectus hasselti, Latrodectus hesperus, Latrodectus mirabilis]
 figures:
   - value: 1
     label: pair of book lungs
@@ -14,6 +15,12 @@ figures:
     label: tracheal spiracle
     note: a broad slit just ahead of the spinnerets
     sources: [jocque2006]
+  - value: "≈0.014–0.016"
+    unit: mL CO₂/h
+    label: a resting widow's output
+    note: adult female L. mactans of about 0.34 g, fasted, 25 °C; two group means
+    featured: true
+    sources: [barnes2019]
 observations:
   - id: lungs
     text: Black widows breathe through one pair of book lungs and a tracheal system of air tubes.
@@ -26,23 +33,28 @@ observations:
     sources: [snodgrass1952]
   - id: pages
     text: Inside each lung, thin air spaces alternate with hemolymph-filled spaces, stacked like the pages of a book.
-    sources: [foelix2011, snodgrass1952]
+    sources: [foelix2011, kuntzel2019]
   - id: exchange
-    text: Oxygen crosses the thin walls between air and hemolymph, then returns toward the heart through pulmonary vessels.
+    text: Oxygen crosses the thin walls into the hemolymph, which flows to the sinus around the heart and enters it through the ostia.
     sources: [snodgrass1952]
   - id: hemocyanin
     text: In spiders, oxygen is carried by hemocyanin dissolved in the hemolymph.
-    sources: [foelix2011]
+    sources: [foelix2011, rehm2012]
+  - id: low-oxygen
+    text: How well western widows tolerate low oxygen depends on the temperature.
+    confidence: supported
+    sources: [liu2008]
 terms:
-  - { term: book lung, def: a stack of thin, leaf-like air chambers — gas exchange across many pages }
+  - { term: book lung, def: a respiratory organ of many thin air spaces alternating with hemolymph spaces }
   - { term: spiracle, def: an external opening leading to a respiratory organ }
   - { term: trachea, def: an air-filled tube lined with cuticle }
   - { term: epigastric furrow, def: the crease across the front underside of the abdomen }
-related: [body.circulation, body.epigynum]
+  - { term: gas exchange, def: oxygen in and carbon dioxide out across a respiratory surface }
+related: [body.circulation, body.epigynum, body.exoskeleton.waterproofing, body.digestion.energy]
 media:
   - src: /specimens/body-breathing.webp
     alt: "Cutaway of a book lung: thin parallel air plates stacked like pages"
     generated: true
     review: pending
     credit: Generated illustration (Codex)
-revised: 2026-11-21
+revised: 2026-11-26

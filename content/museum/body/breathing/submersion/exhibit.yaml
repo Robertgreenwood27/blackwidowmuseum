@@ -1,0 +1,69 @@
+id: body.breathing.submersion
+accession: BWM-01.04.11
+title: When Oxygen Runs Low
+kicker: Low-oxygen air and floodwater are different tests
+summary: Western widows came through a day at 2% oxygen when chilled to 1 °C. All of them died when the oxygen fell to 0.5%, and all died at 2% when the air was warmed to 15 °C. Cold lowers the demand, so the same thin air lasts. How long a widow survives underwater has never been measured.
+status: open
+order: 11
+taxa: [Latrodectus hesperus, Arctosa fulvolineata]
+figures:
+  - value: 0
+    unit: "% mortality"
+    label: at 2% oxygen, 1 °C
+    note: western widow, 24 h exposure
+    featured: true
+    sources: [liu2008]
+  - value: 100
+    unit: "% mortality"
+    label: at 0.5% oxygen, 1 °C
+    note: western widow, 24 h exposure
+    sources: [liu2008]
+  - value: 100
+    unit: "% mortality"
+    label: at 2% oxygen, 15 °C
+    note: western widow, 24 h exposure
+    sources: [liu2008]
+  - value: "29.6"
+    unit: h
+    label: half-survival time underwater
+    note: salt-marsh wolf spider in seawater, 20 °C, counting those that revived
+    sources: [petillon2009]
+observations:
+  - id: both
+    text: Widow mortality depended on both oxygen level and temperature.
+    confidence: supported
+    sources: [liu2008]
+  - id: cold-survive
+    text: No widows died at 2% oxygen in the cold over the test period.
+    confidence: supported
+    sources: [liu2008]
+  - id: lower
+    text: Dropping oxygen further was lethal at the same cold temperature.
+    confidence: supported
+    sources: [liu2008]
+  - id: coma
+    text: Some submerged salt-marsh wolf spiders went limp and then revived in air.
+    confidence: supported
+    sources: [petillon2009]
+  - id: counted
+    text: Counting those revivals raised the species' estimated tolerance of submersion.
+    confidence: supported
+    sources: [petillon2009]
+  - id: mechanism
+    text: The wolf-spider researchers proposed metabolic shutdown as the mechanism but did not test it.
+    confidence: debated
+    sources: [petillon2009]
+terms:
+  - { term: hypoxia, def: oxygen below normal levels }
+  - { term: anoxia, def: no oxygen at all — not the same as 2% }
+  - { term: LT50, def: the exposure time at which half the animals are expected to die }
+  - { term: hypoxic coma, def: reversible unresponsiveness caused by low oxygen }
+  - { term: plastron, def: a film of trapped air on a water-repellent surface, sometimes used to breathe underwater }
+related: [genus.western, web.site, life.seasons, humans.stowaways]
+media:
+  - src: /specimens/body-breathing-submersion.webp
+    alt: "Museum plate: three sealed glass jars, each holding a widow under a different label of oxygen and temperature, set apart from a separate water-filled vessel"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

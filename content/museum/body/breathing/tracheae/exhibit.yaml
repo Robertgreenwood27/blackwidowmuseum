@@ -1,0 +1,61 @@
+id: body.breathing.tracheae
+accession: BWM-01.04.04
+title: Tubes Through the Body
+kicker: A tube's destination matters as much as its entrance
+summary: Spider air tubes range from short stubs in the abdomen to branches that reach the brain. The widow's tracheal entrance is well established, but no one has fully mapped where its tubes go. The detailed maps come from jumping spiders.
+status: open
+order: 4
+taxa: [Latrodectus, Salticus scenicus, Euophrys lanigera]
+figures:
+  - value: 4
+    label: main tubes in a mapped jumping spider
+    note: Salticus and Euophrys — not a widow count
+    sources: [schmitz2000]
+  - value: "1–5"
+    unit: µm
+    label: inner width of the side branches
+    note: the same jumping spiders
+    sources: [schmitz2000]
+  - value: 1
+    label: external tracheal slit in widows
+    note: the entrance is known; the internal branches are not mapped
+    featured: true
+    sources: [jocque2006]
+observations:
+  - id: one-slit
+    text: The rear theridiid tracheal system opens through one external slit.
+    sources: [jocque2006]
+  - id: four
+    text: In the jumping spiders studied, four main tubes arise from a common atrium.
+    confidence: supported
+    sources: [schmitz2000]
+  - id: prosoma
+    text: Small side branches reach into the prosoma in those spiders.
+    confidence: supported
+    sources: [schmitz2000]
+  - id: nerves
+    text: Some of those tubes penetrate the gut lining and nervous tissue.
+    confidence: supported
+    sources: [schmitz2000]
+  - id: taenidia
+    text: Their tube walls carry reinforcing thickenings.
+    confidence: supported
+    sources: [schmitz2000]
+  - id: theridion
+    text: Early electron microscopy of the theridiid Theridion found no ring or spiral thickenings in its tubes.
+    confidence: supported
+    sources: [snodgrass1952]
+terms:
+  - { term: trachea, def: a cuticle-lined air tube; plural tracheae }
+  - { term: taenidium, def: a reinforcing ring or spiral in a tube wall }
+  - { term: tracheole, def: a very fine terminal air tube }
+  - { term: prosoma, def: the front body region bearing the legs }
+  - { term: opisthosoma, def: the rear body region — the abdomen }
+related: [body.breathing.two-systems, body.nervous-system, body.spinnerets]
+media:
+  - src: /specimens/body-breathing-tracheae.webp
+    alt: "Museum plate: a widow's abdomen with the rear tracheal slit and short, dashed, unresolved tubes, beside a separately framed jumping spider whose mapped tubes branch forward into the front body"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

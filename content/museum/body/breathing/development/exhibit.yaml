@@ -1,0 +1,60 @@
+id: body.breathing.development
+accession: BWM-01.04.10
+title: First Breaths
+kicker: Build the channels, then renew their lining
+summary: In a common cobweb spider, the book lungs begin on the back face of tiny limb buds on the embryo's abdomen. New air and hemolymph channels keep being added as the spider grows. At every molt the cuticle lining of the lungs is shed with the old skin while the living tissue stays.
+status: open
+order: 10
+taxa: [Parasteatoda tepidariorum, Tegenaria]
+figures:
+  - value: O2
+    label: abdominal segment where the lungs begin
+    note: the second opisthosomal segment — a segment label, not oxygen
+    sources: [farley2015]
+  - value: "I / II"
+    label: ways new channels form
+    note: Parasteatoda tepidariorum cellular routes
+    sources: [farley2018]
+  - value: 278.7
+    unit: mm³ O₂/h/g
+    label: oxygen use during molting
+    note: Tegenaria house spiders — not a widow value
+    featured: true
+    sources: [strazny1984]
+observations:
+  - id: buds
+    text: The first lung leaves form on the back face of abdominal limb buds in cobweb spider embryos.
+    confidence: supported
+    sources: [farley2015]
+  - id: operculum
+    text: The limb bud seems to contribute the lung's covering flap.
+    confidence: supported
+    sources: [farley2015]
+  - id: growth
+    text: Precursor cells keep forming new air and hemolymph channels in juveniles and adults.
+    confidence: supported
+    sources: [farley2018]
+  - id: alternation
+    text: The new channels continue the same alternating air-and-fluid pattern.
+    confidence: supported
+    sources: [farley2018]
+  - id: exuvium
+    text: The cuticle lining of the book lungs can be found in a spider's shed skin.
+    sources: [kuntzel2019]
+  - id: molt-demand
+    text: House spiders used more oxygen while molting.
+    confidence: supported
+    sources: [strazny1984]
+terms:
+  - { term: limb bud, def: an early embryonic outgrowth that becomes an appendage or organ }
+  - { term: operculum, def: the covering flap over a book lung }
+  - { term: primordium, def: the earliest form of a developing organ }
+  - { term: exuvium, def: the shed skin, including the linings of internal air spaces }
+related: [life.development, life.hatching, body.exoskeleton.molting-mechanics]
+media:
+  - src: /specimens/body-breathing-development.webp
+    alt: "Museum plate: a spider embryo with small paired limb buds on its abdomen, enlarged to show the first thin lung leaves forming on the back of each bud"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

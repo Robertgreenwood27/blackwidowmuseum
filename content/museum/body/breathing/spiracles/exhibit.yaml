@@ -1,0 +1,59 @@
+id: body.breathing.spiracles
+accession: BWM-01.04.03
+title: Slits and Openings
+kicker: An entrance can control diffusion
+summary: Air enters a widow through three openings. Two lung slits sit at the ends of the crease under the front of the abdomen, with the female's genital plate between them, and one tracheal slit sits just ahead of the spinnerets. In other spiders the lung openings widen and narrow in response to oxygen and carbon dioxide.
+status: open
+order: 3
+taxa: [Latrodectus revivensis, Cupiennius salei]
+figures:
+  - value: 2
+    label: lung slits
+    note: at the ends of the epigastric furrow
+    sources: [snodgrass1952]
+  - value: 1
+    label: tracheal slit
+    note: fairly wide, immediately before the spinnerets
+    featured: true
+    sources: [jocque2006]
+  - value: "O₂ / CO₂"
+    label: gases that changed the openings
+    note: tarantula and wandering-spider experiments — no widow thresholds
+    sources: [fincke1989]
+observations:
+  - id: slits
+    text: The lung slits lie at the outer ends of the epigastric furrow.
+    sources: [snodgrass1952]
+  - id: epigynum
+    text: The female's epigynal plate sits just in front of that furrow, between the slits.
+    confidence: supported
+    sources: [berendonck2002]
+  - id: rear-slit
+    text: The theridiid tracheal slit lies just ahead of the spinnerets.
+    sources: [jocque2006]
+  - id: area-co2
+    text: In experimental spiders, the open area of the lung entrance and the CO₂ released rose and fell together.
+    confidence: supported
+    sources: [fincke1989]
+  - id: gases
+    text: Raised CO₂ and lowered O₂ both changed how far the openings stood open.
+    confidence: supported
+    sources: [fincke1989]
+  - id: diffusion
+    text: The experiments pointed to spiders regulating diffusion through the opening, not pumping air in and out.
+    confidence: supported
+    sources: [fincke1989]
+terms:
+  - { term: epigastric furrow, def: the crease across the front underside of the abdomen }
+  - { term: lung slit, def: the external opening of a book lung }
+  - { term: hypoxia, def: too little oxygen }
+  - { term: hypercapnia, def: too much carbon dioxide }
+  - { term: ventilation, def: pumping air in and out — distinct from diffusion }
+related: [body.epigynum.the-plate, body.spinnerets, body.breathing.temperature]
+media:
+  - src: /specimens/body-breathing-spiracles.webp
+    alt: "Museum plate: the underside of a widow's abdomen with two small lung slits at the ends of a crease, the genital plate between them, the hourglass behind, and one tracheal slit just before the spinnerets"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

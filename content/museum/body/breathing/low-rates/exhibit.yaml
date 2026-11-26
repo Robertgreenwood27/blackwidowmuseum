@@ -1,0 +1,67 @@
+id: body.breathing.low-rates
+accession: BWM-01.04.06
+title: Living on Little Oxygen
+kicker: Measure the gas, keep the body size
+summary: A resting adult female widow breathes out about 0.015 millilitres of CO₂ an hour. Spiders as a group run at lower resting rates than many animals their size, though rates vary with size, species and state. One assumption fails — across spiders, how they hunt did not predict how fast they breathe.
+status: open
+order: 6
+taxa: [Latrodectus mactans]
+figures:
+  - value: "0.0139 / 0.0156"
+    unit: mL CO₂/h
+    label: resting output, two groups of females
+    note: L. mactans, n = 14 / 15, 14-day fast, 25 °C; group means
+    featured: true
+    sources: [barnes2019]
+  - value: "0.334 / 0.343"
+    unit: g
+    label: body mass of those females
+    note: whole-animal rates above
+    sources: [barnes2019]
+  - value: 0.710
+    label: mass exponent of spider oxygen use
+    note: 47 females of 21 species, 22 °C — a cross-species fit
+    sources: [greenstone1980]
+  - value: 74
+    unit: "%"
+    label: of the rate predicted for other cold-blooded animals
+    note: a 100 mg spider, in that analysis
+    sources: [greenstone1980]
+observations:
+  - id: measured
+    text: Barnes measured resting CO₂ output in adult female widows after a two-week fast.
+    confidence: supported
+    sources: [barnes2019]
+  - id: no-difference
+    text: The two treatment groups did not differ in resting output before feeding.
+    confidence: supported
+    sources: [barnes2019]
+  - id: included
+    text: Greenstone and Bennett's comparison included three widows labelled L. mactans.
+    confidence: supported
+    sources: [greenstone1980]
+  - id: scaling
+    text: Across spiders, oxygen use rose less steeply than body mass.
+    confidence: supported
+    sources: [greenstone1980]
+  - id: foraging
+    text: Web builders and active hunters did not separate cleanly by resting metabolic rate.
+    confidence: supported
+    sources: [greenstone1980]
+  - id: low
+    text: Anderson's arachnids generally ran below the standard rates of similar-sized cold-blooded animals.
+    confidence: supported
+    sources: [anderson1970]
+terms:
+  - { term: standard metabolic rate, def: the baseline rate of an animal at rest and not digesting }
+  - { term: respirometry, def: measuring metabolism from the gases an animal exchanges }
+  - { term: mass-specific rate, def: metabolic rate divided by body mass }
+  - { term: allometry, def: a relationship with size that is not simply proportional }
+related: [body.digestion.energy, body.circulation, body.breathing.fasting]
+media:
+  - src: /specimens/body-breathing-low-rates.webp
+    alt: "Museum plate: a black widow resting quietly inside a small glass respirometry chamber, tubes leading to a gas analyser"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

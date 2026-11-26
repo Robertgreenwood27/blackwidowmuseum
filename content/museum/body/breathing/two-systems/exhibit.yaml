@@ -1,0 +1,58 @@
+id: body.breathing.two-systems
+accession: BWM-01.04.01
+title: Lungs and Tubes
+kicker: A shared starting plan, several evolutionary routes
+summary: The first spiders breathed through two pairs of book lungs, as tarantulas still do. Widows keep the front pair and breathe through tubes at the back. Lungs became tubes not once but repeatedly across the spider tree. That makes it a story of branches, not a ladder from primitive to advanced.
+status: open
+order: 1
+taxa: [Latrodectus]
+figures:
+  - value: 2
+    label: pairs of book lungs, ancestral
+    note: still in mesotheles and mygalomorphs such as tarantulas
+    sources: [ramirez2021, lopardo2022]
+  - value: "1 + tubes"
+    label: the widow's arrangement
+    note: one lung pair plus a tracheal system
+    featured: true
+    sources: [jocque2006]
+  - value: 6
+    label: inferred changes from rear lungs to tubes
+    note: across the sampled spider tree — not within Latrodectus
+    sources: [ramirez2021]
+observations:
+  - id: theridiid
+    text: Theridiids have two front book lungs and a rear tracheal opening.
+    sources: [jocque2006]
+  - id: ancestral
+    text: Mesotheles and mygalomorphs keep the ancestral two pairs of lungs.
+    sources: [lopardo2022]
+  - id: exceptions
+    text: Some araneomorph lineages also kept two lung pairs, so one pair is not universal even in the widows' suborder.
+    sources: [snodgrass1952]
+  - id: lateral
+    text: The outer rear tracheae are interpreted as modified rear book lungs.
+    confidence: supported
+    sources: [ramirez2000]
+  - id: median
+    text: The central rear tracheae are interpreted as modified internal skeletal projections of the same segment.
+    confidence: supported
+    sources: [ramirez2000]
+  - id: repeated
+    text: Phylogenomic mapping supports repeated, independent origins of similar rear tracheal systems.
+    confidence: supported
+    sources: [ramirez2021]
+terms:
+  - { term: araneomorph, def: a member of the large suborder of "true spiders" that includes widows }
+  - { term: mygalomorph, def: a member of the lineage of tarantulas and their relatives }
+  - { term: mesothele, def: a member of the earliest-branching living spider lineage }
+  - { term: bimodal respiration, def: breathing with two kinds of respiratory organ }
+  - { term: convergent evolution, def: similar features arising independently in separate lineages }
+related: [genus.family-tree, body.breathing.tracheae, body.breathing.book-lung]
+media:
+  - src: /specimens/body-breathing-two-systems.webp
+    alt: "Museum plate: three spider abdomens seen from below — a tarantula with two pairs of book lungs, a widow with one pair plus a rear tracheal slit, and a spider with tubes only"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26

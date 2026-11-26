@@ -1,0 +1,62 @@
+id: body.breathing.fasting
+accession: BWM-01.04.07
+title: Breathing While Starving
+kicker: Demand changes before the food returns
+summary: Starve a mated female redback and within two weeks she is breathing out less CO₂, turning her metabolism down. Virgins did not respond the same way. When food returns, so does her output.
+status: open
+order: 7
+taxa: [Latrodectus hasselti]
+figures:
+  - value: 2
+    unit: weeks
+    label: until a lower output was first measured
+    note: mated female redbacks; the first sample date, not the exact onset
+    sources: [stoltz2010b]
+  - value: 6
+    unit: weeks
+    label: of food restriction before refeeding
+    note: L. hasselti females, 25 °C
+    featured: true
+    sources: [stoltz2010b]
+  - value: 0.71
+    label: respiratory quotient at rest
+    note: a historical tarantula — consistent with burning fat; not a widow value
+    sources: [paul1989a]
+observations:
+  - id: mated-drop
+    text: Deprived mated redbacks had lower resting CO₂ output by the first measurement.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: virgins
+    text: Deprived virgin females did not show the same early drop.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: rebound
+    text: Output rose again when mated females were fed.
+    confidence: supported
+    sources: [stoltz2010b]
+  - id: cold
+    text: A separate redback study read cold sluggishness as lowered metabolism but did not measure gases.
+    confidence: supported
+    sources: [forster1989]
+  - id: fat
+    text: The tarantula's resting quotient of 0.71 suggests it was burning mainly fat.
+    confidence: supported
+    sources: [paul1989a]
+  - id: recovery
+    text: Recovery after exertion shifted that tarantula's gas ratio.
+    confidence: supported
+    sources: [paul1989a]
+terms:
+  - { term: metabolic depression, def: turning the metabolic rate down below its usual baseline }
+  - { term: respiratory quotient, def: CO₂ produced divided by O₂ consumed — a clue to the fuel being burned }
+  - { term: stop-flow respirometry, def: letting gas build up in a sealed chamber, then flushing it to measure }
+  - { term: postabsorptive, def: measured after the effects of the last meal have passed }
+related: [body.digestion.fasting, body.digestion.energy, body.epigynum.ovaries]
+media:
+  - src: /specimens/body-breathing-fasting.webp
+    alt: "Museum plate: two parallel timelines for mated and virgin female redbacks across six weeks without food, small arrows marking where breathing output fell and where it rose again after feeding"
+    generated: true
+    review: pending
+    credit: Generated illustration (Codex)
+revised: 2026-11-26
